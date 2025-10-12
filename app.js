@@ -67,6 +67,29 @@ class MNOPerformanceApp {
             this.applyFilters();
         });
 
+        document.querySelectorAll('.date-preset').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const days = e.target.dataset.days;
+                const today = new Date();
+                const dateToInput = document.getElementById('date-to');
+                const dateFromInput = document.getElementById('date-from');
+                
+                if (days === 'all') {
+                    dateFromInput.value = '';
+                    dateToInput.value = '';
+                } else {
+                    const daysAgo = new Date(today);
+                    daysAgo.setDate(today.getDate() - parseInt(days));
+                    dateFromInput.value = daysAgo.toISOString().split('T')[0];
+                    dateToInput.value = today.toISOString().split('T')[0];
+                }
+                
+                this.filters.dateFrom = dateFromInput.value;
+                this.filters.dateTo = dateToInput.value;
+                this.applyFilters();
+            });
+        });
+
         document.getElementById('speed-range-filter').addEventListener('change', (e) => {
             this.filters.speedRange = e.target.value;
             this.applyFilters();
@@ -98,6 +121,7 @@ class MNOPerformanceApp {
         });
 
         this.setupMobileMenu();
+        this.setupSidebarCollapse();
     }
 
     setupMobileMenu() {
@@ -134,8 +158,32 @@ class MNOPerformanceApp {
         });
     }
 
+    setupSidebarCollapse() {
+        const sidebarCollapseBtn = document.getElementById('sidebar-collapse');
+        const sidebar = document.getElementById('sidebar');
+        const app = document.getElementById('app');
+        
+        const savedState = localStorage.getItem('sidebar-collapsed') === 'true';
+        if (savedState && window.innerWidth >= 768) {
+            sidebar.classList.add('sidebar-collapsed');
+        }
+        
+        sidebarCollapseBtn.addEventListener('click', () => {
+            const isCollapsed = sidebar.classList.toggle('sidebar-collapsed');
+            localStorage.setItem('sidebar-collapsed', isCollapsed);
+            
+            sidebarCollapseBtn.innerHTML = isCollapsed 
+                ? '<svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" /></svg>'
+                : '<svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" /></svg>';
+            
+            sidebarCollapseBtn.title = isCollapsed ? 'Show sidebar' : 'Hide sidebar';
+        });
+    }
+
     setupThemeToggle() {
         const themeToggle = document.getElementById('theme-toggle');
+        if (!themeToggle) return;
+        
         const html = document.documentElement;
         
         const savedTheme = localStorage.getItem('theme') || 'light';

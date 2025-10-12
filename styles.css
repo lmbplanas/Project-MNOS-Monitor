@@ -84,7 +84,21 @@ button, input, select, textarea {
 }
 
 #sidebar {
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#sidebar.sidebar-collapsed {
+    width: 0 !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    border-right: none;
+}
+
+@media (min-width: 769px) {
+    #sidebar.sidebar-collapsed {
+        width: 0 !important;
+    }
 }
 
 /* Smooth scrolling for mobile */
@@ -249,13 +263,20 @@ canvas {
 }
 
 #data-table th {
-    background: linear-gradient(135deg, var(--filipino-blue), var(--filipino-red), var(--filipino-yellow));
-    color: white;
-    font-weight: 600;
+    background: linear-gradient(135deg, #f8fafc, #e0e7ff);
+    color: #1e293b;
+    font-weight: 700;
+    border-bottom: 2px solid #cbd5e1;
+}
+
+#data-table tbody tr {
+    transition: all 0.2s ease;
 }
 
 #data-table tbody tr:hover {
     background-color: #f1f5f9;
+    transform: scale(1.01);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 /* Mobile table optimizations */
@@ -287,10 +308,14 @@ canvas {
 
 .sort-asc::after {
     content: ' ↑';
+    color: var(--filipino-blue);
+    font-weight: 900;
 }
 
 .sort-desc::after {
     content: ' ↓';
+    color: var(--filipino-blue);
+    font-weight: 900;
 }
 
 /* Mobile sort indicators */
@@ -333,8 +358,14 @@ input[type="checkbox"] {
     touch-action: manipulation;
 }
 
+.provider-checkbox-label {
+    transition: all 0.2s ease;
+}
+
 .provider-checkbox-label:hover {
     background-color: #f1f5f9;
+    transform: translateX(2px);
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.05);
 }
 
 @media (max-width: 640px) {
@@ -344,10 +375,10 @@ input[type="checkbox"] {
     }
 }
 
-.speed-excellent { color: #10b981; font-weight: 600; }
-.speed-good { color: var(--filipino-blue); font-weight: 600; }
-.speed-average { color: var(--filipino-yellow); font-weight: 600; }
-.speed-poor { color: var(--filipino-red); font-weight: 600; }
+.speed-excellent { color: #10b981; font-weight: 600; background-color: #d1fae5; padding: 2px 6px; border-radius: 4px; }
+.speed-good { color: var(--filipino-blue); font-weight: 600; background-color: #dbeafe; padding: 2px 6px; border-radius: 4px; }
+.speed-average { color: #92400e; font-weight: 600; background-color: #fef3c7; padding: 2px 6px; border-radius: 4px; }
+.speed-poor { color: var(--filipino-red); font-weight: 600; background-color: #fee2e2; padding: 2px 6px; border-radius: 4px; }
 
 /* Mobile text optimizations */
 @media (max-width: 640px) {
