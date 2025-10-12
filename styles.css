@@ -15,14 +15,79 @@
     box-sizing: border-box;
 }
 
+/* Improve touch target sizes globally */
+button, input, select, textarea, a {
+    min-height: 44px;
+    min-width: 44px;
+}
+
+/* Exception for specific small elements */
+input[type="checkbox"], input[type="radio"] {
+    min-width: auto;
+    min-height: auto;
+}
+
+/* Improve button touch behavior */
+button {
+    touch-action: manipulation;
+    user-select: none;
+}
+
+/* Improve input behavior on mobile */
+input, select, textarea {
+    /* Prevent zoom on iOS */
+    font-size: 16px;
+}
+
+@media (min-width: 640px) {
+    input, select, textarea {
+        font-size: 14px;
+    }
+}
+
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /* Prevent horizontal scroll on mobile */
+    overflow-x: hidden;
+    /* Better text rendering on mobile */
+    text-rendering: optimizeLegibility;
+    /* Improve tap highlighting */
+    -webkit-tap-highlight-color: rgba(0, 56, 168, 0.1);
+}
+
+/* Improve focus visibility for accessibility */
+*:focus {
+    outline: 2px solid var(--filipino-blue);
+    outline-offset: 2px;
+}
+
+/* Remove outline for mouse users, keep for keyboard users */
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+*:focus-visible {
+    outline: 2px solid var(--filipino-blue);
+    outline-offset: 2px;
 }
 
 #sidebar {
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Smooth scrolling for mobile */
+@media (max-width: 768px) {
+    #sidebar {
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Ensure sidebar doesn't interfere with main content on mobile */
+    #sidebar.open ~ main {
+        pointer-events: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -40,6 +105,15 @@ body {
     #sidebar.open {
         transform: translateX(0);
     }
+    
+    /* Mobile header optimizations */
+    header {
+        height: 4rem !important; /* h-16 */
+    }
+    
+    header .h-20 {
+        height: 4rem !important;
+    }
 }
 
 @media (min-width: 769px) {
@@ -56,17 +130,71 @@ body {
     background-color: #f8fafc;
     border-radius: 1rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    touch-action: pan-x pan-y;
+}
+
+@media (max-width: 640px) {
+    #performance-map {
+        border-radius: 0.5rem;
+        height: 240px !important;
+        min-height: 240px !important;
+    }
+    
+    /* Optimize map controls for mobile */
+    #performance-map .leaflet-control-container {
+        font-size: 14px;
+    }
+    
+    #performance-map .leaflet-control-zoom {
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+    
+    #performance-map .leaflet-control-zoom a {
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
+        font-size: 16px;
+        font-weight: bold;
+    }
 }
 
 .leaflet-popup-content {
-    margin: 12px;
-    line-height: 1.6;
+    margin: 8px;
+    line-height: 1.4;
+    font-size: 0.875rem;
 }
 
 .leaflet-popup-content h3 {
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     color: var(--filipino-blue);
+    font-size: 1rem;
+}
+
+@media (max-width: 640px) {
+    .leaflet-popup-content {
+        margin: 6px;
+        font-size: 0.75rem;
+        line-height: 1.3;
+    }
+    
+    .leaflet-popup-content h3 {
+        font-size: 0.875rem;
+        margin-bottom: 4px;
+    }
+    
+    /* Leaflet control optimizations for mobile */
+    .leaflet-control-zoom {
+        transform: scale(1.2);
+    }
+    
+    .leaflet-control-zoom a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+    }
 }
 
 .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large {
@@ -79,9 +207,35 @@ body {
     font-weight: 700;
 }
 
+/* Mobile cluster optimizations */
+@media (max-width: 640px) {
+    .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large {
+        transform: scale(1.1);
+    }
+    
+    .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div {
+        font-size: 14px;
+        font-weight: 800;
+    }
+}
+
 canvas {
     max-width: 100%;
     height: auto;
+    touch-action: pan-x pan-y;
+}
+
+/* Chart responsive behavior */
+@media (max-width: 768px) {
+    canvas {
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    canvas {
+        max-height: 200px;
+    }
 }
 
 #data-table th {
@@ -94,6 +248,33 @@ canvas {
     background-color: #f1f5f9;
 }
 
+/* Mobile table optimizations */
+@media (max-width: 640px) {
+    #data-table {
+        font-size: 0.75rem;
+        line-height: 1.2;
+    }
+    
+    #data-table th,
+    #data-table td {
+        padding: 0.375rem 0.25rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 80px;
+    }
+    
+    #data-table th:first-child,
+    #data-table td:first-child {
+        max-width: 60px;
+    }
+    
+    #data-table th:nth-child(2),
+    #data-table td:nth-child(2) {
+        max-width: 50px;
+    }
+}
+
 .sort-asc::after {
     content: ' ↑';
 }
@@ -102,22 +283,55 @@ canvas {
     content: ' ↓';
 }
 
+/* Mobile sort indicators */
+@media (max-width: 640px) {
+    .sort-asc::after,
+    .sort-desc::after {
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
 input[type="checkbox"] {
     cursor: pointer;
     width: 18px;
     height: 18px;
+    min-width: 18px;
+    min-height: 18px;
     accent-color: var(--filipino-blue);
+    touch-action: manipulation;
+}
+
+@media (max-width: 640px) {
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
+    }
 }
 
 .provider-checkbox-label {
     cursor: pointer;
     user-select: none;
-    padding: 6px 8px;
+    padding: 8px 10px;
     border-radius: 6px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    touch-action: manipulation;
 }
 
 .provider-checkbox-label:hover {
     background-color: #f1f5f9;
+}
+
+@media (max-width: 640px) {
+    .provider-checkbox-label {
+        padding: 6px 8px;
+        font-size: 0.875rem;
+    }
 }
 
 .speed-excellent { color: #10b981; font-weight: 600; }
@@ -125,29 +339,304 @@ input[type="checkbox"] {
 .speed-average { color: var(--filipino-yellow); font-weight: 600; }
 .speed-poor { color: var(--filipino-red); font-weight: 600; }
 
+/* Mobile text optimizations */
+@media (max-width: 640px) {
+    .speed-excellent,
+    .speed-good,
+    .speed-average,
+    .speed-poor {
+        font-size: 0.875rem;
+        font-weight: 700;
+    }
+}
+
+/* Very small phones (320px and below) */
+@media (max-width: 480px) {
+    /* Header further optimizations */
+    header {
+        padding: 0 0.5rem;
+    }
+    
+    header h1 {
+        font-size: 1rem !important;
+        line-height: 1.2;
+    }
+    
+    header p {
+        display: none !important;
+    }
+    
+    /* Logo optimizations */
+    .logo-gradient-dict,
+    .logo-gradient-bp {
+        padding: 0.25rem 0.5rem !important;
+        font-size: 0.75rem !important;
+    }
+    
+    /* Summary cards ultra-compact */
+    #summary-cards .bg-white {
+        padding: 0.75rem !important;
+    }
+    
+    #summary-cards h3 {
+        font-size: 0.625rem !important;
+        margin-bottom: 0.25rem !important;
+    }
+    
+    #summary-cards p {
+        font-size: 1.25rem !important;
+    }
+    
+    /* Chart containers smaller */
+    .h-\[200px\] {
+        height: 180px !important;
+    }
+    
+    /* Map smaller on very small screens */
+    #performance-map {
+        height: 200px !important;
+        min-height: 200px !important;
+    }
+    
+    /* Sidebar ultra-compact */
+    #sidebar {
+        width: 95vw !important;
+        max-width: 260px !important;
+    }
+    
+    #sidebar > div {
+        padding: 0.75rem !important;
+    }
+    
+    /* Filter sections more compact */
+    .space-y-4 > * + * {
+        margin-top: 0.5rem !important;
+    }
+    
+    /* Buttons more compact */
+    button {
+        padding: 0.5rem 0.75rem !important;
+        font-size: 0.875rem !important;
+    }
+    
+    /* Input fields more compact */
+    input, select {
+        padding: 0.5rem !important;
+        font-size: 0.875rem !important;
+    }
+}
+
+/* Tablet optimizations */
+@media (min-width: 641px) and (max-width: 1024px) {
+    /* Charts better size for tablets */
+    canvas {
+        max-height: 300px;
+    }
+    
+    /* Summary cards 2-column on tablet */
+    #summary-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Performance map good height for tablets */
+    #performance-map {
+        height: 20rem !important;
+    }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+    /* Remove hover effects on touch devices */
+    .hover\:shadow-xl:hover {
+        box-shadow: initial;
+    }
+    
+    .hover\:-translate-y-0\.5:hover {
+        transform: initial;
+    }
+    
+    /* Larger touch targets */
+    button, 
+    input[type="checkbox"],
+    select,
+    input {
+        min-height: 44px;
+        min-width: 44px;
+    }
+    
+    /* Better spacing for touch */
+    .space-x-2 > * + * {
+        margin-left: 0.75rem;
+    }
+    
+    .space-y-2 > * + * {
+        margin-top: 0.75rem;
+    }
+}
+
+/* Landscape phone optimizations */
+@media (max-height: 500px) and (orientation: landscape) {
+    /* Reduce header height in landscape */
+    header {
+        height: 3rem !important;
+    }
+    
+    /* Compact sidebar in landscape */
+    #sidebar {
+        max-width: 240px !important;
+    }
+    
+    #sidebar > div {
+        padding: 0.5rem !important;
+    }
+    
+    /* Smaller charts in landscape */
+    canvas {
+        max-height: 150px !important;
+    }
+    
+    /* Smaller map in landscape */
+    #performance-map {
+        height: 180px !important;
+    }
+}
+
 @media print {
     #sidebar { display: none; }
     main { width: 100%; }
 }
 
+/* Mobile optimizations for small screens */
 @media (max-width: 640px) {
-    .chart-container { height: 280px; }
-    #summary-cards { grid-template-columns: 1fr; }
-    #performance-map { height: 300px !important; }
+    /* Chart containers */
+    .chart-container { 
+        height: 200px; 
+    }
+    
+    canvas {
+        max-height: 200px !important;
+    }
+    
+    /* Summary cards */
+    #summary-cards { 
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+    
+    /* Performance map */
+    #performance-map { 
+        height: 240px !important;
+        min-height: 240px !important;
+    }
+    
+    /* Main content padding */
+    main > div {
+        padding: 0.75rem !important;
+        padding-top: 0.75rem !important;
+    }
+    
+    /* Sidebar improvements */
+    #sidebar {
+        width: 90vw !important;
+        max-width: 280px !important;
+    }
+    
+    /* Table optimizations */
+    #data-table {
+        font-size: 0.75rem;
+    }
+    
+    #data-table th,
+    #data-table td {
+        padding: 0.5rem 0.25rem;
+        min-width: auto;
+    }
+    
+    /* Hide location column on very small screens */
+    #data-table th:last-child,
+    #data-table td:last-child {
+        display: none;
+    }
+    
+    /* Button optimizations */
+    button {
+        min-height: 44px;
+        min-width: 44px;
+        touch-action: manipulation;
+    }
+    
+    /* Input optimizations */
+    input, select {
+        min-height: 44px;
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+    
+    /* Checkbox optimizations */
+    input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
+    }
 }
 
 .empty-state {
     text-align: center;
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
     color: #64748b;
 }
 
-.empty-state-icon { font-size: 5rem; opacity: 0.5; }
-.empty-state-title { font-size: 1.5rem; font-weight: 700; color: #1e293b; }
+.empty-state-icon { 
+    font-size: 3rem; 
+    opacity: 0.5; 
+}
 
-::-webkit-scrollbar { width: 10px; }
-::-webkit-scrollbar-track { background: #f1f5f9; border-radius: 10px; }
+.empty-state-title { 
+    font-size: 1.25rem; 
+    font-weight: 700; 
+    color: #1e293b; 
+}
+
+@media (max-width: 640px) {
+    .empty-state {
+        padding: 1.5rem 0.5rem;
+    }
+    
+    .empty-state-icon { 
+        font-size: 2rem; 
+    }
+    
+    .empty-state-title { 
+        font-size: 1rem; 
+    }
+}
+
+::-webkit-scrollbar { 
+    width: 10px; 
+}
+
+::-webkit-scrollbar-track { 
+    background: #f1f5f9; 
+    border-radius: 10px; 
+}
+
 ::-webkit-scrollbar-thumb { 
     background: linear-gradient(135deg, var(--filipino-blue), var(--filipino-red)); 
     border-radius: 10px; 
+}
+
+/* Mobile scrollbar adjustments */
+@media (max-width: 640px) {
+    ::-webkit-scrollbar { 
+        width: 6px; 
+    }
+    
+    /* Better touch scrolling */
+    * {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
 }
