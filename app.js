@@ -214,7 +214,13 @@ class MNOPerformanceApp {
 
     processData(data) {
         this.rawData = data.filter(row => {
-            return row['Service Provider'] && (row['Download (Mbps)'] || row['Download']);
+            if (!row['Service Provider'] || !(row['Download (Mbps)'] || row['Download'])) {
+                return false;
+            }
+            
+            const provider = this.normalizeProvider(row['Service Provider']);
+            const validMNOs = ['Smart', 'Globe', 'DITO', 'TNT', 'TM', 'Sun', 'GOMO'];
+            return validMNOs.includes(provider);
         }).map(row => {
             const download = this.normalizeSpeed(row['Download (Mbps)'], row['Download']);
             const upload = this.normalizeSpeed(row['Upload (Mbps)'], row['Upload']);
@@ -281,34 +287,35 @@ class MNOPerformanceApp {
     }
 
     normalizeProvider(provider) {
-        if (!provider) return 'Unknown';
+        if (!provider) return null;
         
         const normalized = provider.trim().toUpperCase();
         
-        const providerMap = {
+        const mnoMap = {
             'SMART': 'Smart',
             'SMART COMMUNICATIONS': 'Smart',
             'GLOBE': 'Globe',
             'GLOBE TELECOM': 'Globe',
             'DITO': 'DITO',
             'DITO TELECOMMUNITY': 'DITO',
+            'DITO TELECOM': 'DITO',
             'TNT': 'TNT',
             'TALK N TEXT': 'TNT',
+            'TALK\'N TEXT': 'TNT',
             'TM': 'TM',
             'TOUCH MOBILE': 'TM',
             'SUN': 'Sun',
             'SUN CELLULAR': 'Sun',
-            'GOMO': 'GOMO',
-            'CONVERGE': 'Converge'
+            'GOMO': 'GOMO'
         };
 
-        for (const [key, value] of Object.entries(providerMap)) {
+        for (const [key, value] of Object.entries(mnoMap)) {
             if (normalized.includes(key)) {
                 return value;
             }
         }
 
-        return provider;
+        return null;
     }
 
     parseDate(dateStr) {
