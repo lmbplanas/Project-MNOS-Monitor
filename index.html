@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippines MNO Performance Dashboard</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900">
+    <!-- Mobile menu button -->
+    <button id="mobile-menu-btn" class="md:hidden fixed top-4 left-4 z-50 p-2 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+    </button>
+    
+    <!-- Mobile overlay -->
+    <div id="mobile-overlay" class="md:hidden hidden fixed inset-0 bg-black bg-opacity-50 z-30"></div>
+    
+    <div id="app" class="flex h-screen overflow-hidden">
+        <aside id="sidebar" class="w-80 md:w-80 bg-white dark:bg-gray-800 shadow-lg overflow-y-auto">
+            <div class="p-6">
+                <div class="flex items-center justify-between mb-6">
+                    <h1 class="text-xl font-bold text-gray-800 dark:text-white">MNO Performance</h1>
+                    <button id="theme-toggle" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                        <svg class="w-6 h-6 text-gray-600 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="mb-6">
+                    <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Data Source</label>
+                    <input type="file" id="csv-upload" accept=".csv" class="block w-full text-sm text-gray-500
+                        file:mr-4 file:py-2 file:px-4
+                        file:rounded-md file:border-0
+                        file:text-sm file:font-semibold
+                        file:bg-blue-50 file:text-blue-700
+                        hover:file:bg-blue-100
+                        dark:file:bg-blue-900 dark:file:text-blue-300">
+                </div>
+
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">Service Provider</h3>
+                        <div id="provider-filters" class="space-y-2"></div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">Province</h3>
+                        <select id="province-filter" class="w-full px-3 py-2 border border-gray-300 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                            <option value="">All Provinces</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">City</h3>
+                        <select id="city-filter" class="w-full px-3 py-2 border border-gray-300 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                            <option value="">All Cities</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">Date Range</h3>
+                        <div class="space-y-2">
+                            <input type="date" id="date-from" class="w-full px-3 py-2 border border-gray-300 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                            <input type="date" id="date-to" class="w-full px-3 py-2 border border-gray-300 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">Speed Range</h3>
+                        <select id="speed-range-filter" class="w-full px-3 py-2 border border-gray-300 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                            <option value="">All Speeds</option>
+                            <option value="0-1">0-1 Mbps (Poor)</option>
+                            <option value="1-5">1-5 Mbps (Fair)</option>
+                            <option value="5-10">5-10 Mbps (Average)</option>
+                            <option value="10-30">10-30 Mbps (Good)</option>
+                            <option value="30-70">30-70 Mbps (Very Good)</option>
+                            <option value="70-100">70-100 Mbps (Excellent)</option>
+                            <option value="100+">100+ Mbps (Outstanding)</option>
+                        </select>
+                    </div>
+
+                    <button id="reset-filters" class="w-full py-2 px-4 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-gray-800 dark:text-white rounded-md font-medium transition">
+                        Reset Filters
+                    </button>
+
+                    <button id="export-data" class="w-full py-2 px-4 bg-blue-600 hover:bg-blue-700 text-white rounded-md font-medium transition">
+                        Export Data
+                    </button>
+                </div>
+            </div>
+        </aside>
+
+        <main class="flex-1 overflow-y-auto">
+            <div class="p-4 md:p-6 pt-16 md:pt-6">
+                <div id="loading-screen" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-xl">
+                        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
+                        <p class="mt-4 text-gray-700 dark:text-gray-300">Loading data...</p>
+                    </div>
+                </div>
+
+                <div id="summary-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <h3 class="text-sm font-medium text-gray-500 dark:text-gray-400">Total Tests</h3>
+                        <p id="total-tests" class="text-3xl font-bold text-gray-900 dark:text-white mt-2">0</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <h3 class="text-sm font-medium text-gray-500 dark:text-gray-400">Avg Download</h3>
+                        <p id="avg-download" class="text-3xl font-bold text-blue-600 dark:text-blue-400 mt-2">0 Mbps</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <h3 class="text-sm font-medium text-gray-500 dark:text-gray-400">Avg Upload</h3>
+                        <p id="avg-upload" class="text-3xl font-bold text-green-600 dark:text-green-400 mt-2">0 Mbps</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <h3 class="text-sm font-medium text-gray-500 dark:text-gray-400">Avg Latency</h3>
+                        <p id="avg-latency" class="text-3xl font-bold text-purple-600 dark:text-purple-400 mt-2">0 ms</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Provider Comparison</h2>
+                        <canvas id="provider-comparison-chart"></canvas>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Speed Distribution</h2>
+                        <canvas id="speed-distribution-chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Provider Performance</h2>
+                        <canvas id="provider-radar-chart"></canvas>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
+                        <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Market Share</h2>
+                        <canvas id="market-share-chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-6">
+                    <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Performance Map</h2>
+                    <div id="performance-map" class="h-96 rounded-lg"></div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-6">
+                    <h2 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Performance Over Time</h2>
+                    <canvas id="time-series-chart"></canvas>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-4 md:p-6">
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-4 gap-3">
+                        <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Detailed Test Results</h2>
+                        <input type="text" id="table-search" placeholder="Search..." class="w-full sm:w-auto px-3 py-2 border border-gray-300 rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table id="data-table" class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                            <thead class="bg-gray-50 dark:bg-gray-700">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider cursor-pointer" data-sort="date">Date</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider cursor-pointer" data-sort="provider">Provider</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider cursor-pointer" data-sort="download">Download</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider cursor-pointer" data-sort="upload">Upload</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider cursor-pointer" data-sort="latency">Latency</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider cursor-pointer" data-sort="location">Location</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-body" class="bg-white dark:bg-gray-800 divide-y divide-gray-200 dark:divide-gray-700">
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center mt-4 gap-3">
+                        <div class="text-sm text-gray-700 dark:text-gray-300 text-center sm:text-left">
+                            Showing <span id="page-info">0-0 of 0</span> results
+                        </div>
+                        <div class="flex space-x-2 justify-center">
+                            <button id="prev-page" class="px-3 sm:px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed text-sm">Previous</button>
+                            <button id="next-page" class="px-3 sm:px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed text-sm">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
