@@ -282,27 +282,20 @@ canvas {
 /* Mobile table optimizations */
 @media (max-width: 640px) {
     #data-table {
-        font-size: 0.75rem;
-        line-height: 1.2;
+        font-size: 0.875rem;
+        line-height: 1.4;
     }
     
     #data-table th,
     #data-table td {
-        padding: 0.375rem 0.25rem;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 80px;
+        padding: 0.75rem 0.5rem;
     }
-    
-    #data-table th:first-child,
-    #data-table td:first-child {
-        max-width: 60px;
-    }
-    
-    #data-table th:nth-child(2),
-    #data-table td:nth-child(2) {
-        max-width: 50px;
+}
+
+/* Chart responsiveness for mobile */
+@media (max-width: 768px) {
+    canvas {
+        max-height: 250px !important;
     }
 }
 

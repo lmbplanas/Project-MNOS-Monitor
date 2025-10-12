@@ -1162,31 +1162,58 @@ class MNOPerformanceApp {
             return;
         }
 
-        tbody.innerHTML = pageData.map(row => {
+        tbody.innerHTML = pageData.map((row, index) => {
             const speedClass = row.download >= 30 ? 'speed-excellent' 
                 : row.download >= 10 ? 'speed-good'
                 : row.download >= 5 ? 'speed-average'
                 : 'speed-poor';
+            
+            const rowId = `row-${start + index}`;
 
             return `
-                <tr class="hover:bg-gray-50 dark:hover:bg-gray-700">
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+                <tr class="hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors" data-row-id="${rowId}">
+                    <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
                         ${row.date ? row.date.toLocaleDateString() : 'N/A'}
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+                    <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-900 dark:text-gray-100">
                         ${row.provider}
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm ${speedClass} font-medium">
+                    <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm ${speedClass} font-bold">
                         ${row.download.toFixed(2)} Mbps
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+                    <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100 hidden md:table-cell">
                         ${row.upload.toFixed(2)} Mbps
                     </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+                    <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100 hidden md:table-cell">
                         ${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}
                     </td>
-                    <td class="px-6 py-4 text-sm text-gray-900 dark:text-gray-100">
+                    <td class="px-3 sm:px-6 py-4 text-sm text-gray-900 dark:text-gray-100 hidden lg:table-cell">
                         ${row.city ? row.city + ', ' + row.province : row.province || 'Unknown'}
+                    </td>
+                    <td class="px-3 py-4 text-center md:hidden">
+                        <button onclick="app.toggleRowDetails('${rowId}')" class="text-blue-600 hover:text-blue-800 font-semibold text-sm px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center mx-auto" aria-label="View details">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </button>
+                    </td>
+                </tr>
+                <tr id="${rowId}-details" class="hidden bg-blue-50 border-t-2 border-blue-200 md:hidden">
+                    <td colspan="4" class="px-4 py-4">
+                        <div class="space-y-2 text-sm">
+                            <div class="flex justify-between">
+                                <span class="font-semibold text-gray-700">Upload:</span>
+                                <span class="text-gray-900">${row.upload.toFixed(2)} Mbps</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="font-semibold text-gray-700">Latency:</span>
+                                <span class="text-gray-900">${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="font-semibold text-gray-700">Location:</span>
+                                <span class="text-gray-900">${row.city ? row.city + ', ' + row.province : row.province || 'Unknown'}</span>
+                            </div>
+                        </div>
                     </td>
                 </tr>
             `;
@@ -1198,6 +1225,13 @@ class MNOPerformanceApp {
         const totalPages = Math.ceil(this.filteredData.length / this.rowsPerPage);
         document.getElementById('prev-page').disabled = this.currentPage === 1;
         document.getElementById('next-page').disabled = this.currentPage === totalPages;
+    }
+
+    toggleRowDetails(rowId) {
+        const detailsRow = document.getElementById(`${rowId}-details`);
+        if (detailsRow) {
+            detailsRow.classList.toggle('hidden');
+        }
     }
 
     sortTable(column) {
