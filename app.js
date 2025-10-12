@@ -1113,7 +1113,8 @@ class MNOPerformanceApp {
         const tbody = document.getElementById('table-body');
         const start = (this.currentPage - 1) * this.rowsPerPage;
         const end = start + this.rowsPerPage;
-        const pageData = this.filteredData.slice(start, end);
+        const maxRows = 10;
+        const pageData = this.filteredData.slice(start, Math.min(end, start + maxRows));
 
         if (pageData.length === 0) {
             this.showEmptyState();
