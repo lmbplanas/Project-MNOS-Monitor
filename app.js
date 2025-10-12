@@ -38,13 +38,6 @@ class MNOPerformanceApp {
     }
 
     setupEventListeners() {
-        document.getElementById('csv-upload').addEventListener('change', (e) => {
-            const file = e.target.files[0];
-            if (file) {
-                this.loadCSVFile(file);
-            }
-        });
-
         document.getElementById('reset-filters').addEventListener('click', () => {
             this.resetFilters();
         });
