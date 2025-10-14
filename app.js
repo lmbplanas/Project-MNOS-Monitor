@@ -28,7 +28,7 @@ class MNOPerformanceApp {
         this.initializeCharts();
         this.setupThemeToggle();
         
-        const defaultCSV = 'data/speed_test_data.csv?v=2025-10-14-2156';
+        const defaultCSV = 'data/speed_test_data.csv?v=' + Date.now();
         try {
             await this.loadCSV(defaultCSV);
         } catch (error) {
