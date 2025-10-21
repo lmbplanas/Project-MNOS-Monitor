@@ -20,5 +20,10 @@
   "homepage": "https://github.com/lmbplanas/Project-MNOS-Monitor#readme",
   "devDependencies": {
     "@playwright/test": "^1.56.0"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.5.0",
+    "playwright": "^1.56.0",
+    "playwright-core": "^1.56.0"
   }
 }
