@@ -159,7 +159,7 @@ Date,Service Provider,Download,Download (Mbps),Range,Upload,Upload (Mbps),Range 
 09/26/2025,TNT,9.61 Mbps,9.61,5 - 10 Mbps,0.4 Mbps,0.4,0 - 1 Mbps,50 ms,50,"Pili, Camarines Sur",Camarines Sur,J.B.G
 09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"Pili, Camarines Sur",Camarines Sur,J.B.G
 09/26/2025,Smart,8.95 Mbps,8.95,5 - 10 Mbps,1.36 Mbps,1.36,1 - 5 Mbps,228 ms,228,"Brgy 601, Mesa Manila",Mesa Manila,J.B.G
-afelipejaycee@gmail.com,09/26/2025,Globe,63.5 Mbps,63.5,30 - 70 Mbps,13.9 Mbps,13.9,10 - 30 Mbps,36 ms,36,"Bayombong, Nueva Vizcaya",Nueva Vizcaya,J.B.G
+afelipejaycee@gmail.com,09/26/2025,Globe,63.5 Mbps,63.5,30 - 70 Mbps,13.9 Mbps,13.9,10 - 30 Mbps,36 ms,36,"Bayombong, Nueva Vizcaya",Nueva Vizcaya
 09/26/2025,TM,2.88 Mbps,2.88,1 - 5 Mbps,0 Kbps,0.0,0 - 1 Mbps,116 ms,116,"Tarlac City, Tarlac",Tarlac,DCV
 09/26/2025,Smart,4.2 Mbps,4.2,1 - 5 Mbps,2.6 Mbps,2.6,1 - 5 Mbps,26 ms,26,"Brgy. UP Village, Metro Manila",Metro Manila,GMS
 09/26/2025,Smart,59.4 Mbps,59.4,30 - 70 Mbps,29.6 Mbps,29.6,10 - 30 Mbps,23 ms,23,"SAN ISIDRO BATANGAS CITY, Batangas",Batangas,JAM
@@ -191,9 +191,7 @@ afelipejaycee@gmail.com,09/26/2025,Globe,63.5 Mbps,63.5,30 - 70 Mbps,13.9 Mbps,1
 09/26/2025,Smart,1.87 Mbps,1.87,1 - 5 Mbps,0.92 Mbps,0.92,0 - 1 Mbps,667 ms,667,"Bulihan Silang Cavite, Cavite",Cavite,dvy
 09/26/2025,DITO,10.4 Mbps,10.4,10 - 30 Mbps,2.7 Mbps,2.7,1 - 5 Mbps,24 ms,24,"bagtas tanza cavite, Cavite",Cavite,dvy
 09/26/2025,Smart,7.7 Mbps,7.7,5 - 10 Mbps,4.6 Mbps,4.6,1 - 5 Mbps,19 ms,19,"Brgy. Malanday, Metro Manila",Metro Manila,scc
-09/26/2025,Smart,7.7 Mbps,7.7,5 - 10 Mbps,4.6 Mbps,4.6,1 - 5 Mbps,19 ms,19,"Brgy. Malanday, Metro Manila",Metro Manila,scc
 09/26/2025,Smart,42.6 Mbps,42.6,30 - 70 Mbps,2.31 Mbps,2.31,1 - 5 Mbps,22 ms,22,"Cubao, Metro Manila",Metro Manila,GMS
-09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,,,J.B.G
 09/26/2025,Smart,13.1 Mbps,13.1,10 - 30 Mbps,15.4 Mbps,15.4,10 - 30 Mbps,29 ms,29,"Lubang, Mindoro",Mindoro,dvy
 09/26/2025,Smart,62.2 Mbps,62.2,30 - 70 Mbps,9.8 Mbps,9.8,5 - 10 Mbps,20 ms,20,"Norzagaray, Norzagaray, Bulacan","Norzagaray, Bulacan",GMS
 09/25/2025,DITO,36.4 Mbps,36.4,30 - 70 Mbps,0.53 Mbps,0.53,0 - 1 Mbps,32 ms,32,"daet, Camarines Norte",Camarines Norte,J.B.G
@@ -213,7 +211,7 @@ afelipejaycee@gmail.com,09/26/2025,Globe,63.5 Mbps,63.5,30 - 70 Mbps,13.9 Mbps,1
 09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,213 ms,213,"Cainta, Rizal",Rizal,J.B.G
 09/26/2025,GOMO,16.4 Mbps,16.4,10 - 30 Mbps,0 Kbps,0.0,0 - 1 Mbps,39 ms,39,"Cainta, Rizal",Rizal,MMB
 09/26/2025,DITO,8.58 Mbps,8.58,5 - 10 Mbps,6.43 Mbps,6.43,5 - 10 Mbps,34 ms,34,"Cainta, Rizal",Rizal,GMS
-jamescmartinez3@gmail.com,09/26/2025,Globe,2.17 Mbps,2.17,1 - 5 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,2554 ms,2554,"CITY OF SAN FERNANDO, Pampanga",Pampanga,scc
+jamescmartinez3@gmail.com,09/26/2025,Globe,2.17 Mbps,2.17,1 - 5 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,2554 ms,2554,"CITY OF SAN FERNANDO, Pampanga",Pampanga
 09/26/2025,DITO,49.3 Mbps,49.3,30 - 70 Mbps,8.2 Mbps,8.2,5 - 10 Mbps,34 ms,34,"Vito Cruz, Metro Manila",Metro Manila,DCV
 09/26/2025,Smart,5.8 Mbps,5.8,5 - 10 Mbps,1.8 Mbps,1.8,1 - 5 Mbps,35 ms,35,"Brgy. Pasong Buaya II, Cavite",Cavite,J.B.G
 09/26/2025,GOMO,9.91 Mbps,9.91,5 - 10 Mbps,3.88 Mbps,3.88,1 - 5 Mbps,33 ms,33,,-,DCV
@@ -243,7 +241,6 @@ jamescmartinez3@gmail.com,09/26/2025,Globe,2.17 Mbps,2.17,1 - 5 Mbps,0.01 Mbps,0
 09/26/2025,TNT,1.86 Mbps,1.86,1 - 5 Mbps,0.36 Mbps,0.36,0 - 1 Mbps,72 ms,72,"el nido, Palawan",Palawan,J.B.G
 09/26/2025,DITO,4.28 Mbps,4.28,1 - 5 Mbps,0.2 Mbps,0.2,0 - 1 Mbps,52 ms,52,"Cabiguhan Gubat Sorsogon, Sorsogon",Sorsogon,scc
 09/26/2025,Smart,25.5 Mbps,25.5,10 - 30 Mbps,0.58 Mbps,0.58,0 - 1 Mbps,51 ms,51,"Maria Aurora, Aurora",Aurora,J.B.G
-09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,17.3 Mbps,17.3,10 - 30 Mbps,1396 ms,1396,,,GMS
 09/25/2025,Smart,371.0 Mbps,371.0,100+ Mbps,49.7 Mbps,49.7,30 - 70 Mbps,13 ms,13,"Marikina Heights, Metro Manila",Metro Manila,JAM
 09/26/2025,Globe,9.98 Mbps,9.98,5 - 10 Mbps,0 Kbps,0.0,0 - 1 Mbps,222 ms,222,"BRGY BALOGANON MASINLOC ZAMBALES, Zambales",Zambales,J.B.G
 09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,3.5 Mbps,3.5,1 - 5 Mbps,33 ms,33,"Brgy. Commonwealth, Metro Manila",Metro Manila,scc
@@ -285,7 +282,6 @@ jamescmartinez3@gmail.com,09/26/2025,Globe,2.17 Mbps,2.17,1 - 5 Mbps,0.01 Mbps,0
 09/25/2025,Globe,108.4 Mbps,108.4,100+ Mbps,11.9 Mbps,11.9,10 - 30 Mbps,22 ms,22,"Tondo, Manila",Manila,GMS
 09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"Angono, Rizal",Rizal,scc
 09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"LIPA CITY, Batangas",Batangas,J.B.G
-09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"LIPA CITY, Batangas",Batangas,J.B.G
 09/25/2025,Smart,15.2 Mbps,15.2,10 - 30 Mbps,4.34 Mbps,4.34,1 - 5 Mbps,151 ms,151,"Kidapawan City, Kidapawan",Kidapawan,JAM
 09/26/2025,GOMO,116.0 Mbps,116.0,100+ Mbps,19.8 Mbps,19.8,10 - 30 Mbps,27 ms,27,"Brgy. Castillo Concepcion Tarlac, Tarlac",Tarlac,MMB
 09/26/2025,Globe,8.14 Mbps,8.14,5 - 10 Mbps,0.08 Mbps,0.08,0 - 1 Mbps,2314 ms,2314,"Lipa City, Batangas",Batangas,MMB
@@ -315,7 +311,6 @@ jamescmartinez3@gmail.com,09/26/2025,Globe,2.17 Mbps,2.17,1 - 5 Mbps,0.01 Mbps,0
 09/26/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,294 ms,294,,,MMB
 09/26/2025,TNT,12.8 Mbps,12.8,10 - 30 Mbps,1.6 Mbps,1.6,1 - 5 Mbps,31 ms,31,"Lessandra Camella Del rosario Naga City, Bicol",Bicol,GMS
 09/26/2025,Globe,13.2 Mbps,13.2,10 - 30 Mbps,2.05 Mbps,2.05,1 - 5 Mbps,50 ms,50,"Pili, Bicol",Bicol,J.B.G
-09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,2409 ms,2409,,,J.B.G
 09/26/2025,TNT,73.6 Mbps,73.6,70 - 100 Mbps,11.9 Mbps,11.9,10 - 30 Mbps,30 ms,30,"Calasiao, Pangasinan",Pangasinan,J.B.G
 09/26/2025,Globe,21.0 Mbps,21.0,10 - 30 Mbps,836.0 Mbps,836.0,100+ Mbps,105 ms,105,"Indangan, Davao city",Davao city,J.B.G
 09/26/2025,TNT,3.35 Mbps,3.35,1 - 5 Mbps,0 Kbps,0.0,0 - 1 Mbps,78 ms,78,"DICT Provincial Office - Calapan City, Mindoro",Mindoro,J.B.G
@@ -337,7 +332,6 @@ jamescmartinez3@gmail.com,09/26/2025,Globe,2.17 Mbps,2.17,1 - 5 Mbps,0.01 Mbps,0
 09/26/2025,DITO,14.1 Mbps,14.1,10 - 30 Mbps,1.85 Mbps,1.85,1 - 5 Mbps,28 ms,28,"Commonwealth, Metro Manila",Metro Manila,J.B.G
 09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0.62 Mbps,0.62,0 - 1 Mbps,1 ms,1,"Clark, Pampanga",Pampanga,DCV
 09/26/2025,Smart,19.9 Mbps,19.9,10 - 30 Mbps,2.43 Mbps,2.43,1 - 5 Mbps,29 ms,29,"Batangas, Batangas",Batangas,J.B.G
-09/26/2025,Smart,19.9 Mbps,19.9,10 - 30 Mbps,2.43 Mbps,2.43,1 - 5 Mbps,29 ms,29,"Batangas, Batangas",Batangas,scc
 09/26/2025,Globe,31.2 Mbps,31.2,30 - 70 Mbps,6.78 Mbps,6.78,5 - 10 Mbps,81 ms,81,"Brgy Sauyo, Metro Manila",Metro Manila,dvy
 09/26/2025,Smart,4.6 Mbps,4.6,1 - 5 Mbps,1.8 Mbps,1.8,1 - 5 Mbps,25 ms,25,"Brgy. Pasong Tamo, Metro Manila",Metro Manila,GMS
 09/26/2025,Smart,26.1 Mbps,26.1,10 - 30 Mbps,1.4 Mbps,1.4,1 - 5 Mbps,40 ms,40,"Brgy. Milagrosa calamba Laguna, Laguna",Laguna,dvy
@@ -355,7 +349,6 @@ jamescmartinez3@gmail.com,09/26/2025,Globe,2.17 Mbps,2.17,1 - 5 Mbps,0.01 Mbps,0
 09/26/2025,Globe,10.8 Mbps,10.8,10 - 30 Mbps,0 Kbps,0.0,0 - 1 Mbps,47 ms,47,,-,scc
 09/26/2025,TNT,40.4 Mbps,40.4,30 - 70 Mbps,4.1 Mbps,4.1,1 - 5 Mbps,18 ms,18,,,dvy
 09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0.1 Mbps,0.1,0 - 1 Mbps,285 ms,285,"Brgy Santo Domingo, Rizal",Rizal,MMB
-09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,,,dvy
 09/26/2025,Globe,13.0 Mbps,13.0,10 - 30 Mbps,3.1 Mbps,3.1,1 - 5 Mbps,30 ms,30,"Sampaloc Site II, Metro Manila",Metro Manila,scc
 09/26/2025,Globe,18.8 Mbps,18.8,10 - 30 Mbps,10.2 Mbps,10.2,10 - 30 Mbps,26 ms,26,"Calamba, Laguna",Laguna,MMB
 09/26/2025,Smart,75.3 Mbps,75.3,70 - 100 Mbps,4.9 Mbps,4.9,1 - 5 Mbps,39 ms,39,"Brgy Santa Lucia, Metro Manila",Metro Manila,scc
@@ -391,7 +384,6 @@ jamescmartinez3@gmail.com,09/26/2025,Globe,2.17 Mbps,2.17,1 - 5 Mbps,0.01 Mbps,0
 09/25/2025,Globe,159.0 Mbps,159.0,100+ Mbps,68.8 Mbps,68.8,30 - 70 Mbps,15 ms,15,,-,tml
 09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0.06 Mbps,0.06,0 - 1 Mbps,315 ms,315,"Binangonan, Rizal",Rizal,scc
 09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,7 ms,7,"Binangonan, Rizal",Rizal,scc
-09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,18.0 Mbps,18.0,10 - 30 Mbps,37 ms,37,,,dvy
 09/26/2025,Smart,2.37 Mbps,2.37,1 - 5 Mbps,0 Kbps,0.0,0 - 1 Mbps,74 ms,74,"Calabanga, Bicol",Bicol,J.B.G
 09/26/2025,Globe,149.0 Mbps,149.0,100+ Mbps,5.95 Mbps,5.95,5 - 10 Mbps,22 ms,22,"Taytay, Rizal",Rizal,
 09/26/2025,TNT,5.36 Mbps,5.36,5 - 10 Mbps,0.72 Mbps,0.72,0 - 1 Mbps,57 ms,57,"Batangas City, Batangas",Batangas,scc
@@ -414,7 +406,7 @@ jamescmartinez3@gmail.com,09/26/2025,Globe,2.17 Mbps,2.17,1 - 5 Mbps,0.01 Mbps,0
 09/26/2025,Smart,6.8 Mbps,6.8,5 - 10 Mbps,0 Kbps,0.0,0 - 1 Mbps,34 ms,34,"Sariaya, Quezon Province",Quezon Province,scc
 09/26/2025,DITO,30.7 Mbps,30.7,30 - 70 Mbps,10.3 Mbps,10.3,10 - 30 Mbps,46 ms,46,"Zamboanga City, Zamboanga",Zamboanga,DCV
 09/26/2025,TNT,59.5 Mbps,59.5,30 - 70 Mbps,7.09 Mbps,7.09,5 - 10 Mbps,30 ms,30,"Calapan City, Mindoro",Mindoro,J.B.G
- AIBDC",ericalegriafernandez@gmail.com,09/26/2025,Globe,6.5 Mbps,6.5,5 - 10 Mbps,10.1 Mbps,10.1,10 - 30 Mbps,26 ms,26,"Lipa City, Batangas",Batangas,J.B.G
+" AIBDC""",ericalegriafernandez@gmail.com,09/26/2025,Globe,6.5 Mbps,6.5,5 - 10 Mbps,10.1 Mbps,10.1,10 - 30 Mbps,26 ms,26,"Lipa City, Batangas"
 09/26/2025,Smart,62.1 Mbps,62.1,30 - 70 Mbps,14.1 Mbps,14.1,10 - 30 Mbps,29 ms,29,"Imus Cavite, Cavite",Cavite,JAM
 09/26/2025,Globe,178.1 Mbps,178.1,100+ Mbps,4.9 Mbps,4.9,1 - 5 Mbps,15 ms,15,"San Isidro Cainta, Rizal",Rizal,J.B.G
 09/26/2025,Globe,25.2 Mbps,25.2,10 - 30 Mbps,6.3 Mbps,6.3,5 - 10 Mbps,31 ms,31,,,J.B.G
@@ -437,7 +429,7 @@ jamescmartinez3@gmail.com,09/26/2025,Globe,2.17 Mbps,2.17,1 - 5 Mbps,0.01 Mbps,0
 09/26/2025,Smart,3.96 Mbps,3.96,1 - 5 Mbps,117.0 Mbps,117.0,100+ Mbps,181 ms,181,,,dvy
 09/26/2025,TM,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"Buluan, Maguindanao",Maguindanao,J.B.G
 09/26/2025,Smart,10.1 Mbps,10.1,10 - 30 Mbps,0.59 Mbps,0.59,0 - 1 Mbps,38 ms,38,"Dasma Regency Cavite, Cavite",Cavite,J.B.G
-psicdoyjr@yahoo.com,09/26/2025,Smart,156.0 Mbps,156.0,100+ Mbps,17.6 Mbps,17.6,10 - 30 Mbps,20 ms,20,"Upper Session Road, Benguet",Benguet,JAM
+psicdoyjr@yahoo.com,09/26/2025,Smart,156.0 Mbps,156.0,100+ Mbps,17.6 Mbps,17.6,10 - 30 Mbps,20 ms,20,"Upper Session Road, Benguet",Benguet
 09/25/2025,Smart,6.3 Mbps,6.3,5 - 10 Mbps,2.3 Mbps,2.3,1 - 5 Mbps,23 ms,23,"Morong, Rizal",Rizal,GMS
 09/26/2025,Smart,364.6 Mbps,364.6,100+ Mbps,12.8 Mbps,12.8,10 - 30 Mbps,16 ms,16,"San Mateo, Rizal",Rizal,J.B.G
 09/26/2025,TNT,2.55 Mbps,2.55,1 - 5 Mbps,0.05 Mbps,0.05,0 - 1 Mbps,214 ms,214,"Pagalungan, Maguindanao",Maguindanao,scc
@@ -448,14 +440,12 @@ psicdoyjr@yahoo.com,09/26/2025,Smart,156.0 Mbps,156.0,100+ Mbps,17.6 Mbps,17.6,1
 09/26/2025,Globe,5.88 Mbps,5.88,5 - 10 Mbps,0 Kbps,0.0,0 - 1 Mbps,93 ms,93,,,J.B.G
 09/26/2025,Smart,145.5 Mbps,145.5,100+ Mbps,23.7 Mbps,23.7,10 - 30 Mbps,19 ms,19,"Santa Maria, Bulacan",Bulacan,GMS
 09/26/2025,Smart,9.4 Mbps,9.4,5 - 10 Mbps,22.7 Mbps,22.7,10 - 30 Mbps,16 ms,16,"Sta. Mesa, Metro Manila",Metro Manila,GMS
-09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,5.0 Mbps,5.0,5 - 10 Mbps,68 ms,68,,,dvy
 09/26/2025,Globe,16.6 Mbps,16.6,10 - 30 Mbps,0 Kbps,0.0,0 - 1 Mbps,22 ms,22,,-,scc
 09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"Nuvali, Laguna",Laguna,JAM
 09/26/2025,Smart,2.0 Mbps,2.0,1 - 5 Mbps,0.6 Mbps,0.6,0 - 1 Mbps,39 ms,39,"San Pedro, Laguna",Laguna,J.B.G
 09/26/2025,TNT,19.8 Mbps,19.8,10 - 30 Mbps,1.1 Mbps,1.1,1 - 5 Mbps,41 ms,41,"Calamba City, Laguna",Laguna,scc
 09/26/2025,TNT,8.24 Mbps,8.24,5 - 10 Mbps,0.96 Mbps,0.96,0 - 1 Mbps,91 ms,91,"North Caloocan City Brgy 176 phase 10B package 5 Bagong Silang Caloocan City., Metro Manila",Metro Manila,dvy
 09/26/2025,Smart,83.5 Mbps,83.5,70 - 100 Mbps,21.0 Mbps,21.0,10 - 30 Mbps,29 ms,29,"IMUS CITY, Cavite",Cavite,MMB
-09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,,,dvy
 09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,220 ms,220,"Brgy. San Josef. Peñaranda, Nueva Ecija",Nueva Ecija,MMB
 09/26/2025,Globe,5.76 Mbps,5.76,5 - 10 Mbps,0.12 Mbps,0.12,0 - 1 Mbps,40 ms,40,"Prelaya St. cor. Devachan St. Tugatog Malabon, Malabon",Malabon,MMB
 09/26/2025,Smart,193.0 Mbps,193.0,100+ Mbps,10.1 Mbps,10.1,10 - 30 Mbps,10 ms,10,"Taguig City, Metro Manila",Metro Manila,GMS
@@ -499,16 +489,14 @@ psicdoyjr@yahoo.com,09/26/2025,Smart,156.0 Mbps,156.0,100+ Mbps,17.6 Mbps,17.6,1
 09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Cortes, Surigao",Surigao,dvy
 09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"BRGY OLD CABUYAO Quezon City, Metro Manila",Metro Manila,GMS
 09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"ACACIA PINAGBUHATAN Pasig City, Metro Manila",Metro Manila,MMB
-09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,0 ms,0,"ACACIA PINAGBUHATAN Pasig City, Metro Manila",Metro Manila,J.B.G
 09/26/2025,Smart,2.3 Mbps,2.3,1 - 5 Mbps,4.9 Mbps,4.9,1 - 5 Mbps,28 ms,28,"P. Gomez St. Brgy. Maysan, Metro Manila",Metro Manila,J.B.G
 09/26/2025,Smart,15.4 Mbps,15.4,10 - 30 Mbps,8.5 Mbps,8.5,5 - 10 Mbps,27 ms,27,"Baliuag, Bulacan",Bulacan,JAM
 09/25/2025,TNT,8.13 Mbps,8.13,5 - 10 Mbps,3.09 Mbps,3.09,1 - 5 Mbps,47 ms,47,"Santa Maria, Ilocos",Ilocos,J.B.G
 09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"MALINAO, Aklan",Aklan,GMS
 09/26/2025,GOMO,164.0 Mbps,164.0,100+ Mbps,13.0 Mbps,13.0,10 - 30 Mbps,22 ms,22,"DASMARIÑAS, Cavite",Cavite,GMS
 09/26/2025,Smart,18.9 Mbps,18.9,10 - 30 Mbps,9.3 Mbps,9.3,5 - 10 Mbps,32 ms,32,"Brgy.14, Metro Manila",Metro Manila,scc
-09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,,,dvy
 09/26/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"Brgy. Monte Calvario, Metro Manila",Metro Manila,J.B.G
-salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,34 ms,34,,-,scc
+salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,34 ms,34,,-
 09/26/2025,Ask For Sp,50.6 Mbps,50.6,30 - 70 Mbps,4.5 Mbps,4.5,1 - 5 Mbps,23 ms,23,,,dvy
 09/26/2025,Smart,12.6 Mbps,12.6,10 - 30 Mbps,3.46 Mbps,3.46,1 - 5 Mbps,52 ms,52,"Bacoor, Cavite",Cavite,JAM
 09/25/2025,GOMO,2.95 Mbps,2.95,1 - 5 Mbps,0.46 Mbps,0.46,0 - 1 Mbps,53 ms,53,"Aigoo, La Union",La Union,tml
@@ -526,7 +514,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/26/2025,Smart,32.2 Mbps,32.2,30 - 70 Mbps,3.96 Mbps,3.96,1 - 5 Mbps,35 ms,35,"Lakeshore Nueva Victoria Mexico Pampanga, Pampanga",Pampanga,J.B.G
 09/26/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"LACONG TAGUDIN ILOCOS SUR, Ilocos",Ilocos,JAM
 09/26/2025,GOMO,3.3 Mbps,3.3,1 - 5 Mbps,2.1 Mbps,2.1,1 - 5 Mbps,29 ms,29,"Concepcion, Tarlac",Tarlac,MMB
-09/26/2025,GOMO,3.3 Mbps,3.3,1 - 5 Mbps,2.1 Mbps,2.1,1 - 5 Mbps,29 ms,29,"Concepcion, Tarlac",Tarlac,J.B.G
 09/26/2025,Globe,141.7 Mbps,141.7,100+ Mbps,10.8 Mbps,10.8,10 - 30 Mbps,15 ms,15,"Santo Niño, Metro Manila",Metro Manila,J.B.G
 09/26/2025,Smart,10.4 Mbps,10.4,10 - 30 Mbps,6.13 Mbps,6.13,5 - 10 Mbps,29 ms,29,"San Jose City, Nueva Ecija",Nueva Ecija,DCV
 09/26/2025,Smart,27.8 Mbps,27.8,10 - 30 Mbps,0 Kbps,0.0,0 - 1 Mbps,39 ms,39,"Balanga, Bataan",Bataan,scc
@@ -578,7 +565,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/26/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,89 ms,89,"guagua, Pampanga",Pampanga,J.B.G
 09/26/2025,Smart,68.6 Mbps,68.6,30 - 70 Mbps,19.8 Mbps,19.8,10 - 30 Mbps,33 ms,33,"general trias, Cavite",Cavite,J.B.G
 09/26/2025,Globe,16.6 Mbps,16.6,10 - 30 Mbps,4.41 Mbps,4.41,1 - 5 Mbps,108 ms,108,"brgy II-A san pablo city, Laguna",Laguna,J.B.G
-09/26/2025,Globe,41.0 Mbps,41.0,30 - 70 Mbps,3.1 Mbps,3.1,1 - 5 Mbps,49 ms,49,"Oroquieta City, Misamis Occidental",Misamis Occidental,J.B.G
 09/26/2025,Globe,14.8 Mbps,14.8,10 - 30 Mbps,14.6 Mbps,14.6,10 - 30 Mbps,51 ms,51,"Sta. Maria, Davao",Davao,J.B.G
 09/26/2025,Smart,1.2 Mbps,1.2,1 - 5 Mbps,4.2 Mbps,4.2,1 - 5 Mbps,326 ms,326,"PULONG BUHANGIN SANTA MARIA BULACAN, Bulacan",Bulacan,J.B.G
 09/26/2025,Smart,0.7 Mbps,0.7,0 - 1 Mbps,0.6 Mbps,0.6,0 - 1 Mbps,40 ms,40,"Rodriguez, Rizal",Rizal,J.B.G
@@ -661,7 +647,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/27/2025,Smart,35.9 Mbps,35.9,30 - 70 Mbps,9.5 Mbps,9.5,5 - 10 Mbps,17 ms,17,"Brgy. San Miguel, Metro Manila",Metro Manila,J.B.G
 09/27/2025,Smart,39.3 Mbps,39.3,30 - 70 Mbps,6.54 Mbps,6.54,5 - 10 Mbps,103 ms,103,"Calalahan San Jose Camarines Sur, Bicol",Bicol,J.B.G
 09/27/2025,DITO,8.9 Mbps,8.9,5 - 10 Mbps,0.8 Mbps,0.8,0 - 1 Mbps,31 ms,31,"SABANG BALIUAG BULACAN, Bulacan",Bulacan,J.B.G
-09/27/2025,Globe,0.7 Mbps,0.7,0 - 1 Mbps,9.6 Mbps,9.6,5 - 10 Mbps,25 ms,25,"Muntinlupa City, Metro Manila",Metro Manila,J.B.G
 09/27/2025,Globe,68.3 Mbps,68.3,30 - 70 Mbps,2.45 Mbps,2.45,1 - 5 Mbps,15 ms,15,"Sta. Cruz, Cavite",Cavite,J.B.G
 09/27/2025,DITO,0.4 Mbps,0.4,0 - 1 Mbps,2.0 Mbps,2.0,1 - 5 Mbps,32 ms,32,"Brgy Lower Dagsian, Benguet",Benguet,J.B.G
 09/27/2025,Smart,30.4 Mbps,30.4,30 - 70 Mbps,7.7 Mbps,7.7,5 - 10 Mbps,31 ms,31,"Meycauayan City, Bulacan",Bulacan,J.B.G
@@ -707,11 +692,9 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/27/2025,TM,297.0 Mbps,297.0,100+ Mbps,39.6 Mbps,39.6,30 - 70 Mbps,24 ms,24,"Coloong Valenzuela City, Metro Manila",Metro Manila,J.B.G
 09/27/2025,Globe,36.4 Mbps,36.4,30 - 70 Mbps,0 Kbps,0.0,0 - 1 Mbps,24 ms,24,"BRGY FATIMA, Laguna",Laguna,J.B.G
 09/27/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,0.02 Mbps,0.02,0 - 1 Mbps,47 ms,47,"BRGY SAN ISIDRO, Rizal",Rizal,J.B.G
-09/27/2025,Smart,23.1 Mbps,23.1,10 - 30 Mbps,1.4 Mbps,1.4,1 - 5 Mbps,40 ms,40,"Brgy Batia Bocaue Bulacan, Bulacan",Bulacan,J.B.G
 09/27/2025,Smart,166.0 Mbps,166.0,100+ Mbps,15.4 Mbps,15.4,10 - 30 Mbps,26 ms,26,"Gapan, Nueva Ecija",Nueva Ecija,J.B.G
 09/27/2025,DITO,34.4 Mbps,34.4,30 - 70 Mbps,9.4 Mbps,9.4,5 - 10 Mbps,22 ms,22,"Bayanan, Metro Manila",Metro Manila,J.B.G
 09/27/2025,Smart,36.7 Mbps,36.7,30 - 70 Mbps,0.33 Mbps,0.33,0 - 1 Mbps,44 ms,44,"Rosario, Cavite",Cavite,J.B.G
-09/27/2025,TNT,5.62 Mbps,5.62,5 - 10 Mbps,0.75 Mbps,0.75,0 - 1 Mbps,216 ms,216,"Escalante City, Negros",Negros,J.B.G
 09/27/2025,Smart,7.7 Mbps,7.7,5 - 10 Mbps,0.8 Mbps,0.8,0 - 1 Mbps,32 ms,32,"Roxas City, Capiz",Capiz,J.B.G
 09/27/2025,DITO,19.3 Mbps,19.3,10 - 30 Mbps,1.7 Mbps,1.7,1 - 5 Mbps,27 ms,27,"Barangay San Agustin MALABON CITY, Metro Manila",Metro Manila,J.B.G
 09/27/2025,Smart,28.3 Mbps,28.3,10 - 30 Mbps,1.4 Mbps,1.4,1 - 5 Mbps,23 ms,23,"Brgy San Isidro Antipolo City, Rizal",Rizal,J.B.G
@@ -813,7 +796,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/27/2025,Globe,16.8 Mbps,16.8,10 - 30 Mbps,1.51 Mbps,1.51,1 - 5 Mbps,33 ms,33,"Perez, Quezon Province",Quezon Province,J.B.G
 09/27/2025,TM,0 Kbps,0.0,0 - 1 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,1 ms,1,"SAN JOSE DEL MONTE, Bulacan",Bulacan,J.B.G
 09/27/2025,DITO,49.9 Mbps,49.9,30 - 70 Mbps,29.7 Mbps,29.7,10 - 30 Mbps,34 ms,34,"Sta. Maria, Bulacan",Bulacan,J.B.G
-09/27/2025,DITO,4.6 Mbps,4.6,1 - 5 Mbps,0 Kbps,0.0,0 - 1 Mbps,101 ms,101,"Pasig City, Metro Manila",Metro Manila,J.B.G
 09/27/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,0.33 Mbps,0.33,0 - 1 Mbps,403 ms,403,"Masterson Avenue, Cagayan",Cagayan,J.B.G
 09/27/2025,Smart,128.0 Mbps,128.0,100+ Mbps,11.0 Mbps,11.0,10 - 30 Mbps,22 ms,22,"Brgy. Sampaloc Tanay, Rizal",Rizal,J.B.G
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"Sibunag, Guimaras",Guimaras,J.B.G
@@ -938,7 +920,7 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 10/08/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Globe_Ateneoville Brgy Nangka Marikina, #N/A",#N/A,Import
 10/08/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Canduman, Cebu",Cebu,Import
 10/08/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Canduman, Cebu",Cebu,Import
-,10/08/2025,TM,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"KAJATIAN, SULU",SULU,Import
+,10/08/2025,TM,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"KAJATIAN, SULU",SULU
 10/08/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Brgy. Overview, Zamboanga del Norte",Zamboanga del Norte,Import
 10/08/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Smart, #N/A",#N/A,Import
 10/08/2025,GOMO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Gomo, #N/A",#N/A,Import
@@ -1056,14 +1038,13 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/29/2025,GOMO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,211 ms,211,"Biga-a, Aklan",Aklan,Import
 09/29/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,58.0 Mbps,58.0,30 - 70 Mbps,193 ms,193,"Globe Signal Problem since 2 decades ago, #N/A",#N/A,Import
 09/29/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"DITO, #N/A",#N/A,Import
-09/29/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,6.0 Mbps,6.0,5 - 10 Mbps,1 ms,1,"DITO, #N/A",#N/A,Import
 09/29/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,3.24 Mbps,3.24,1 - 5 Mbps,31 ms,31,"(SMART - BRGY. 7 NASUGBU BATANGAS), #N/A",#N/A,Import
 09/29/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,34.0 Mbps,34.0,30 - 70 Mbps,1 ms,1,"Neo Calapan, Oriental Mindoro",Oriental Mindoro,Import
 09/29/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,944 ms,944,"SMART Signal Speedtest, #N/A",#N/A,Import
 09/29/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,156 ms,156,"Barangay Pengue Ruyu, Tuguegarao City",Tuguegarao City,Import
 09/29/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,166.0 Mbps,166.0,100+ Mbps,67 ms,67,"Brgy. Bangbangalon, Marinduque",Marinduque,Import
 09/29/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,863.0 Mbps,863.0,100+ Mbps,149 ms,149,"Fwd: poor signal, #N/A",#N/A,Import
-,09/29/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,384.0 Mbps,384.0,100+ Mbps,41 ms,41,"Brgy. 19 San Nicolas, Ilocos Norte",Ilocos Norte,Import
+,09/29/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,384.0 Mbps,384.0,100+ Mbps,41 ms,41,"Brgy. 19 San Nicolas, Ilocos Norte",Ilocos Norte
 09/29/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,7.2 Mbps,7.2,5 - 10 Mbps,37 ms,37,"TANAUAN CITY BATANGAS, TANAUAN CITY BATANGAS",TANAUAN CITY BATANGAS,Import
 09/29/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"Zone 4 Brgy. Calalahan San Jose, Camarines Sur",Camarines Sur,Import
 09/29/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,6.24 Mbps,6.24,5 - 10 Mbps,36 ms,36,"salvacion bayombong nueva vizcaya, salvacion bayombong nueva vizcaya",salvacion bayombong nueva vizcaya,Import
@@ -1107,7 +1088,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/29/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,0 ms,0,"purok apitong san isidro sta maria davao Occidental, purok apitong san isidro sta maria davao Occidental",purok apitong san isidro sta maria davao Occidental,Import
 09/29/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,546.0 Mbps,546.0,100+ Mbps,34 ms,34,"Taguig City, Taguig City",Taguig City,Import
 09/29/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,1 ms,1,"SMART, #N/A",#N/A,Import
-09/29/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,30.4 Mbps,30.4,30 - 70 Mbps,14 ms,14,"Globe, #N/A",#N/A,Import
 09/29/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,19 ms,19,"Brgy. Banaba, Rizal",Rizal,Import
 09/28/2025,TM,0 Kbps,0.0,0 - 1 Mbps,1.4 Mbps,1.4,1 - 5 Mbps,38 ms,38,"Brgy. Bagumbayan, Isabela",Isabela,Import
 09/28/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0.32 Mbps,0.32,0 - 1 Mbps,202 ms,202,"Globe-Barangay Camatagan Sabangan Mountain, #N/A",#N/A,Import
@@ -1159,7 +1139,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/28/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,5.08 Mbps,5.08,5 - 10 Mbps,260 ms,260,"Globe, #N/A",#N/A,Import
 09/28/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,28 ms,28,"Smart, #N/A",#N/A,Import
 09/28/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,1.24 Mbps,1.24,1 - 5 Mbps,198 ms,198,"Panipuan, Mexico Pampanga",Mexico Pampanga,Import
-09/28/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,12.3 Mbps,12.3,10 - 30 Mbps,73 ms,73,"Smart, #N/A",#N/A,Import
 09/28/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,6.6 Mbps,6.6,5 - 10 Mbps,24 ms,24,"Tandag, Tandag",Tandag,Import
 09/28/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0.03 Mbps,0.03,0 - 1 Mbps,22 ms,22,"BRGY SANTIAGO, CAVITE",CAVITE,Import
 09/28/2025,GOMO,0 Kbps,0.0,0 - 1 Mbps,12.0 Mbps,12.0,10 - 30 Mbps,97 ms,97,"BRGY SANTIAGO, CAVITE",CAVITE,Import
@@ -1217,9 +1196,8 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,13.7 Mbps,13.7,10 - 30 Mbps,67 ms,67,"Cabalangegan Vigan City, Cabalangegan Vigan City",Cabalangegan Vigan City,Import
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0.02 Mbps,0.02,0 - 1 Mbps,58 ms,58,"Brgy. Miranda, Negros Occidental",Negros Occidental,Import
 09/27/2025,TM,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,34 ms,34,"TM Kabugao apayao, #N/A",#N/A,Import
-,09/27/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"We are always experience No service and Emergency call from TNT/SMART and DITO Telecom, #N/A",#N/A,Import
-,09/27/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,0.74 Mbps,0.74,0 - 1 Mbps,55 ms,55,"TNT Cristo Rey Capas Tarlac, #N/A",#N/A,Import
-,09/27/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"We are always experience No service and Emergency call from TNT/SMART and DITO Telecom, #N/A",#N/A,Import
+,09/27/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"We are always experience No service and Emergency call from TNT/SMART and DITO Telecom, #N/A",#N/A
+,09/27/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,0.74 Mbps,0.74,0 - 1 Mbps,55 ms,55,"TNT Cristo Rey Capas Tarlac, #N/A",#N/A
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0.46 Mbps,0.46,0 - 1 Mbps,67 ms,67,"ZONE 10 UPPER CARMEN CAGAYAN DE ORO CITY MISAMIS ORIENTAL, ZONE 10 UPPER CARMEN CAGAYAN DE ORO CITY MISAMIS ORIENTAL",ZONE 10 UPPER CARMEN CAGAYAN DE ORO CITY MISAMIS ORIENTAL,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,2.32 Mbps,2.32,1 - 5 Mbps,15 ms,15,"General SantosCity, General SantosCity",General SantosCity,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,4.33 Mbps,4.33,1 - 5 Mbps,28 ms,28,"Brgy. Guadalupe Nuevo, Makati City",Makati City,Import
@@ -1231,7 +1209,7 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,27 ms,27,"Brgy. Dugcal, Camarines Sur",Camarines Sur,Import
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"BRGY CABUNGAHAN, CAPIZ",CAPIZ,Import
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,32 ms,32,"Brgy. Putatan, Muntinlupa City",Muntinlupa City,Import
-,09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,3.2 Mbps,3.2,1 - 5 Mbps,28 ms,28,"Sitio Tara-Tara Brgy. Virbira, Ilocos Norte 2911",Ilocos Norte 2911,Import
+,09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,3.2 Mbps,3.2,1 - 5 Mbps,28 ms,28,"Sitio Tara-Tara Brgy. Virbira, Ilocos Norte 2911",Ilocos Norte 2911
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,20.1 Mbps,20.1,10 - 30 Mbps,52 ms,52,"ALTALURO TOWER BARANGAY DECARABAO AND MALAKING PATAG CELL SITE CULION PALAWAN, ALTALURO TOWER BARANGAY DECARABAO AND MALAKING PATAG CELL SITE CULION PALAWAN",ALTALURO TOWER BARANGAY DECARABAO AND MALAKING PATAG CELL SITE CULION PALAWAN,Import
 09/27/2025,TM,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Batangan, Bukidnon",Bukidnon,Import
 09/27/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,23 ms,23,"BRGY. DANGLAG, CEBU",CEBU,Import
@@ -1245,7 +1223,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,43.0 Mbps,43.0,30 - 70 Mbps,1 ms,1,"This my smart prepaid signal here in barangay tinigaw Kalibo aklan, #N/A",#N/A,Import
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,5.03 Mbps,5.03,5 - 10 Mbps,155 ms,155,"Brgy. Poblacion, Monreal",Monreal,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,3.51 Mbps,3.51,1 - 5 Mbps,5734 ms,5734,"SMART: Brgy. 48-A Cabungaan Laoag City, #N/A",#N/A,Import
-09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,108 ms,108,"Barangay 5 Poblacion, Quezon",Quezon,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,108 ms,108,"Barangay 5 Poblacion, Quezon",Quezon,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0.14 Mbps,0.14,0 - 1 Mbps,114 ms,114,"Brgy. Western, Leyte",Leyte,Import
 09/27/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,9.72 Mbps,9.72,5 - 10 Mbps,2930 ms,2930,"Calatagan Proper, Catanduanes",Catanduanes,Import
@@ -1337,7 +1314,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Sampaloc Manila, Sampaloc Manila",Sampaloc Manila,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Brgy. South Signal Village Taguig City, Brgy. South Signal Village Taguig City",Brgy. South Signal Village Taguig City,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"SMART:BRGY. QUIWI HINIGARAN NEGROS OCCIDENTAL, #N/A",#N/A,Import
-09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"SMART:BRGY. QUIWI HINIGARAN NEGROS OCCIDENTAL, #N/A",#N/A,Import
 09/27/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Brgy. Maitim Bay, Laguna",Laguna,Import
 09/27/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Ganito kabagal ang Dito network sa Pallas Binmaley Pangasinan. Out door lang Yan. Wala pa indoor, #N/A",#N/A,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"SMART MOBILE DATA, #N/A",#N/A,Import
@@ -1350,7 +1326,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/27/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0.02 Mbps,0.02,0 - 1 Mbps,1 ms,1,"Sabang, Danao City",Danao City,Import
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Canlubang, Laguna",Laguna,Import
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Brgy. Santa Ana, Taytay Rizal",Taytay Rizal,Import
-,09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"BRGY 59 A, TACLOBAN CITY",TACLOBAN CITY,Import
 09/27/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Pinagsama Taguig City, NCR",NCR,Import
 09/27/2025,TM,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Brgy. Makiling, Laguna",Laguna,Import
 09/27/2025,GOMO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Brgy. Makiling, Laguna",Laguna,Import
@@ -1383,7 +1358,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Caranglaan Mabini, Pangasinan",Pangasinan,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Status of Smart signal at Lagro QC, #N/A",#N/A,Import
 09/27/2025,TNT,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Marawi City, Lanao del Sur",Lanao del Sur,Import
-,09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Dingle, Iloilo",Iloilo,Import
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Tamenggo, Antipolo City",Antipolo City,Import
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"LEGIAN 2 NORTH SUBD. CARSADANG BAGO I IMUS CAVITE, LEGIAN 2 NORTH SUBD. CARSADANG BAGO I IMUS CAVITE",LEGIAN 2 NORTH SUBD. CARSADANG BAGO I IMUS CAVITE,Import
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Poblacion 1, Agusan del Norte",Agusan del Norte,Import
@@ -1479,7 +1453,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Brgy. Sauyo, Quezon City",Quezon City,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Brgy. Bakhaw, Iloilo City",Iloilo City,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Brgy. Overview, Zamboanga del Norte",Zamboanga del Norte,Import
-09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Brgy. Bakhaw, Iloilo City",Iloilo City,Import
 09/27/2025,Pldt,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"PLDT, #N/A",#N/A,Import
 09/27/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Barangay Manggahan, Pasig City",Pasig City,Import
 09/27/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Gutierrez Compound Sitio Burol Brgy San Juan Taytay, Rizal",Rizal,Import
@@ -1609,7 +1582,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,43 ms,43,"sitio mindanao, Candon city ilocos sur",Candon city ilocos sur,Import
 10/12/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0.21 Mbps,0.21,0 - 1 Mbps,40 ms,40,"Dasma Cavite, Dasma Cavite",Dasma Cavite,Import
 10/12/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,25.7 Mbps,25.7,10 - 30 Mbps,25 ms,25,"Brgy 583, Manila",Manila,Import
-10/12/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,25.7 Mbps,25.7,10 - 30 Mbps,25 ms,25,"Dasma Cavite, Dasma Cavite",Dasma Cavite,Import
 10/12/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,4.4 Mbps,4.4,1 - 5 Mbps,58 ms,58,"SM Jmall, Mandaue City",Mandaue City,Import
 10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Blk 131 Lot 35 Deca Homes South Bacolod Brgy Cabug, Bacolod City Negros Occidental",Bacolod City Negros Occidental,Import
 10/12/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,18.1 Mbps,18.1,10 - 30 Mbps,21 ms,21,"SM Jmall, Mandaue City",Mandaue City,Import
@@ -1629,12 +1601,10 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,29.0 Mbps,29.0,10 - 30 Mbps,11 ms,11,"Brgy Maguyam, Silang Cavite",Silang Cavite,Import
 10/12/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,880 ms,880,"Damilag, Manolo Fortich",Manolo Fortich,Import
 10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Aguilar, Aguilar",Aguilar,Import
-10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,3.4 Mbps,3.4,1 - 5 Mbps,27 ms,27,"Aguilar, Aguilar",Aguilar,Import
 10/12/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,2.65 Mbps,2.65,1 - 5 Mbps,32 ms,32,"Slow signal SMART TELECOM, #N/A",#N/A,Import
 10/12/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0.94 Mbps,0.94,0 - 1 Mbps,41 ms,41,"Slow signal Dito Telecom, #N/A",#N/A,Import
 10/12/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0.82 Mbps,0.82,0 - 1 Mbps,56 ms,56,"Dito, Dito",Dito,Import
 10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Globe Alabang Muntinlupa, #N/A",#N/A,Import
-10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,9.3 Mbps,9.3,5 - 10 Mbps,27 ms,27,"Globe Alabang Muntinlupa, #N/A",#N/A,Import
 10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,9.3 Mbps,9.3,5 - 10 Mbps,27 ms,27,"SM North EDSA (Indoor), SM North EDSA (Indoor)",SM North EDSA (Indoor),Import
 10/12/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,4.8 Mbps,4.8,1 - 5 Mbps,57 ms,57,"SM North EDSA (Indoor), SM North EDSA (Indoor)",SM North EDSA (Indoor),Import
 10/12/2025,GOMO,0 Kbps,0.0,0 - 1 Mbps,3.9 Mbps,3.9,1 - 5 Mbps,70 ms,70,"Dampay Street Poblacion Alaminos City Pangasinan(16.1572721, 119.9712909)",119.9712909),Import
@@ -1645,7 +1615,6 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Urgent Concern: Disconnection of Globe Internet Service (Account No. 882554124), #N/A",#N/A,Import
 10/12/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,11.5 Mbps,11.5,10 - 30 Mbps,21 ms,21,"Cupang, Muntinlupa",Muntinlupa,Import
 10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0.35 Mbps,0.35,0 - 1 Mbps,53 ms,53,"Re: Poor Signal - Smart or TNT / No Signal - Globe, #N/A",#N/A,Import
-10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Urgent Concern: Disconnection of Globe Internet Service (Account No. 882554124), #N/A",#N/A,Import
 10/12/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,4.4 Mbps,4.4,1 - 5 Mbps,35 ms,35,"Brgy. Bagtas, Tanza Cavite",Tanza Cavite,Import
 10/12/2025,Globe,0 Kbps,0.0,0 - 1 Mbps,1.61 Mbps,1.61,1 - 5 Mbps,25 ms,25,"Pembo Taguig, Pembo Taguig",Pembo Taguig,Import
 10/12/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,16 ms,16,"South Signal Taguig, South Signal Taguig",South Signal Taguig,Import
@@ -1661,3 +1630,732 @@ salcedojannahmae01@gmail.com,09/26/2025,DITO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 
 10/13/2025,GOMO,0 Kbps,0.0,0 - 1 Mbps,0 Kbps,0.0,0 - 1 Mbps,,,"Simanu Norte, Isabela",Isabela,Import
 10/13/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0.41 Mbps,0.41,0 - 1 Mbps,61 ms,61,"Brgy Mapula Romblon, Romblon",Romblon,Import
 10/13/2025,Smart,0 Kbps,0.0,0 - 1 Mbps,0.27 Mbps,0.27,0 - 1 Mbps,111 ms,111,"Bryan. Poblacion East, Tarlac",Tarlac,Import
+10/10/2025,Smart,33.00 Mbps,33.00,30 - 70 Mbps,1.87 Mbps,1.87,1 - 5 Mbps,37 ms,37,"Brgy. Cabraran, Jovellar",Albay,
+10/10/2025,Globe,16.70 Mbps,16.70,10 - 30 Mbps,3.26 Mbps,3.26,1 - 5 Mbps,48 ms,48,"Brgy. Cabraran, Jovellar",Albay,
+10/10/2025,DITO,229.00 Mbps,229.00,100+ Mbps,2.14 Mbps,2.14,1 - 5 Mbps,16 ms,16,"Ugong, Pasig City",NCR,
+10/10/2025,Smart,4.30 Mbps,4.30,1 - 5 Mbps,1.00 Mbps,1.00,1 - 5 Mbps,52 ms,52,"Brgy. Manano, Brgy. Manano",Isabela,
+10/10/2025,DITO,6.05 Mbps,6.05,5 - 10 Mbps,1.08 Mbps,1.08,1 - 5 Mbps,38 ms,38,"brgy, presiden jose p laurel hwy",lipa city,
+10/10/2025,Sun,2.63 Mbps,2.63,1 - 5 Mbps,0.20 Mbps,0.20,0 - 1 Mbps,151 ms,151,,,
+10/10/2025,Smart,34.30 Mbps,34.30,30 - 70 Mbps,5.33 Mbps,5.33,5 - 10 Mbps,28 ms,28,"Lipa City, Lipa City",Batangas,
+10/10/2025,Smart,87.00 Mbps,87.00,70 - 100 Mbps,12.40 Mbps,12.40,10 - 30 Mbps,23 ms,23,"Rocka Complex Phase 7, Rocka Complex Phase 7",Tabang Plaridel Bulacan,
+10/10/2025,Smart,144.00 Mbps,144.00,100+ Mbps,20.10 Mbps,20.10,10 - 30 Mbps,27 ms,27,"BRGY PALACIO, BRGY PALACIO",DAGAMI,
+10/10/2025,Globe,20.30 Mbps,20.30,10 - 30 Mbps,24.10 Mbps,24.10,10 - 30 Mbps,51 ms,51,"Pueblo San Roque, brgy. Gargato",Hinigaran Negros Occidental,
+10/10/2025,TNT,19.30 Mbps,19.30,10 - 30 Mbps,1.53 Mbps,1.53,1 - 5 Mbps,1036 ms,1036,"Pueblo San Roque, brgy. Gargato",Hinigaran Negros Occidental,
+10/09/2025,Smart,5.64 Mbps,5.64,5 - 10 Mbps,2.98 Mbps,2.98,1 - 5 Mbps,122 ms,122,"Brgy, Rodriguez St.",Cebu City,
+10/09/2025,Sun,1.96 Mbps,1.96,1 - 5 Mbps,0.02 Mbps,0.02,0 - 1 Mbps,374 ms,374,"Brgy Bankal, Lapu Lapu City",Cebu,
+10/09/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,89 ms,89,"West Garden Subdivision Phase 1, Bigaa, Virac",Catanduanes,
+10/09/2025,Globe,1.00 Mbps,1.00,1 - 5 Mbps,7.70 Mbps,7.70,5 - 10 Mbps,25 ms,25,"Binidayan, Binidayan",Lanao del Sur,
+10/09/2025,TM,1.51 Mbps,1.51,1 - 5 Mbps,0.49 Mbps,0.49,0 - 1 Mbps,236 ms,236,"Calit Binmaley, Calit Binmaley",Pangasinan,
+10/09/2025,Globe,0.00 Mbps,0.00,,0.02 Mbps,0.02,0 - 1 Mbps,44 ms,44,"Brgy. Anahao, Brgy. Anahao",Odiongan Romblon,
+10/09/2025,DITO,1.67 Mbps,1.67,1 - 5 Mbps,0.66 Mbps,0.66,0 - 1 Mbps,261 ms,261,"Putatan, Putatan",Muntinlupa,
+10/09/2025,DITO,3.60 Mbps,3.60,1 - 5 Mbps,1.60 Mbps,1.60,1 - 5 Mbps,48 ms,48,"Brgy. San Vicente, Brgy. San Vicente",Butuan City,
+10/09/2025,GOMO,1.89 Mbps,1.89,1 - 5 Mbps,0.33 Mbps,0.33,0 - 1 Mbps,132 ms,132,"Guiuan, Guiuan",Eastern Samar,
+10/09/2025,TM,5.42 Mbps,5.42,5 - 10 Mbps,8.49 Mbps,8.49,5 - 10 Mbps,75 ms,75,"Bisang, Lais, Malita",Davao Occidental,
+10/09/2025,TNT,157.00 Mbps,157.00,100+ Mbps,11.80 Mbps,11.80,10 - 30 Mbps,32 ms,32,"Brgy.cabanaetan, mabini",pangasinan,
+10/09/2025,Smart,157.00 Mbps,157.00,100+ Mbps,11.80 Mbps,11.80,10 - 30 Mbps,32 ms,32,"E Lopez st, Jaro, Iloilo City",Iloilo,
+10/09/2025,Smart,0.00 Mbps,0.00,,0.03 Mbps,0.03,0 - 1 Mbps,1 ms,1,BINIDAYAN,Lanao del Sur,
+10/09/2025,Smart,2.46 Mbps,2.46,1 - 5 Mbps,3.00 Mbps,3.00,1 - 5 Mbps,,,"barangay laon, abucay",bataan,
+10/09/2025,Globe,21.10 Mbps,21.10,10 - 30 Mbps,12.00 Mbps,12.00,10 - 30 Mbps,58 ms,58,"Salawag, Salawag",Dasmariñas Cavite,
+10/09/2025,Globe,0.00 Mbps,0.00,,9.00 Mbps,9.00,5 - 10 Mbps,1 ms,1,"Elvita, Narra",Palawan,
+10/09/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,53 ms,53,"Elvita, Narra",Palawan,
+10/09/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Gil Puyat, Gil Puyat",Pasay - DLTB Bus Station,
+10/09/2025,Smart,79.40 Mbps,79.40,70 - 100 Mbps,2.30 Mbps,2.30,1 - 5 Mbps,17 ms,17,"Presidential Management Staff Bldg. San Miguel, Presidential Management Staff Bldg. San Miguel",Manila,
+10/09/2025,Globe,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,1 ms,1,BAYANAN II,CALAPAN CITY,
+10/09/2025,GOMO,0.00 Mbps,0.00,,0.67 Mbps,0.67,0 - 1 Mbps,131 ms,131,"Dorongan Punta, Mangatarem",Pangasinan,
+10/09/2025,Globe,5.87 Mbps,5.87,5 - 10 Mbps,0.08 Mbps,0.08,0 - 1 Mbps,129 ms,129,,Mandaluyong,
+10/09/2025,Smart,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,79 ms,79,"OBRERO, Vinzon St",QC,
+10/09/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"BRGY. PLARIDEL ST., ROXAS CITY",CAPIZ,
+10/09/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"PLARIDEL ST, ROXAS CITY",CAPIZ,
+10/09/2025,Globe,9.37 Mbps,9.37,5 - 10 Mbps,0.75 Mbps,0.75,0 - 1 Mbps,1119 ms,1119,"Camp BGen Simeon A Ola, Camp BGen Simeon A Ola",Legazpi City,
+10/09/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Zone 7, La Purisima Nuevo, Ocampo",Camarines Sur,
+10/09/2025,TNT,68.00 Mbps,68.00,30 - 70 Mbps,0.77 Mbps,0.77,0 - 1 Mbps,34 ms,34,"City Hall Compound, Cabanatuan City",Nueva Ecija,
+10/09/2025,TNT,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,44 ms,44,"Sorosoro Karsada, Batangas City (13.802417",121.078212),
+10/09/2025,DITO,0.00 Mbps,0.00,,0.04 Mbps,0.04,0 - 1 Mbps,123 ms,123,"servant St.Zone Ahos, servant St.Zone Ahos",Barangay Pakna-an Mandaue city,
+10/09/2025,Globe,22.10 Mbps,22.10,10 - 30 Mbps,0.00 Mbps,0.00,,38 ms,38,SAN JUAN,BATANGAS,
+10/09/2025,Smart,6.20 Mbps,6.20,5 - 10 Mbps,2.00 Mbps,2.00,1 - 5 Mbps,34 ms,34,Brgy Salay,Mangaldan,
+10/09/2025,GOMO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,210 ms,210,"LEONARD WOOD ROAD, TEACHER'S CAMP",BAGUIO CITY,
+10/09/2025,Smart,18.50 Mbps,18.50,10 - 30 Mbps,6.98 Mbps,6.98,5 - 10 Mbps,35 ms,35,"Del Pilar, City of San Fernando",Pampanga,
+10/09/2025,DITO,11.70 Mbps,11.70,10 - 30 Mbps,0.78 Mbps,0.78,0 - 1 Mbps,49 ms,49,"Del Pilar, City of San Fernando",Pampanga,
+10/09/2025,Globe,21.80 Mbps,21.80,10 - 30 Mbps,0.78 Mbps,0.78,0 - 1 Mbps,21 ms,21,"Pioneer St Barangka Ilaya, Mandaluyong",NCR,
+10/09/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,51 ms,51,"brgy. 48A, Cabungaan North Airport Road, Laoag City",Ilocos Norte,
+10/09/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"calapan, calapan",Oriental mindoro,
+10/09/2025,Globe,4.39 Mbps,4.39,1 - 5 Mbps,0.31 Mbps,0.31,0 - 1 Mbps,75 ms,75,"Area B, Talanay, Batasan Hills",QC,
+10/09/2025,Smart,297.30 Mbps,297.30,100+ Mbps,40.10 Mbps,40.10,30+ Mbps,16 ms,16,,Mangaldan,
+10/09/2025,DITO,8.99 Mbps,8.99,5 - 10 Mbps,0.20 Mbps,0.20,0 - 1 Mbps,44 ms,44,"Cubay, San Enrique",Iloilo,
+10/09/2025,Globe,14.10 Mbps,14.10,10 - 30 Mbps,0.43 Mbps,0.43,0 - 1 Mbps,28 ms,28,Kapitolyo,Pasig,
+10/09/2025,Smart,4.28 Mbps,4.28,1 - 5 Mbps,0.05 Mbps,0.05,0 - 1 Mbps,51 ms,51,Kapitolyo,Pasig,
+10/09/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,341 ms,341,"Filinvest 2, Brgy. Bagong Silangan",Quezon City,
+10/08/2025,TNT,37.70 Mbps,37.70,30 - 70 Mbps,21.20 Mbps,21.20,10 - 30 Mbps,23 ms,23,Burauen,Leyte,
+10/08/2025,Globe,9.43 Mbps,9.43,5 - 10 Mbps,1.52 Mbps,1.52,1 - 5 Mbps,,,"Brgy. Magsaysay, Laoang",Northern Samar,
+10/08/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,3322 ms,3322,"Brgy. Bigte, Norzagaray",Bulacan,
+10/08/2025,Smart,7.14 Mbps,7.14,5 - 10 Mbps,0.40 Mbps,0.40,0 - 1 Mbps,527 ms,527,"Lapuz, Lapaz",Iloilo City,
+10/08/2025,DITO,14.70 Mbps,14.70,10 - 30 Mbps,2.62 Mbps,2.62,1 - 5 Mbps,27 ms,27,"SAN JUAN, SAN JUAN",BATANGAS,
+10/08/2025,Smart,4.07 Mbps,4.07,1 - 5 Mbps,255.00 Mbps,255.00,30+ Mbps,51 ms,51,"Luz Banzon, Luz Banzon",Jasaan Misamis Oriental,
+10/08/2025,Smart,2.90 Mbps,2.90,1 - 5 Mbps,10.40 Mbps,10.40,10 - 30 Mbps,48 ms,48,"Brgy. Dallangayan Este, City of San Fernando",La Union,
+10/08/2025,TM,4.23 Mbps,4.23,1 - 5 Mbps,0.00 Mbps,0.00,,69 ms,69,"Catmon, Santa Maria",Bulacan,
+10/08/2025,Globe,29.70 Mbps,29.70,10 - 30 Mbps,8.75 Mbps,8.75,5 - 10 Mbps,31 ms,31,"Brgy Nangka, Marikina",NCR,
+10/08/2025,Smart,274.00 Mbps,274.00,100+ Mbps,7.08 Mbps,7.08,5 - 10 Mbps,15 ms,15,"Canduman, Mandaue City",Cebu,
+10/08/2025,Globe,47.10 Mbps,47.10,30 - 70 Mbps,7.03 Mbps,7.03,5 - 10 Mbps,78 ms,78,"Canduman, Mandaue City",Cebu,
+10/08/2025,TM,0.34 Mbps,0.34,0 - 1 Mbps,0.94 Mbps,0.94,0 - 1 Mbps,130 ms,130,"KM.2, KAJATIAN, INDANAN",SULU,
+10/08/2025,Smart,3.03 Mbps,3.03,1 - 5 Mbps,0.06 Mbps,0.06,0 - 1 Mbps,420 ms,420,"Brgy. Overview, Liloy",Zamboanga del Norte,
+10/08/2025,Smart,3.03 Mbps,3.03,1 - 5 Mbps,0.06 Mbps,0.06,0 - 1 Mbps,420 ms,420,,,
+10/08/2025,GOMO,1.36 Mbps,1.36,1 - 5 Mbps,0.00 Mbps,0.00,,17 ms,17,",",,
+10/08/2025,Smart,16.30 Mbps,16.30,10 - 30 Mbps,1.87 Mbps,1.87,1 - 5 Mbps,47 ms,47,"Banaba East, Banaba East",Batangas City,
+10/08/2025,DITO,13.30 Mbps,13.30,10 - 30 Mbps,0.90 Mbps,0.90,0 - 1 Mbps,31 ms,31,"Banaba East, Banaba East",Batangas City,
+10/08/2025,DITO,8.67 Mbps,8.67,5 - 10 Mbps,2.82 Mbps,2.82,1 - 5 Mbps,41 ms,41,"Inamotan, Manaoag",pangasinan,
+10/08/2025,GOMO,13.30 Mbps,13.30,10 - 30 Mbps,0.90 Mbps,0.90,0 - 1 Mbps,31 ms,31,"Caingin Malolos City, Caingin Malolos City",Bulacan,
+10/08/2025,DITO,2.83 Mbps,2.83,1 - 5 Mbps,3.37 Mbps,3.37,1 - 5 Mbps,71 ms,71,Infanta,Quezon,
+10/08/2025,Globe,25.50 Mbps,25.50,10 - 30 Mbps,9.68 Mbps,9.68,5 - 10 Mbps,25 ms,25,Taytay,Rizal,
+10/08/2025,Smart,10.80 Mbps,10.80,10 - 30 Mbps,7.10 Mbps,7.10,5 - 10 Mbps,30 ms,30,"ayala malls, ayala malls",solenad,
+10/08/2025,Globe,0.00 Mbps,0.00,,4.00 Mbps,4.00,1 - 5 Mbps,64 ms,64,"Brgy. Maduya, Carmona",Cavite,
+10/08/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"Pag-asa Orani, Pag-asa Orani",Bataan,
+10/08/2025,DITO,9.90 Mbps,9.90,5 - 10 Mbps,3.70 Mbps,3.70,1 - 5 Mbps,47 ms,47,"Brgy. Maduya, Carmona",Cavite,
+10/08/2025,Smart,11.10 Mbps,11.10,10 - 30 Mbps,4.45 Mbps,4.45,1 - 5 Mbps,95 ms,95,"Brgy Pico, La Trinidad",Benguet,
+10/08/2025,Smart,28.00 Mbps,28.00,10 - 30 Mbps,4.30 Mbps,4.30,1 - 5 Mbps,41 ms,41,"BUHANGIN, BUHANGIN",Col Palacio St.,
+10/08/2025,TM,2.33 Mbps,2.33,1 - 5 Mbps,0.03 Mbps,0.03,0 - 1 Mbps,440 ms,440,"Carig, Tuguegarao City",Cagayan,
+10/08/2025,TNT,0.04 Mbps,0.04,0 - 1 Mbps,0.03 Mbps,0.03,0 - 1 Mbps,23 ms,23,"MARILAO, MARILAO",BULACAN,
+10/08/2025,TNT,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Zone 4 Brgy. Calalahan San Jose, Zone 4 Brgy. Calalahan San Jose",Camarines Sur,
+10/08/2025,Smart,17.20 Mbps,17.20,10 - 30 Mbps,5.11 Mbps,5.11,5 - 10 Mbps,35 ms,35,"Brgy San Gabriel, Brgy San Gabriel",GMA Cavite,
+10/08/2025,DITO,3.00 Mbps,3.00,1 - 5 Mbps,2.30 Mbps,2.30,1 - 5 Mbps,37 ms,37,"Pacalag, San Miguel",Bulacan,
+10/08/2025,Smart,9.90 Mbps,9.90,5 - 10 Mbps,7.90 Mbps,7.90,5 - 10 Mbps,32 ms,32,"Cagban Port, Manoc manoc",boracay island,
+10/08/2025,Globe,9.90 Mbps,9.90,5 - 10 Mbps,7.80 Mbps,7.80,5 - 10 Mbps,32 ms,32,"San Isidro Iriga City, San Isidro Iriga City",Canarines Sur,
+10/08/2025,TNT,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Barangay Talub, Barangay Talub",Tamparan Lanao del sur,
+10/08/2025,DITO,0.01 Mbps,0.01,0 - 1 Mbps,1.70 Mbps,1.70,1 - 5 Mbps,43 ms,43,"Guagua, Guagua",Pampanga,
+10/08/2025,Smart,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,2675 ms,2675,"BRGY. JALAUD, BAROTAC NUEVO",ILOILO,
+10/08/2025,Globe,1.40 Mbps,1.40,1 - 5 Mbps,0.80 Mbps,0.80,0 - 1 Mbps,33 ms,33,"Brgy. Tunasan, Muntinlupa",NCR,
+10/08/2025,DITO,0.00 Mbps,0.00,,0.12 Mbps,0.12,0 - 1 Mbps,1 ms,1,"Mabuhay City, Mamatid, Cabuyao",Laguna,
+10/08/2025,Globe,0.00 Mbps,0.00,,0.12 Mbps,0.12,0 - 1 Mbps,1 ms,1,"ankaan1, Dasmarinas",Cavite,
+10/08/2025,Smart,18.50 Mbps,18.50,10 - 30 Mbps,4.20 Mbps,4.20,1 - 5 Mbps,49 ms,49,"Patikul, Patikul",Sulu,
+10/08/2025,TNT,1.12 Mbps,1.12,1 - 5 Mbps,0.00 Mbps,0.00,,1 ms,1,"Brgy. Saluysoy, Meycauayan",Bulacan,
+10/08/2025,Globe,17.50 Mbps,17.50,10 - 30 Mbps,12.80 Mbps,12.80,10 - 30 Mbps,22 ms,22,"Concepcion Dos, Concepcion Dos",Marikina City,
+10/08/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,955 ms,955,"Baugo Budla-an, Baugo Budla-an",Cebu City,
+10/08/2025,Globe,10.00 Mbps,10.00,10 - 30 Mbps,1.29 Mbps,1.29,1 - 5 Mbps,31 ms,31,"Purok 6, Sawi Boac",Marinduque,
+10/08/2025,Globe,3.38 Mbps,3.38,1 - 5 Mbps,0.45 Mbps,0.45,0 - 1 Mbps,43 ms,43,"Brgy. Krus na Ligas, Quezon City",NCR,
+10/07/2025,Globe,3.53 Mbps,3.53,1 - 5 Mbps,0.22 Mbps,0.22,0 - 1 Mbps,766 ms,766,"LEVITOWN PHASE7, LEVITOWN PHASE7",PARANAQUE,
+10/07/2025,TNT,5.97 Mbps,5.97,5 - 10 Mbps,0.31 Mbps,0.31,0 - 1 Mbps,47 ms,47,"Brgy. Concepcion Grande, Brgy. Concepcion Grande",Naga City,
+10/07/2025,Smart,16.40 Mbps,16.40,10 - 30 Mbps,4.62 Mbps,4.62,1 - 5 Mbps,47 ms,47,"Sitio Lowac, Brgy. Canbanua, Argao",Cebu,
+10/07/2025,Globe,1.45 Mbps,1.45,1 - 5 Mbps,1.44 Mbps,1.44,1 - 5 Mbps,43 ms,43,"Zone 5 Binoyoan Sto. Domingo Nabua, Zone 5 Binoyoan Sto. Domingo Nabua",Camarines Sur,
+10/07/2025,GOMO,40.40 Mbps,40.40,30 - 70 Mbps,25.80 Mbps,25.80,10 - 30 Mbps,30 ms,30,,,
+10/07/2025,DITO,65.40 Mbps,65.40,30 - 70 Mbps,17.40 Mbps,17.40,10 - 30 Mbps,32 ms,32,"Alta Tierra Homes Aldiano Olaes, Alta Tierra Homes Aldiano Olaes",GMA CAVITE,
+10/07/2025,Globe,13.60 Mbps,13.60,10 - 30 Mbps,0.12 Mbps,0.12,0 - 1 Mbps,30 ms,30,"Brgy. 11 Poblacion, Llorente",Eastern Samar,
+10/07/2025,Globe,0.01 Mbps,0.01,0 - 1 Mbps,3.21 Mbps,3.21,1 - 5 Mbps,62 ms,62,"Brgy Manuyo Dos, Brgy Manuyo Dos",Las Piñas,
+10/07/2025,Smart,13.50 Mbps,13.50,10 - 30 Mbps,4.10 Mbps,4.10,1 - 5 Mbps,35 ms,35,"Brgy. San Gabriel, Brgy. San Gabriel",Tuguegarao City,
+10/07/2025,Smart,13.50 Mbps,13.50,10 - 30 Mbps,4.10 Mbps,4.10,1 - 5 Mbps,35 ms,35,"Brgy. West Rembo, Brgy. West Rembo",Taguig,
+10/07/2025,Globe,18.60 Mbps,18.60,10 - 30 Mbps,1.96 Mbps,1.96,1 - 5 Mbps,68 ms,68,"BPI Compound, Visayas Ave, Diliman",Quezon City,
+10/07/2025,Smart,938.30 Mbps,938.30,100+ Mbps,25.80 Mbps,25.80,10 - 30 Mbps,15 ms,15,Sto Tomas Biñan City,Laguna,
+10/07/2025,Smart,7.90 Mbps,7.90,5 - 10 Mbps,3.20 Mbps,3.20,1 - 5 Mbps,21 ms,21,"Sitio Balon Natatas, Tanauan",Batangas,
+10/07/2025,DITO,20.50 Mbps,20.50,10 - 30 Mbps,2.80 Mbps,2.80,1 - 5 Mbps,35 ms,35,"Brgy. Mampang, Brgy. Mampang",Zamboanga City,
+10/07/2025,Globe,11.40 Mbps,11.40,10 - 30 Mbps,1.28 Mbps,1.28,1 - 5 Mbps,46 ms,46,"Lot 9 Block 17, Timog Avenue, South Triangle",Quezon city,
+10/07/2025,Globe,4.44 Mbps,4.44,1 - 5 Mbps,2.69 Mbps,2.69,1 - 5 Mbps,47 ms,47,"ZONE 1, BRGY. PAETAN, SABLAYAN",OCCIDENTAL MINDORO,
+10/07/2025,Globe,6.80 Mbps,6.80,5 - 10 Mbps,1.20 Mbps,1.20,1 - 5 Mbps,24 ms,24,"Dinalungan, Dinalungan",Aurora,
+10/07/2025,Smart,864.00 Mbps,864.00,100+ Mbps,0.28 Mbps,0.28,0 - 1 Mbps,368 ms,368,"BRGY. MOLINO 1, BACOOR CITY",CAVITE,
+10/07/2025,TM,9.21 Mbps,9.21,5 - 10 Mbps,10.10 Mbps,10.10,10 - 30 Mbps,62 ms,62,"BRGY IRAYA, NORTE OAS",ALBAY,
+10/07/2025,DITO,31.10 Mbps,31.10,30 - 70 Mbps,4.30 Mbps,4.30,1 - 5 Mbps,20 ms,20,"Calumpang, Calumpang",General Santos City,
+10/07/2025,GOMO,8.89 Mbps,8.89,5 - 10 Mbps,0.41 Mbps,0.41,0 - 1 Mbps,73 ms,73,"Calumpang, Calumpang",General Santos City,
+10/07/2025,Smart,3.93 Mbps,3.93,1 - 5 Mbps,0.00 Mbps,0.00,,1568 ms,1568,"Brgy.concepcion, San Pablo City",Laguna,
+10/07/2025,Smart,1.10 Mbps,1.10,1 - 5 Mbps,1.90 Mbps,1.90,1 - 5 Mbps,23 ms,23,"USUSAN, TAGUIG CITY",NCR,
+10/07/2025,Globe,37.60 Mbps,37.60,30 - 70 Mbps,2.90 Mbps,2.90,1 - 5 Mbps,37 ms,37,"USUSAN, USUSAN",TAGUIG CITY,
+10/07/2025,Smart,23.60 Mbps,23.60,10 - 30 Mbps,1.29 Mbps,1.29,1 - 5 Mbps,30 ms,30,"SMART, Purok 1 Brgy. Maca opao",kalilangan Bukidnon,
+10/06/2025,GOMO,82.60 Mbps,82.60,70 - 100 Mbps,9.84 Mbps,9.84,5 - 10 Mbps,22 ms,22,"Sitio Pag-asa, Anupul, Bamban",Tarlac,
+10/05/2025,Smart,7.64 Mbps,7.64,5 - 10 Mbps,37.00 Mbps,37.00,30+ Mbps,29 ms,29,"D.L Bihag Street CasilI, Mandaue City",Cebu,
+10/05/2025,Globe,145.00 Mbps,145.00,100+ Mbps,2.96 Mbps,2.96,1 - 5 Mbps,17 ms,17,Baras,Rizal,
+10/05/2025,GOMO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,118 ms,118,"Brgy. UP Campus, Brgy. UP Campus",QuezonCity,
+10/05/2025,Smart,2.69 Mbps,2.69,1 - 5 Mbps,1.52 Mbps,1.52,1 - 5 Mbps,36 ms,36,"San Vicente, San Vicente",Sto. Tomas Pampanga,
+10/05/2025,Smart,6.76 Mbps,6.76,5 - 10 Mbps,1.25 Mbps,1.25,1 - 5 Mbps,25 ms,25,"Brgy Pasong Tamo, Brgy Pasong Tamo",QC,
+10/05/2025,Globe,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,1022 ms,1022,"Barangay Fatima, Barangay Fatima",Gensan City.,
+10/05/2025,GOMO,0.00 Mbps,0.00,,13.00 Mbps,13.00,10 - 30 Mbps,234 ms,234,"Brgy. East Quirino Hill, Brgy. East Quirino Hill",Baguio City,
+10/05/2025,DITO,57.20 Mbps,57.20,30 - 70 Mbps,3.26 Mbps,3.26,1 - 5 Mbps,43 ms,43,"Brgy Timalan Balsahan, Hillsview Royale Phase 1, Naic",Cavite,
+10/04/2025,Smart,6.44 Mbps,6.44,5 - 10 Mbps,1.48 Mbps,1.48,1 - 5 Mbps,29 ms,29,"Brgy. Purok 1 and 2 Paradise, Malanday",Marikina City,
+10/01/2025,Globe,10.40 Mbps,10.40,10 - 30 Mbps,5.01 Mbps,5.01,5 - 10 Mbps,81 ms,81,,,
+10/01/2025,Smart,5.55 Mbps,5.55,5 - 10 Mbps,0.00 Mbps,0.00,,31 ms,31,.Jose R. Reyes Memorial Center,.Jose R. Reyes Memorial Center,
+09/30/2025,Globe,8.89 Mbps,8.89,5 - 10 Mbps,0.41 Mbps,0.41,0 - 1 Mbps,73 ms,73,"Brgy Tabang, Plaridel",Bulacan,
+09/30/2025,Globe,3.93 Mbps,3.93,1 - 5 Mbps,0.00 Mbps,0.00,,1568 ms,1568,Multinational Village Phase IV Paranaque City,Multinational Village Phase IV Paranaque City,
+09/30/2025,GOMO,1.10 Mbps,1.10,1 - 5 Mbps,1.90 Mbps,1.90,1 - 5 Mbps,23 ms,23,"Villa Josefina Subd., Brgy. Calios, Santa Cruz",Laguna,
+09/30/2025,Smart,37.60 Mbps,37.60,30 - 70 Mbps,2.90 Mbps,2.90,1 - 5 Mbps,37 ms,37,"Villa Josefina Subd, Brgy. Calios, Santa Cruz",Laguna,
+09/30/2025,Smart,23.60 Mbps,23.60,10 - 30 Mbps,1.29 Mbps,1.29,1 - 5 Mbps,30 ms,30,calamba crossing,calamba crossing,
+09/30/2025,Globe,82.60 Mbps,82.60,70 - 100 Mbps,9.84 Mbps,9.84,5 - 10 Mbps,22 ms,22,"Juan Reyes St, Karuhatan",Valenzuela,
+09/30/2025,TM,7.64 Mbps,7.64,5 - 10 Mbps,37.00 Mbps,37.00,30+ Mbps,29 ms,29,"Parañaque city, Parañaque city",sobrang bagal at nawawala ang internet,
+09/30/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Side-B Brgy. Talusan, Balingasag",Misamis Oriental,
+09/30/2025,Globe,145.00 Mbps,145.00,100+ Mbps,2.96 Mbps,2.96,1 - 5 Mbps,17 ms,17,Quezon City,Quezon City,
+09/30/2025,Smart,9.88 Mbps,9.88,5 - 10 Mbps,1.93 Mbps,1.93,1 - 5 Mbps,65 ms,65,"Brgy.Taguisa,Lebak, Sultan Kudarat",Tegion XII(SOCCSKSARGEN),
+09/30/2025,Globe,3.90 Mbps,3.90,1 - 5 Mbps,0.97 Mbps,0.97,0 - 1 Mbps,32 ms,32,"poblacion west, poblacion west",lamut ifugao,
+09/30/2025,DITO,166.00 Mbps,166.00,100+ Mbps,16.50 Mbps,16.50,10 - 30 Mbps,226 ms,226,"Brgy. Nangka, Brgy. Nangka",Consolacion Cebu 6001,
+09/30/2025,Smart,0.00 Mbps,0.00,,0.02 Mbps,0.02,0 - 1 Mbps,32 ms,32,"Brgy. Nangka, Brgy. Nangka",Consolacion Cebu 6001,
+09/30/2025,TM,19.80 Mbps,19.80,10 - 30 Mbps,1.88 Mbps,1.88,1 - 5 Mbps,169 ms,169,"Brgy. Bagahabag, Solano",Nueva Vizcaya,
+09/30/2025,Globe,4.64 Mbps,4.64,1 - 5 Mbps,1.84 Mbps,1.84,1 - 5 Mbps,247 ms,247,"Purok 4, Kalasungay, Malaybalay City",Bukidnon,
+09/30/2025,DITO,18.40 Mbps,18.40,10 - 30 Mbps,1.40 Mbps,1.40,1 - 5 Mbps,62 ms,62,CTP ASEAN Muntinlupa City,CTP ASEAN Muntinlupa City,
+09/30/2025,Smart,8.70 Mbps,8.70,5 - 10 Mbps,2.50 Mbps,2.50,1 - 5 Mbps,21 ms,21,Open Signal - Weak Signal (SMART),,
+09/29/2025,DITO,3.05 Mbps,3.05,1 - 5 Mbps,453.00 Mbps,453.00,30+ Mbps,476 ms,476,"Santiago, General Trias",Cavite,
+09/29/2025,DITO,8.39 Mbps,8.39,5 - 10 Mbps,4.80 Mbps,4.80,1 - 5 Mbps,28 ms,28,"Tm Kalaw St. Balintawak, Lipa City",Batangas,
+09/29/2025,TM,10.70 Mbps,10.70,10 - 30 Mbps,0.00 Mbps,0.00,,62 ms,62,TM Signal Test,,
+09/29/2025,Smart,4.13 Mbps,4.13,1 - 5 Mbps,11.00 Mbps,11.00,10 - 30 Mbps,88 ms,88,"Brgy. Guibuangan, Pototan",Iloilo,
+09/29/2025,GOMO,12.20 Mbps,12.20,10 - 30 Mbps,0.00 Mbps,0.00,,211 ms,211,"Libu-an Road, Biga-a, Malinao",Aklan,
+09/29/2025,Globe,6.33 Mbps,6.33,5 - 10 Mbps,58.00 Mbps,58.00,30+ Mbps,193 ms,193,Globe Signal Problem since 2 decades ago,,
+09/29/2025,Smart,57.90 Mbps,57.90,30 - 70 Mbps,3.24 Mbps,3.24,1 - 5 Mbps,31 ms,31,(SMART - BRGY. 7 NASUGBU BATANGAS),,
+09/29/2025,Smart,701.00 Mbps,701.00,100+ Mbps,0.00 Mbps,0.00,,944 ms,944,SMART Signal Speedtest,,
+09/29/2025,Smart,13.20 Mbps,13.20,10 - 30 Mbps,0.00 Mbps,0.00,,156 ms,156,"Barangay Pengue Ruyu, Barangay Pengue Ruyu",Tuguegarao City,
+09/29/2025,Globe,1.23 Mbps,1.23,1 - 5 Mbps,166.00 Mbps,166.00,30+ Mbps,67 ms,67,"Brgy. Bangbangalon, Boac",Marinduque,
+09/29/2025,Globe,12.60 Mbps,12.60,10 - 30 Mbps,863.00 Mbps,863.00,30+ Mbps,149 ms,149,Fwd: poor signal,,
+09/29/2025,Smart,9.77 Mbps,9.77,5 - 10 Mbps,384.00 Mbps,384.00,30+ Mbps,41 ms,41,"Brgy. 19 San Nicolas, Brgy. 19 San Nicolas",Ilocos Norte,
+09/29/2025,Globe,18.60 Mbps,18.60,10 - 30 Mbps,7.20 Mbps,7.20,5 - 10 Mbps,37 ms,37,TANAUAN CITY BATANGAS,TANAUAN CITY BATANGAS,
+09/29/2025,TNT,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Zone 4 Brgy. Calalahan San Jose, Zone 4 Brgy. Calalahan San Jose",Camarines Sur,
+09/29/2025,Globe,8.88 Mbps,8.88,5 - 10 Mbps,6.24 Mbps,6.24,5 - 10 Mbps,36 ms,36,salvacion bayombong nueva vizcaya,salvacion bayombong nueva vizcaya,
+09/29/2025,Globe,8.40 Mbps,8.40,5 - 10 Mbps,0.00 Mbps,0.00,,35 ms,35,GLOBE SIGNAL,,
+09/29/2025,GOMO,17.80 Mbps,17.80,10 - 30 Mbps,1.17 Mbps,1.17,1 - 5 Mbps,66 ms,66,Brgy. San Jose Antipolo City,Brgy. San Jose Antipolo City,
+09/29/2025,GOMO,576.00 Mbps,576.00,100+ Mbps,128.00 Mbps,128.00,30+ Mbps,326 ms,326,Catarman Northern Samar,Catarman Northern Samar,
+09/29/2025,Smart,0.00 Mbps,0.00,,11.00 Mbps,11.00,10 - 30 Mbps,91 ms,91,NO INTERNET OR DATA CONNECTION (SMART/SUN/TNT),,
+09/29/2025,Smart,10.30 Mbps,10.30,10 - 30 Mbps,0.00 Mbps,0.00,,41 ms,41,"HILLSIDE, SAN SIMON EAST, ARINGAY",LA UNION,
+09/29/2025,DITO,2.62 Mbps,2.62,1 - 5 Mbps,2.68 Mbps,2.68,1 - 5 Mbps,174 ms,174,"NEW WASHINGTON VILLAGE, MAA",DAVAO CITY,
+09/29/2025,Smart,0.00 Mbps,0.00,,1.00 Mbps,1.00,1 - 5 Mbps,1 ms,1,Slow smart internet connection,,
+09/29/2025,Smart,0.50 Mbps,0.50,0 - 1 Mbps,0.40 Mbps,0.40,0 - 1 Mbps,53 ms,53,Request for Immediate Action on Weak Smart Signal in Our Area,,
+09/29/2025,GOMO,23.40 Mbps,23.40,10 - 30 Mbps,1.48 Mbps,1.48,1 - 5 Mbps,46 ms,46,Davao de Oro,Davao de Oro,
+09/29/2025,Smart,5.02 Mbps,5.02,5 - 10 Mbps,2.05 Mbps,2.05,1 - 5 Mbps,42 ms,42,"Brgy, Brgy",balangkare norte Nueva ecija,
+09/29/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,Dito sim calaca batangas,,
+09/29/2025,Smart,7.91 Mbps,7.91,5 - 10 Mbps,1.55 Mbps,1.55,1 - 5 Mbps,61 ms,61,Smart Calaca Batangas,,
+09/29/2025,Smart,14.40 Mbps,14.40,10 - 30 Mbps,1.53 Mbps,1.53,1 - 5 Mbps,32 ms,32,San Juan Taytay Rizal,San Juan Taytay Rizal,
+09/29/2025,GOMO,22.00 Mbps,22.00,10 - 30 Mbps,6.72 Mbps,6.72,5 - 10 Mbps,187 ms,187,"Laoac, Laoac",Pangasinan,
+09/29/2025,Smart,17.50 Mbps,17.50,10 - 30 Mbps,3.15 Mbps,3.15,1 - 5 Mbps,33 ms,33,"San Vicente, Sto.Tomas",Pampanga,
+09/29/2025,Globe,0.00 Mbps,0.00,,577.00 Mbps,577.00,30+ Mbps,152 ms,152,CAVITE,CAVITE,
+09/29/2025,Globe,30.10 Mbps,30.10,30 - 70 Mbps,2.31 Mbps,2.31,1 - 5 Mbps,28 ms,28,Globe,,
+09/29/2025,Globe,0.60 Mbps,0.60,0 - 1 Mbps,3.30 Mbps,3.30,1 - 5 Mbps,35 ms,35,GLOBE Brgy Sampaguita-Cumba Lipa City,,
+09/29/2025,Globe,0.00 Mbps,0.00,,69.00 Mbps,69.00,30+ Mbps,1 ms,1,Asian Hospital and Medical Center Muntinlupa,Asian Hospital and Medical Center Muntinlupa,
+09/29/2025,GOMO,9.74 Mbps,9.74,5 - 10 Mbps,839.00 Mbps,839.00,30+ Mbps,62 ms,62,BRGY DALIG ANTIPOLO CITY,BRGY DALIG ANTIPOLO CITY,
+09/29/2025,Smart,5.39 Mbps,5.39,5 - 10 Mbps,0.00 Mbps,0.00,,81 ms,81,"Brgy. Maduya, Carmona",Cavite,
+09/29/2025,Globe,11.20 Mbps,11.20,10 - 30 Mbps,2.27 Mbps,2.27,1 - 5 Mbps,66 ms,66,"Brgy. Alae, Manolo Fortich",Bukidnon,
+09/29/2025,Globe,12.80 Mbps,12.80,10 - 30 Mbps,1.47 Mbps,1.47,1 - 5 Mbps,27 ms,27,"Brgy Bayanihan, Brgy Bayanihan",Gapan City Nueva Ecija,
+09/29/2025,DITO,155.00 Mbps,155.00,100+ Mbps,35.00 Mbps,35.00,30+ Mbps,35 ms,35,"sitio Pagasa brgy anupul, bamban",tarlac,
+09/29/2025,Globe,25.00 Mbps,25.00,10 - 30 Mbps,1.85 Mbps,1.85,1 - 5 Mbps,30 ms,30,"Brgy. 148 Bagong Barrio, Brgy. 148 Bagong Barrio",Caloocan City.,
+09/29/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Purok 4 Brgy. Ponon Atimonan, Purok 4 Brgy. Ponon Atimonan",Quezon,
+09/29/2025,Smart,3.70 Mbps,3.70,1 - 5 Mbps,2.80 Mbps,2.80,1 - 5 Mbps,55 ms,55,"Victoria Sablayan, Victoria Sablayan",Occidental Mindoro,
+09/29/2025,Globe,0.00 Mbps,0.00,,2.00 Mbps,2.00,1 - 5 Mbps,8360 ms,8360,"Brgy Cabacongan, Caramoan",Camarines Sur,
+09/29/2025,GOMO,1.17 Mbps,1.17,1 - 5 Mbps,34.00 Mbps,34.00,30+ Mbps,422 ms,422,"Catarman, Catarman",Northern Samar,
+09/29/2025,Globe,13.20 Mbps,13.20,10 - 30 Mbps,1.81 Mbps,1.81,1 - 5 Mbps,34 ms,34,"Brngy. Lucapon North, Santa cruz",Zambales,
+09/29/2025,TNT,7.16 Mbps,7.16,5 - 10 Mbps,915.00 Mbps,915.00,30+ Mbps,36 ms,36,Ballay Bauang La Union,Ballay Bauang La Union,
+09/29/2025,TNT,66.20 Mbps,66.20,30 - 70 Mbps,7.54 Mbps,7.54,5 - 10 Mbps,104 ms,104,BRGY. BURGOS CADIZ CITY,BRGY. BURGOS CADIZ CITY,
+09/29/2025,TNT,17.10 Mbps,17.10,10 - 30 Mbps,546.00 Mbps,546.00,30+ Mbps,34 ms,34,Taguig City,Taguig City,
+09/29/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,SMART,,
+09/29/2025,Globe,502.00 Mbps,502.00,100+ Mbps,30.40 Mbps,30.40,30+ Mbps,14 ms,14,Globe,,
+09/29/2025,Smart,162.20 Mbps,162.20,100+ Mbps,12.90 Mbps,12.90,10 - 30 Mbps,19 ms,19,"Brgy. Banaba, San Mateo",Rizal,
+09/28/2025,TM,12.10 Mbps,12.10,10 - 30 Mbps,1.40 Mbps,1.40,1 - 5 Mbps,38 ms,38,"Brgy. Bagumbayan, City of Ilagan",Isabela,
+09/28/2025,Globe,4.01 Mbps,4.01,1 - 5 Mbps,0.32 Mbps,0.32,0 - 1 Mbps,202 ms,202,Globe-Barangay Camatagan Sabangan Mountain,,
+09/28/2025,Globe,4.29 Mbps,4.29,1 - 5 Mbps,0.94 Mbps,0.94,0 - 1 Mbps,35 ms,35,Globe -Barangay Camatagan Sabangan Mountain Province,,
+09/28/2025,TM,226.00 Mbps,226.00,100+ Mbps,30.60 Mbps,30.60,30+ Mbps,20 ms,20,Signal Test in San Bartolome QC,,
+09/28/2025,Smart,4.91 Mbps,4.91,1 - 5 Mbps,0.60 Mbps,0.60,0 - 1 Mbps,52 ms,52,Taguig,Taguig,
+09/28/2025,TNT,92.20 Mbps,92.20,70 - 100 Mbps,14.70 Mbps,14.70,10 - 30 Mbps,22 ms,22,Dasmariñas Cavite,Dasmariñas Cavite,
+09/28/2025,GOMO,187.00 Mbps,187.00,100+ Mbps,0.29 Mbps,0.29,0 - 1 Mbps,70 ms,70,Carmona Signal Using Gomo,,
+09/28/2025,Globe,0.15 Mbps,0.15,0 - 1 Mbps,1.39 Mbps,1.39,1 - 5 Mbps,178 ms,178,San Vicente Highlands Sto tomas Batangas,San Vicente Highlands Sto tomas Batangas,
+09/28/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Kinalabasahan, Bula",Camarines Sur,
+09/28/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Km. 9 Matina Pango, Km. 9 Matina Pango",Davao City,
+09/28/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"BRGY. MALAIBA, CANLAON CITY",NEGROS ORIENTAL,
+09/28/2025,GOMO,3.91 Mbps,3.91,1 - 5 Mbps,0.28 Mbps,0.28,0 - 1 Mbps,1 ms,1,"BRGY. MALAIBA, BRGY. MALAIBA",CANLAON CITY NEGROS ORIENTAL,
+09/28/2025,Smart,6.62 Mbps,6.62,5 - 10 Mbps,0.19 Mbps,0.19,0 - 1 Mbps,115 ms,115,Brgy 21 caloocan city,Brgy 21 caloocan city,
+09/28/2025,Smart,8.10 Mbps,8.10,5 - 10 Mbps,1.70 Mbps,1.70,1 - 5 Mbps,23 ms,23,SMART - Gomez St. Brgy. 822 Paco Manila,,
+09/28/2025,Smart,14.00 Mbps,14.00,10 - 30 Mbps,2.70 Mbps,2.70,1 - 5 Mbps,53 ms,53,SMART brgy.tanza e.b magalona negros occidental,,
+09/28/2025,Globe,10.10 Mbps,10.10,10 - 30 Mbps,6.30 Mbps,6.30,5 - 10 Mbps,32 ms,32,"Vermont Park, Brgy Mayamot",Antipolo City,
+09/28/2025,Globe,5.26 Mbps,5.26,5 - 10 Mbps,1.79 Mbps,1.79,1 - 5 Mbps,121 ms,121,Brgy. Malinao Gabaldon Nueva Ecija,Brgy. Malinao Gabaldon Nueva Ecija,
+09/28/2025,Smart,3.73 Mbps,3.73,1 - 5 Mbps,0.37 Mbps,0.37,0 - 1 Mbps,71 ms,71,brgy. Baclaran cabuyao laguna,brgy. Baclaran cabuyao laguna,
+09/28/2025,GOMO,4.28 Mbps,4.28,1 - 5 Mbps,0.60 Mbps,0.60,0 - 1 Mbps,66 ms,66,"Purok 11 Calachuchi Street, Mintal",Davao City,
+09/28/2025,DITO,0.93 Mbps,0.93,0 - 1 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,85 ms,85,Mahina po signal dito sa purok Maulawin Isabang Lucena city,,
+09/28/2025,Smart,2.08 Mbps,2.08,1 - 5 Mbps,0.10 Mbps,0.10,0 - 1 Mbps,840 ms,840,"PUROK LANGKA, BRGY BANCAL, CARLES",ILOILO,
+09/28/2025,Smart,7.00 Mbps,7.00,5 - 10 Mbps,2.50 Mbps,2.50,1 - 5 Mbps,53 ms,53,SMART signal Lost,,
+09/28/2025,Globe,8.74 Mbps,8.74,5 - 10 Mbps,0.09 Mbps,0.09,0 - 1 Mbps,121 ms,121,"Brgy. Lapinig Del Norte, Lapinig",Northern Samar,
+09/28/2025,Globe,36.20 Mbps,36.20,30 - 70 Mbps,,,,19 ms,19,"Brgy. Zone 2, Pinamalayan",Oriental Mindoro,
+09/28/2025,Smart,0.00 Mbps,0.00,,40.00 Mbps,40.00,30+ Mbps,1 ms,1,"Barangay Teachers Village East, Barangay Teachers Village East",Quezon City,
+09/28/2025,GOMO,3.17 Mbps,3.17,1 - 5 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,41 ms,41,"Tenejero, Balanga",Bataan,
+09/28/2025,Smart,21.13 Mbps,21.13,10 - 30 Mbps,1.15 Mbps,1.15,1 - 5 Mbps,40 ms,40,Intramuros Manila,Intramuros Manila,
+09/28/2025,TNT,9.61 Mbps,9.61,5 - 10 Mbps,0.23 Mbps,0.23,0 - 1 Mbps,301 ms,301,Cainta Rizal.,Cainta Rizal.,
+09/28/2025,GOMO,22.10 Mbps,22.10,10 - 30 Mbps,2.35 Mbps,2.35,1 - 5 Mbps,117 ms,117,"Roman Hiway, Balanga",Bataan,
+09/28/2025,Globe,28.90 Mbps,28.90,10 - 30 Mbps,1.29 Mbps,1.29,1 - 5 Mbps,56 ms,56,"Hamtic, Hamtic",Antique,
+09/28/2025,DITO,39.90 Mbps,39.90,30 - 70 Mbps,13.60 Mbps,13.60,10 - 30 Mbps,36 ms,36,DITO,,
+09/28/2025,Globe,11.00 Mbps,11.00,10 - 30 Mbps,1.32 Mbps,1.32,1 - 5 Mbps,75 ms,75,GLOBE,,
+09/28/2025,Globe,11.00 Mbps,11.00,10 - 30 Mbps,1.32 Mbps,1.32,1 - 5 Mbps,75 ms,75,Brgy Village Baroy Lanao Del Norte,Brgy Village Baroy Lanao Del Norte,
+09/28/2025,Smart,41.30 Mbps,41.30,30 - 70 Mbps,3.81 Mbps,3.81,1 - 5 Mbps,30 ms,30,"ilugin riverside, pinagbuhatan",Pasig city,
+09/28/2025,Globe,24.80 Mbps,24.80,10 - 30 Mbps,14.40 Mbps,14.40,10 - 30 Mbps,24 ms,24,"J867+4MJ San Fernando City, La Union (Don flores st.",Catbangen),
+09/28/2025,Smart,440.00 Mbps,440.00,100+ Mbps,7.70 Mbps,7.70,5 - 10 Mbps,28 ms,28,"Low signal,",,
+09/28/2025,Globe,31.90 Mbps,31.90,30 - 70 Mbps,1.34 Mbps,1.34,1 - 5 Mbps,125 ms,125,"palit, palit",pampanga,
+09/28/2025,Globe,85.90 Mbps,85.90,70 - 100 Mbps,5.08 Mbps,5.08,5 - 10 Mbps,260 ms,260,Globe,,
+09/28/2025,Smart,69.80 Mbps,69.80,30 - 70 Mbps,,,,28 ms,28,Smart,,
+09/28/2025,Smart,32.00 Mbps,32.00,30 - 70 Mbps,1.24 Mbps,1.24,1 - 5 Mbps,198 ms,198,"Panipuan, Panipuan",Mexico Pampanga,
+09/28/2025,Smart,16.90 Mbps,16.90,10 - 30 Mbps,12.30 Mbps,12.30,10 - 30 Mbps,73 ms,73,Smart,,
+09/28/2025,Smart,8.60 Mbps,8.60,5 - 10 Mbps,6.60 Mbps,6.60,5 - 10 Mbps,24 ms,24,Tandag,Tandag,
+09/28/2025,GOMO,18.90 Mbps,18.90,10 - 30 Mbps,12.00 Mbps,12.00,10 - 30 Mbps,97 ms,97,"BRGY SANTIAGO, GEN. TRIAS",CAVITE,
+09/28/2025,DITO,346.00 Mbps,346.00,100+ Mbps,3.47 Mbps,3.47,1 - 5 Mbps,38 ms,38,"Sitio Sandayong, Brgy. Pagsabungan, Mandaue City",Cebu,
+09/28/2025,Globe,25.70 Mbps,25.70,10 - 30 Mbps,5.14 Mbps,5.14,5 - 10 Mbps,31 ms,31,"SM City, SM City",Pampanga,
+09/28/2025,Smart,136.00 Mbps,136.00,100+ Mbps,3.30 Mbps,3.30,1 - 5 Mbps,55 ms,55,ZAMBOANGA CITY,ZAMBOANGA CITY,
+09/28/2025,Smart,2.20 Mbps,2.20,1 - 5 Mbps,2.34 Mbps,2.34,1 - 5 Mbps,31 ms,31,"Brgy. Anabu 2-B, Imus",Cavite,
+09/28/2025,Smart,14.70 Mbps,14.70,10 - 30 Mbps,1.58 Mbps,1.58,1 - 5 Mbps,44 ms,44,"BARANGAY TABUCO, NAGA CITY",CAMARINES SUR.,
+09/28/2025,Smart,3.59 Mbps,3.59,1 - 5 Mbps,0.06 Mbps,0.06,0 - 1 Mbps,375 ms,375,"Hospital Ng, Hospital Ng",Muntinlupa,
+09/28/2025,Smart,3.00 Mbps,3.00,1 - 5 Mbps,1.00 Mbps,1.00,1 - 5 Mbps,77 ms,77,SMART,,
+09/28/2025,TNT,3.59 Mbps,3.59,1 - 5 Mbps,0.06 Mbps,0.06,0 - 1 Mbps,375 ms,375,TNT Low quality signal,,
+09/28/2025,Globe,11.50 Mbps,11.50,10 - 30 Mbps,0.61 Mbps,0.61,0 - 1 Mbps,46 ms,46,"Metrogate Subd, Pantok",Bulacan,
+09/28/2025,Globe,10.30 Mbps,10.30,10 - 30 Mbps,2.90 Mbps,2.90,1 - 5 Mbps,28 ms,28,"Marquee Mall: Angeles, Marquee Mall: Angeles",Pampanga,
+09/28/2025,Globe,19.60 Mbps,19.60,10 - 30 Mbps,2.90 Mbps,2.90,1 - 5 Mbps,22 ms,22,Sto Domingo Quezon city,Sto Domingo Quezon city,
+09/28/2025,DITO,0.00 Mbps,0.00,,0.36 Mbps,0.36,0 - 1 Mbps,477 ms,477,"Brgy. Cabug Bacolod City, Brgy. Cabug Bacolod City",specifically along block 128,
+09/28/2025,Globe,3.34 Mbps,3.34,1 - 5 Mbps,1.81 Mbps,1.81,1 - 5 Mbps,45 ms,45,"Barangay San Antonio, Barangay San Antonio",Makati,
+09/28/2025,Smart,2.71 Mbps,2.71,1 - 5 Mbps,407.00 Mbps,407.00,30+ Mbps,84 ms,84,"BRGY. LINAO MINGLANILLA, BRGY. LINAO MINGLANILLA",CEBU,
+09/28/2025,Sun,13.30 Mbps,13.30,10 - 30 Mbps,1.34 Mbps,1.34,1 - 5 Mbps,22 ms,22,Data signal Kasunduan st Brgy. Commonwealth Q.C,,
+09/28/2025,TNT,17.10 Mbps,17.10,10 - 30 Mbps,546.00 Mbps,546.00,30+ Mbps,34 ms,34,Taguig City,Taguig City,
+09/28/2025,Globe,0.00 Mbps,0.00,,0.03 Mbps,0.03,0 - 1 Mbps,31 ms,31,Globe here is low signal please help us salamat po,,
+09/28/2025,Smart,1.10 Mbps,1.10,1 - 5 Mbps,,,,25 ms,25,"Westwood 5, Lancaster New City, Pasong Camachile I, General Trias",Cavite,
+09/28/2025,Globe,6.32 Mbps,6.32,5 - 10 Mbps,0.00 Mbps,0.00,,29 ms,29,Globe signal test weak in Bulihan Malolos Bulacan,,
+09/28/2025,Globe,44.40 Mbps,44.40,30 - 70 Mbps,4.71 Mbps,4.71,1 - 5 Mbps,57 ms,57,"Brgy Babalag East, Rizal",Kalinga,
+09/28/2025,Globe,23.40 Mbps,23.40,10 - 30 Mbps,12.60 Mbps,12.60,10 - 30 Mbps,43 ms,43,"Brgy. Macutay, Rizal",Kalinga,
+09/28/2025,Smart,2.78 Mbps,2.78,1 - 5 Mbps,0.00 Mbps,0.00,,218 ms,218,Poblacion Guiguinto Bulacan,Poblacion Guiguinto Bulacan,
+09/28/2025,DITO,1.22 Mbps,1.22,1 - 5 Mbps,312.00 Mbps,312.00,30+ Mbps,7326 ms,7326,CALOOCAN Bagong Silang,CALOOCAN Bagong Silang,
+09/28/2025,DITO,9.10 Mbps,9.10,5 - 10 Mbps,2.30 Mbps,2.30,1 - 5 Mbps,39 ms,39,"Brgy. Busay, Brgy. Busay",37 sampaguita St. Nivel Hills,
+09/28/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"BRGY. DACUTAN, DUMANGAS",ILOILO,
+09/28/2025,DITO,16.00 Mbps,16.00,10 - 30 Mbps,5.68 Mbps,5.68,5 - 10 Mbps,32 ms,32,"BRGY SAN LUIS, BRGY SAN LUIS",ANTIPOLO,
+09/28/2025,Smart,184.00 Mbps,184.00,100+ Mbps,7.56 Mbps,7.56,5 - 10 Mbps,16 ms,16,"Haciendero st., Haciendero st.",Quezon City,
+09/28/2025,Globe,4.66 Mbps,4.66,1 - 5 Mbps,1.07 Mbps,1.07,1 - 5 Mbps,772 ms,772,"Sto. Nino, Sto. Nino",Bulacan,
+09/28/2025,DITO,8.20 Mbps,8.20,5 - 10 Mbps,518.00 Mbps,518.00,30+ Mbps,28 ms,28,Brgy. Plainview Mandaluyong City,Brgy. Plainview Mandaluyong City,
+09/28/2025,DITO,9.83 Mbps,9.83,5 - 10 Mbps,276.00 Mbps,276.00,30+ Mbps,148 ms,148,Dito. Brgy. Mapulang Lupa Pandi Bulacan,,
+09/28/2025,Smart,7.38 Mbps,7.38,5 - 10 Mbps,788.00 Mbps,788.00,30+ Mbps,58 ms,58,"BUADIPOSO-BUNTONG, BUADIPOSO-BUNTONG",LANAO DEL SUR,
+09/28/2025,DITO,8.23 Mbps,8.23,5 - 10 Mbps,0.00 Mbps,0.00,,51 ms,51,DASMARIÑAS CAVITE,DASMARIÑAS CAVITE,
+09/28/2025,DITO,27.70 Mbps,27.70,10 - 30 Mbps,261.00 Mbps,261.00,30+ Mbps,743 ms,743,"Brgy. Sala City if Cabuyao, Brgy. Sala City if Cabuyao",Laguna,
+09/28/2025,Smart,2.98 Mbps,2.98,1 - 5 Mbps,538.00 Mbps,538.00,30+ Mbps,33 ms,33,"Brgy Aquino, Ibajay",aklan,
+09/28/2025,DITO,10.40 Mbps,10.40,10 - 30 Mbps,1.11 Mbps,1.11,1 - 5 Mbps,36 ms,36,"San Andres, Sto. Domingo",Albay,
+09/28/2025,Smart,120.00 Mbps,120.00,100+ Mbps,29.80 Mbps,29.80,10 - 30 Mbps,29 ms,29,SMART BRGY GULOD QUEZON CITY,,
+09/28/2025,Smart,7.19 Mbps,7.19,5 - 10 Mbps,6.85 Mbps,6.85,5 - 10 Mbps,24 ms,24,CaLumpiy Bulacan Smart TNT,,
+09/28/2025,TNT,2.30 Mbps,2.30,1 - 5 Mbps,9.60 Mbps,9.60,5 - 10 Mbps,45 ms,45,"Brgy. Ibayo-Tipas, Brgy. Ibayo-Tipas",Taguig City,
+09/28/2025,Globe,4.59 Mbps,4.59,1 - 5 Mbps,0.04 Mbps,0.04,0 - 1 Mbps,374 ms,374,"Brgy. Sta.lucia, Brgy. Sta.lucia",Pasig City,
+09/28/2025,Globe,14.10 Mbps,14.10,10 - 30 Mbps,1.10 Mbps,1.10,1 - 5 Mbps,39 ms,39,"South Hills, Brgy Tisa",Cebu City,
+09/27/2025,Smart,0.80 Mbps,0.80,0 - 1 Mbps,13.70 Mbps,13.70,10 - 30 Mbps,67 ms,67,Cabalangegan Vigan City,Cabalangegan Vigan City,
+09/27/2025,TNT,14.40 Mbps,14.40,10 - 30 Mbps,0.74 Mbps,0.74,0 - 1 Mbps,55 ms,55,TNT Cristo Rey Capas Tarlac,,
+09/27/2025,Globe,6.73 Mbps,6.73,5 - 10 Mbps,0.46 Mbps,0.46,0 - 1 Mbps,67 ms,67,ZONE 10 UPPER CARMEN CAGAYAN DE ORO CITY MISAMIS ORIENTAL,ZONE 10 UPPER CARMEN CAGAYAN DE ORO CITY MISAMIS ORIENTAL,
+09/27/2025,Smart,53.20 Mbps,53.20,30 - 70 Mbps,2.32 Mbps,2.32,1 - 5 Mbps,15 ms,15,General SantosCity,General SantosCity,
+09/27/2025,Smart,76.20 Mbps,76.20,70 - 100 Mbps,4.33 Mbps,4.33,1 - 5 Mbps,28 ms,28,"Brgy. Guadalupe Nuevo, Brgy. Guadalupe Nuevo",Makati City,
+09/27/2025,Globe,10.00 Mbps,10.00,10 - 30 Mbps,3.60 Mbps,3.60,1 - 5 Mbps,32 ms,32,"Brgy. Guadalupe Nuevo, Brgy. Guadalupe Nuevo",Makati City,
+09/27/2025,DITO,21.20 Mbps,21.20,10 - 30 Mbps,0.00 Mbps,0.00,,27 ms,27,Signal by DITO telecom,,
+09/27/2025,Globe,0.01 Mbps,0.01,0 - 1 Mbps,659.00 Mbps,659.00,30+ Mbps,57 ms,57,"BRGY CABUNGAHAN MAAYON, BRGY CABUNGAHAN MAAYON",CAPIZ,
+09/27/2025,Globe,8.50 Mbps,8.50,5 - 10 Mbps,222.00 Mbps,222.00,30+ Mbps,27 ms,27,"Brgy. Dugcal, Camaligan",Camarines Sur,
+09/27/2025,Globe,19.80 Mbps,19.80,10 - 30 Mbps,0.00 Mbps,0.00,,32 ms,32,"Brgy. Putatan, Brgy. Putatan",Muntinlupa City,
+09/27/2025,Globe,32.60 Mbps,32.60,30 - 70 Mbps,3.20 Mbps,3.20,1 - 5 Mbps,28 ms,28,"Sitio Tara-Tara Brgy. Virbira, Carasi",Ilocos Norte 2911,
+09/27/2025,Smart,0.00 Mbps,0.00,,20.10 Mbps,20.10,10 - 30 Mbps,52 ms,52,ALTALURO TOWER BARANGAY DECARABAO AND MALAKING PATAG CELL SITE CULION PALAWAN,ALTALURO TOWER BARANGAY DECARABAO AND MALAKING PATAG CELL SITE CULION PALAWAN,
+09/27/2025,TNT,13.20 Mbps,13.20,10 - 30 Mbps,5.60 Mbps,5.60,5 - 10 Mbps,23 ms,23,"BRGY. DANGLAG, CONSOLACION",CEBU,
+09/27/2025,Smart,8.22 Mbps,8.22,5 - 10 Mbps,0.00 Mbps,0.00,,25 ms,25,"Grand Meadows, Batangan, Valencia City",Bukidnon,
+09/27/2025,Smart,0.00 Mbps,0.00,,34.00 Mbps,34.00,30+ Mbps,1 ms,1,it was test out door.,it was test out door.,
+09/27/2025,TNT,24.40 Mbps,24.40,10 - 30 Mbps,1.96 Mbps,1.96,1 - 5 Mbps,76 ms,76,"Baranggy 1, Coron",Palawan,
+09/27/2025,Smart,0.00 Mbps,0.00,,43.00 Mbps,43.00,30+ Mbps,1 ms,1,This my smart prepaid signal here in barangay tinigaw Kalibo aklan,,
+09/27/2025,Globe,29.00 Mbps,29.00,10 - 30 Mbps,5.03 Mbps,5.03,5 - 10 Mbps,155 ms,155,"Brgy. Poblacion, Brgy. Poblacion",Monreal,
+09/27/2025,Smart,0.00 Mbps,0.00,,3.51 Mbps,3.51,1 - 5 Mbps,5734 ms,5734,SMART: Brgy. 48-A Cabungaan Laoag City,,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,108 ms,108,"Barangay 5 Poblacion, Alabat",Quezon,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.14 Mbps,0.14,0 - 1 Mbps,114 ms,114,"Brgy. Western, Hilongos",Leyte,
+09/27/2025,TNT,0.00 Mbps,0.00,,9.72 Mbps,9.72,5 - 10 Mbps,2930 ms,2930,"Moonwalk Road, Calatagan Proper, Virac",Catanduanes,
+09/27/2025,TM,19.30 Mbps,19.30,10 - 30 Mbps,2.87 Mbps,2.87,1 - 5 Mbps,53 ms,53,"Brgy. Baua, Gonzaga",Cagayan,
+09/27/2025,Smart,112.00 Mbps,112.00,100+ Mbps,0.00 Mbps,0.00,,23 ms,23,"Brgy. Umapad Mandaue City, Brgy. Umapad Mandaue City",Cebu,
+09/27/2025,Smart,2.40 Mbps,2.40,1 - 5 Mbps,1.37 Mbps,1.37,1 - 5 Mbps,291 ms,291,"Western Bicutan, Western Bicutan",Taguig,
+09/27/2025,Smart,16.30 Mbps,16.30,10 - 30 Mbps,843.00 Mbps,843.00,30+ Mbps,54 ms,54,Carmel ridge Residential Estates Brgy.Punta Calamba Laguna,Carmel ridge Residential Estates Brgy.Punta Calamba Laguna,
+09/27/2025,TNT,3.01 Mbps,3.01,1 - 5 Mbps,0.00 Mbps,0.00,,369 ms,369,"Brgy. Bolong Este, Santa Barbara",Ilo-Ilo,
+09/27/2025,Smart,42.10 Mbps,42.10,30 - 70 Mbps,7.99 Mbps,7.99,5 - 10 Mbps,54 ms,54,"Brgy. Akle San Ildefonso, Brgy. Akle San Ildefonso",Bulacan,
+09/27/2025,Smart,914.00 Mbps,914.00,100+ Mbps,0.10 Mbps,0.10,0 - 1 Mbps,204 ms,204,dongon maasin city southern leyte,dongon maasin city southern leyte,
+09/27/2025,TNT,5.39 Mbps,5.39,5 - 10 Mbps,691.00 Mbps,691.00,30+ Mbps,43 ms,43,"Calamba City, Calamba City",Laguna,
+09/27/2025,Globe,1.10 Mbps,1.10,1 - 5 Mbps,0.50 Mbps,0.50,0 - 1 Mbps,51 ms,51,"Ampusongan National High School, Ampusongan, Bakun",Benguet,
+09/27/2025,Globe,10.70 Mbps,10.70,10 - 30 Mbps,1.00 Mbps,1.00,1 - 5 Mbps,51 ms,51,Brgy Sag Ang La Castellana Negros Occidental,Brgy Sag Ang La Castellana Negros Occidental,
+09/27/2025,GOMO,27.70 Mbps,27.70,10 - 30 Mbps,11.10 Mbps,11.10,10 - 30 Mbps,34 ms,34,Pasay City,Pasay City,
+09/27/2025,Globe,15.40 Mbps,15.40,10 - 30 Mbps,2.75 Mbps,2.75,1 - 5 Mbps,36 ms,36,"Brgy. Pansol Lopez, Brgy. Pansol Lopez",Quezon,
+09/27/2025,Smart,2.00 Mbps,2.00,1 - 5 Mbps,3.00 Mbps,3.00,1 - 5 Mbps,5139 ms,5139,Sitio San luis brgy. Sag-ang la castellana Negros Occidental,Sitio San luis brgy. Sag-ang la castellana Negros Occidental,
+09/27/2025,Smart,2.92 Mbps,2.92,1 - 5 Mbps,567.00 Mbps,567.00,30+ Mbps,68 ms,68,"Brgy. Paltok, Brgy. Paltok",Quezon City,
+09/27/2025,TM,19.00 Mbps,19.00,10 - 30 Mbps,2.65 Mbps,2.65,1 - 5 Mbps,36 ms,36,"Mansalay, Mansalay",Oriental Mindoro,
+09/27/2025,Smart,0.00 Mbps,0.00,,1.08 Mbps,1.08,1 - 5 Mbps,1099 ms,1099,"Baaig Ampusongan, Bakun",Bengeut,
+09/27/2025,Globe,7.51 Mbps,7.51,5 - 10 Mbps,7.27 Mbps,7.27,5 - 10 Mbps,20 ms,20,tugatog malabon city,tugatog malabon city,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Brgy.Barcelonita Cabusao, Brgy.Barcelonita Cabusao",Camarines Sur,
+09/27/2025,Smart,2.02 Mbps,2.02,1 - 5 Mbps,0.42 Mbps,0.42,0 - 1 Mbps,48 ms,48,"Brgy. 62-A, Brgy. 62-A",Tacloban City,
+09/27/2025,Smart,0.00 Mbps,0.00,,7.47 Mbps,7.47,5 - 10 Mbps,0 ms,0,Brgy. Poblacion Mariveles Bataan,Brgy. Poblacion Mariveles Bataan,
+09/27/2025,TNT,32.20 Mbps,32.20,30 - 70 Mbps,3.08 Mbps,3.08,1 - 5 Mbps,84 ms,84,"Brgy. Veinte Reales, Brgy. Veinte Reales",Valenzuela City,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,61 ms,61,"Barangay Banilad, Barangay Banilad",Mandaue City Cebu 6014,
+09/27/2025,Globe,5.00 Mbps,5.00,5 - 10 Mbps,0.20 Mbps,0.20,0 - 1 Mbps,69 ms,69,"Gonzales Estate, Reparo Ext. Baesa",Caloocan City,
+09/27/2025,Globe,23.90 Mbps,23.90,10 - 30 Mbps,14.90 Mbps,14.90,10 - 30 Mbps,23 ms,23,Speedtest - GLOBE,,
+09/27/2025,DITO,21.10 Mbps,21.10,10 - 30 Mbps,1.70 Mbps,1.70,1 - 5 Mbps,26 ms,26,2025,2025,
+09/27/2025,TNT,5.59 Mbps,5.59,5 - 10 Mbps,258.00 Mbps,258.00,30+ Mbps,86 ms,86,"brgy Tuban, Sablayan",Occidental Mindoro,
+09/27/2025,DITO,31.40 Mbps,31.40,30 - 70 Mbps,690.00 Mbps,690.00,30+ Mbps,28 ms,28,"Brgy Cabuco, La Trinidad",TMC Cavite Phase 1B,
+09/27/2025,DITO,1.02 Mbps,1.02,1 - 5 Mbps,0.00 Mbps,0.00,,61 ms,61,"San Francisco, Bombon Camarines Sur",Bicol,
+09/27/2025,Smart,1.80 Mbps,1.80,1 - 5 Mbps,0.70 Mbps,0.70,0 - 1 Mbps,53 ms,53,Brgy Langkaan Cavite,Brgy Langkaan Cavite,
+09/27/2025,Globe,58.00 Mbps,58.00,30 - 70 Mbps,18.20 Mbps,18.20,10 - 30 Mbps,19 ms,19,frisco Quezon City,frisco Quezon City,
+09/27/2025,Smart,2.60 Mbps,2.60,1 - 5 Mbps,,,,88 ms,88,"San Esteban Village Phase 1, Brgy Lag-asan, Bago City",Negros Occidental,
+09/27/2025,Globe,2.50 Mbps,2.50,1 - 5 Mbps,17.20 Mbps,17.20,10 - 30 Mbps,20 ms,20,"Brgy. Guinayang, San Mateo",Rizal,
+09/27/2025,Smart,40.70 Mbps,40.70,30 - 70 Mbps,10.50 Mbps,10.50,10 - 30 Mbps,37 ms,37,"Brgy. Sta. Cruz, Naga City",CamSur,
+09/27/2025,Smart,15.20 Mbps,15.20,10 - 30 Mbps,2.00 Mbps,2.00,1 - 5 Mbps,37 ms,37,TIPTOP AMBUCLAO ROAD BAGUIO CITY,TIPTOP AMBUCLAO ROAD BAGUIO CITY,
+09/27/2025,Smart,9.20 Mbps,9.20,5 - 10 Mbps,0.65 Mbps,0.65,0 - 1 Mbps,46 ms,46,Arakan Cotabato,Arakan Cotabato,
+09/27/2025,Globe,3.20 Mbps,3.20,1 - 5 Mbps,3.50 Mbps,3.50,1 - 5 Mbps,41 ms,41,TIPTOP AMBUCLAO ROAD BAGUIO CITY,TIPTOP AMBUCLAO ROAD BAGUIO CITY,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Purok Kamonsil, Dalapitan, Matalam",North Cotabato,
+09/27/2025,DITO,156.40 Mbps,156.40,100+ Mbps,23.80 Mbps,23.80,10 - 30 Mbps,20 ms,20,Bad Signal DITO,,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,7318 ms,7318,"Purok Kamonsil, Dalapitan, Matalam",North Cotabato,
+09/27/2025,Globe,16.70 Mbps,16.70,10 - 30 Mbps,4.00 Mbps,4.00,1 - 5 Mbps,35 ms,35,"Brgy. Balite, Calumpit",Bulacan,
+09/27/2025,TM,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,No signal TM,,
+09/27/2025,DITO,5.48 Mbps,5.48,5 - 10 Mbps,0.32 Mbps,0.32,0 - 1 Mbps,77 ms,77,"Brgy. San Jose, Imelda",Zamboanga Sibugay Province,
+09/27/2025,Smart,7.93 Mbps,7.93,5 - 10 Mbps,1.13 Mbps,1.13,1 - 5 Mbps,26 ms,26,MATATAG ST. BRGY.PINYAHAN QUEZON CITY,MATATAG ST. BRGY.PINYAHAN QUEZON CITY,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.15 Mbps,0.15,0 - 1 Mbps,1 ms,1,"Emter4 bldg, mirasol st, capitol site",Cebu City,
+09/27/2025,Smart,25.10 Mbps,25.10,10 - 30 Mbps,3.71 Mbps,3.71,1 - 5 Mbps,28 ms,28,Smart: tayuman binangonan rizal,,
+09/27/2025,Globe,2.96 Mbps,2.96,1 - 5 Mbps,3.88 Mbps,3.88,1 - 5 Mbps,43 ms,43,"Brgy. Palindan, Ibaan",Batangas,
+09/27/2025,TNT,0.42 Mbps,0.42,0 - 1 Mbps,0.25 Mbps,0.25,0 - 1 Mbps,97 ms,97,"Brangay San Roque, Lagonoy, Camarines Sur",Philippines,
+09/27/2025,Globe,12.30 Mbps,12.30,10 - 30 Mbps,0.00 Mbps,0.00,,60 ms,60,"Brgy Bunducan, Bocaue",Bulacan,
+09/27/2025,Smart,26.90 Mbps,26.90,10 - 30 Mbps,1.30 Mbps,1.30,1 - 5 Mbps,25 ms,25,"Purok 12, Brgy. Pinget, Baguio City",Philippines,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.43 Mbps,0.43,0 - 1 Mbps,1 ms,1,"Sitio Sto. Toribio, Maraouy, Lipa City",Batangas,
+09/27/2025,DITO,45.10 Mbps,45.10,30 - 70 Mbps,0.00 Mbps,0.00,,26 ms,26,"Manggahan, Manggahan",Psig,
+09/27/2025,Smart,4.30 Mbps,4.30,1 - 5 Mbps,8.40 Mbps,8.40,5 - 10 Mbps,31 ms,31,"ELRIO VISTA VILLAGE PHASE 3 BRGY 19-B, ELRIO VISTA VILLAGE PHASE 3 BRGY 19-B",DAVAO CITY,
+09/27/2025,DITO,56.20 Mbps,56.20,30 - 70 Mbps,9.05 Mbps,9.05,5 - 10 Mbps,43 ms,43,PH,PH,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Brgy. Catalotoan, Sagñay",Camarines Sur,
+09/27/2025,Globe,0.90 Mbps,0.90,0 - 1 Mbps,,,,48 ms,48,"CABETAYAN, KABUGAO",APAYAO,
+09/27/2025,Smart,6.15 Mbps,6.15,5 - 10 Mbps,0.38 Mbps,0.38,0 - 1 Mbps,44 ms,44,"Brgy. Sinaliw Malaki, Alfonso",Cavite,
+09/27/2025,Globe,9.20 Mbps,9.20,5 - 10 Mbps,9.80 Mbps,9.80,5 - 10 Mbps,61 ms,61,Slow Globe telecom speedtest,,
+09/27/2025,Globe,10.50 Mbps,10.50,10 - 30 Mbps,3.70 Mbps,3.70,1 - 5 Mbps,63 ms,63,Bohol,Bohol,
+09/27/2025,Smart,0.90 Mbps,0.90,0 - 1 Mbps,3.00 Mbps,3.00,1 - 5 Mbps,35 ms,35,Barangay CAA BF Intl Las Pinas City,Barangay CAA BF Intl Las Pinas City,
+09/27/2025,Globe,295.00 Mbps,295.00,100+ Mbps,23.50 Mbps,23.50,10 - 30 Mbps,17 ms,17,"Brgy. Sauyo, Brgy. Sauyo",QC,
+09/27/2025,Globe,84.80 Mbps,84.80,70 - 100 Mbps,15.40 Mbps,15.40,10 - 30 Mbps,13 ms,13,BRGY 478 Sampaloc Manila,BRGY 478 Sampaloc Manila,
+09/27/2025,DITO,0.00 Mbps,0.00,,0.16 Mbps,0.16,0 - 1 Mbps,1 ms,1,"Purok 4 Brgy. Sta Ana, Purok 4 Brgy. Sta Ana",Taytay Rizal,
+09/27/2025,GOMO,15.20 Mbps,15.20,10 - 30 Mbps,5.20 Mbps,5.20,5 - 10 Mbps,24 ms,24,"BRGY. LANTIC, CARMONA",CAVITE,
+09/27/2025,TNT,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,1 ms,1,"Brgy. Quinten Remo, Moises Padilla",Negros Occidental,
+09/27/2025,Globe,26.20 Mbps,26.20,10 - 30 Mbps,16.80 Mbps,16.80,10 - 30 Mbps,22 ms,22,"Bayanihan Comp., Santan St., Brgy. Fortune",Marikina City,
+09/27/2025,TNT,48.70 Mbps,48.70,30 - 70 Mbps,9.06 Mbps,9.06,5 - 10 Mbps,33 ms,33,"Bayanihan Comp., Santan St., Brgy. Fortune",Marikina City,
+09/27/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Brgy. Quintin Remo, Moises Padilla",Negros Occidental,
+09/27/2025,Smart,0.00 Mbps,0.00,,1.00 Mbps,1.00,1 - 5 Mbps,1 ms,1,Isabela,Isabela,
+09/27/2025,Smart,29.90 Mbps,29.90,10 - 30 Mbps,0.00 Mbps,0.00,,33 ms,33,SMART / A. BONIFACIO CAINTA RIZAL,,
+09/27/2025,TNT,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"Brgy. Macabud, Brgy. Macabud",Rodriguez Rizal,
+09/27/2025,Smart,33.50 Mbps,33.50,30 - 70 Mbps,7.88 Mbps,7.88,5 - 10 Mbps,33 ms,33,"PEARL DRIVE, PEARL DRIVE",BRGY SAN ANTONIO PASIG,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Brgy. San Jose, San Miguel",Iloilo,
+09/27/2025,Smart,10.10 Mbps,10.10,10 - 30 Mbps,0.00 Mbps,0.00,,21 ms,21,Report Smart Signal,,
+09/27/2025,Globe,55.50 Mbps,55.50,30 - 70 Mbps,20.70 Mbps,20.70,10 - 30 Mbps,35 ms,35,"Brgy. Santo Domingo, Bay",Laguna,
+09/27/2025,Smart,16.90 Mbps,16.90,10 - 30 Mbps,3.07 Mbps,3.07,1 - 5 Mbps,41 ms,41,"Brgy. Nangka V&G Subd. Consolacion, Brgy. Nangka V&G Subd. Consolacion",Cebu,
+09/27/2025,GOMO,3.10 Mbps,3.10,1 - 5 Mbps,0.74 Mbps,0.74,0 - 1 Mbps,27 ms,27,"Brgy Sto. Niño, Brgy Sto. Niño",Marikina City,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.38 Mbps,0.38,0 - 1 Mbps,119 ms,119,Smart maasin city southern leyte,,
+09/27/2025,DITO,4.43 Mbps,4.43,1 - 5 Mbps,0.18 Mbps,0.18,0 - 1 Mbps,40 ms,40,Brgy Rizal Sorsogon City,Brgy Rizal Sorsogon City,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.25 Mbps,0.25,0 - 1 Mbps,3105 ms,3105,"Tomas Manuel Subdivision, Karuhatan",Valenzuela City,
+09/27/2025,Globe,80.00 Mbps,80.00,70 - 100 Mbps,37.10 Mbps,37.10,30+ Mbps,14 ms,14,"Illustre Street, Brgy. 355",Sta. Cruz Manila,
+09/27/2025,Smart,2.40 Mbps,2.40,1 - 5 Mbps,5.20 Mbps,5.20,5 - 10 Mbps,19 ms,19,Ortigas Extension Rosario Pasig City,Ortigas Extension Rosario Pasig City,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,36 ms,36,Sampaloc Manila,Sampaloc Manila,
+09/27/2025,Smart,20.30 Mbps,20.30,10 - 30 Mbps,2.82 Mbps,2.82,1 - 5 Mbps,20 ms,20,Brgy. South Signal Village Taguig City,Brgy. South Signal Village Taguig City,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,SMART:BRGY. QUIWI HINIGARAN NEGROS OCCIDENTAL,,
+09/27/2025,DITO,1.01 Mbps,1.01,1 - 5 Mbps,0.22 Mbps,0.22,0 - 1 Mbps,77 ms,77,"Brgy. Maitim Bay, Brgy. Maitim Bay",Laguna,
+09/27/2025,DITO,24.70 Mbps,24.70,10 - 30 Mbps,9.31 Mbps,9.31,5 - 10 Mbps,33 ms,33,Ganito kabagal ang Dito network sa Pallas Binmaley Pangasinan. Out door lang Yan. Wala pa indoor,,
+09/27/2025,Smart,1.90 Mbps,1.90,1 - 5 Mbps,3.00 Mbps,3.00,1 - 5 Mbps,31 ms,31,SMART MOBILE DATA,,
+09/27/2025,Globe,0.60 Mbps,0.60,0 - 1 Mbps,1.30 Mbps,1.30,1 - 5 Mbps,42 ms,42,"BRGY MALAGASANG 2A, IMUS",CAVITE,
+09/27/2025,Globe,8.70 Mbps,8.70,5 - 10 Mbps,19.00 Mbps,19.00,10 - 30 Mbps,11 ms,11,Globe Wi-Fi super bagal,,
+09/27/2025,Globe,11.40 Mbps,11.40,10 - 30 Mbps,0.10 Mbps,0.10,0 - 1 Mbps,50 ms,50,"LOCATION GLOBE, Brgy. ZONE 3",CITY OF KORONADAL SOT.COT,
+09/27/2025,TM,0.00 Mbps,0.00,,0.02 Mbps,0.02,0 - 1 Mbps,72 ms,72,"Sabang, Sabang",Danao City,
+09/27/2025,Globe,118.30 Mbps,118.30,100+ Mbps,2.50 Mbps,2.50,1 - 5 Mbps,11 ms,11,Brgy Aglipay Batac City,Brgy Aglipay Batac City,
+09/27/2025,Smart,67.00 Mbps,67.00,30 - 70 Mbps,3.10 Mbps,3.10,1 - 5 Mbps,37 ms,37,Smart Brgy Mawaque Pampanga SMART,,
+09/27/2025,DITO,0.00 Mbps,0.00,,0.02 Mbps,0.02,0 - 1 Mbps,1 ms,1,"Sabang, Sabang",Danao City,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Canlubang, Calamba",Laguna,
+09/27/2025,Globe,10.40 Mbps,10.40,10 - 30 Mbps,0.70 Mbps,0.70,0 - 1 Mbps,42 ms,42,"Brgy. Santa Ana, Brgy. Santa Ana",Taytay Rizal,
+09/27/2025,Smart,299.00 Mbps,299.00,100+ Mbps,17.60 Mbps,17.60,10 - 30 Mbps,22 ms,22,"BRGY 59 A, BRGY 59 A",TACLOBAN CITY,
+09/27/2025,DITO,57.60 Mbps,57.60,30 - 70 Mbps,1.90 Mbps,1.90,1 - 5 Mbps,35 ms,35,"Pinagsama Taguig City, Pinagsama Taguig City",NCR,
+09/27/2025,TM,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,328 ms,328,"Brgy. Makiling, Calamba",Laguna,
+09/27/2025,GOMO,1.45 Mbps,1.45,1 - 5 Mbps,1.45 Mbps,1.45,1 - 5 Mbps,102 ms,102,"Brgy. Makiling, Calamba",Laguna,
+09/27/2025,Smart,4.40 Mbps,4.40,1 - 5 Mbps,7.10 Mbps,7.10,5 - 10 Mbps,39 ms,39,"Brgy San Francisco, Brgy San Francisco",Biñan Laguna,
+09/27/2025,Smart,3.84 Mbps,3.84,1 - 5 Mbps,0.26 Mbps,0.26,0 - 1 Mbps,43 ms,43,Purok 5 Brgy. Sto. Rosario Hagonoy Bulacan,Purok 5 Brgy. Sto. Rosario Hagonoy Bulacan,
+09/27/2025,TM,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"Brgy. Kinale Polangui, Brgy. Kinale Polangui",Albay,
+09/27/2025,Globe,0.10 Mbps,0.10,0 - 1 Mbps,0.60 Mbps,0.60,0 - 1 Mbps,45 ms,45,Barangay kaymisas Bailen Cavite City,Barangay kaymisas Bailen Cavite City,
+09/27/2025,Globe,8.36 Mbps,8.36,5 - 10 Mbps,2.24 Mbps,2.24,1 - 5 Mbps,78 ms,78,"Brgy. Tanglaw, Brgy. Tanglaw",Puerto Princesa,
+09/27/2025,GOMO,0.00 Mbps,0.00,,0.03 Mbps,0.03,0 - 1 Mbps,1 ms,1,"Brgy. Sabang Nagcarlan, Brgy. Sabang Nagcarlan",Laguna,
+09/27/2025,DITO,346.00 Mbps,346.00,100+ Mbps,34.30 Mbps,34.30,30+ Mbps,31 ms,31,DITO: BASAK LAPU LAPU CITY,,
+09/27/2025,Globe,2.00 Mbps,2.00,1 - 5 Mbps,1.30 Mbps,1.30,1 - 5 Mbps,28 ms,28,GLOBE Barangay kaymisas Bailen Cavite city,,
+09/27/2025,Smart,44.50 Mbps,44.50,30 - 70 Mbps,7.50 Mbps,7.50,5 - 10 Mbps,34 ms,34,Smart Brgy Marcelo Green Bicutan Parañaque,,
+09/27/2025,TNT,42.40 Mbps,42.40,30 - 70 Mbps,20.40 Mbps,20.40,10 - 30 Mbps,37 ms,37,Brgy Alangilan Bacolod City,Brgy Alangilan Bacolod City,
+09/27/2025,DITO,7.88 Mbps,7.88,5 - 10 Mbps,2.08 Mbps,2.08,1 - 5 Mbps,38 ms,38,Signal Speed Test DITO provider,,
+09/27/2025,Smart,16.50 Mbps,16.50,10 - 30 Mbps,10.60 Mbps,10.60,10 - 30 Mbps,27 ms,27,Bayawan City Negros,Bayawan City Negros,
+09/27/2025,Globe,4.70 Mbps,4.70,1 - 5 Mbps,10.40 Mbps,10.40,10 - 30 Mbps,34 ms,34,"Brgy. Mamatid Cabuyao, Brgy. Mamatid Cabuyao",Laguna,
+09/27/2025,Smart,5.91 Mbps,5.91,5 - 10 Mbps,1.68 Mbps,1.68,1 - 5 Mbps,67 ms,67,Catarman,Catarman,
+09/27/2025,TNT,0.00 Mbps,0.00,,0.03 Mbps,0.03,0 - 1 Mbps,1 ms,1,"KALAYAAN, RGY 201, PASAY CITY",METRO MANILA,
+09/27/2025,GOMO,37.30 Mbps,37.30,30 - 70 Mbps,4.85 Mbps,4.85,1 - 5 Mbps,41 ms,41,Paete Laguna using Gomo,,
+09/27/2025,Smart,7.36 Mbps,7.36,5 - 10 Mbps,0.19 Mbps,0.19,0 - 1 Mbps,622 ms,622,"Brgy. Antipolo, Gasan",Marinduque,
+09/27/2025,Smart,58.80 Mbps,58.80,30 - 70 Mbps,1.90 Mbps,1.90,1 - 5 Mbps,17 ms,17,"Brgy. 722 Malate, Brgy. 722 Malate",Manila,
+09/27/2025,TM,0.00 Mbps,0.00,,0.00 Mbps,0.00,,30 ms,30,TM - KAWIT CAVITE,,
+09/27/2025,TNT,4.90 Mbps,4.90,1 - 5 Mbps,9.00 Mbps,9.00,5 - 10 Mbps,27 ms,27,"Quarry Rd. Brgy. Pantok Binangonan, Quarry Rd. Brgy. Pantok Binangonan",Rizal,
+09/27/2025,Smart,65.10 Mbps,65.10,30 - 70 Mbps,15.90 Mbps,15.90,10 - 30 Mbps,34 ms,34,"Brgy. Villareal, Brgy. Villareal",Bayawan City Negros Oriental,
+09/27/2025,GOMO,6.12 Mbps,6.12,5 - 10 Mbps,1.38 Mbps,1.38,1 - 5 Mbps,28 ms,28,GOMO - KAWIT CAVITE,,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.06 Mbps,0.06,0 - 1 Mbps,1 ms,1,"Caranglaan Mabini, Caranglaan Mabini",Pangasinan,
+09/27/2025,Smart,5.00 Mbps,5.00,5 - 10 Mbps,3.51 Mbps,3.51,1 - 5 Mbps,30 ms,30,Status of Smart signal at Lagro QC,,
+09/27/2025,TNT,25.50 Mbps,25.50,10 - 30 Mbps,3.40 Mbps,3.40,1 - 5 Mbps,60 ms,60,"Marawi City, Marawi City",Lanao del Sur,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Dingle, Dingle",Iloilo,
+09/27/2025,Globe,29.10 Mbps,29.10,10 - 30 Mbps,9.50 Mbps,9.50,5 - 10 Mbps,23 ms,23,"Tamenggo, Cupang",Antipolo City,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,LEGIAN 2 NORTH SUBD. CARSADANG BAGO I IMUS CAVITE,LEGIAN 2 NORTH SUBD. CARSADANG BAGO I IMUS CAVITE,
+09/27/2025,Globe,13.50 Mbps,13.50,10 - 30 Mbps,1.26 Mbps,1.26,1 - 5 Mbps,63 ms,63,"Poblacion 1, Buenavista",Agusan del Norte,
+09/27/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,51 ms,51,"Cabungaan North Airport Road, Laoag City",Ilocos Norte,
+09/27/2025,Smart,26.00 Mbps,26.00,10 - 30 Mbps,5.97 Mbps,5.97,5 - 10 Mbps,50 ms,50,Brgy. Escopa II Proj. 4 QC,Brgy. Escopa II Proj. 4 QC,
+09/27/2025,Globe,2.59 Mbps,2.59,1 - 5 Mbps,0.91 Mbps,0.91,0 - 1 Mbps,200 ms,200,Globe Brgy Fort Bonifacio Taguig,,
+09/27/2025,GOMO,13.20 Mbps,13.20,10 - 30 Mbps,5.80 Mbps,5.80,5 - 10 Mbps,31 ms,31,"Cabungaan North Airport Road, Laoag City",Ilocos Norte,
+09/27/2025,Globe,11.70 Mbps,11.70,10 - 30 Mbps,16.20 Mbps,16.20,10 - 30 Mbps,59 ms,59,EASTERN SAMAR,EASTERN SAMAR,
+09/27/2025,Sun,178.00 Mbps,178.00,100+ Mbps,239.00 Mbps,239.00,30+ Mbps,11 ms,11,River park sapang maligaya. Barangay Sun valley Paranaque city,,
+09/27/2025,Globe,0.90 Mbps,0.90,0 - 1 Mbps,,,,23 ms,23,"SMART, Brgy. Bukal",Mendez,
+09/27/2025,Globe,1.10 Mbps,1.10,1 - 5 Mbps,0.60 Mbps,0.60,0 - 1 Mbps,87 ms,87,Speed Test Globe - Brgy Can-Asujan Carcar City Cebu,,
+09/27/2025,Smart,0.60 Mbps,0.60,0 - 1 Mbps,7.10 Mbps,7.10,5 - 10 Mbps,52 ms,52,"Brgy. Tibak, Santa fe",Leyte,
+09/27/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Brgy, Pintong Bukawe, San Mateo",Rizal,
+09/27/2025,TM,7.27 Mbps,7.27,5 - 10 Mbps,8.04 Mbps,8.04,5 - 10 Mbps,184 ms,184,"Brgy. Payompon, Mamburao",Occidental Mindoro,
+09/27/2025,Smart,1.90 Mbps,1.90,1 - 5 Mbps,4.20 Mbps,4.20,1 - 5 Mbps,24 ms,24,"Brgy. Sta. Ana, Brgy. Sta. Ana",Taytay Rizal,
+09/27/2025,DITO,10.60 Mbps,10.60,10 - 30 Mbps,1.46 Mbps,1.46,1 - 5 Mbps,33 ms,33,Dito Sim From Brgy Sucol Calamba City,,
+09/27/2025,Smart,1.50 Mbps,1.50,1 - 5 Mbps,3.90 Mbps,3.90,1 - 5 Mbps,59 ms,59,"Brgy Labas, Brgy Labas",Sta Rosa Laguna,
+09/27/2025,Globe,35.80 Mbps,35.80,30 - 70 Mbps,11.60 Mbps,11.60,10 - 30 Mbps,25 ms,25,"Brgy. Bulihan, Brgy. Bulihan",Plaridel Bulacan,
+09/27/2025,Smart,39.40 Mbps,39.40,30 - 70 Mbps,4.66 Mbps,4.66,1 - 5 Mbps,36 ms,36,"Pinambaran, San Miguel",Bulacan,
+09/27/2025,TNT,3.76 Mbps,3.76,1 - 5 Mbps,403.00 Mbps,403.00,30+ Mbps,47 ms,47,Lancaster General Trias - TNT,,
+09/27/2025,Globe,9.70 Mbps,9.70,5 - 10 Mbps,4.73 Mbps,4.73,1 - 5 Mbps,173 ms,173,Speed test Globe & Sun,,
+09/27/2025,DITO,73.20 Mbps,73.20,70 - 100 Mbps,7.61 Mbps,7.61,5 - 10 Mbps,20 ms,20,"Brgy. Tumana, Brgy. Tumana",Marikina City,
+09/27/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,Speed test: INDOOR (GOMO and DITO),,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,Globe Speed Test Result,,
+09/27/2025,Smart,36.90 Mbps,36.90,30 - 70 Mbps,16.30 Mbps,16.30,10 - 30 Mbps,31 ms,31,"Malitbog, Malitbog",Bukidnon,
+09/27/2025,GOMO,4.14 Mbps,4.14,1 - 5 Mbps,0.19 Mbps,0.19,0 - 1 Mbps,79 ms,79,"MSU, MSU",MARAWI CITY,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"MSU, MSU",MARAWI CITY,
+09/27/2025,TNT,9.56 Mbps,9.56,5 - 10 Mbps,1.44 Mbps,1.44,1 - 5 Mbps,37 ms,37,POBLACION BACON SORSOGON,POBLACION BACON SORSOGON,
+09/27/2025,Smart,0.30 Mbps,0.30,0 - 1 Mbps,7.10 Mbps,7.10,5 - 10 Mbps,58 ms,58,SS4 Lancaster BRGY navarro lancaster cavite,SS4 Lancaster BRGY navarro lancaster cavite,
+09/27/2025,Globe,16.10 Mbps,16.10,10 - 30 Mbps,1.83 Mbps,1.83,1 - 5 Mbps,588 ms,588,Dito and Globe Signal_Meycauayan Bulacan,,
+09/27/2025,DITO,21.80 Mbps,21.80,10 - 30 Mbps,13.40 Mbps,13.40,10 - 30 Mbps,21 ms,21,"Pio Del Pilar, Pio Del Pilar",Makati City,
+09/27/2025,Globe,93.50 Mbps,93.50,70 - 100 Mbps,4.20 Mbps,4.20,1 - 5 Mbps,15 ms,15,Alabastro St. San Andres Manila,Alabastro St. San Andres Manila,
+09/27/2025,Smart,19.80 Mbps,19.80,10 - 30 Mbps,4.00 Mbps,4.00,1 - 5 Mbps,35 ms,35,"Brgy.Sta. Anastasia, sto.Tomas",Batangas,
+09/27/2025,Smart,1.80 Mbps,1.80,1 - 5 Mbps,,,,52 ms,52,"Bacolod City, Bacolod City",Negros Occidental,
+09/27/2025,Smart,1.95 Mbps,1.95,1 - 5 Mbps,0.43 Mbps,0.43,0 - 1 Mbps,146 ms,146,"brgy.Umangan, brgy.Umangan",Mangatarem pangasinan,
+09/27/2025,Globe,0.01 Mbps,0.01,0 - 1 Mbps,0.02 Mbps,0.02,0 - 1 Mbps,1 ms,1,"Purok 2 Brgy Pili, Purok 2 Brgy Pili",Sariaya Quezon Province,
+09/27/2025,Globe,45.00 Mbps,45.00,30 - 70 Mbps,2.94 Mbps,2.94,1 - 5 Mbps,22 ms,22,"Barangay 28, Barangay 28",Cavite City,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Barangay Capipisa, Tanza",Cavite,
+09/27/2025,Globe,41.50 Mbps,41.50,30 - 70 Mbps,0.60 Mbps,0.60,0 - 1 Mbps,30 ms,30,"Pangasinan Provincial Hospital San Carlos City, PangasinanScreenshot (Sep 27",2025 10:09:48 AM),
+09/27/2025,Smart,4.49 Mbps,4.49,1 - 5 Mbps,0.65 Mbps,0.65,0 - 1 Mbps,52 ms,52,"Purok 5 Lower Quirino Hill, Purok 5 Lower Quirino Hill",Baguio City,
+09/27/2025,Globe,1.40 Mbps,1.40,1 - 5 Mbps,,,,62 ms,62,"Brgy. San Isidro San Pablo City, Brgy. San Isidro San Pablo City",Laguna,
+09/27/2025,Smart,1.72 Mbps,1.72,1 - 5 Mbps,0.10 Mbps,0.10,0 - 1 Mbps,65 ms,65,"Brgy. San Agustin 2, Brgy. San Agustin 2",Dasmarinas Cavite,
+09/27/2025,Smart,6.50 Mbps,6.50,5 - 10 Mbps,1.10 Mbps,1.10,1 - 5 Mbps,49 ms,49,"Agoo, Agoo",La Union,
+09/27/2025,DITO,3.14 Mbps,3.14,1 - 5 Mbps,1.99 Mbps,1.99,1 - 5 Mbps,34 ms,34,"Brgy. Alabang, Brgy. Alabang",Muntinlupa city,
+09/27/2025,Globe,0.00 Mbps,0.00,,,,,1 ms,1,"Bulacao, Sta Filomena, Alegria",Cebu,
+09/27/2025,Smart,4.64 Mbps,4.64,1 - 5 Mbps,10.90 Mbps,10.90,10 - 30 Mbps,35 ms,35,"Porac, Porac",Pampanga,
+09/27/2025,GOMO,203.10 Mbps,203.10,100+ Mbps,10.10 Mbps,10.10,10 - 30 Mbps,15 ms,15,"Pio del Pilar, Pio del Pilar",Makati City,
+09/27/2025,Globe,1.38 Mbps,1.38,1 - 5 Mbps,2.80 Mbps,2.80,1 - 5 Mbps,35 ms,35,Bgry. Maunong Purok 6 Calamba Laguna,Bgry. Maunong Purok 6 Calamba Laguna,
+09/27/2025,Globe,12.40 Mbps,12.40,10 - 30 Mbps,1.32 Mbps,1.32,1 - 5 Mbps,29 ms,29,Location : Brgy. Pangil Amadeo Cavite Globe 4g,,
+09/27/2025,Smart,9.02 Mbps,9.02,5 - 10 Mbps,,,,50 ms,50,"San Lorenzo, Cuidad de Sanjose",Santa Rosa Laguna,
+09/27/2025,TNT,9.02 Mbps,9.02,5 - 10 Mbps,,,,50 ms,50,"Bgy. Mabolo, Bgy. Mabolo",Naga City,
+09/27/2025,GOMO,394.00 Mbps,394.00,100+ Mbps,43.00 Mbps,43.00,30+ Mbps,821 ms,821,BRGY MAGANG DAET CAMARINES NORTE,BRGY MAGANG DAET CAMARINES NORTE,
+09/27/2025,DITO,27.30 Mbps,27.30,10 - 30 Mbps,9.67 Mbps,9.67,5 - 10 Mbps,46 ms,46,test signal for DITO,,
+09/27/2025,Globe,7.74 Mbps,7.74,5 - 10 Mbps,2.88 Mbps,2.88,1 - 5 Mbps,22 ms,22,Globe No Service,,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"Brgy. Fort Bonifacio, Brgy. Fort Bonifacio",Taguig City,
+09/27/2025,DITO,59.80 Mbps,59.80,30 - 70 Mbps,14.90 Mbps,14.90,10 - 30 Mbps,23 ms,23,Pinagsama Taguig City,Pinagsama Taguig City,
+09/27/2025,Smart,5.07 Mbps,5.07,5 - 10 Mbps,0.19 Mbps,0.19,0 - 1 Mbps,22 ms,22,"Malesido Phase 2 Barangay San Isidro, Malesido Phase 2 Barangay San Isidro",General Santos City,
+09/27/2025,Globe,19.70 Mbps,19.70,10 - 30 Mbps,4.80 Mbps,4.80,1 - 5 Mbps,31 ms,31,Purok 2 Brgy Pili Sariaya Quezon Province,Purok 2 Brgy Pili Sariaya Quezon Province,
+09/27/2025,DITO,39.90 Mbps,39.90,30 - 70 Mbps,16.20 Mbps,16.20,10 - 30 Mbps,35 ms,35,"BRGY TIAONG, BRGY TIAONG",GUIGUINTO BULACAN,
+09/27/2025,Globe,3.71 Mbps,3.71,1 - 5 Mbps,0.27 Mbps,0.27,0 - 1 Mbps,48 ms,48,"Malesido Homes phase 2 Barangay San Isidro, Malesido Homes phase 2 Barangay San Isidro",General Santos City,
+09/27/2025,Smart,37.80 Mbps,37.80,30 - 70 Mbps,6.00 Mbps,6.00,5 - 10 Mbps,56 ms,56,"brgy. Santulan, brgy. Santulan",malabon city.,
+09/27/2025,Globe,5.60 Mbps,5.60,5 - 10 Mbps,5.80 Mbps,5.80,5 - 10 Mbps,30 ms,30,Brgy. Tatala Binangonan Rizal,Brgy. Tatala Binangonan Rizal,
+09/27/2025,TNT,29.80 Mbps,29.80,10 - 30 Mbps,,,,32 ms,32,"Brgy Esperanza, San Francisco",Cebu,
+09/27/2025,DITO,1.20 Mbps,1.20,1 - 5 Mbps,1.10 Mbps,1.10,1 - 5 Mbps,45 ms,45,"Sitio Patulo Loma De Gato Marilao, Sitio Patulo Loma De Gato Marilao",Bulacan,
+09/27/2025,Smart,8.57 Mbps,8.57,5 - 10 Mbps,1.12 Mbps,1.12,1 - 5 Mbps,42 ms,42,"Brgy.Puntod, Brgy.Puntod",Cagayan de Oro City,
+09/27/2025,Smart,10.40 Mbps,10.40,10 - 30 Mbps,0.88 Mbps,0.88,0 - 1 Mbps,79 ms,79,"Cruz Street, Brgy Tuktukan, Guiguinto",Bulacan,
+09/27/2025,Globe,0.70 Mbps,0.70,0 - 1 Mbps,14.00 Mbps,14.00,10 - 30 Mbps,61 ms,61,"Barangay Acacia, Barangay Acacia",Davao City,
+09/27/2025,Globe,22.60 Mbps,22.60,10 - 30 Mbps,,,,71 ms,71,"brgy besong, kayapa",nueva vizcaya,
+09/27/2025,Smart,151.00 Mbps,151.00,100+ Mbps,28.70 Mbps,28.70,10 - 30 Mbps,17 ms,17,"Brgy Sambag 2, Brgy Sambag 2",Cebu City,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"Brgy. Lajong, Juban",Sorsogon,
+09/27/2025,Smart,66.20 Mbps,66.20,30 - 70 Mbps,1.92 Mbps,1.92,1 - 5 Mbps,31 ms,31,"Brgy. Masambong, Brgy. Masambong",Quezon City,
+09/27/2025,Globe,9.11 Mbps,9.11,5 - 10 Mbps,2.39 Mbps,2.39,1 - 5 Mbps,22 ms,22,Manggahan Pasig City,Manggahan Pasig City,
+09/27/2025,Smart,9.71 Mbps,9.71,5 - 10 Mbps,6.80 Mbps,6.80,5 - 10 Mbps,138 ms,138,Alcantara Cebu,Alcantara Cebu,
+09/27/2025,Smart,3.73 Mbps,3.73,1 - 5 Mbps,73.00 Mbps,73.00,30+ Mbps,194 ms,194,"Brgy. San Juan, Taytay",Rizal,
+09/27/2025,Globe,5.50 Mbps,5.50,5 - 10 Mbps,3.57 Mbps,3.57,1 - 5 Mbps,26 ms,26,"Purok 2, San Carlos, Tabaco City",Albay,
+09/27/2025,TM,11.60 Mbps,11.60,10 - 30 Mbps,12.40 Mbps,12.40,10 - 30 Mbps,63 ms,63,"Brgy. City Heights, Brgy. City Heights",General Santos City,
+09/27/2025,Smart,28.10 Mbps,28.10,10 - 30 Mbps,2.00 Mbps,2.00,1 - 5 Mbps,41 ms,41,"Brgy. Bakhaw, Brgy. Bakhaw",Iloilo City,
+09/27/2025,Smart,6.43 Mbps,6.43,5 - 10 Mbps,1.86 Mbps,1.86,1 - 5 Mbps,35 ms,35,"Brgy. Overview, Liloy",Zamboanga del Norte,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"Barangay Manggahan, Barangay Manggahan",Pasig City,
+09/27/2025,Smart,4.11 Mbps,4.11,1 - 5 Mbps,0.02 Mbps,0.02,0 - 1 Mbps,573 ms,573,"Gutierrez Compound Sitio Burol Brgy San Juan Taytay, Gutierrez Compound Sitio Burol Brgy San Juan Taytay",Rizal,
+09/27/2025,DITO,5.93 Mbps,5.93,5 - 10 Mbps,1.25 Mbps,1.25,1 - 5 Mbps,41 ms,41,"Palayan, Palayan",Nueva Ecija,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"Albay, Bicol",4510(Purok 7 San Isidro Ilawod),
+09/27/2025,DITO,8.63 Mbps,8.63,5 - 10 Mbps,2.20 Mbps,2.20,1 - 5 Mbps,39 ms,39,"Brgy 12, Brgy 12",Caloocan city,
+09/27/2025,Smart,31.30 Mbps,31.30,30 - 70 Mbps,19.10 Mbps,19.10,10 - 30 Mbps,44 ms,44,"BRGY POBLACION, BRGY POBLACION",LOPE DE VEGA NORTHERN SAMAR,
+09/27/2025,Globe,5.40 Mbps,5.40,5 - 10 Mbps,5.40 Mbps,5.40,5 - 10 Mbps,30 ms,30,"UP Diliman, UP Diliman",College of Education Library,
+09/27/2025,Smart,49.10 Mbps,49.10,30 - 70 Mbps,2.94 Mbps,2.94,1 - 5 Mbps,93 ms,93,"KAWIT, KAWIT",CAVITE,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.02 Mbps,0.02,0 - 1 Mbps,123 ms,123,"BRGY IBABANG, PALSABANGON PAGBILAO",QUEZON,
+09/27/2025,Globe,23.50 Mbps,23.50,10 - 30 Mbps,7.19 Mbps,7.19,5 - 10 Mbps,36 ms,36,"Purok Bagong Silang I, Brgy. San Miguel",Puerto Princesa City,
+09/27/2025,Globe,8.07 Mbps,8.07,5 - 10 Mbps,1.68 Mbps,1.68,1 - 5 Mbps,40 ms,40,"Brgy. Muzon, San Jose Del Monte",Bulacan,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,63 ms,63,"Brgy. Lagasit, San Quintin",Pangasinan,
+09/27/2025,Smart,89.00 Mbps,89.00,70 - 100 Mbps,1.70 Mbps,1.70,1 - 5 Mbps,31 ms,31,"Brgy. San Pablo, Jaen",Nueva Ecija,
+09/27/2025,DITO,9.37 Mbps,9.37,5 - 10 Mbps,2.90 Mbps,2.90,1 - 5 Mbps,26 ms,26,"Brgy. Bambang, Pasig City",NCR,
+09/27/2025,Globe,18.50 Mbps,18.50,10 - 30 Mbps,0.36 Mbps,0.36,0 - 1 Mbps,28 ms,28,"Brgy Antipolo, del Norte",Lipa City,
+09/27/2025,Smart,233.60 Mbps,233.60,100+ Mbps,56.00 Mbps,56.00,30+ Mbps,16 ms,16,"Brgy. San Antonio, Brgy. San Antonio",Parañaque City,
+09/27/2025,DITO,18.30 Mbps,18.30,10 - 30 Mbps,0.56 Mbps,0.56,0 - 1 Mbps,65 ms,65,"Brgy. Anilao, Pavia",Iloilo,
+09/27/2025,TM,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,375 ms,375,"Brgy Campo Islam, Brgy Campo Islam",Zamboanga City,
+09/27/2025,TNT,10.50 Mbps,10.50,10 - 30 Mbps,3.06 Mbps,3.06,1 - 5 Mbps,37 ms,37,"Brgy. Campo Islam, Brgy. Campo Islam",Zamboanga City,
+09/27/2025,Smart,69.70 Mbps,69.70,30 - 70 Mbps,19.80 Mbps,19.80,10 - 30 Mbps,35 ms,35,"Brgy. Binaliuan Mayor, Tigbauan",Iloilo,
+09/27/2025,Smart,22.60 Mbps,22.60,10 - 30 Mbps,4.37 Mbps,4.37,1 - 5 Mbps,18 ms,18,"Holy Spirit, Holy Spirit",Quezon City,
+09/27/2025,Smart,133.90 Mbps,133.90,100+ Mbps,21.50 Mbps,21.50,10 - 30 Mbps,30 ms,30,"Landmark Phase III, Sasa",Davao City,
+09/27/2025,DITO,19.00 Mbps,19.00,10 - 30 Mbps,4.60 Mbps,4.60,1 - 5 Mbps,23 ms,23,"Brgy.Marinig, Cabuyao",Laguna,
+09/27/2025,DITO,11.00 Mbps,11.00,10 - 30 Mbps,2.81 Mbps,2.81,1 - 5 Mbps,35 ms,35,"Mabuhay city paliparan 3, dasmariñas",cavite,
+09/27/2025,Smart,19.00 Mbps,19.00,10 - 30 Mbps,2.51 Mbps,2.51,1 - 5 Mbps,31 ms,31,"Brgy. Sawanga, Bacon",Sorsogon,
+09/27/2025,GOMO,17.70 Mbps,17.70,10 - 30 Mbps,1.08 Mbps,1.08,1 - 5 Mbps,53 ms,53,"Sta. catalina Subd. Phase 2, Area 1, Brgy. Lag asan",Bago City,
+09/27/2025,Smart,33.20 Mbps,33.20,30 - 70 Mbps,23.50 Mbps,23.50,10 - 30 Mbps,27 ms,27,"Brgy Sta Maria, Santa Ana",Pampanga,
+09/27/2025,Globe,46.30 Mbps,46.30,30 - 70 Mbps,3.55 Mbps,3.55,1 - 5 Mbps,26 ms,26,"Calauag, Calauag",Naga City,
+09/27/2025,GOMO,1.65 Mbps,1.65,1 - 5 Mbps,0.23 Mbps,0.23,0 - 1 Mbps,59 ms,59,"Calzada, Mabini",Pangasinan,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.55 Mbps,0.55,0 - 1 Mbps,323 ms,323,"Bgy. Inarawan, Bgy. Inarawan",Antipolo City,
+09/27/2025,TNT,16.30 Mbps,16.30,10 - 30 Mbps,1.53 Mbps,1.53,1 - 5 Mbps,20 ms,20,"Brgy. Agpo, Lagonoy",Camarines Sur,
+09/27/2025,Globe,36.40 Mbps,36.40,30 - 70 Mbps,23.70 Mbps,23.70,10 - 30 Mbps,60 ms,60,"brgy Tumaga, brgy Tumaga",Zamboanga City,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,,,
+09/27/2025,DITO,8.28 Mbps,8.28,5 - 10 Mbps,1.20 Mbps,1.20,1 - 5 Mbps,31 ms,31,,,
+09/27/2025,DITO,6.31 Mbps,6.31,5 - 10 Mbps,0.74 Mbps,0.74,0 - 1 Mbps,53 ms,53,,,
+09/27/2025,DITO,3.23 Mbps,3.23,1 - 5 Mbps,11.80 Mbps,11.80,10 - 30 Mbps,45 ms,45,MARAWI CITY,MARAWI CITY,
+09/27/2025,DITO,6.31 Mbps,6.31,5 - 10 Mbps,0.74 Mbps,0.74,0 - 1 Mbps,53 ms,53,DITO SIGNAL,,
+09/27/2025,DITO,11.20 Mbps,11.20,10 - 30 Mbps,6.70 Mbps,6.70,5 - 10 Mbps,20 ms,20,"Brgy San Gregorio, Malvar",Batangas,
+09/27/2025,Smart,3.30 Mbps,3.30,1 - 5 Mbps,13.70 Mbps,13.70,10 - 30 Mbps,27 ms,27,"Brgy. Almanza Uno, Brgy. Almanza Uno",Las Pinas City,
+09/27/2025,Smart,50.50 Mbps,50.50,30 - 70 Mbps,5.00 Mbps,5.00,5 - 10 Mbps,43 ms,43,"Metal drive, Amihan, Batinguel, Dumaguete city",Negros Oriental,
+09/27/2025,DITO,6.07 Mbps,6.07,5 - 10 Mbps,1.16 Mbps,1.16,1 - 5 Mbps,51 ms,51,"Brgy. Niog 1, Brgy. Niog 1",Bacoor City Cavite,
+09/27/2025,Smart,14.10 Mbps,14.10,10 - 30 Mbps,8.50 Mbps,8.50,5 - 10 Mbps,34 ms,34,"Brgy. Palo Alto, Brgy. Palo Alto",Calamba City,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,19152 ms,19152,"Brgy. Lydia, MARCOS",ILOCOS NORTE,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,1 ms,1,"BRGY 419, BRGY 419",MANILA,
+09/27/2025,Smart,202.10 Mbps,202.10,100+ Mbps,3.30 Mbps,3.30,1 - 5 Mbps,22 ms,22,"Tenejero, Balanga City",Bataan,
+09/27/2025,DITO,9.52 Mbps,9.52,5 - 10 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,31 ms,31,"BRGY 419, BRGY 419",MANILA,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,88 ms,88,Poor signal globe Smart madalas no data internet,,
+09/27/2025,Smart,364.90 Mbps,364.90,100+ Mbps,28.80 Mbps,28.80,10 - 30 Mbps,17 ms,17,"Solsona, Solsona",ilocos norte,
+09/27/2025,DITO,12.80 Mbps,12.80,10 - 30 Mbps,3.94 Mbps,3.94,1 - 5 Mbps,42 ms,42,napaka hina po ng signal dito samin lalo na po kong mag oonline games ako halos d na gumagalaw DITO NETWORK,,
+09/27/2025,Globe,23.30 Mbps,23.30,10 - 30 Mbps,5.85 Mbps,5.85,5 - 10 Mbps,24 ms,24,"Pasong Tamo, Quezon City and Globe Jaen",Nueva Ecija,
+09/27/2025,Smart,0.00 Mbps,0.00,,0.35 Mbps,0.35,0 - 1 Mbps,224 ms,224,Signal test indoor via SMART / SUN,,
+09/27/2025,GOMO,7.30 Mbps,7.30,5 - 10 Mbps,7.70 Mbps,7.70,5 - 10 Mbps,49 ms,49,"Metal drive, Amihan, Batinguel, Dumaguete city",Negros Oriental,
+09/27/2025,Globe,7.23 Mbps,7.23,5 - 10 Mbps,0.98 Mbps,0.98,0 - 1 Mbps,31 ms,31,Lipa city globe telecom,,
+09/27/2025,GOMO,7.05 Mbps,7.05,5 - 10 Mbps,1.48 Mbps,1.48,1 - 5 Mbps,250 ms,250,"Brgy. Bankal, Lapu-Lapu City",Cebu,
+09/27/2025,Smart,8.60 Mbps,8.60,5 - 10 Mbps,0.40 Mbps,0.40,0 - 1 Mbps,41 ms,41,"Brgy Poblacion V, Mendez",Cavite,
+09/27/2025,DITO,4.49 Mbps,4.49,1 - 5 Mbps,0.26 Mbps,0.26,0 - 1 Mbps,42 ms,42,DITO_Parian Calamba Laguna,,
+09/27/2025,Globe,0.00 Mbps,0.00,,0.27 Mbps,0.27,0 - 1 Mbps,1 ms,1,GLOBE Brgy Santiago Cavite,,
+09/27/2025,TNT,46.10 Mbps,46.10,30 - 70 Mbps,12.30 Mbps,12.30,10 - 30 Mbps,38 ms,38,TNT - san Antonio Makati City,,
+09/27/2025,DITO,10.70 Mbps,10.70,10 - 30 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,42 ms,42,Speedtest indoor po yan dito sa majada in canlubang laguna,,
+09/27/2025,Smart,109.80 Mbps,109.80,100+ Mbps,44.00 Mbps,44.00,30+ Mbps,14 ms,14,,Mabalacat City,
+09/27/2025,DITO,26.90 Mbps,26.90,10 - 30 Mbps,12.50 Mbps,12.50,10 - 30 Mbps,34 ms,34,"brgy Pulo, Cabuyao",Laguna,
+09/27/2025,Globe,33.70 Mbps,33.70,30 - 70 Mbps,27.60 Mbps,27.60,10 - 30 Mbps,18 ms,18,globe,,
+09/27/2025,Smart,1.09 Mbps,1.09,1 - 5 Mbps,0.09 Mbps,0.09,0 - 1 Mbps,36 ms,36,"Barangay 628, Santa Mesa, Manila",1008 Metro Manila,
+10/10/2025,Globe,3.24 Mbps,3.24,1 - 5 Mbps,0.00 Mbps,0.00,,103 ms,103,Fwd: GLOBE Jelicuon Oeste New Lucena Iloilo 5005,,
+10/10/2025,Smart,0.06 Mbps,0.06,0 - 1 Mbps,12.30 Mbps,12.30,10 - 30 Mbps,49 ms,49,"Sto. Niño, Manolo Fortich",Bukidnon,
+10/10/2025,Globe,6.10 Mbps,6.10,5 - 10 Mbps,1.00 Mbps,1.00,1 - 5 Mbps,64 ms,64,"Sto. Niño, Manolo Fortich",Bukidnon,
+10/10/2025,DITO,33.50 Mbps,33.50,30 - 70 Mbps,14.10 Mbps,14.10,10 - 30 Mbps,38 ms,38,Dasmarinas,Dasmarinas,
+10/10/2025,Smart,3.00 Mbps,3.00,1 - 5 Mbps,2.56 Mbps,2.56,1 - 5 Mbps,367 ms,367,roman higway brgy san jose balanga city bataan,roman higway brgy san jose balanga city bataan,
+10/10/2025,Smart,9.20 Mbps,9.20,5 - 10 Mbps,3.50 Mbps,3.50,1 - 5 Mbps,41 ms,41,"Brgy 8 San Antonio, Sarrat",Ilocos Norte,
+10/10/2025,TM,39.70 Mbps,39.70,30 - 70 Mbps,1.69 Mbps,1.69,1 - 5 Mbps,112 ms,112,"Morning Breeze Tugbungan, Morning Breeze Tugbungan",Zamboanga City,
+10/10/2025,DITO,5.33 Mbps,5.33,5 - 10 Mbps,0.00 Mbps,0.00,,414 ms,414,"Tabuk City, Tabuk City",kalinga,
+10/10/2025,DITO,10.70 Mbps,10.70,10 - 30 Mbps,0.82 Mbps,0.82,0 - 1 Mbps,54 ms,54,"Crisville Subdivision, Poblacion, Polomolok",South Cotabato,
+10/10/2025,DITO,2.31 Mbps,2.31,1 - 5 Mbps,0.11 Mbps,0.11,0 - 1 Mbps,346 ms,346,"San Marcelino, Taysan",Batangas,
+10/10/2025,Smart,1.94 Mbps,1.94,1 - 5 Mbps,0.89 Mbps,0.89,0 - 1 Mbps,84 ms,84,"Brgy. Overview, Liloy",Zamboanga del Norte,
+10/10/2025,Smart,5.70 Mbps,5.70,5 - 10 Mbps,0.80 Mbps,0.80,0 - 1 Mbps,63 ms,63,Smart,,
+10/10/2025,DITO,3.99 Mbps,3.99,1 - 5 Mbps,0.10 Mbps,0.10,0 - 1 Mbps,123 ms,123,DITO MOBILE DATA (POLOMOLOK SOUTH COTABATO),,
+10/11/2025,Smart,9.53 Mbps,9.53,5 - 10 Mbps,1.03 Mbps,1.03,1 - 5 Mbps,98 ms,98,San Carlos Lipa City,San Carlos Lipa City,
+10/11/2025,Smart,14.80 Mbps,14.80,10 - 30 Mbps,2.82 Mbps,2.82,1 - 5 Mbps,49 ms,49,"San Jose, Pili",Camarines Sur,
+10/11/2025,Smart,9.57 Mbps,9.57,5 - 10 Mbps,0.71 Mbps,0.71,0 - 1 Mbps,46 ms,46,bolaoen San Fabian pangasinan,bolaoen San Fabian pangasinan,
+10/11/2025,Smart,9.90 Mbps,9.90,5 - 10 Mbps,10.70 Mbps,10.70,10 - 30 Mbps,33 ms,33,"32 Lopez Jaena, Brgy. San Jose",Pasig City,
+10/11/2025,TM,0.02 Mbps,0.02,0 - 1 Mbps,0.06 Mbps,0.06,0 - 1 Mbps,52 ms,52,"Brgy San Jose Camaligan, Brgy San Jose Camaligan",Camarines Sur.,
+10/11/2025,DITO,136.40 Mbps,136.40,100+ Mbps,17.30 Mbps,17.30,10 - 30 Mbps,43 ms,43,"MJ Cuenco, MJ Cuenco",Cebu City,
+10/11/2025,Smart,85.20 Mbps,85.20,70 - 100 Mbps,6.93 Mbps,6.93,5 - 10 Mbps,,,"Lingig, Lingig",Surigao del sur,
+10/11/2025,Globe,18.40 Mbps,18.40,10 - 30 Mbps,2.90 Mbps,2.90,1 - 5 Mbps,67 ms,67,"Lingig, Lingig",Surigao Del Sur,
+10/11/2025,Globe,2.05 Mbps,2.05,1 - 5 Mbps,0.47 Mbps,0.47,0 - 1 Mbps,37 ms,37,(GLOBE),(GLOBE),
+10/11/2025,Globe,15.70 Mbps,15.70,10 - 30 Mbps,4.00 Mbps,4.00,1 - 5 Mbps,43 ms,43,Las Piñas City ( after 5 attempts),Las Piñas City ( after 5 attempts),
+10/11/2025,Globe,0.00 Mbps,0.00,,1.24 Mbps,1.24,1 - 5 Mbps,425 ms,425,"brgy, Centro, Pila",Surigao Del Norte,
+10/11/2025,Globe,0.00 Mbps,0.00,,0.62 Mbps,0.62,0 - 1 Mbps,117 ms,117,"slaughter, slaughter",baguio city,
+10/11/2025,Globe,43.70 Mbps,43.70,30 - 70 Mbps,3.12 Mbps,3.12,1 - 5 Mbps,34 ms,34,"Ampusongan, Bakun",Benguet,
+10/11/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Bayanan 1, Calapan City",Oriental Mindoro,
+10/11/2025,Smart,17.20 Mbps,17.20,10 - 30 Mbps,2.20 Mbps,2.20,1 - 5 Mbps,41 ms,41,"Brgy. Bucal, Tanza",Cavite,
+10/11/2025,Smart,2.34 Mbps,2.34,1 - 5 Mbps,0.85 Mbps,0.85,0 - 1 Mbps,1 ms,1,"BRGY. 4, BRGY. 4",PASAY CITY,
+10/11/2025,DITO,1.96 Mbps,1.96,1 - 5 Mbps,1.08 Mbps,1.08,1 - 5 Mbps,48 ms,48,DITO mobile Poor signal coverage,,
+10/11/2025,Globe,10.90 Mbps,10.90,10 - 30 Mbps,15.90 Mbps,15.90,10 - 30 Mbps,240 ms,240,Mauban St. Quezon City,Mauban St. Quezon City,
+10/11/2025,Smart,38.40 Mbps,38.40,30 - 70 Mbps,8.00 Mbps,8.00,5 - 10 Mbps,32 ms,32,"Brgy Tamontaka Mother, Brgy Tamontaka Mother",Cotabato City,
+10/11/2025,Smart,116.90 Mbps,116.90,100+ Mbps,8.20 Mbps,8.20,5 - 10 Mbps,23 ms,23,"Parkmall, Parkmall",Mandaue City,
+10/11/2025,Smart,45.30 Mbps,45.30,30 - 70 Mbps,8.50 Mbps,8.50,5 - 10 Mbps,20 ms,20,Summer Green Brngy San Andres Cainta Rizal,Summer Green Brngy San Andres Cainta Rizal,
+10/11/2025,Smart,6.20 Mbps,6.20,5 - 10 Mbps,1.80 Mbps,1.80,1 - 5 Mbps,33 ms,33,Molino VI Bacoor Cavite,Molino VI Bacoor Cavite,
+10/11/2025,Smart,69.90 Mbps,69.90,30 - 70 Mbps,8.90 Mbps,8.90,5 - 10 Mbps,32 ms,32,"Providence Estate, Mandama Hermosa",Bataan,
+10/11/2025,GOMO,3.07 Mbps,3.07,1 - 5 Mbps,0.23 Mbps,0.23,0 - 1 Mbps,97 ms,97,"Pandi Resident 3, Pandi Resident 3",Pandi Bulacan,
+10/11/2025,Smart,40.80 Mbps,40.80,30 - 70 Mbps,32.20 Mbps,32.20,30+ Mbps,6 ms,6,mactan lapu lapu,mactan lapu lapu,
+10/11/2025,GOMO,9.65 Mbps,9.65,5 - 10 Mbps,2.97 Mbps,2.97,1 - 5 Mbps,28 ms,28,Baclaran Parañaque 1702,Baclaran Parañaque 1702,
+10/11/2025,Smart,77.10 Mbps,77.10,70 - 100 Mbps,11.60 Mbps,11.60,10 - 30 Mbps,24 ms,24,SOONG MACTAN LAPU LAPU CITY CEBU,SOONG MACTAN LAPU LAPU CITY CEBU,
+10/11/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,463 ms,463,"Lumbang Na Matanda, Calaca City",Batangas,
+10/11/2025,Smart,0.00 Mbps,0.00,,4.00 Mbps,4.00,1 - 5 Mbps,1968 ms,1968,"Brgy. Pasong Camachile 1, Brgy. Pasong Camachile 1",Gen. Trias Cavite,
+10/12/2025,Smart,4.84 Mbps,4.84,1 - 5 Mbps,0.17 Mbps,0.17,0 - 1 Mbps,144 ms,144,"Brgy., Pook, Santa Rosa",Laguna,
+10/11/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,PANTALAN LUMA ORANI BATAAN.,PANTALAN LUMA ORANI BATAAN.,
+10/12/2025,DITO,7.80 Mbps,7.80,5 - 10 Mbps,5.90 Mbps,5.90,5 - 10 Mbps,26 ms,26,Vivaldi Residences Cubao Brgy. Socorro Quezon City 1109,Vivaldi Residences Cubao Brgy. Socorro Quezon City 1109,
+10/12/2025,Globe,4.93 Mbps,4.93,1 - 5 Mbps,0.65 Mbps,0.65,0 - 1 Mbps,1518 ms,1518,"30 castello st. Casa milan subdivision greater lagro, 30 castello st. Casa milan subdivision greater lagro",qc,
+10/12/2025,DITO,30.60 Mbps,30.60,30 - 70 Mbps,9.72 Mbps,9.72,5 - 10 Mbps,22 ms,22,"MRT-3, JEEPS at Buses",Dito sim,
+10/12/2025,Smart,38.20 Mbps,38.20,30 - 70 Mbps,3.00 Mbps,3.00,1 - 5 Mbps,24 ms,24,"San Francisco, San Francisco",Gen. Trias Cavite,
+10/12/2025,Smart,18.70 Mbps,18.70,10 - 30 Mbps,1.48 Mbps,1.48,1 - 5 Mbps,23 ms,23,"Ban-ban, Poblacion, Claveria",Misamis Oriental.,
+10/12/2025,Globe,4.93 Mbps,4.93,1 - 5 Mbps,0.65 Mbps,0.65,0 - 1 Mbps,1518 ms,1518,"castello st. G. Lagro, castello st. G. Lagro",qc,
+10/12/2025,TNT,2.06 Mbps,2.06,1 - 5 Mbps,0.21 Mbps,0.21,0 - 1 Mbps,68 ms,68,Purok 5 Camp Vicente Lim Brgy Mayapa Calamba City Laguna,Purok 5 Camp Vicente Lim Brgy Mayapa Calamba City Laguna,
+10/12/2025,Globe,9.14 Mbps,9.14,5 - 10 Mbps,4.26 Mbps,4.26,1 - 5 Mbps,31 ms,31,"PEDRO CRUZ, SAN JUAN CITY",NCR,
+10/12/2025,Globe,7.13 Mbps,7.13,5 - 10 Mbps,0.00 Mbps,0.00,,43 ms,43,"sitio mindanao, sitio mindanao",Candon city ilocos sur,
+10/12/2025,DITO,7.24 Mbps,7.24,5 - 10 Mbps,0.21 Mbps,0.21,0 - 1 Mbps,40 ms,40,Dasma Cavite,Dasma Cavite,
+10/12/2025,Smart,53.60 Mbps,53.60,30 - 70 Mbps,25.70 Mbps,25.70,10 - 30 Mbps,25 ms,25,"Brgy 583, Sampaloc",Manila,
+10/12/2025,DITO,53.60 Mbps,53.60,30 - 70 Mbps,25.70 Mbps,25.70,10 - 30 Mbps,25 ms,25,Dasma Cavite,Dasma Cavite,
+10/12/2025,DITO,86.50 Mbps,86.50,70 - 100 Mbps,4.40 Mbps,4.40,1 - 5 Mbps,58 ms,58,"SM Jmall, SM Jmall",Mandaue City,
+10/12/2025,Smart,45.60 Mbps,45.60,30 - 70 Mbps,18.10 Mbps,18.10,10 - 30 Mbps,21 ms,21,"SM Jmall, SM Jmall",Mandaue City,
+10/12/2025,Smart,2.41 Mbps,2.41,1 - 5 Mbps,0.11 Mbps,0.11,0 - 1 Mbps,268 ms,268,"Awag, Anda",Pangasinan,
+10/12/2025,Smart,2.41 Mbps,2.41,1 - 5 Mbps,0.11 Mbps,0.11,0 - 1 Mbps,268 ms,268,"AWAG, ANDA",PANGASINAN,
+10/12/2025,Globe,16.90 Mbps,16.90,10 - 30 Mbps,2.40 Mbps,2.40,1 - 5 Mbps,33 ms,33,"Baesa, Baesa",Quezon City,
+10/12/2025,Globe,12.70 Mbps,12.70,10 - 30 Mbps,4.60 Mbps,4.60,1 - 5 Mbps,24 ms,24,"Brgy. San Rafael Village, Brgy. San Rafael Village",Navotas,
+10/12/2025,Globe,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,997 ms,997,Bgy. 173 North Caloocan,Bgy. 173 North Caloocan,
+10/12/2025,Smart,22.20 Mbps,22.20,10 - 30 Mbps,0.90 Mbps,0.90,0 - 1 Mbps,46 ms,46,"Conner, Apayao",CAR 3807 Philippines,
+10/12/2025,DITO,7.84 Mbps,7.84,5 - 10 Mbps,0.70 Mbps,0.70,0 - 1 Mbps,360 ms,360,"Deca Homes South Bacolod Barangay Cabug, Deca Homes South Bacolod Barangay Cabug",Bacolod City Negros Occidental,
+10/12/2025,DITO,2.52 Mbps,2.52,1 - 5 Mbps,0.18 Mbps,0.18,0 - 1 Mbps,66 ms,66,Brgy Rizal Taguig City,Brgy Rizal Taguig City,
+10/12/2025,Smart,15.00 Mbps,15.00,10 - 30 Mbps,2.94 Mbps,2.94,1 - 5 Mbps,38 ms,38,Brgy Rizal Taguig City,Brgy Rizal Taguig City,
+10/12/2025,Smart,3.84 Mbps,3.84,1 - 5 Mbps,13.20 Mbps,13.20,10 - 30 Mbps,43 ms,43,Kamalay Subd cor Dacillo Subd Brgy San Jose Puerto Princesa City,Kamalay Subd cor Dacillo Subd Brgy San Jose Puerto Princesa City,
+10/12/2025,Smart,18.60 Mbps,18.60,10 - 30 Mbps,2.50 Mbps,2.50,1 - 5 Mbps,30 ms,30,"32 Lopez Jaena St. Brgy. San Jose, 32 Lopez Jaena St. Brgy. San Jose",Pasig City,
+10/12/2025,Globe,30.70 Mbps,30.70,30 - 70 Mbps,9.08 Mbps,9.08,5 - 10 Mbps,26 ms,26,"brgy.151, tondo",manila,
+10/12/2025,Globe,36.30 Mbps,36.30,30 - 70 Mbps,29.00 Mbps,29.00,10 - 30 Mbps,11 ms,11,"Brgy Maguyam, Brgy Maguyam",Silang Cavite,
+10/12/2025,Smart,46.60 Mbps,46.60,30 - 70 Mbps,2.18 Mbps,2.18,1 - 5 Mbps,880 ms,880,"Damilag, Damilag",Manolo Fortich,
+10/12/2025,Globe,43.50 Mbps,43.50,30 - 70 Mbps,3.40 Mbps,3.40,1 - 5 Mbps,27 ms,27,Aguilar,Aguilar,
+10/12/2025,Smart,10.50 Mbps,10.50,10 - 30 Mbps,2.65 Mbps,2.65,1 - 5 Mbps,32 ms,32,Slow signal SMART TELECOM,,
+10/12/2025,DITO,3.20 Mbps,3.20,1 - 5 Mbps,0.94 Mbps,0.94,0 - 1 Mbps,41 ms,41,Slow signal Dito Telecom,,
+10/12/2025,DITO,3.02 Mbps,3.02,1 - 5 Mbps,0.82 Mbps,0.82,0 - 1 Mbps,56 ms,56,Dito,Dito,
+10/12/2025,Globe,12.40 Mbps,12.40,10 - 30 Mbps,9.30 Mbps,9.30,5 - 10 Mbps,27 ms,27,Globe Alabang Muntinlupa,,
+10/12/2025,Globe,12.40 Mbps,12.40,10 - 30 Mbps,9.30 Mbps,9.30,5 - 10 Mbps,27 ms,27,SM North EDSA (Indoor),SM North EDSA (Indoor),
+10/12/2025,Smart,12.00 Mbps,12.00,10 - 30 Mbps,4.80 Mbps,4.80,1 - 5 Mbps,57 ms,57,SM North EDSA (Indoor),SM North EDSA (Indoor),
+10/12/2025,GOMO,60.30 Mbps,60.30,30 - 70 Mbps,3.90 Mbps,3.90,1 - 5 Mbps,70 ms,70,"Dampay Street Poblacion Alaminos City Pangasinan(16.1572721, Dampay Street Poblacion Alaminos City Pangasinan(16.1572721",119.9712909),
+10/12/2025,Smart,69.30 Mbps,69.30,30 - 70 Mbps,3.90 Mbps,3.90,1 - 5 Mbps,70 ms,70,"los banos, los banos",laguna,
+10/12/2025,DITO,28.10 Mbps,28.10,10 - 30 Mbps,16.80 Mbps,16.80,10 - 30 Mbps,41 ms,41,SAN ISIDRO LA PAZ ILOILO CITY,SAN ISIDRO LA PAZ ILOILO CITY,
+10/12/2025,Smart,12.20 Mbps,12.20,10 - 30 Mbps,0.35 Mbps,0.35,0 - 1 Mbps,1443 ms,1443,Cupang Muntinlupa,Cupang Muntinlupa,
+10/12/2025,Smart,119.70 Mbps,119.70,100+ Mbps,11.50 Mbps,11.50,10 - 30 Mbps,21 ms,21,"Cupang, Cupang",Muntinlupa,
+10/12/2025,Globe,5.67 Mbps,5.67,5 - 10 Mbps,0.35 Mbps,0.35,0 - 1 Mbps,53 ms,53,Re: Poor Signal - Smart or TNT / No Signal - Globe,,
+10/12/2025,Smart,1.10 Mbps,1.10,1 - 5 Mbps,4.40 Mbps,4.40,1 - 5 Mbps,35 ms,35,"Brgy. Bagtas, Brgy. Bagtas",Tanza Cavite,
+10/12/2025,Globe,20.40 Mbps,20.40,10 - 30 Mbps,1.61 Mbps,1.61,1 - 5 Mbps,25 ms,25,"Pembo, Pembo",Taguig,
+10/12/2025,Smart,2.00 Mbps,2.00,1 - 5 Mbps,,,,16 ms,16,South Signal Taguig,South Signal Taguig,
+10/13/2025,Globe,363.00 Mbps,363.00,100+ Mbps,353.00 Mbps,353.00,30+ Mbps,,,"Greenpark, Cainta",Rizal,
+10/13/2025,Globe,3.15 Mbps,3.15,1 - 5 Mbps,1.30 Mbps,1.30,1 - 5 Mbps,1014 ms,1014,"Prk. Kaunlaran, Brgy. Zone I, Koronadal City",South Cotabato,
+10/13/2025,Globe,85.30 Mbps,85.30,70 - 100 Mbps,12.90 Mbps,12.90,10 - 30 Mbps,20 ms,20,Quezon City,Quezon City,
+10/13/2025,DITO,1.63 Mbps,1.63,1 - 5 Mbps,2.29 Mbps,2.29,1 - 5 Mbps,51 ms,51,"Mabini Ext., Brgy., Zone IV",Koronadal City,
+10/13/2025,Globe,1.63 Mbps,1.63,1 - 5 Mbps,2.29 Mbps,2.29,1 - 5 Mbps,51 ms,51,Caloocan city,Caloocan city,
+10/13/2025,TNT,128.00 Mbps,128.00,100+ Mbps,11.00 Mbps,11.00,10 - 30 Mbps,30 ms,30,"Brgy. Bubuyan, City of Calamba",Laguna,
+10/13/2025,Smart,16.00 Mbps,16.00,10 - 30 Mbps,7.00 Mbps,7.00,5 - 10 Mbps,31 ms,31,"Brgy.Apas, Brgy.Apas",Cebu City,
+10/13/2025,Globe,0.00 Mbps,0.00,,0.58 Mbps,0.58,0 - 1 Mbps,152 ms,152,"Noveleta, Noveleta",Cavite,
+10/13/2025,Smart,2.52 Mbps,2.52,1 - 5 Mbps,0.41 Mbps,0.41,0 - 1 Mbps,61 ms,61,"Brgy Mapula Romblon, Brgy Mapula Romblon",Romblon,
+10/13/2025,Smart,0.00 Mbps,0.00,,0.27 Mbps,0.27,0 - 1 Mbps,111 ms,111,"Bryan. Poblacion East, Sta. Ignacia",Tarlac,
+10/17/2025,TNT,23.70 Mbps,23.70,10 - 30 Mbps,7.01 Mbps,7.01,5 - 10 Mbps,26 ms,26,North Caloocan,North Caloocan,
+10/17/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"Nestle Philippines Inc, Barangay Bagong Pook, Lipa",Batangas,
+10/17/2025,Globe,2.20 Mbps,2.20,1 - 5 Mbps,0.90 Mbps,0.90,0 - 1 Mbps,35 ms,35,"Guinting Casile, Cabuyao",Laguna,
+10/17/2025,Smart,228.30 Mbps,228.30,100+ Mbps,30.00 Mbps,30.00,30+ Mbps,14 ms,14,"Taytay, Taytay",Rizal,
+10/17/2025,Globe,215.70 Mbps,215.70,100+ Mbps,5.10 Mbps,5.10,5 - 10 Mbps,11 ms,11,"Taytay, Taytay",Rizal,
+10/17/2025,Smart,5.25 Mbps,5.25,5 - 10 Mbps,0.27 Mbps,0.27,0 - 1 Mbps,49 ms,49,"San Juan, San Juan",Batangas,
+10/17/2025,Smart,27.10 Mbps,27.10,10 - 30 Mbps,2.84 Mbps,2.84,1 - 5 Mbps,417 ms,417,,,
+10/17/2025,Smart,5.78 Mbps,5.78,5 - 10 Mbps,1.83 Mbps,1.83,1 - 5 Mbps,115 ms,115,"Calaran, Calamba",Misamis Oriental,
+10/17/2025,DITO,1.40 Mbps,1.40,1 - 5 Mbps,3.40 Mbps,3.40,1 - 5 Mbps,30 ms,30,"Brgy Maguyam, Silang",Cavite,
+10/17/2025,Smart,21.60 Mbps,21.60,10 - 30 Mbps,0.90 Mbps,0.90,0 - 1 Mbps,112 ms,112,"Brgy. East Quirino Hill, Brgy. East Quirino Hill",Baguio City,
+10/17/2025,Smart,40.00 Mbps,40.00,30 - 70 Mbps,5.13 Mbps,5.13,5 - 10 Mbps,43 ms,43,"CABU SEGUIL, GENERAL SANTOS CITY",South Cotabato,
+10/17/2025,Globe,40.00 Mbps,40.00,30 - 70 Mbps,5.13 Mbps,5.13,5 - 10 Mbps,43 ms,43,"ST.JHON STREET BARANGAY 179, PASAY CITY",Metro Manila,
+10/17/2025,Smart,12.90 Mbps,12.90,10 - 30 Mbps,12.40 Mbps,12.40,10 - 30 Mbps,97 ms,97,"Mango Sq., Mango Sq.",Cebu City,
+10/17/2025,GOMO,135.00 Mbps,135.00,100+ Mbps,3.16 Mbps,3.16,1 - 5 Mbps,80 ms,80,"JOLLIBEE TUBOD BRANCH, JOLLIBEE TUBOD BRANCH",ILIGAN,
+10/17/2025,TNT,72.90 Mbps,72.90,70 - 100 Mbps,17.10 Mbps,17.10,10 - 30 Mbps,28 ms,28,"Brgy. Masaya, Bay",Laguna,
+10/17/2025,DITO,0.00 Mbps,0.00,,0.01 Mbps,0.01,0 - 1 Mbps,175 ms,175,"Brgy. Combado, Cantu-od, Balamban",Cebu,
+10/17/2025,DITO,2.37 Mbps,2.37,1 - 5 Mbps,0.00 Mbps,0.00,,32 ms,32,"Brgy. Manggahan, Rodriguez",Rizal,
+10/17/2025,DITO,15.20 Mbps,15.20,10 - 30 Mbps,0.79 Mbps,0.79,0 - 1 Mbps,25 ms,25,"Brgy 9, Kabankalan City",Negros Occidental,
+10/17/2025,Globe,4.40 Mbps,4.40,1 - 5 Mbps,0.13 Mbps,0.13,0 - 1 Mbps,519 ms,519,"Ampusongan National High School Ampusongan, Bakun",Benguet,
+10/17/2025,Smart,1.50 Mbps,1.50,1 - 5 Mbps,1.11 Mbps,1.11,1 - 5 Mbps,42 ms,42,"Brgy. Bigaa, Legazpi City",Albay,
+10/17/2025,DITO,7.43 Mbps,7.43,5 - 10 Mbps,1.56 Mbps,1.56,1 - 5 Mbps,30 ms,30,"Herdex, Saint Joseph",Pasig City,
+10/17/2025,Smart,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"Purok 1 Toledo, Nabas",Aklan,
+10/18/2025,TNT,4.58 Mbps,4.58,1 - 5 Mbps,3.37 Mbps,3.37,1 - 5 Mbps,36 ms,36,"Brgy. Talisay, Tiaong",Quezon,
+10/18/2025,DITO,17.30 Mbps,17.30,10 - 30 Mbps,14.10 Mbps,14.10,10 - 30 Mbps,29 ms,29,"St Rose Village 1 Barangay Market Area, Santa Rosa",Laguna,
+10/18/2025,Globe,48.20 Mbps,48.20,30 - 70 Mbps,45.20 Mbps,45.20,30+ Mbps,9 ms,9,"pasigline, sta ana",manila,
+10/18/2025,Smart,8.60 Mbps,8.60,5 - 10 Mbps,0.60 Mbps,0.60,0 - 1 Mbps,37 ms,37,"Pasong camachile, General Trias",Cavite,
+10/18/2025,DITO,76.00 Mbps,76.00,70 - 100 Mbps,3.57 Mbps,3.57,1 - 5 Mbps,46 ms,46,"Brgy. Balete, Brgy. Balete",Tarlac City,
+10/18/2025,Globe,15.50 Mbps,15.50,10 - 30 Mbps,1.01 Mbps,1.01,1 - 5 Mbps,271 ms,271,"Claver, Claver",Surigao del Norte,
+10/18/2025,DITO,5.39 Mbps,5.39,5 - 10 Mbps,5.58 Mbps,5.58,5 - 10 Mbps,30 ms,30,"Brgy. Masaya, Bay",Laguna,
+10/18/2025,Globe,7.29 Mbps,7.29,5 - 10 Mbps,1.87 Mbps,1.87,1 - 5 Mbps,43 ms,43,"Pandayan, Meycauayan",Bulacan,
+10/18/2025,Smart,43.90 Mbps,43.90,30 - 70 Mbps,10.00 Mbps,10.00,10 - 30 Mbps,40 ms,40,"Meycauayan, Meycauayan",Bulacan,
+10/18/2025,GOMO,0.00 Mbps,0.00,,0.28 Mbps,0.28,0 - 1 Mbps,152 ms,152,"Brgy. Santa Ines, San Miguel",Bulacan,
+10/18/2025,Smart,3.80 Mbps,3.80,1 - 5 Mbps,7.10 Mbps,7.10,5 - 10 Mbps,39 ms,39,"Brgy Pasong Camachile 1, General Trias",Cavite,
+10/18/2025,Globe,5.13 Mbps,5.13,5 - 10 Mbps,3.76 Mbps,3.76,1 - 5 Mbps,72 ms,72,"Brgy.Tinampo, Palapag",Northern Samar,
+10/18/2025,TM,9.90 Mbps,9.90,5 - 10 Mbps,1.20 Mbps,1.20,1 - 5 Mbps,997 ms,997,"Primark Savemore Guimba, Primark Savemore Guimba",Nueva Ecija,
+10/18/2025,TNT,12.30 Mbps,12.30,10 - 30 Mbps,1.06 Mbps,1.06,1 - 5 Mbps,57 ms,57,"Bagbag Tanauan City, Bagbag Tanauan City",Batangas,
+10/18/2025,Smart,0.00 Mbps,0.00,,0.22 Mbps,0.22,0 - 1 Mbps,1 ms,1,"Tunga-Tunga, Dauin",Negros oriental,
+10/18/2025,Smart,48.60 Mbps,48.60,30 - 70 Mbps,2.94 Mbps,2.94,1 - 5 Mbps,44 ms,44,"CABU, SIGUEL",GENERAL SANTOS CITY,
+10/18/2025,Globe,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"BINIDAYAN, BINIDAYAN",Lanao del Sur,
+10/18/2025,DITO,0.27 Mbps,0.27,0 - 1 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,157 ms,157,"GMA, GMA",cavite,
+10/18/2025,Globe,5.40 Mbps,5.40,5 - 10 Mbps,2.50 Mbps,2.50,1 - 5 Mbps,114 ms,114,"Brgy. Malagutay, Brgy. Malagutay",Zamboanga City,
+10/18/2025,Smart,5.80 Mbps,5.80,5 - 10 Mbps,2.26 Mbps,2.26,1 - 5 Mbps,149 ms,149,"Purok 1 Calaran, Calamba",Misamis Occidental,
+10/18/2025,GOMO,1.60 Mbps,1.60,1 - 5 Mbps,3.40 Mbps,3.40,1 - 5 Mbps,69 ms,69,"Ayala Malls Center Cebu, Ayala Malls Center Cebu",Cebu Business Park,
+10/18/2025,DITO,0.00 Mbps,0.00,,0.00 Mbps,0.00,,0 ms,0,"Brgy. Tabunan, Borbon",Cebu,
+10/18/2025,DITO,124.00 Mbps,124.00,100+ Mbps,22.20 Mbps,22.20,10 - 30 Mbps,36 ms,36,"Brgy. Poblacion, Borbon",Cebu,
+10/18/2025,TM,0.00 Mbps,0.00,,0.00 Mbps,0.00,,1 ms,1,"P-5 Brgy. Managok, P-5 Brgy. Managok",Bukidnon,
+10/18/2025,TNT,13.80 Mbps,13.80,10 - 30 Mbps,0.44 Mbps,0.44,0 - 1 Mbps,42 ms,42,"888 Mall, Bacolod City",NIR,
+10/18/2025,Globe,3.82 Mbps,3.82,1 - 5 Mbps,0.01 Mbps,0.01,0 - 1 Mbps,8110 ms,8110,"Zone 12, Zone 12",Talisay City,
+10/18/2025,Globe,13.40 Mbps,13.40,10 - 30 Mbps,1.00 Mbps,1.00,1 - 5 Mbps,35 ms,35,"7-Eleven Sta Veronica, Guimba",Nueva Ecija,
+10/18/2025,Smart,0.23 Mbps,0.23,0 - 1 Mbps,0.82 Mbps,0.82,0 - 1 Mbps,90 ms,90,67C Santo Niño	San Pedro City	Laguna,67C Santo Niño	San Pedro City	Laguna,
+10/18/2025,Smart,24.60 Mbps,24.60,10 - 30 Mbps,6.39 Mbps,6.39,5 - 10 Mbps,25 ms,25,"F. Manalo St. Brgy, Kabayanan, San Juan City",Metro Manila,
+10/18/2025,DITO,10.70 Mbps,10.70,10 - 30 Mbps,0.00 Mbps,0.00,,46 ms,46,"Brgy San Vicente, Tabaco",Albay,
+10/18/2025,GOMO,0.39 Mbps,0.39,0 - 1 Mbps,0.38 Mbps,0.38,0 - 1 Mbps,124 ms,124,"Calangcawan Sur, Vinzons",Camarines Norte,
