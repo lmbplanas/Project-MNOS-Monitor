@@ -411,16 +411,21 @@ class MNOPerformanceApp {
     }
 
     populateFilters() {
-        const providers = [...new Set(this.rawData.map(d => d.provider))].sort();
+        const allowedProviders = ['DITO', 'Globe', 'Smart', 'Sun'];
+        const providers = [...new Set(this.rawData.map(d => d.provider))]
+            .filter(p => allowedProviders.includes(p))
+            .sort();
         const provinces = [...new Set(this.rawData.map(d => d.province).filter(p => p))].sort();
 
         const providerFiltersDiv = document.getElementById('provider-filters');
-        providerFiltersDiv.innerHTML = providers.map(provider => `
+        providerFiltersDiv.innerHTML = providers.map(provider => {
+            return `
             <label class="flex items-center space-x-2 provider-checkbox-label">
                 <input type="checkbox" value="${provider}" checked class="provider-checkbox">
                 <span class="text-sm text-gray-700 dark:text-gray-300">${provider}</span>
             </label>
-        `).join('');
+            `;
+        }).join('');
 
         document.querySelectorAll('.provider-checkbox').forEach(checkbox => {
             checkbox.addEventListener('change', () => {
