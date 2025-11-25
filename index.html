@@ -218,59 +218,7 @@
                         </div>
                     </div>
 
-                    <!-- Date Range Filter -->
-                    <div
-                        class="p-3 sm:p-4 md:p-6 bg-white rounded-xl sm:rounded-2xl card-elevated border border-gray-100">
-                        <div class="flex items-center space-x-2 sm:space-x-3 mb-3 sm:mb-4">
-                            <div class="accent-pill"></div>
-                            <h3 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-800">Date Range</h3>
-                        </div>
-                        <div class="space-y-3 sm:space-y-4">
-                            <div class="flex gap-2 mb-3">
-                                <button
-                                    class="date-preset px-3 py-1 text-xs bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 font-semibold transition-colors"
-                                    data-days="7">Last 7 Days</button>
-                                <button
-                                    class="date-preset px-3 py-1 text-xs bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 font-semibold transition-colors"
-                                    data-days="30">Last 30 Days</button>
-                                <button
-                                    class="date-preset px-3 py-1 text-xs bg-blue-100 text-blue-700 rounded-lg hover:bg-blue-200 font-semibold transition-colors"
-                                    data-days="all">All Time</button>
-                            </div>
-                            <div>
-                                <label class="block text-xs sm:text-sm font-semibold text-gray-700 mb-1 sm:mb-2">From
-                                    <span class="text-gray-400 text-xs">(mm/dd/yyyy)</span></label>
-                                <input type="date" id="date-from"
-                                    class="w-full px-3 py-2 sm:px-4 sm:py-3 input-premium rounded-lg sm:rounded-xl text-sm sm:text-base text-gray-800 font-medium focus:outline-none min-h-[44px]">
-                            </div>
-                            <div>
-                                <label class="block text-xs sm:text-sm font-semibold text-gray-700 mb-1 sm:mb-2">To
-                                    <span class="text-gray-400 text-xs">(mm/dd/yyyy)</span></label>
-                                <input type="date" id="date-to"
-                                    class="w-full px-3 py-2 sm:px-4 sm:py-3 input-premium rounded-lg sm:rounded-xl text-sm sm:text-base text-gray-800 font-medium focus:outline-none min-h-[44px]">
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- Speed Range Filter -->
-                    <div
-                        class="p-3 sm:p-4 md:p-6 bg-white rounded-xl sm:rounded-2xl card-elevated border border-gray-100">
-                        <div class="flex items-center space-x-2 sm:space-x-3 mb-3 sm:mb-4">
-                            <div class="accent-pill"></div>
-                            <h3 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-800">Speed Range</h3>
-                        </div>
-                        <select id="speed-range-filter"
-                            class="w-full px-3 py-2 sm:px-4 sm:py-3 input-premium rounded-lg sm:rounded-xl text-sm sm:text-base text-gray-800 font-medium focus:outline-none min-h-[44px]">
-                            <option value="">All Speeds</option>
-                            <option value="0-1">0-1 Mbps (Poor)</option>
-                            <option value="1-5">1-5 Mbps (Fair)</option>
-                            <option value="5-10">5-10 Mbps (Average)</option>
-                            <option value="10-30">10-30 Mbps (Good)</option>
-                            <option value="30-70">30-70 Mbps (Very Good)</option>
-                            <option value="70-100">70-100 Mbps (Excellent)</option>
-                            <option value="100+">100+ Mbps (Outstanding)</option>
-                        </select>
-                    </div>
 
                     <!-- Action Buttons -->
                     <div class="space-y-3 sm:space-y-4">
@@ -645,7 +593,7 @@
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-    <script src="app.js?v=29"></script>
+    <script src="app.js?v=40"></script>
 </body>
 
 </html>

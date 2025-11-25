@@ -35,6 +35,13 @@ class MNOPerformanceApp {
         this.initializeCharts();
         this.setupThemeToggle();
 
+        // Load cities data for map (and filters)
+        try {
+            await this.loadCitiesData('data/other_data_cities.csv?v=' + Date.now());
+        } catch (error) {
+            console.log('No cities data found.');
+        }
+
         const defaultCSV = 'data/speed_test_data.csv?v=' + Date.now();
         try {
             await this.loadCSV(defaultCSV);
@@ -55,13 +62,6 @@ class MNOPerformanceApp {
             await this.loadDailyTrendData('data/other_data_daily.csv?v=' + Date.now());
         } catch (error) {
             console.log('No daily trend data found.');
-        }
-
-        // Load cities data for map
-        try {
-            await this.loadCitiesData('data/other_data_cities.csv?v=' + Date.now());
-        } catch (error) {
-            console.log('No cities data found.');
         }
     }
 
@@ -85,43 +85,7 @@ class MNOPerformanceApp {
             this.applyFilters();
         });
 
-        document.getElementById('date-from').addEventListener('change', (e) => {
-            this.filters.dateFrom = e.target.value;
-            this.applyFilters();
-        });
 
-        document.getElementById('date-to').addEventListener('change', (e) => {
-            this.filters.dateTo = e.target.value;
-            this.applyFilters();
-        });
-
-        document.querySelectorAll('.date-preset').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                const days = e.target.dataset.days;
-                const today = new Date();
-                const dateToInput = document.getElementById('date-to');
-                const dateFromInput = document.getElementById('date-from');
-
-                if (days === 'all') {
-                    dateFromInput.value = '';
-                    dateToInput.value = '';
-                } else {
-                    const daysAgo = new Date(today);
-                    daysAgo.setDate(today.getDate() - parseInt(days));
-                    dateFromInput.value = daysAgo.toISOString().split('T')[0];
-                    dateToInput.value = today.toISOString().split('T')[0];
-                }
-
-                this.filters.dateFrom = dateFromInput.value;
-                this.filters.dateTo = dateToInput.value;
-                this.applyFilters();
-            });
-        });
-
-        document.getElementById('speed-range-filter').addEventListener('change', (e) => {
-            this.filters.speedRange = e.target.value;
-            this.applyFilters();
-        });
 
         document.getElementById('table-search').addEventListener('input', (e) => {
             this.searchTable(e.target.value);
@@ -326,6 +290,7 @@ class MNOPerformanceApp {
 
         this.populateFilters();
         this.applyFilters();
+        this.renderTable();
     }
 
     parseLocation(location) {
@@ -411,11 +376,25 @@ class MNOPerformanceApp {
     }
 
     populateFilters() {
-        const allowedProviders = ['DITO', 'Globe', 'Smart', 'Sun'];
+        const allowedProviders = ['DITO', 'Globe', 'Smart'];
         const providers = [...new Set(this.rawData.map(d => d.provider))]
             .filter(p => allowedProviders.includes(p))
             .sort();
-        const provinces = [...new Set(this.rawData.map(d => d.province).filter(p => p))].sort();
+
+        // Extract provinces from rawCitiesData (Location Name: "City, Province, Philippines")
+        let provinces = [];
+        if (this.rawCitiesData && this.rawCitiesData.length > 0) {
+            provinces = [...new Set(this.rawCitiesData
+                .map(d => {
+                    const parts = (d['Location Name'] || '').split(',');
+                    return parts.length >= 2 ? parts[1].trim() : null;
+                })
+                .filter(p => p)
+            )].sort();
+        } else {
+            // Fallback
+            provinces = [...new Set(this.rawData.map(d => d.province).filter(p => p))].sort();
+        }
 
         const providerFiltersDiv = document.getElementById('provider-filters');
         providerFiltersDiv.innerHTML = providers.map(provider => {
@@ -444,61 +423,79 @@ class MNOPerformanceApp {
     }
 
     updateCityFilter() {
-        const cities = this.filters.province
-            ? [...new Set(this.rawData
-                .filter(d => d.province === this.filters.province)
-                .map(d => d.city)
-                .filter(c => c)
-            )].sort()
-            : [...new Set(this.rawData.map(d => d.city).filter(c => c))].sort();
-
+        const province = this.filters.province;
         const citySelect = document.getElementById('city-filter');
+
+        let cities = [];
+        if (this.rawCitiesData && this.rawCitiesData.length > 0) {
+            const locations = this.rawCitiesData
+                .map(d => {
+                    const parts = (d['Location Name'] || '').split(',');
+                    if (parts.length >= 2) {
+                        return { city: parts[0].trim(), province: parts[1].trim() };
+                    }
+                    return null;
+                })
+                .filter(l => l);
+
+            if (province) {
+                cities = [...new Set(locations.filter(l => l.province === province).map(l => l.city))].sort();
+            } else {
+                cities = [...new Set(locations.map(l => l.city))].sort();
+            }
+        } else {
+            // Fallback
+            if (province) {
+                cities = [...new Set(this.rawData.filter(d => d.province === province).map(d => d.city).filter(c => c))].sort();
+            } else {
+                cities = [...new Set(this.rawData.map(d => d.city).filter(c => c))].sort();
+            }
+        }
+
         citySelect.innerHTML = '<option value="">All Cities</option>' +
             cities.map(c => `<option value="${c}">${c}</option>`).join('');
-
         this.filters.city = '';
     }
 
     applyFilters() {
         console.log('Applying filters:', JSON.stringify(this.filters));
-        this.filteredData = this.rawData.filter(row => {
-            if (this.filters.providers.length && !this.filters.providers.includes(row.provider)) {
-                return false;
-            }
 
-            if (this.filters.province && row.province !== this.filters.province) {
-                return false;
-            }
-
-            if (this.filters.city && row.city !== this.filters.city) {
-                return false;
-            }
-
-            if (this.filters.dateFrom && row.date) {
-                const fromDate = new Date(this.filters.dateFrom);
-                if (row.date < fromDate) return false;
-            }
-
-            if (this.filters.dateTo && row.date) {
-                const toDate = new Date(this.filters.dateTo);
-                if (row.date > toDate) return false;
-            }
-
-            if (this.filters.speedRange) {
-                const range = this.filters.speedRange;
-                if (range === '100+') {
-                    if (row.download < 100) return false;
-                } else {
-                    const [min, max] = range.split('-').map(Number);
-                    if (row.download < min || row.download >= max) return false;
+        // Filter cities data for summary cards, charts, and map
+        if (this.rawCitiesData) {
+            this.filteredCitiesData = this.rawCitiesData.filter(row => {
+                // Provider Filter
+                if (this.filters.providers && this.filters.providers.length > 0) {
+                    if (!this.filters.providers.includes(row.Provider)) {
+                        return false;
+                    }
                 }
-            }
 
-            return true;
-        });
+                // Location Filter
+                if (this.filters.province || this.filters.city) {
+                    const parts = (row['Location Name'] || '').split(',');
+                    if (parts.length < 2) return false;
+
+                    const city = parts[0].trim();
+                    const province = parts[1].trim();
+
+                    if (this.filters.province && province !== this.filters.province) {
+                        return false;
+                    }
+                    if (this.filters.city && city !== this.filters.city) {
+                        return false;
+                    }
+                }
+
+                return true;
+            });
+        } else {
+            this.filteredCitiesData = [];
+        }
 
         this.currentPage = 1;
-        this.updateVisualization();
+        this.updateSummaryCards();
+        this.updateCharts();
+        this.updateMap();
 
         // Update trend charts if data is loaded
         if (this.rawTrendData.length > 0) {
@@ -507,8 +504,11 @@ class MNOPerformanceApp {
     }
 
     resetFilters() {
+        const allowedProviders = ['DITO', 'Globe', 'Smart'];
         this.filters = {
-            providers: [...new Set(this.rawData.map(d => d.provider))],
+            providers: [...new Set(this.rawData.map(d => d.provider))]
+                .filter(p => allowedProviders.includes(p))
+                .sort(),
             province: '',
             city: '',
             dateFrom: '',
@@ -519,9 +519,6 @@ class MNOPerformanceApp {
         document.querySelectorAll('.provider-checkbox').forEach(cb => cb.checked = true);
         document.getElementById('province-filter').value = '';
         document.getElementById('city-filter').value = '';
-        document.getElementById('date-from').value = '';
-        document.getElementById('date-to').value = '';
-        document.getElementById('speed-range-filter').value = '';
         document.getElementById('table-search').value = '';
 
         this.applyFilters();
@@ -535,54 +532,28 @@ class MNOPerformanceApp {
     }
 
     updateSummaryCards() {
-        if (!this.rawTrendData || this.rawTrendData.length === 0) {
-            document.getElementById('total-tests').textContent = '-';
-            document.getElementById('avg-download').textContent = '-';
-            document.getElementById('avg-upload').textContent = '-';
-            document.getElementById('avg-latency').textContent = '-';
-            return;
-        }
+        const data = this.filteredCitiesData || [];
 
         let totalTests = 0;
-        let totalDownload = 0;
-        let totalUpload = 0;
-        let totalLatency = 0;
-        let downloadCount = 0;
-        let uploadCount = 0;
-        let latencyCount = 0;
+        let weightedDownload = 0;
+        let weightedUpload = 0;
+        let weightedLatency = 0;
 
-        this.rawTrendData.forEach(row => {
-            // Find keys robustly (handling potential whitespace)
-            const testCountKey = Object.keys(row).find(k => k.trim() === 'Test Count') || 'Test Count';
-            const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
-            const uploadKey = Object.keys(row).find(k => k.trim() === 'Upload Speed Mbps') || 'Upload Speed Mbps';
-            const latencyKey = Object.keys(row).find(k => k.trim() === 'Multi-Server Latency') || 'Multi-Server Latency';
+        data.forEach(row => {
+            const tests = parseInt(row['Test Count']) || 0;
+            const download = parseFloat(row['Download Speed Mbps']) || 0;
+            const upload = parseFloat(row['Upload Speed Mbps']) || 0;
+            const latency = parseFloat(row['Minimum Latency']) || 0;
 
-            const testCount = parseFloat(row[testCountKey]);
-            const download = parseFloat(row[downloadKey]);
-            const upload = parseFloat(row[uploadKey]);
-            const latency = parseFloat(row[latencyKey]);
-
-            if (!isNaN(testCount)) {
-                totalTests += testCount;
-            }
-            if (!isNaN(download)) {
-                totalDownload += download;
-                downloadCount++;
-            }
-            if (!isNaN(upload)) {
-                totalUpload += upload;
-                uploadCount++;
-            }
-            if (!isNaN(latency)) {
-                totalLatency += latency;
-                latencyCount++;
-            }
+            totalTests += tests;
+            weightedDownload += download * tests;
+            weightedUpload += upload * tests;
+            weightedLatency += latency * tests;
         });
 
-        const avgDownload = downloadCount ? totalDownload / downloadCount : 0;
-        const avgUpload = uploadCount ? totalUpload / uploadCount : 0;
-        const avgLatency = latencyCount ? totalLatency / latencyCount : 0;
+        const avgDownload = totalTests > 0 ? weightedDownload / totalTests : 0;
+        const avgUpload = totalTests > 0 ? weightedUpload / totalTests : 0;
+        const avgLatency = totalTests > 0 ? weightedLatency / totalTests : 0;
 
         // Format total tests with commas for readability
         document.getElementById('total-tests').textContent = totalTests.toLocaleString();
@@ -987,42 +958,55 @@ class MNOPerformanceApp {
     }
 
     updateProviderComparisonChart() {
-        // Use rawTrendData instead of filteredData
-        if (!this.rawTrendData || this.rawTrendData.length === 0) {
-            console.log('No trend data available for provider comparison');
+        // Use filteredCitiesData to respect filters
+        const data = this.filteredCitiesData || [];
+
+        if (data.length === 0) {
+            console.log('No filtered cities data available for provider comparison');
+            // Clear chart or show empty state
+            this.charts.providerComparison.data = {
+                labels: [],
+                datasets: []
+            };
+            this.charts.providerComparison.update();
             return;
         }
 
-        const targetProviders = ['Smart', 'Globe', 'DITO', 'Sun Cellular (MVNO)'];
+        // Group by provider and calculate weighted averages
         const providerStats = {};
 
-        // Initialize stats for target providers
-        targetProviders.forEach(p => {
-            providerStats[p] = { downloads: [], uploads: [] };
-        });
+        data.forEach(row => {
+            const provider = row.Provider;
+            const tests = parseInt(row['Test Count']) || 0;
+            const download = parseFloat(row['Download Speed Mbps']) || 0;
+            const upload = parseFloat(row['Upload Speed Mbps']) || 0;
 
-        this.rawTrendData.forEach(row => {
-            if (targetProviders.includes(row.Provider)) {
-                const download = parseFloat(row['Download Speed Mbps']);
-                const upload = parseFloat(row['Upload Speed Mbps']);
-
-                if (!isNaN(download)) providerStats[row.Provider].downloads.push(download);
-                if (!isNaN(upload)) providerStats[row.Provider].uploads.push(upload);
+            if (!providerStats[provider]) {
+                providerStats[provider] = {
+                    totalTests: 0,
+                    weightedDownload: 0,
+                    weightedUpload: 0
+                };
             }
+
+            providerStats[provider].totalTests += tests;
+            providerStats[provider].weightedDownload += download * tests;
+            providerStats[provider].weightedUpload += upload * tests;
         });
 
-        const displayProviders = ['Smart', 'Globe', 'DITO', 'Sun'];
-        const avgDownloads = targetProviders.map(p => {
-            const downloads = providerStats[p].downloads;
-            return downloads.length ? downloads.reduce((sum, d) => sum + d, 0) / downloads.length : 0;
+        // Calculate averages and prepare chart data
+        const providers = Object.keys(providerStats).sort();
+        const avgDownloads = providers.map(p => {
+            const stats = providerStats[p];
+            return stats.totalTests > 0 ? stats.weightedDownload / stats.totalTests : 0;
         });
-        const avgUploads = targetProviders.map(p => {
-            const uploads = providerStats[p].uploads;
-            return uploads.length ? uploads.reduce((sum, u) => sum + u, 0) / uploads.length : 0;
+        const avgUploads = providers.map(p => {
+            const stats = providerStats[p];
+            return stats.totalTests > 0 ? stats.weightedUpload / stats.totalTests : 0;
         });
 
         this.charts.providerComparison.data = {
-            labels: displayProviders,
+            labels: providers,
             datasets: [
                 {
                     label: 'Avg Download',
@@ -1044,11 +1028,11 @@ class MNOPerformanceApp {
     }
 
     updateSpeedDistributionChart() {
-        console.log('updateSpeedDistributionChart called, rawCitiesData length:', this.rawCitiesData ? this.rawCitiesData.length : 0);
+        console.log('updateSpeedDistributionChart called, filteredCitiesData length:', this.filteredCitiesData ? this.filteredCitiesData.length : 0);
 
-        // Use cities data if available
-        if (!this.rawCitiesData || this.rawCitiesData.length === 0) {
-            console.log('No cities data available for Top Cities chart');
+        // Use filtered cities data to respect filters
+        if (!this.filteredCitiesData || this.filteredCitiesData.length === 0) {
+            console.log('No filtered cities data available for Top Cities chart');
             // Fallback: show message or empty chart
             this.charts.speedDistribution.data = {
                 labels: [],
@@ -1061,7 +1045,7 @@ class MNOPerformanceApp {
         // Group by city and calculate average download speed per city (across all providers)
         const cityData = {};
 
-        this.rawCitiesData.forEach(row => {
+        this.filteredCitiesData.forEach(row => {
             const locationKey = Object.keys(row).find(k => k.trim() === 'Location Name') || 'Location Name';
             const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
 
@@ -1156,50 +1140,50 @@ class MNOPerformanceApp {
     }
 
     updateProviderRadarChart() {
-        if (!this.rawTrendData || this.rawTrendData.length === 0) {
+        // Use filteredCitiesData to respect filters
+        const data = this.filteredCitiesData || [];
+
+        if (data.length === 0) {
+            this.charts.providerRadar.data = {
+                labels: ['Download Speed', 'Upload Speed', 'Latency'],
+                datasets: []
+            };
+            this.charts.providerRadar.update();
             return;
         }
 
+        // Group by provider and calculate weighted averages
         const providerStats = {};
 
-        // Filter for specific providers and calculate stats from trend data
-        const targetProviders = ['Smart', 'Globe', 'DITO', 'Sun Cellular (MVNO)', 'GOMO'];
-
-        this.rawTrendData.forEach(row => {
-            const provider = row['Provider'] || row['provider'];
-            if (!provider || !targetProviders.includes(provider)) return;
-
-            // Find keys robustly (handling potential whitespace)
-            const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
-            const uploadKey = Object.keys(row).find(k => k.trim() === 'Upload Speed Mbps') || 'Upload Speed Mbps';
-            const latencyKey = Object.keys(row).find(k => k.trim() === 'Multi-Server Latency') || 'Multi-Server Latency';
+        data.forEach(row => {
+            const provider = row.Provider;
+            const tests = parseInt(row['Test Count']) || 0;
+            const download = parseFloat(row['Download Speed Mbps']) || 0;
+            const upload = parseFloat(row['Upload Speed Mbps']) || 0;
+            const latency = parseFloat(row['Minimum Latency']) || 0;
 
             if (!providerStats[provider]) {
-                providerStats[provider] = { downloads: [], uploads: [], latencies: [] };
+                providerStats[provider] = {
+                    totalTests: 0,
+                    weightedDownload: 0,
+                    weightedUpload: 0,
+                    weightedLatency: 0
+                };
             }
 
-            const download = parseFloat(row[downloadKey]);
-            const upload = parseFloat(row[uploadKey]);
-            const latency = parseFloat(row[latencyKey]);
-
-            if (!isNaN(download)) providerStats[provider].downloads.push(download);
-            if (!isNaN(upload)) providerStats[provider].uploads.push(upload);
-            if (!isNaN(latency)) providerStats[provider].latencies.push(latency);
+            providerStats[provider].totalTests += tests;
+            providerStats[provider].weightedDownload += download * tests;
+            providerStats[provider].weightedUpload += upload * tests;
+            providerStats[provider].weightedLatency += latency * tests;
         });
 
-        const providers = Object.keys(providerStats).sort().slice(0, 5);
+        const providers = Object.keys(providerStats).sort();
 
         const datasets = providers.map((provider, index) => {
             const stats = providerStats[provider];
-            const avgDownload = stats.downloads.length
-                ? stats.downloads.reduce((sum, d) => sum + d, 0) / stats.downloads.length
-                : 0;
-            const avgUpload = stats.uploads.length
-                ? stats.uploads.reduce((sum, u) => sum + u, 0) / stats.uploads.length
-                : 0;
-            const avgLatency = stats.latencies.length
-                ? stats.latencies.reduce((sum, l) => sum + l, 0) / stats.latencies.length
-                : 0;
+            const avgDownload = stats.totalTests > 0 ? stats.weightedDownload / stats.totalTests : 0;
+            const avgUpload = stats.totalTests > 0 ? stats.weightedUpload / stats.totalTests : 0;
+            const avgLatency = stats.totalTests > 0 ? stats.weightedLatency / stats.totalTests : 0;
 
             const colors = [
                 'rgba(59, 130, 246, 0.5)',
@@ -1214,7 +1198,7 @@ class MNOPerformanceApp {
                 data: [
                     avgDownload,
                     avgUpload,
-                    Math.max(0, 100 - avgLatency)
+                    Math.max(0, 100 - avgLatency) // Invert latency for radar (higher is better)
                 ],
                 backgroundColor: colors[index % colors.length],
                 borderColor: colors[index % colors.length].replace('0.5', '1'),
@@ -1230,22 +1214,26 @@ class MNOPerformanceApp {
     }
 
     updateMarketShareChart() {
-        if (!this.rawTrendData || this.rawTrendData.length === 0) {
+        // Use filteredCitiesData to respect filters
+        const data = this.filteredCitiesData || [];
+
+        if (data.length === 0) {
+            this.charts.marketShare.data = {
+                labels: [],
+                datasets: []
+            };
+            this.charts.marketShare.update();
             return;
         }
 
         const providerTestCounts = {};
 
-        // Sum test counts for each provider from trend data
-        this.rawTrendData.forEach(row => {
-            const provider = row['Provider'] || row['provider'];
-            if (!provider) return;
+        // Sum test counts for each provider from filtered cities data
+        data.forEach(row => {
+            const provider = row.Provider;
+            const testCount = parseInt(row['Test Count']) || 0;
 
-            // Find the Test Count key robustly (handling potential whitespace)
-            const testCountKey = Object.keys(row).find(k => k.trim() === 'Test Count') || 'Test Count';
-            const testCount = parseFloat(row[testCountKey]);
-
-            if (!isNaN(testCount)) {
+            if (provider && testCount > 0) {
                 providerTestCounts[provider] = (providerTestCounts[provider] || 0) + testCount;
             }
         });
@@ -1714,7 +1702,7 @@ class MNOPerformanceApp {
         const start = (this.currentPage - 1) * this.rowsPerPage;
         const end = start + this.rowsPerPage;
         const maxRows = 10;
-        const pageData = this.filteredData.slice(start, Math.min(end, start + maxRows));
+        const pageData = this.rawData.slice(start, Math.min(end, start + maxRows));
 
         if (pageData.length === 0) {
             this.showEmptyState();
@@ -1779,9 +1767,9 @@ class MNOPerformanceApp {
         }).join('');
 
         document.getElementById('page-info').textContent =
-            `${start + 1}-${Math.min(end, this.filteredData.length)} of ${this.filteredData.length}`;
+            `${start + 1}-${Math.min(end, this.rawData.length)} of ${this.rawData.length}`;
 
-        const totalPages = Math.ceil(this.filteredData.length / this.rowsPerPage);
+        const totalPages = Math.ceil(this.rawData.length / this.rowsPerPage);
         document.getElementById('prev-page').disabled = this.currentPage === 1;
         document.getElementById('next-page').disabled = this.currentPage === totalPages;
     }
@@ -1848,22 +1836,9 @@ class MNOPerformanceApp {
     }
 
     searchTable(query) {
-        if (!query) {
-            this.filteredData = this.applyBasicFilters();
-        } else {
-            const baseFiltered = this.applyBasicFilters();
-            const lowerQuery = query.toLowerCase();
-            this.filteredData = baseFiltered.filter(row => {
-                return row.provider.toLowerCase().includes(lowerQuery) ||
-                    row.city.toLowerCase().includes(lowerQuery) ||
-                    row.province.toLowerCase().includes(lowerQuery) ||
-                    row.barangay.toLowerCase().includes(lowerQuery);
-            });
-        }
-
-        this.currentPage = 1;
-        this.renderTable();
-        this.updateSummaryCards();
+        // Table search is disabled - table always shows all data
+        // This method is kept for compatibility but does nothing
+        console.log('Table search is disabled');
     }
 
     applyBasicFilters() {
@@ -1899,7 +1874,7 @@ class MNOPerformanceApp {
     }
 
     exportData() {
-        const csv = Papa.unparse(this.filteredData);
+        const csv = Papa.unparse(this.rawData);
         const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
         const link = document.createElement('a');
         const url = URL.createObjectURL(blob);
