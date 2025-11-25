@@ -1,0 +1,21 @@
+﻿Provider,Location,Device,Aggregate Date,Test Count,Sample Count,Platform,Technology Type,Metric Type,Device Count,Minimum Latency,Multi-Server Latency,Multi-Server Jitter,Download Speed,Upload Speed,Download Speed Mbps,Upload Speed Mbps
+Smart,Philippines,,Jun 2025,267523,52045,N/A,cellular,median,76815,20,44.927,13.1894,51875,7823,51.88,7.82
+Globe,Philippines,,Jun 2025,267407,50413,N/A,cellular,median,73453,21,44.6738,13.6841,35198,7605,35.20,7.61
+DITO,Philippines,,Jun 2025,119208,20783,N/A,cellular,median,29478,28,52.4589,16.4331,29558,6398,29.56,6.40
+Sun Cellular (MVNO),Philippines,,Jun 2025,449,30,N/A,cellular,median,44,32,50.6542,13.2004,5880,2289,5.88,2.29
+Smart,Philippines,,Jul 2025,274269,52081,N/A,cellular,median,79063,20,47.1188,14.0081,50099,7397,50.10,7.40
+Globe,Philippines,,Jul 2025,291501,51875,N/A,cellular,median,74679,21,44.3541,13.9535,33593,7416,33.59,7.42
+DITO,Philippines,,Jul 2025,126629,21653,N/A,cellular,median,30275,28,51.3183,16.5737,28988,6092,28.99,6.09
+Sun Cellular (MVNO),Philippines,,Jul 2025,187,23,N/A,cellular,median,43,31,60.7694,34.8416,7326,1912,7.33,1.91
+Smart,Philippines,,Aug 2025,275974,52590,N/A,cellular,median,75584,20,49.0835,14.4689,51962,7381,51.96,7.38
+Globe,Philippines,,Aug 2025,294415,52530,N/A,cellular,median,77153,21,44.2359,13.8455,37072,7761,37.07,7.76
+DITO,Philippines,,Aug 2025,120562,21347,N/A,cellular,median,30725,26,49.9425,15.5834,32076,6388,32.08,6.39
+Sun Cellular (MVNO),Philippines,,Aug 2025,68,13,N/A,cellular,median,25,33,68.5162,12.386,7821,2289,7.82,2.29
+Smart,Philippines,,Sep 2025,256309,49317,N/A,cellular,median,72746,20,50.7122,15.196,50088,6967,50.09,6.97
+Globe,Philippines,,Sep 2025,273948,47121,N/A,cellular,median,70232,21,44.8575,14.7229,33539,7338,33.54,7.34
+DITO,Philippines,,Sep 2025,113060,20077,N/A,cellular,median,29299,26,51.6021,15.2459,31582,5823,31.58,5.82
+Sun Cellular (MVNO),Philippines,,Sep 2025,12,7,N/A,cellular,median,9,35,48.7228,14.5183,10217,1393,10.22,1.39
+Smart,Philippines,,Oct 2025,257576,51057,N/A,cellular,median,75888,20,51.3671,16.1272,49988,6766,49.99,6.77
+Globe,Philippines,,Oct 2025,326830,50407,N/A,cellular,median,73675,22,45.7474,14.7309,33874,7313,33.87,7.31
+DITO,Philippines,,Oct 2025,113093,20816,N/A,cellular,median,29659,26,50.3271,15.2828,31898,5999,31.90,6.00
+Sun Cellular (MVNO),Philippines,,Oct 2025,3,1,N/A,cellular,median,3,29,71.3308,228.1036,5873,688,5.87,0.69

@@ -1,5 +1,6 @@
 class MNOPerformanceApp {
     constructor() {
+        console.log('MNOPerformanceApp v5 loaded');
         this.rawData = [];
         this.filteredData = [];
         this.filters = {
@@ -17,8 +18,14 @@ class MNOPerformanceApp {
         this.rowsPerPage = 50;
         this.sortColumn = 'date';
         this.sortDirection = 'desc';
+        this.sortColumn = 'date';
+        this.sortDirection = 'desc';
         this.DEBUG = false;
-        
+
+        this.rawTrendData = []; // Store raw trend data
+        this.rawDailyTrendData = []; // Store raw daily trend data
+        this.rawCitiesData = []; // Store raw cities data for map
+
         this.init();
     }
 
@@ -27,13 +34,34 @@ class MNOPerformanceApp {
         this.initializeMap();
         this.initializeCharts();
         this.setupThemeToggle();
-        
+
         const defaultCSV = 'data/speed_test_data.csv?v=' + Date.now();
         try {
             await this.loadCSV(defaultCSV);
         } catch (error) {
             console.log('No default CSV found. Please upload a file.');
             this.showEmptyState();
+        }
+
+        // Load trend data
+        try {
+            await this.loadTrendData('data/other_data.csv?v=' + Date.now());
+        } catch (error) {
+            console.log('No trend data found.');
+        }
+
+        // Load daily trend data
+        try {
+            await this.loadDailyTrendData('data/other_data_daily.csv?v=' + Date.now());
+        } catch (error) {
+            console.log('No daily trend data found.');
+        }
+
+        // Load cities data for map
+        try {
+            await this.loadCitiesData('data/other_data_cities.csv?v=' + Date.now());
+        } catch (error) {
+            console.log('No cities data found.');
         }
     }
 
@@ -73,7 +101,7 @@ class MNOPerformanceApp {
                 const today = new Date();
                 const dateToInput = document.getElementById('date-to');
                 const dateFromInput = document.getElementById('date-from');
-                
+
                 if (days === 'all') {
                     dateFromInput.value = '';
                     dateToInput.value = '';
@@ -83,7 +111,7 @@ class MNOPerformanceApp {
                     dateFromInput.value = daysAgo.toISOString().split('T')[0];
                     dateToInput.value = today.toISOString().split('T')[0];
                 }
-                
+
                 this.filters.dateFrom = dateFromInput.value;
                 this.filters.dateTo = dateToInput.value;
                 this.applyFilters();
@@ -143,8 +171,8 @@ class MNOPerformanceApp {
         mobileOverlay.addEventListener('click', closeMenu);
 
         sidebar.addEventListener('click', (e) => {
-            if (e.target.tagName === 'INPUT' || 
-                e.target.tagName === 'SELECT' || 
+            if (e.target.tagName === 'INPUT' ||
+                e.target.tagName === 'SELECT' ||
                 e.target.tagName === 'BUTTON' ||
                 e.target.closest('label')) {
                 return;
@@ -162,20 +190,20 @@ class MNOPerformanceApp {
         const sidebarCollapseBtn = document.getElementById('sidebar-collapse');
         const sidebar = document.getElementById('sidebar');
         const app = document.getElementById('app');
-        
+
         const savedState = localStorage.getItem('sidebar-collapsed') === 'true';
         if (savedState && window.innerWidth >= 768) {
             sidebar.classList.add('sidebar-collapsed');
         }
-        
+
         sidebarCollapseBtn.addEventListener('click', () => {
             const isCollapsed = sidebar.classList.toggle('sidebar-collapsed');
             localStorage.setItem('sidebar-collapsed', isCollapsed);
-            
-            sidebarCollapseBtn.innerHTML = isCollapsed 
+
+            sidebarCollapseBtn.innerHTML = isCollapsed
                 ? '<svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" /></svg>'
                 : '<svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" /></svg>';
-            
+
             sidebarCollapseBtn.title = isCollapsed ? 'Show sidebar' : 'Hide sidebar';
         });
     }
@@ -183,12 +211,12 @@ class MNOPerformanceApp {
     setupThemeToggle() {
         const themeToggle = document.getElementById('theme-toggle');
         if (!themeToggle) return;
-        
+
         const html = document.documentElement;
-        
+
         const savedTheme = localStorage.getItem('theme') || 'light';
         html.classList.toggle('dark', savedTheme === 'dark');
-        
+
         themeToggle.addEventListener('click', () => {
             const isDark = html.classList.toggle('dark');
             localStorage.setItem('theme', isDark ? 'dark' : 'light');
@@ -217,15 +245,20 @@ class MNOPerformanceApp {
 
     async loadCSV(url) {
         this.showLoading(true);
-        
+
         return new Promise((resolve, reject) => {
             Papa.parse(url, {
                 download: true,
                 header: true,
                 complete: (results) => {
-                    this.processData(results.data);
-                    this.showLoading(false);
-                    resolve();
+                    try {
+                        this.processData(results.data);
+                    } catch (error) {
+                        console.error('Error processing data:', error);
+                    } finally {
+                        this.showLoading(false);
+                        resolve();
+                    }
                 },
                 error: (error) => {
                     console.error('Error loading CSV:', error);
@@ -238,7 +271,7 @@ class MNOPerformanceApp {
 
     loadCSVFile(file) {
         this.showLoading(true);
-        
+
         Papa.parse(file, {
             header: true,
             complete: (results) => {
@@ -258,7 +291,7 @@ class MNOPerformanceApp {
             if (!row['Service Provider'] || !(row['Download (Mbps)'] || row['Download'])) {
                 return false;
             }
-            
+
             const provider = this.normalizeProvider(row['Service Provider']);
             const validMNOs = ['Smart', 'Globe', 'DITO', 'TNT', 'TM', 'Sun', 'GOMO'];
             return validMNOs.includes(provider);
@@ -266,9 +299,9 @@ class MNOPerformanceApp {
             const download = this.normalizeSpeed(row['Download (Mbps)'], row['Download']);
             const upload = this.normalizeSpeed(row['Upload (Mbps)'], row['Upload']);
             const latency = parseFloat(row['Latency ( ms )']) || parseFloat(row['Latency']) || null;
-            
+
             const locationParts = this.parseLocation(row['Location (Brgy, City)'] || '');
-            
+
             return {
                 timestamp: row['Timestamp'] || '',
                 date: this.parseDate(row['Date']),
@@ -299,7 +332,7 @@ class MNOPerformanceApp {
         if (!location || location === '-') {
             return { barangay: '', city: '', province: '' };
         }
-        
+
         const parts = location.split(',').map(s => s.trim());
         return {
             barangay: parts[0] || '',
@@ -312,26 +345,26 @@ class MNOPerformanceApp {
         if (mbps && parseFloat(mbps) > 0) {
             return parseFloat(mbps);
         }
-        
+
         if (!rawValue) return 0;
-        
+
         const str = String(rawValue).toLowerCase().trim();
-        
+
         if (str.includes('mbps')) {
             return parseFloat(str) || 0;
         } else if (str.includes('kbps')) {
             return (parseFloat(str) || 0) / 1000;
         }
-        
+
         const num = parseFloat(str);
         return isNaN(num) ? 0 : num;
     }
 
     normalizeProvider(provider) {
         if (!provider) return null;
-        
+
         const normalized = provider.trim().toUpperCase();
-        
+
         const mnoMap = {
             'SMART': 'Smart',
             'SMART COMMUNICATIONS': 'Smart',
@@ -361,7 +394,7 @@ class MNOPerformanceApp {
 
     parseDate(dateStr) {
         if (!dateStr) return null;
-        
+
         const date = new Date(dateStr);
         return isNaN(date.getTime()) ? null : date;
     }
@@ -417,11 +450,12 @@ class MNOPerformanceApp {
         const citySelect = document.getElementById('city-filter');
         citySelect.innerHTML = '<option value="">All Cities</option>' +
             cities.map(c => `<option value="${c}">${c}</option>`).join('');
-        
+
         this.filters.city = '';
     }
 
     applyFilters() {
+        console.log('Applying filters:', JSON.stringify(this.filters));
         this.filteredData = this.rawData.filter(row => {
             if (this.filters.providers.length && !this.filters.providers.includes(row.provider)) {
                 return false;
@@ -460,6 +494,11 @@ class MNOPerformanceApp {
 
         this.currentPage = 1;
         this.updateVisualization();
+
+        // Update trend charts if data is loaded
+        if (this.rawTrendData.length > 0) {
+            this.processTrendData(this.rawTrendData);
+        }
     }
 
     resetFilters() {
@@ -491,15 +530,64 @@ class MNOPerformanceApp {
     }
 
     updateSummaryCards() {
-        const stats = this.calculateStatistics(this.filteredData);
+        if (!this.rawTrendData || this.rawTrendData.length === 0) {
+            document.getElementById('total-tests').textContent = '-';
+            document.getElementById('avg-download').textContent = '-';
+            document.getElementById('avg-upload').textContent = '-';
+            document.getElementById('avg-latency').textContent = '-';
+            return;
+        }
 
-        document.getElementById('total-tests').textContent = stats.totalTests.toLocaleString();
-        document.getElementById('avg-download').textContent = `${stats.avgDownload.toFixed(2)} Mbps`;
-        document.getElementById('avg-upload').textContent = `${stats.avgUpload.toFixed(2)} Mbps`;
-        document.getElementById('avg-latency').textContent = stats.avgLatency ? `${stats.avgLatency.toFixed(0)} ms` : 'N/A';
+        let totalTests = 0;
+        let totalDownload = 0;
+        let totalUpload = 0;
+        let totalLatency = 0;
+        let downloadCount = 0;
+        let uploadCount = 0;
+        let latencyCount = 0;
+
+        this.rawTrendData.forEach(row => {
+            // Find keys robustly (handling potential whitespace)
+            const testCountKey = Object.keys(row).find(k => k.trim() === 'Test Count') || 'Test Count';
+            const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
+            const uploadKey = Object.keys(row).find(k => k.trim() === 'Upload Speed Mbps') || 'Upload Speed Mbps';
+            const latencyKey = Object.keys(row).find(k => k.trim() === 'Multi-Server Latency') || 'Multi-Server Latency';
+
+            const testCount = parseFloat(row[testCountKey]);
+            const download = parseFloat(row[downloadKey]);
+            const upload = parseFloat(row[uploadKey]);
+            const latency = parseFloat(row[latencyKey]);
+
+            if (!isNaN(testCount)) {
+                totalTests += testCount;
+            }
+            if (!isNaN(download)) {
+                totalDownload += download;
+                downloadCount++;
+            }
+            if (!isNaN(upload)) {
+                totalUpload += upload;
+                uploadCount++;
+            }
+            if (!isNaN(latency)) {
+                totalLatency += latency;
+                latencyCount++;
+            }
+        });
+
+        const avgDownload = downloadCount ? totalDownload / downloadCount : 0;
+        const avgUpload = uploadCount ? totalUpload / uploadCount : 0;
+        const avgLatency = latencyCount ? totalLatency / latencyCount : 0;
+
+        // Format total tests with commas for readability
+        document.getElementById('total-tests').textContent = totalTests.toLocaleString();
+        document.getElementById('avg-download').textContent = `${avgDownload.toFixed(2)} Mbps`;
+        document.getElementById('avg-upload').textContent = `${avgUpload.toFixed(2)} Mbps`;
+        document.getElementById('avg-latency').textContent = `${avgLatency.toFixed(0)} ms`;
     }
 
     calculateStatistics(data) {
+        // This method might be unused now for summary cards, but kept if needed for other calculations
         if (data.length === 0) {
             return {
                 totalTests: 0,
@@ -559,15 +647,19 @@ class MNOPerformanceApp {
                 type: 'bar',
                 data: { labels: [], datasets: [] },
                 options: {
+                    indexAxis: 'y', // Horizontal bar chart
                     responsive: true,
                     maintainAspectRatio: true,
                     plugins: {
                         legend: { display: false }
                     },
                     scales: {
-                        y: {
+                        x: {
                             beginAtZero: true,
-                            title: { display: true, text: 'Number of Tests' }
+                            title: { display: true, text: 'Download Speed (Mbps)' }
+                        },
+                        y: {
+                            title: { display: true, text: 'City' }
                         }
                     }
                 }
@@ -624,6 +716,261 @@ class MNOPerformanceApp {
                 }
             }
         );
+
+        this.initializeTrendCharts();
+    }
+
+    initializeTrendCharts() {
+        // Charts will be initialized when data is loaded
+        this.charts.trendDownload = null;
+        this.charts.trendUpload = null;
+        this.charts.trendLatency = null;
+    }
+
+    async loadTrendData(url) {
+        console.log('Loading trend data from:', url);
+        return new Promise((resolve, reject) => {
+            Papa.parse(url, {
+                download: true,
+                header: true,
+                complete: (results) => {
+                    console.log('Trend data loaded:', results);
+                    this.rawTrendData = results.data; // Store raw data
+                    this.processTrendData(this.rawTrendData);
+                    this.updateProviderComparisonChart(); // Update comparison chart with new data
+                    this.updateSummaryCards(); // Update summary cards with trend data
+                    this.updateProviderRadarChart(); // Update provider performance radar chart
+                    this.updateMarketShareChart(); // Update market share chart
+                    resolve();
+                },
+                error: (error) => {
+                    console.error('Error loading trend data:', error);
+                    reject(error);
+                }
+            });
+        });
+    }
+
+    async loadDailyTrendData(url) {
+        console.log('Loading daily trend data from:', url);
+        return new Promise((resolve, reject) => {
+            Papa.parse(url, {
+                download: true,
+                header: true,
+                complete: (results) => {
+                    console.log('Daily trend data loaded:', results);
+                    this.rawDailyTrendData = results.data; // Store raw daily data
+                    this.updateTimeSeriesChart(); // Update time series chart with daily data
+                    resolve();
+                },
+                error: (error) => {
+                    console.error('Error loading daily trend data:', error);
+                    reject(error);
+                }
+            });
+        });
+    }
+
+    async loadCitiesData(url) {
+        console.log('Loading cities data from:', url);
+        return new Promise((resolve, reject) => {
+            Papa.parse(url, {
+                download: true,
+                header: true,
+                complete: (results) => {
+                    console.log('Cities data loaded:', results);
+                    this.rawCitiesData = results.data; // Store raw cities data
+                    this.updateMap(); // Update map with cities data
+                    this.updateSpeedDistributionChart(); // Update top cities chart
+                    resolve();
+                },
+                error: (error) => {
+                    console.error('Error loading cities data:', error);
+                    reject(error);
+                }
+            });
+        });
+    }
+
+    processTrendData(data) {
+        // Helper to parse "MMM-YY" or "MMM YYYY" date format
+        const parseTrendDate = (dateStr) => {
+            if (!dateStr) return null;
+            // Handle both "Jun-25" and "Jun 2025" formats
+            const separator = dateStr.includes('-') ? '-' : ' ';
+            const [monthStr, yearStr] = dateStr.split(separator);
+
+            const monthMap = {
+                'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
+                'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
+            };
+            const month = monthMap[monthStr];
+
+            // Handle 2-digit or 4-digit years
+            let year = parseInt(yearStr);
+            if (year < 100) year += 2000;
+
+            if (month === undefined || isNaN(year)) return null;
+            return new Date(year, month, 1);
+        };
+
+        // Filter out empty rows and apply filters
+        const validData = data.filter(row => {
+            if (!row.Provider || !row['Aggregate Date']) return false;
+
+            // Apply provider filter
+            if (this.filters.providers && this.filters.providers.length > 0) {
+                if (!this.filters.providers.includes(this.normalizeProvider(row.Provider))) {
+                    return false;
+                }
+            }
+
+            // Apply date filter
+            const rowDate = parseTrendDate(row['Aggregate Date']);
+            if (rowDate) {
+                if (this.filters.dateFrom) {
+                    const fromDate = new Date(this.filters.dateFrom);
+                    // Reset time to start of day for comparison
+                    fromDate.setHours(0, 0, 0, 0);
+                    if (rowDate < fromDate) return false;
+                }
+                if (this.filters.dateTo) {
+                    const toDate = new Date(this.filters.dateTo);
+                    // Set to end of day for comparison
+                    toDate.setHours(23, 59, 59, 999);
+                    if (rowDate > toDate) return false;
+                }
+            } else {
+                // If date can't be parsed, exclude it to be safe, or keep it? 
+                // Better to exclude if we can't filter it properly when filters are active.
+                if (this.filters.dateFrom || this.filters.dateTo) return false;
+            }
+
+            return true;
+        });
+
+        if (validData.length > 0) {
+            console.log('First row sample:', validData[0]);
+        }
+
+        // Group by Provider
+        const providers = [...new Set(validData.map(d => d.Provider))];
+        const dates = [...new Set(validData.map(d => d['Aggregate Date']))];
+
+        console.log('Providers:', providers);
+        console.log('Dates:', dates);
+
+        // Helper to get color for provider
+        const getProviderColor = (provider) => {
+            const colors = {
+                'Smart': '#2563eb', // Blue
+                'Globe': '#7c3aed', // Violet
+                'DITO': '#06b6d4',  // Cyan
+                'Sun Cellular (MVNO)': '#f97316' // Orange
+            };
+            return colors[provider] || '#9ca3af';
+        };
+
+        // Prepare datasets
+        const createDatasets = (metricKey) => {
+            console.log('Creating datasets for:', metricKey);
+            return providers.map(provider => {
+                const providerData = validData.filter(d => d.Provider === provider);
+                // Map dates to values, ensuring alignment
+                const dataPoints = dates.map(date => {
+                    const entry = providerData.find(d => d['Aggregate Date'] === date);
+                    return entry ? parseFloat(entry[metricKey]) : null;
+                });
+
+                console.log(`Data for ${provider} (${metricKey}):`, dataPoints);
+
+                return {
+                    label: provider,
+                    data: dataPoints,
+                    borderColor: getProviderColor(provider),
+                    backgroundColor: getProviderColor(provider),
+                    tension: 0.1,
+                    fill: false
+                };
+            });
+        };
+
+        const commonOptions = {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'bottom' }
+            },
+            scales: {
+                y: { beginAtZero: true }
+            }
+        };
+
+        // Destroy existing charts if they exist
+        if (this.charts.trendDownload) this.charts.trendDownload.destroy();
+        if (this.charts.trendUpload) this.charts.trendUpload.destroy();
+        if (this.charts.trendLatency) this.charts.trendLatency.destroy();
+
+        // Create new charts
+        this.charts.trendDownload = new Chart(
+            document.getElementById('trend-download-chart'),
+            {
+                type: 'line',
+                data: {
+                    labels: dates,
+                    datasets: createDatasets('Download Speed Mbps')
+                },
+                options: {
+                    ...commonOptions,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: { display: true, text: 'Mbps' }
+                        }
+                    }
+                }
+            }
+        );
+
+        this.charts.trendUpload = new Chart(
+            document.getElementById('trend-upload-chart'),
+            {
+                type: 'line',
+                data: {
+                    labels: dates,
+                    datasets: createDatasets('Upload Speed Mbps')
+                },
+                options: {
+                    ...commonOptions,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: { display: true, text: 'Mbps' }
+                        }
+                    }
+                }
+            }
+        );
+
+        this.charts.trendLatency = new Chart(
+            document.getElementById('trend-latency-chart'),
+            {
+                type: 'line',
+                data: {
+                    labels: dates,
+                    datasets: createDatasets('Multi-Server Latency')
+                },
+                options: {
+                    ...commonOptions,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: { display: true, text: 'ms' }
+                        }
+                    }
+                }
+            }
+        );
     }
 
     updateCharts() {
@@ -635,28 +982,42 @@ class MNOPerformanceApp {
     }
 
     updateProviderComparisonChart() {
+        // Use rawTrendData instead of filteredData
+        if (!this.rawTrendData || this.rawTrendData.length === 0) {
+            console.log('No trend data available for provider comparison');
+            return;
+        }
+
+        const targetProviders = ['Smart', 'Globe', 'DITO', 'Sun Cellular (MVNO)'];
         const providerStats = {};
-        
-        this.filteredData.forEach(row => {
-            if (!providerStats[row.provider]) {
-                providerStats[row.provider] = { downloads: [], uploads: [] };
-            }
-            providerStats[row.provider].downloads.push(row.download);
-            providerStats[row.provider].uploads.push(row.upload);
+
+        // Initialize stats for target providers
+        targetProviders.forEach(p => {
+            providerStats[p] = { downloads: [], uploads: [] };
         });
 
-        const providers = Object.keys(providerStats).sort();
-        const avgDownloads = providers.map(p => {
-            const downloads = providerStats[p].downloads;
-            return downloads.reduce((sum, d) => sum + d, 0) / downloads.length;
+        this.rawTrendData.forEach(row => {
+            if (targetProviders.includes(row.Provider)) {
+                const download = parseFloat(row['Download Speed Mbps']);
+                const upload = parseFloat(row['Upload Speed Mbps']);
+
+                if (!isNaN(download)) providerStats[row.Provider].downloads.push(download);
+                if (!isNaN(upload)) providerStats[row.Provider].uploads.push(upload);
+            }
         });
-        const avgUploads = providers.map(p => {
+
+        const displayProviders = ['Smart', 'Globe', 'DITO', 'Sun'];
+        const avgDownloads = targetProviders.map(p => {
+            const downloads = providerStats[p].downloads;
+            return downloads.length ? downloads.reduce((sum, d) => sum + d, 0) / downloads.length : 0;
+        });
+        const avgUploads = targetProviders.map(p => {
             const uploads = providerStats[p].uploads;
-            return uploads.reduce((sum, u) => sum + u, 0) / uploads.length;
+            return uploads.length ? uploads.reduce((sum, u) => sum + u, 0) / uploads.length : 0;
         });
 
         this.charts.providerComparison.data = {
-            labels: providers,
+            labels: displayProviders,
             datasets: [
                 {
                     label: 'Avg Download',
@@ -678,61 +1039,163 @@ class MNOPerformanceApp {
     }
 
     updateSpeedDistributionChart() {
-        const ranges = ['0-1', '1-5', '5-10', '10-30', '30-70', '70-100', '100+'];
-        const counts = ranges.map(range => {
-            return this.filteredData.filter(row => {
-                const speedRange = this.getSpeedRange(row.download);
-                return speedRange === range;
-            }).length;
+        console.log('updateSpeedDistributionChart called, rawCitiesData length:', this.rawCitiesData ? this.rawCitiesData.length : 0);
+
+        // Use cities data if available
+        if (!this.rawCitiesData || this.rawCitiesData.length === 0) {
+            console.log('No cities data available for Top Cities chart');
+            // Fallback: show message or empty chart
+            this.charts.speedDistribution.data = {
+                labels: [],
+                datasets: []
+            };
+            this.charts.speedDistribution.update();
+            return;
+        }
+
+        // Group by city and calculate average download speed per city (across all providers)
+        const cityData = {};
+
+        this.rawCitiesData.forEach(row => {
+            const locationKey = Object.keys(row).find(k => k.trim() === 'Location Name') || 'Location Name';
+            const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
+
+            const location = row[locationKey];
+            const download = parseFloat(row[downloadKey]);
+
+            if (!location || isNaN(download)) return;
+
+            // Extract city name (before first comma)
+            const cityName = location.split(',')[0].trim();
+
+            if (!cityData[cityName]) {
+                cityData[cityName] = {
+                    totalSpeed: 0,
+                    count: 0
+                };
+            }
+
+            cityData[cityName].totalSpeed += download;
+            cityData[cityName].count++;
         });
 
-        const colors = [
-            'rgba(239, 68, 68, 0.7)',
-            'rgba(245, 158, 11, 0.7)',
-            'rgba(251, 191, 36, 0.7)',
-            'rgba(59, 130, 246, 0.7)',
-            'rgba(16, 185, 129, 0.7)',
-            'rgba(34, 197, 94, 0.7)',
-            'rgba(20, 184, 166, 0.7)'
-        ];
+        // Calculate averages
+        const cities = Object.keys(cityData).map(city => {
+            const avgSpeed = cityData[city].totalSpeed / cityData[city].count;
+            return {
+                name: city,
+                avgSpeed: avgSpeed
+            };
+        });
+
+        // Sort by average speed and take top 15
+        cities.sort((a, b) => b.avgSpeed - a.avgSpeed);
+        const topCities = cities.slice(0, 15);
+
+        console.log('Top cities:', topCities);
+
+        // Create gradient colors based on speed (green for high, yellow for medium, orange for low)
+        const maxSpeed = Math.max(...topCities.map(c => c.avgSpeed));
+        const minSpeed = Math.min(...topCities.map(c => c.avgSpeed));
+
+        const backgroundColors = topCities.map(city => {
+            const ratio = (city.avgSpeed - minSpeed) / (maxSpeed - minSpeed);
+
+            // Gradient from orange (low) to green (high)
+            if (ratio > 0.66) {
+                return 'rgba(16, 185, 129, 0.7)'; // Green - Excellent
+            } else if (ratio > 0.33) {
+                return 'rgba(59, 130, 246, 0.7)'; // Blue - Good
+            } else {
+                return 'rgba(245, 158, 11, 0.7)'; // Orange - Fair
+            }
+        });
+
+        const borderColors = backgroundColors.map(c => c.replace('0.7', '1'));
 
         this.charts.speedDistribution.data = {
-            labels: ranges.map(r => r + ' Mbps'),
+            labels: topCities.map(c => c.name),
             datasets: [{
-                label: 'Number of Tests',
-                data: counts,
-                backgroundColor: colors,
-                borderColor: colors.map(c => c.replace('0.7', '1')),
+                label: 'Avg Download Speed (Mbps)',
+                data: topCities.map(c => c.avgSpeed),
+                backgroundColor: backgroundColors,
+                borderColor: borderColors,
                 borderWidth: 1
             }]
         };
+
+        // Update chart to horizontal bar
+        if (this.charts.speedDistribution.config) {
+            this.charts.speedDistribution.config.type = 'bar';
+            this.charts.speedDistribution.config.options = this.charts.speedDistribution.config.options || {};
+            this.charts.speedDistribution.config.options.indexAxis = 'y';
+        }
+
+        this.charts.speedDistribution.options.indexAxis = 'y';
+        this.charts.speedDistribution.options.plugins = {
+            ...this.charts.speedDistribution.options.plugins,
+            legend: {
+                display: false
+            },
+            tooltip: {
+                callbacks: {
+                    label: function (context) {
+                        return `Avg Speed: ${context.parsed.x.toFixed(2)} Mbps`;
+                    }
+                }
+            }
+        };
+
         this.charts.speedDistribution.update();
+        console.log('Top Cities chart updated successfully');
     }
 
     updateProviderRadarChart() {
+        if (!this.rawTrendData || this.rawTrendData.length === 0) {
+            return;
+        }
+
         const providerStats = {};
-        
-        this.filteredData.forEach(row => {
-            if (!providerStats[row.provider]) {
-                providerStats[row.provider] = { downloads: [], uploads: [], latencies: [] };
+
+        // Filter for specific providers and calculate stats from trend data
+        const targetProviders = ['Smart', 'Globe', 'DITO', 'Sun Cellular (MVNO)', 'GOMO'];
+
+        this.rawTrendData.forEach(row => {
+            const provider = row['Provider'] || row['provider'];
+            if (!provider || !targetProviders.includes(provider)) return;
+
+            // Find keys robustly (handling potential whitespace)
+            const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
+            const uploadKey = Object.keys(row).find(k => k.trim() === 'Upload Speed Mbps') || 'Upload Speed Mbps';
+            const latencyKey = Object.keys(row).find(k => k.trim() === 'Multi-Server Latency') || 'Multi-Server Latency';
+
+            if (!providerStats[provider]) {
+                providerStats[provider] = { downloads: [], uploads: [], latencies: [] };
             }
-            providerStats[row.provider].downloads.push(row.download);
-            providerStats[row.provider].uploads.push(row.upload);
-            if (row.latency !== null) {
-                providerStats[row.provider].latencies.push(row.latency);
-            }
+
+            const download = parseFloat(row[downloadKey]);
+            const upload = parseFloat(row[uploadKey]);
+            const latency = parseFloat(row[latencyKey]);
+
+            if (!isNaN(download)) providerStats[provider].downloads.push(download);
+            if (!isNaN(upload)) providerStats[provider].uploads.push(upload);
+            if (!isNaN(latency)) providerStats[provider].latencies.push(latency);
         });
 
         const providers = Object.keys(providerStats).sort().slice(0, 5);
-        
+
         const datasets = providers.map((provider, index) => {
             const stats = providerStats[provider];
-            const avgDownload = stats.downloads.reduce((sum, d) => sum + d, 0) / stats.downloads.length;
-            const avgUpload = stats.uploads.reduce((sum, u) => sum + u, 0) / stats.uploads.length;
-            const avgLatency = stats.latencies.length 
+            const avgDownload = stats.downloads.length
+                ? stats.downloads.reduce((sum, d) => sum + d, 0) / stats.downloads.length
+                : 0;
+            const avgUpload = stats.uploads.length
+                ? stats.uploads.reduce((sum, u) => sum + u, 0) / stats.uploads.length
+                : 0;
+            const avgLatency = stats.latencies.length
                 ? stats.latencies.reduce((sum, l) => sum + l, 0) / stats.latencies.length
                 : 0;
-            
+
             const colors = [
                 'rgba(59, 130, 246, 0.5)',
                 'rgba(16, 185, 129, 0.5)',
@@ -755,21 +1218,35 @@ class MNOPerformanceApp {
         });
 
         this.charts.providerRadar.data = {
-            labels: ['Download Speed', 'Upload Speed', 'Low Latency'],
+            labels: ['Download Speed', 'Upload Speed', 'Latency'],
             datasets: datasets
         };
         this.charts.providerRadar.update();
     }
 
     updateMarketShareChart() {
-        const providerCounts = {};
-        
-        this.filteredData.forEach(row => {
-            providerCounts[row.provider] = (providerCounts[row.provider] || 0) + 1;
+        if (!this.rawTrendData || this.rawTrendData.length === 0) {
+            return;
+        }
+
+        const providerTestCounts = {};
+
+        // Sum test counts for each provider from trend data
+        this.rawTrendData.forEach(row => {
+            const provider = row['Provider'] || row['provider'];
+            if (!provider) return;
+
+            // Find the Test Count key robustly (handling potential whitespace)
+            const testCountKey = Object.keys(row).find(k => k.trim() === 'Test Count') || 'Test Count';
+            const testCount = parseFloat(row[testCountKey]);
+
+            if (!isNaN(testCount)) {
+                providerTestCounts[provider] = (providerTestCounts[provider] || 0) + testCount;
+            }
         });
 
-        const providers = Object.keys(providerCounts).sort();
-        const counts = providers.map(p => providerCounts[p]);
+        const providers = Object.keys(providerTestCounts).sort();
+        const counts = providers.map(p => providerTestCounts[p]);
 
         const colors = [
             'rgba(59, 130, 246, 0.7)',
@@ -794,27 +1271,46 @@ class MNOPerformanceApp {
     }
 
     updateTimeSeriesChart() {
+        if (!this.rawDailyTrendData || this.rawDailyTrendData.length === 0) {
+            return;
+        }
+
         const dateGroups = {};
-        
-        this.filteredData.forEach(row => {
-            if (!row.date) return;
-            
-            const dateStr = row.date.toISOString().split('T')[0];
-            if (!dateGroups[dateStr]) {
-                dateGroups[dateStr] = { downloads: [], uploads: [] };
+
+        // Group data by date from daily trend data
+        this.rawDailyTrendData.forEach(row => {
+            const dateStr = row['Aggregate Date'] || row['aggregate date'];
+            if (!dateStr) return;
+
+            // Parse the date (format: "Oct 26, 2025" or "Nov 1, 2025")
+            const date = new Date(dateStr);
+            if (isNaN(date.getTime())) return;
+
+            const formattedDate = date.toISOString().split('T')[0];
+
+            // Find keys robustly (handling potential whitespace)
+            const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
+            const uploadKey = Object.keys(row).find(k => k.trim() === 'Upload Speed Mbps') || 'Upload Speed Mbps';
+
+            if (!dateGroups[formattedDate]) {
+                dateGroups[formattedDate] = { downloads: [], uploads: [] };
             }
-            dateGroups[dateStr].downloads.push(row.download);
-            dateGroups[dateStr].uploads.push(row.upload);
+
+            const download = parseFloat(row[downloadKey]);
+            const upload = parseFloat(row[uploadKey]);
+
+            if (!isNaN(download)) dateGroups[formattedDate].downloads.push(download);
+            if (!isNaN(upload)) dateGroups[formattedDate].uploads.push(upload);
         });
 
         const dates = Object.keys(dateGroups).sort();
         const avgDownloads = dates.map(d => {
             const downloads = dateGroups[d].downloads;
-            return downloads.reduce((sum, dl) => sum + dl, 0) / downloads.length;
+            return downloads.length ? downloads.reduce((sum, dl) => sum + dl, 0) / downloads.length : 0;
         });
         const avgUploads = dates.map(d => {
             const uploads = dateGroups[d].uploads;
-            return uploads.reduce((sum, ul) => sum + ul, 0) / uploads.length;
+            return uploads.length ? uploads.reduce((sum, ul) => sum + ul, 0) / uploads.length : 0;
         });
 
         this.charts.timeSeries.data = {
@@ -875,15 +1371,15 @@ class MNOPerformanceApp {
 
     getLocationCoordinates(city, province) {
         const coordinates = this.getCityCoordinates();
-        
+
         if (city && coordinates[city]) {
             return coordinates[city];
         }
-        
+
         if (province && coordinates[province]) {
             return coordinates[province];
         }
-        
+
         return null;
     }
 
@@ -1104,45 +1600,103 @@ class MNOPerformanceApp {
         let markersAdded = 0;
         let markersSkipped = 0;
 
-        this.filteredData.forEach(row => {
-            const coords = this.getLocationCoordinates(row.city, row.province);
-            if (!coords) {
-                markersSkipped++;
-                return;
+        // Use cities data if available, otherwise fall back to filteredData
+        const dataSource = this.rawCitiesData && this.rawCitiesData.length > 0
+            ? this.rawCitiesData
+            : this.filteredData;
+
+        dataSource.forEach(row => {
+            let lat, lng, download, provider, location;
+
+            // Handle cities data format
+            if (this.rawCitiesData && this.rawCitiesData.length > 0) {
+                lat = parseFloat(row['Latitude'] || row['latitude']);
+                lng = parseFloat(row['Longitude'] || row['longitude']);
+
+                // Find keys robustly (handling potential whitespace)
+                const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
+                const uploadKey = Object.keys(row).find(k => k.trim() === 'Upload Speed Mbps') || 'Upload Speed Mbps';
+                const providerKey = Object.keys(row).find(k => k.trim() === 'Provider') || 'Provider';
+                const locationKey = Object.keys(row).find(k => k.trim() === 'Location Name') || 'Location Name';
+
+                download = parseFloat(row[downloadKey]);
+                const upload = parseFloat(row[uploadKey]);
+                provider = row[providerKey];
+                location = row[locationKey];
+
+                if (isNaN(lat) || isNaN(lng) || isNaN(download)) {
+                    markersSkipped++;
+                    return;
+                }
+
+                markersAdded++;
+
+                const speedClass = download >= 30 ? 'speed-excellent'
+                    : download >= 10 ? 'speed-good'
+                        : download >= 5 ? 'speed-average'
+                            : 'speed-poor';
+
+                const marker = L.circleMarker([lat, lng], {
+                    radius: 6,
+                    fillColor: speedClass.includes('excellent') ? '#10b981'
+                        : speedClass.includes('good') ? '#3b82f6'
+                            : speedClass.includes('average') ? '#f59e0b'
+                                : '#ef4444',
+                    color: '#fff',
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.7
+                });
+
+                marker.bindPopup(`
+                    <h3>${provider}</h3>
+                    <p><strong>Location:</strong> ${location}</p>
+                    <p><strong>Download:</strong> ${download.toFixed(2)} Mbps</p>
+                    <p><strong>Upload:</strong> ${upload.toFixed(2)} Mbps</p>
+                `);
+
+                this.markerCluster.addLayer(marker);
+            } else {
+                // Fall back to old method with hardcoded coordinates
+                const coords = this.getLocationCoordinates(row.city, row.province);
+                if (!coords) {
+                    markersSkipped++;
+                    return;
+                }
+
+                markersAdded++;
+
+                const [lat, lng] = coords;
+                const jitter = () => (Math.random() - 0.5) * 0.02;
+
+                const speedClass = row.download >= 30 ? 'speed-excellent'
+                    : row.download >= 10 ? 'speed-good'
+                        : row.download >= 5 ? 'speed-average'
+                            : 'speed-poor';
+
+                const marker = L.circleMarker([lat + jitter(), lng + jitter()], {
+                    radius: 6,
+                    fillColor: speedClass.includes('excellent') ? '#10b981'
+                        : speedClass.includes('good') ? '#3b82f6'
+                            : speedClass.includes('average') ? '#f59e0b'
+                                : '#ef4444',
+                    color: '#fff',
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.7
+                });
+
+                marker.bindPopup(`
+                    <h3>${row.provider}</h3>
+                    <p><strong>Location:</strong> ${row.city}, ${row.province}</p>
+                    <p><strong>Download:</strong> ${row.download.toFixed(2)} Mbps</p>
+                    <p><strong>Upload:</strong> ${row.upload.toFixed(2)} Mbps</p>
+                    <p><strong>Latency:</strong> ${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}</p>
+                    <p><strong>Date:</strong> ${row.date ? row.date.toLocaleDateString() : 'N/A'}</p>
+                `);
+
+                this.markerCluster.addLayer(marker);
             }
-            
-            markersAdded++;
-
-            const [lat, lng] = coords;
-            const jitter = () => (Math.random() - 0.5) * 0.02;
-            
-            const speedClass = row.download >= 30 ? 'speed-excellent' 
-                : row.download >= 10 ? 'speed-good'
-                : row.download >= 5 ? 'speed-average'
-                : 'speed-poor';
-
-            const marker = L.circleMarker([lat + jitter(), lng + jitter()], {
-                radius: 6,
-                fillColor: speedClass.includes('excellent') ? '#10b981' 
-                    : speedClass.includes('good') ? '#3b82f6'
-                    : speedClass.includes('average') ? '#f59e0b'
-                    : '#ef4444',
-                color: '#fff',
-                weight: 1,
-                opacity: 1,
-                fillOpacity: 0.7
-            });
-
-            marker.bindPopup(`
-                <h3>${row.provider}</h3>
-                <p><strong>Location:</strong> ${row.city}, ${row.province}</p>
-                <p><strong>Download:</strong> ${row.download.toFixed(2)} Mbps</p>
-                <p><strong>Upload:</strong> ${row.upload.toFixed(2)} Mbps</p>
-                <p><strong>Latency:</strong> ${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}</p>
-                <p><strong>Date:</strong> ${row.date ? row.date.toLocaleDateString() : 'N/A'}</p>
-            `);
-
-            this.markerCluster.addLayer(marker);
         });
 
         if (this.DEBUG) {
@@ -1163,11 +1717,11 @@ class MNOPerformanceApp {
         }
 
         tbody.innerHTML = pageData.map((row, index) => {
-            const speedClass = row.download >= 30 ? 'speed-excellent' 
+            const speedClass = row.download >= 30 ? 'speed-excellent'
                 : row.download >= 10 ? 'speed-good'
-                : row.download >= 5 ? 'speed-average'
-                : 'speed-poor';
-            
+                    : row.download >= 5 ? 'speed-average'
+                        : 'speed-poor';
+
             const rowId = `row-${start + index}`;
 
             return `
@@ -1219,7 +1773,7 @@ class MNOPerformanceApp {
             `;
         }).join('');
 
-        document.getElementById('page-info').textContent = 
+        document.getElementById('page-info').textContent =
             `${start + 1}-${Math.min(end, this.filteredData.length)} of ${this.filteredData.length}`;
 
         const totalPages = Math.ceil(this.filteredData.length / this.rowsPerPage);
@@ -1344,11 +1898,11 @@ class MNOPerformanceApp {
         const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
         const link = document.createElement('a');
         const url = URL.createObjectURL(blob);
-        
+
         link.setAttribute('href', url);
         link.setAttribute('download', `mno_performance_${new Date().toISOString().split('T')[0]}.csv`);
         link.style.visibility = 'hidden';
-        
+
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

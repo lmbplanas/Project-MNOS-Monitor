@@ -1,0 +1,1429 @@
+Location Name,Latitude,Longitude,Provider,Download Speed,Upload Speed,Download Speed Mbps,Upload Speed Mbps,Minimum Latency,Test Count,Sample Count,Device Count
+"Quezon City, Metro Manila, Philippines",14.64879,121.05094,Globe,35107,8932,35.11,8.93,15,1065,243,591
+"Quezon City, Metro Manila, Philippines",14.64879,121.05094,Smart,71414,8884,71.41,8.88,14,867,150,404
+"Cebu City, Cebu, Philippines",10.29261,123.90219,Smart,57209,6314,57.21,6.31,17,793,76,323
+"Davao City, Davao del Sur, Philippines",7.06475,125.60884,Globe,48500,11553,48.50,11.55,22,474,72,194
+"Manila, Metro Manila, Philippines",14.59951,120.98423,Smart,48840,7906,48.84,7.91,15,454,87,260
+"Manila, Metro Manila, Philippines",14.59951,120.98423,DITO,103094,14080,103.09,14.08,16,430,32,238
+"Makati City, Metro Manila, Philippines",14.55474,121.02444,Globe,40586,9330,40.59,9.33,15,415,104,168
+"Cebu City, Cebu, Philippines",10.29261,123.90219,DITO,77427,4415,77.43,4.42,30,414,44,229
+"General Trias, Cavite, Philippines",14.38159,120.87915,Globe,18259,3034,18.26,3.03,20,399,30,145
+"Bacolod, Negros Occidental, Philippines",10.66764,122.94556,Globe,15139,4629,15.14,4.63,31,393,71,218
+"Cebu City, Cebu, Philippines",10.29261,123.90219,Globe,27879,7919,27.88,7.92,29,378,84,209
+"Iloilo City, Iloilo, Philippines",10.73019,122.55911,Smart,72266,8646,72.27,8.65,17,367,33,207
+"Davao City, Davao del Sur, Philippines",7.06475,125.60884,Smart,35676,4367,35.68,4.37,27,358,56,178
+"Makati City, Metro Manila, Philippines",14.55474,121.02444,Smart,69735,7712,69.74,7.71,14,357,80,212
+"Lucena City, Quezon, Philippines",13.94139,121.62345,Smart,15996,789,16.00,0.79,21,350,9,160
+"Taguig, Metro Manila, Philippines",14.53063,121.05755,Globe,40402,10799,40.40,10.80,15,337,124,193
+"Manila, Metro Manila, Philippines",14.59951,120.98423,Globe,38366,8492,38.37,8.49,15,323,113,184
+"Navotas, Metro Manila, Philippines",14.65819,120.94743,Globe,44481,6451,44.48,6.45,18,321,4,156
+"Iloilo City, Iloilo, Philippines",10.73019,122.55911,Globe,36996,4071,37.00,4.07,34,296,27,117
+"San Fernando, Pampanga, Philippines",15.02781,120.69349,Globe,35375,6442,35.38,6.44,22,271,10,22
+"Parañaque, Metro Manila, Philippines",14.47929,121.01985,Smart,52468,4975,52.47,4.98,17,247,46,160
+"Cagayan De Oro City, Misamis Oriental, Philippines",8.48029,124.64975,Globe,26324,6808,26.32,6.81,20,242,54,151
+"Parañaque, Metro Manila, Philippines",14.47929,121.01985,Globe,32264,13688,32.26,13.69,15,242,42,69
+"San Fernando, Pampanga, Philippines",15.02781,120.69349,Smart,33650,2829,33.65,2.83,21,238,11,128
+"Pasig, Metro Manila, Philippines",14.56082,121.0776,Globe,40609,11946,40.61,11.95,14,233,71,134
+"Zamboanga City, Zamboanga del Sur, Philippines",6.90437,122.07612,Globe,32914,5935,32.91,5.94,33,232,26,43
+"Taguig, Metro Manila, Philippines",14.53063,121.05755,Smart,59051,7530,59.05,7.53,16,231,95,133
+"Antipolo City, 1870 Rizal, Philippines",14.58584,121.17569,DITO,80120,15789,80.12,15.79,24,224,5,113
+"Bacoor, Cavite, Philippines",14.43122,120.96567,Globe,40245,7916,40.25,7.92,17,221,18,114
+"Caloocan, Metro Manila, Philippines",14.65136,120.99022,Globe,39274,11255,39.27,11.26,15,199,48,68
+"Carmona, Cavite, Philippines",14.3135,121.05712,Globe,21248,2551,21.25,2.55,18,195,8,100
+"Pasay City, Metro Manila, Philippines",14.53767,121.00081,Globe,29322,8912,29.32,8.91,16,191,68,113
+"City of Mati, Davao Oriental, Philippines",6.95722,126.15454,Globe,40341,6002,40.34,6.00,26,190,2,5
+"Quezon City, Metro Manila, Philippines",14.64879,121.05094,DITO,60360,8674,60.36,8.67,18,187,69,102
+"Las Piñas, Metro Manila, Philippines",14.44934,120.98186,Globe,40585,12280,40.59,12.28,16,186,29,48
+"Cagayan De Oro City, Misamis Oriental, Philippines",8.48029,124.64975,Smart,31342,11829,31.34,11.83,14,185,19,99
+"Bacolod, Negros Occidental, Philippines",10.66764,122.94556,Smart,56691,4959,56.69,4.96,20,185,62,95
+"Pasay City, Metro Manila, Philippines",14.53767,121.00081,Smart,64357,12349,64.36,12.35,15,182,69,107
+"Davao City, Davao del Sur, Philippines",7.06475,125.60884,DITO,31998,10984,32.00,10.98,33,177,30,95
+"San Fernando, Pampanga, Philippines",15.02781,120.69349,DITO,75178,7336,75.18,7.34,22,168,7,85
+"Gapan City, Nueva Ecija, Philippines",15.29121,121.01057,Globe,40518,10687,40.52,10.69,25,165,9,12
+"Tarlac City, Tarlac, Philippines",15.48808,120.58719,Globe,22867,12061,22.87,12.06,26,164,9,108
+"Bacoor, Cavite, Philippines",14.43122,120.96567,DITO,83029,6461,83.03,6.46,22,159,11,98
+"Batangas City, Batangas, Philippines",13.75641,121.05833,Globe,48551,12964,48.55,12.96,20,144,4,80
+"Mandaluyong City, Metro Manila, Philippines",14.57627,121.03924,Globe,26618,7900,26.62,7.90,15,144,55,88
+"Butuan City, Agusan Del Norte, Philippines",8.94753,125.54063,Globe,86440,4572,86.44,4.57,30,143,2,83
+"Mandaluyong City, Metro Manila, Philippines",14.57627,121.03924,Smart,60616,9326,60.62,9.33,15,138,56,78
+"Angeles, Pampanga, Philippines",15.16061,120.60908,DITO,28890,8200,28.89,8.20,25,132,13,58
+"Maramag, Bukidnon, Philippines",7.82687,124.97271,Globe,17040,5844,17.04,5.84,20,130,3,78
+"Batangas City, Batangas, Philippines",13.75641,121.05833,Smart,63228,4891,63.23,4.89,18,126,7,55
+"Pasig, Metro Manila, Philippines",14.56082,121.0776,Smart,99157,13856,99.16,13.86,15,126,47,88
+"Midsayap, Cotabato, Philippines",7.19181,124.53474,Globe,45114,10234,45.11,10.23,32,112,4,5
+"Taguig, Metro Manila, Philippines",14.53063,121.05755,DITO,104938,9290,104.94,9.29,18,112,42,64
+"Malolos, Bulacan, Philippines",14.86049,120.80916,Globe,42305,9259,42.31,9.26,21,107,10,17
+"Dasmariñas, Cavite, Philippines",14.33385,120.95423,Globe,37330,9250,37.33,9.25,17,101,17,40
+"Muntinlupa, Metro Manila, Philippines",14.39453,121.04483,Globe,37778,10130,37.78,10.13,17,94,38,61
+"Legazpi City, Albay, Philippines",13.11288,123.76295,Smart,22023,2472,22.02,2.47,23,91,9,16
+"Valenzuela, Metro Manila, Philippines",14.69247,120.96991,Globe,33733,8459,33.73,8.46,16,89,31,44
+"Baguio, Benguet, Philippines",16.41297,120.5914,Smart,38373,2912,38.37,2.91,18,87,35,54
+"Angeles, Pampanga, Philippines",15.16061,120.60908,Smart,62447,8451,62.45,8.45,15,87,37,54
+"Mandaue, Cebu, Philippines",10.3279,123.94273,Smart,41732,2408,41.73,2.41,15,85,15,32
+"Las Piñas, Metro Manila, Philippines",14.44934,120.98186,DITO,300288,3296,300.29,3.30,19,84,7,13
+"Pasig, Metro Manila, Philippines",14.56082,121.0776,DITO,79611,10329,79.61,10.33,21,83,26,41
+"Tuguegarao City, Cagayan, Philippines",17.60306,121.75374,Globe,34687,6508,34.69,6.51,22,83,6,60
+"Calasiao, Pangasinan, Philippines",16.00949,120.35759,Globe,56549,9066,56.55,9.07,24,83,5,9
+"Tagum, Davao del Norte, Philippines",7.44742,125.80246,Globe,50811,9667,50.81,9.67,27,81,8,17
+"Silang, Cavite, Philippines",14.22025,120.96469,Globe,41294,9320,41.29,9.32,17,78,12,19
+"Lapu-Lapu, Cebu, Philippines",10.31838,123.96395,Smart,70497,7384,70.50,7.38,16,78,35,48
+"Bacolod, Negros Occidental, Philippines",10.66764,122.94556,DITO,26393,3834,26.39,3.83,41,78,25,43
+"Muntinlupa, Metro Manila, Philippines",14.39453,121.04483,Smart,62706,6792,62.71,6.79,17,75,34,58
+"Oton, Iloilo, Philippines",10.69251,122.47868,Globe,41898,10092,41.90,10.09,34,74,3,6
+"San Pedro, Laguna, Philippines",14.36443,121.06192,Globe,29556,6645,29.56,6.65,21,72,23,29
+"Caloocan, Metro Manila, Philippines",14.65136,120.99022,Smart,112463,18779,112.46,18.78,15,71,26,41
+"General Trias, Cavite, Philippines",14.38159,120.87915,Smart,33881,2907,33.88,2.91,22,71,27,35
+"Antipolo City, 1870 Rizal, Philippines",14.58584,121.17569,Smart,48548,4799,48.55,4.80,14,70,18,28
+"Cagayan De Oro City, Misamis Oriental, Philippines",8.48029,124.64975,DITO,25858,10313,25.86,10.31,33,68,5,36
+"Kidapawan, Cotabato, Philippines",7.02127,125.09019,Globe,12424,3472,12.42,3.47,35,67,6,8
+"Cabuyao City, Laguna, Philippines",14.27433,121.11961,DITO,21713,9013,21.71,9.01,21,67,6,11
+"Las Piñas, Metro Manila, Philippines",14.44934,120.98186,Smart,104884,5484,104.88,5.48,18,66,20,36
+"Caloocan, Metro Manila, Philippines",14.65136,120.99022,DITO,38928,11022,38.93,11.02,18,66,19,31
+"Calamba, Laguna, Philippines",14.19488,121.15974,Globe,18499,3061,18.50,3.06,21,65,25,38
+"Marikina, Metro Manila, Philippines",14.63493,121.10195,Globe,44022,10092,44.02,10.09,15,63,23,40
+"Cauayan City, Isabela, Philippines",16.91662,121.78792,Globe,43717,7622,43.72,7.62,17,63,3,4
+"Antipolo City, 1870 Rizal, Philippines",14.58584,121.17569,Globe,40997,9951,41.00,9.95,16,63,27,44
+"Dapa, Surigao del Norte, Philippines",9.78925,126.0676,Globe,19181,18536,19.18,18.54,40,62,1,3
+"Manolo Fortich, Bukidnon, Philippines",8.39002,124.88449,Globe,26215,12976,26.22,12.98,30,62,2,2
+"San Juan City, Metro Manila, Philippines",14.60196,121.0355,Globe,53287,7385,53.29,7.39,15,62,17,37
+"Lapu-Lapu, Cebu, Philippines",10.31838,123.96395,Globe,43690,8819,43.69,8.82,27,61,29,42
+"Binangonan, Rizal, Philippines",14.48441,121.1869,Smart,53342,9691,53.34,9.69,16,59,3,6
+"Baguio, Benguet, Philippines",16.41297,120.5914,Globe,29088,5701,29.09,5.70,20,59,24,44
+"Makati City, Metro Manila, Philippines",14.55474,121.02444,DITO,70247,13467,70.25,13.47,17,58,21,31
+"Talisay, Batangas, Philippines",14.11598,121.04498,Globe,27552,6669,27.55,6.67,19,58,3,4
+"Valenzuela, Metro Manila, Philippines",14.69247,120.96991,Smart,51178,6893,51.18,6.89,16,57,24,33
+"Bacoor, Cavite, Philippines",14.43122,120.96567,Smart,26353,3469,26.35,3.47,22,56,25,32
+"Dumaguete City, Negros Oriental, Philippines",9.29841,123.29249,Globe,30920,5311,30.92,5.31,42,55,10,18
+"Pasay City, Metro Manila, Philippines",14.53767,121.00081,DITO,168745,19184,168.75,19.18,17,54,24,31
+"Dasmariñas, Cavite, Philippines",14.33385,120.95423,Smart,62522,4726,62.52,4.73,24,54,21,30
+"General Santos City (Dadiangas), South Cotabato, Philippines",6.14327,125.19286,Smart,31345,7423,31.35,7.42,29,54,20,30
+"Angeles, Pampanga, Philippines",15.16061,120.60908,Globe,32039,6195,32.04,6.20,23,53,25,37
+"Tagaytay City, Cavite, Philippines",14.11541,120.96202,Globe,25177,7870,25.18,7.87,19,52,11,16
+"Cabuyao City, Laguna, Philippines",14.27433,121.11961,Smart,65914,3851,65.91,3.85,20,51,8,12
+"Mandaue, Cebu, Philippines",10.3279,123.94273,Globe,25529,7134,25.53,7.13,30,50,22,38
+"General Santos City (Dadiangas), South Cotabato, Philippines",6.14327,125.19286,Globe,13688,4629,13.69,4.63,35,49,23,30
+"Lipa City, Batangas, Philippines",13.94047,121.19395,Globe,38951,6239,38.95,6.24,20,48,19,29
+"Valenzuela, Metro Manila, Philippines",14.69247,120.96991,DITO,43539,31665,43.54,31.67,31,48,14,25
+"Cabanatuan City, Nueva Ecija, Philippines",15.49943,121.01057,Globe,40016,3495,40.02,3.50,20,48,6,33
+"SJDM, Bulacan, Philippines",14.82867,121.04324,Globe,25873,11295,25.87,11.30,25,47,19,30
+"Biñan, Laguna, Philippines",14.31456,121.08316,Smart,44358,6503,44.36,6.50,22,47,21,27
+"San Juan City, Metro Manila, Philippines",14.60196,121.0355,Smart,92843,16958,92.84,16.96,14,47,12,26
+"Rodriguez, Rizal, Philippines",14.73202,121.14516,Globe,34379,15610,34.38,15.61,14,46,10,16
+"Mexico, Pampanga, Philippines",15.06457,120.72033,DITO,15377,4276,15.38,4.28,24,46,2,17
+"Calamba, Laguna, Philippines",14.19488,121.15974,Smart,30340,7926,30.34,7.93,23,44,19,26
+"SJDM, Bulacan, Philippines",14.82867,121.04324,Smart,67103,3381,67.10,3.38,18,43,15,24
+"Imus, Cavite, Philippines",14.42764,120.93724,Globe,44806,8369,44.81,8.37,17,42,16,32
+"Biñan, Laguna, Philippines",14.31456,121.08316,Globe,47224,8317,47.22,8.32,20,42,18,30
+"Marikina, Metro Manila, Philippines",14.63493,121.10195,Smart,46090,7714,46.09,7.71,16,42,20,28
+"Iligan City, Lanao del Norte, Philippines",8.22707,124.46418,Smart,34680,7840,34.68,7.84,18,41,7,9
+"La Carlota City, Negros Occidental, Philippines",10.41437,122.97757,DITO,14161,3695,14.16,3.70,56,41,2,2
+"Imus, Cavite, Philippines",14.42764,120.93724,Smart,45355,5231,45.36,5.23,27,41,17,24
+"Lipa City, Batangas, Philippines",13.94047,121.19395,Smart,32612,3610,32.61,3.61,18,40,13,19
+"Naga City, Camarines Sur, Philippines",13.6475,123.27003,Smart,18528,8414,18.53,8.41,22,40,13,23
+"Navotas, Metro Manila, Philippines",14.65819,120.94743,Smart,149185,7780,149.19,7.78,12,39,6,17
+"Parañaque, Metro Manila, Philippines",14.47929,121.01985,DITO,29163,13447,29.16,13.45,21,39,18,26
+"Mandaluyong City, Metro Manila, Philippines",14.57627,121.03924,DITO,75597,18467,75.60,18.47,19,38,23,26
+"City of Santa Rosa, Laguna, Philippines",14.31471,121.11232,Smart,57336,3619,57.34,3.62,22,38,13,26
+"City of Baybay, Leyte, Philippines",10.66858,124.80409,Globe,18110,1780,18.11,1.78,48,38,1,3
+"Daet, Camarines Norte, Philippines",14.10303,122.9325,Globe,23635,5310,23.64,5.31,25,37,7,13
+"Carmen, Davao del Norte, Philippines",7.35492,125.704,Globe,23160,11135,23.16,11.14,57,37,1,2
+"Tagbilaran City, Bohol, Philippines",9.6534,123.86703,Globe,24868,12963,24.87,12.96,45,37,7,8
+"Iriga City, Camarines Sur, Philippines",13.42095,123.41361,DITO,16701,6544,16.70,6.54,81,37,1,1
+"Talisay, Cebu, Philippines",10.25859,123.82413,Smart,61357,3874,61.36,3.87,18,36,7,13
+"Dasmariñas, Cavite, Philippines",14.33385,120.95423,DITO,46318,3376,46.32,3.38,19,36,13,16
+"Guiuan, Eastern Samar, Philippines",10.79308,125.68607,Globe,74087,7595,74.09,7.60,42,36,1,1
+"Palo, Leyte, Philippines",11.15847,124.99191,Globe,17511,5379,17.51,5.38,46,36,4,6
+"Cabanatuan City, Nueva Ecija, Philippines",15.49943,121.01057,Smart,80959,6834,80.96,6.83,27,35,16,21
+"Himamaylan, Negros Occidental, Philippines",10.10162,122.86995,Globe,7992,5657,7.99,5.66,40,35,1,2
+"Solano, Nueva Vizcaya, Philippines",16.51774,121.18012,Globe,7240,4270,7.24,4.27,25,34,3,7
+"City of Santa Rosa, Laguna, Philippines",14.31471,121.11232,Globe,56069,3904,56.07,3.90,20,33,10,27
+"Taytay, Rizal, Philippines",14.55288,121.12571,Smart,45145,2318,45.15,2.32,16,32,14,25
+"Cainta, Rizal, Philippines",14.58056,121.11565,Smart,82173,8901,82.17,8.90,13,32,15,20
+"Koronadal, South Cotabato, Philippines",6.50044,124.84333,Globe,28860,10831,28.86,10.83,30,32,3,9
+"Pili, Camarines Sur, Philippines",13.55521,123.28126,DITO,22925,4149,22.93,4.15,33,32,3,4
+"San Nicolas, Ilocos Norte, Philippines",18.14708,120.58547,Globe,119429,17782,119.43,17.78,22,32,3,4
+"Tuao, Cagayan, Philippines",17.67718,121.51416,Globe,215695,23560,215.70,23.56,23,31,1,1
+"Gapan City, Nueva Ecija, Philippines",15.29121,121.01057,Smart,23949,4765,23.95,4.77,27,31,3,4
+"Mandaue, Cebu, Philippines",10.3279,123.94273,DITO,57190,13008,57.19,13.01,37,31,16,21
+"Iloilo City, Iloilo, Philippines",10.73019,122.55911,DITO,37791,6388,37.79,6.39,26,31,11,19
+"Calamba, Laguna, Philippines",14.19488,121.15974,DITO,22201,1702,22.20,1.70,26,30,8,22
+"Baliwag, Bulacan, Philippines",14.96569,120.89431,Smart,51986,2139,51.99,2.14,20,30,5,7
+"Mabalacat City, Pampanga, Philippines",15.24525,120.56567,Smart,73651,18082,73.65,18.08,17,30,7,18
+"Cabuyao City, Laguna, Philippines",14.27433,121.11961,Globe,173091,10416,173.09,10.42,20,30,4,7
+"Naga City, Camarines Sur, Philippines",13.6475,123.27003,Globe,23400,8823,23.40,8.82,27,29,12,19
+"Lipa City, Batangas, Philippines",13.94047,121.19395,DITO,62069,12710,62.07,12.71,23,29,7,14
+"Rodriguez, Rizal, Philippines",14.73202,121.14516,Smart,58562,7522,58.56,7.52,15,29,10,12
+"Cainta, Rizal, Philippines",14.58056,121.11565,Globe,173142,12397,173.14,12.40,17,28,9,16
+"Zamboanga City, Zamboanga del Sur, Philippines",6.90437,122.07612,Smart,28341,4407,28.34,4.41,29,28,12,14
+"Tagum, Davao del Norte, Philippines",7.44742,125.80246,Smart,40089,5788,40.09,5.79,27,28,3,15
+"Talisay, Cebu, Philippines",10.25859,123.82413,Globe,87806,8858,87.81,8.86,26,28,9,13
+"Iligan City, Lanao del Norte, Philippines",8.22707,124.46418,DITO,46319,39373,46.32,39.37,32,28,2,21
+"Baguio, Benguet, Philippines",16.41297,120.5914,DITO,12300,3527,12.30,3.53,27,28,9,17
+"Malay, Aklan, Philippines",11.93033,121.95191,Smart,156273,6765,156.27,6.77,34,28,12,19
+"Lapu-Lapu, Cebu, Philippines",10.31838,123.96395,DITO,46203,3061,46.20,3.06,32,27,14,18
+"Malvar, Batangas, Philippines",14.04329,121.15875,Globe,138993,16120,138.99,16.12,27,27,5,7
+"Cotabato City, Maguindanao, Philippines",7.20467,124.23104,Globe,16745,8917,16.75,8.92,34,27,10,13
+"Lopez, Quezon, Philippines",13.80005,122.31075,Smart,12179,2922,12.18,2.92,16,27,2,3
+"Cauayan City, Isabela, Philippines",16.91662,121.78792,Smart,68467,4077,68.47,4.08,21,26,3,5
+"Tiwi, Albay, Philippines",13.4612,123.63996,Globe,19725,1076,19.73,1.08,89,26,2,3
+"General Santos City (Dadiangas), South Cotabato, Philippines",6.14327,125.19286,DITO,41005,11449,41.01,11.45,35,26,12,23
+"Daet, Camarines Norte, Philippines",14.10303,122.9325,Smart,75922,6518,75.92,6.52,22,26,5,16
+"Liloan, Cebu, Philippines",10.39926,124.00002,Globe,17738,4354,17.74,4.35,29,26,12,15
+"San Pedro, Laguna, Philippines",14.36443,121.06192,Smart,39655,4991,39.66,4.99,23,26,16,21
+"Danao, Cebu, Philippines",10.52013,124.02712,Globe,17892,3474,17.89,3.47,44,26,7,15
+"Tarlac City, Tarlac, Philippines",15.48808,120.58719,Smart,194633,3931,194.63,3.93,18,25,9,16
+"Puerto Princesa City, Palawan, Philippines",9.78563,118.62648,Globe,18545,4610,18.55,4.61,31,25,12,19
+"Malabon, Metro Manila, Philippines",14.65793,120.95118,Globe,25099,4491,25.10,4.49,15,25,7,16
+"Taytay, Rizal, Philippines",14.55288,121.12571,Globe,38408,10801,38.41,10.80,15,25,13,21
+"Pavia, Iloilo, Philippines",10.7748,122.54261,Globe,8380,8832,8.38,8.83,36,25,9,17
+"Virac, Catanduanes, Philippines",13.61939,124.17544,Smart,25160,3808,25.16,3.81,45,24,2,4
+"Malay, Aklan, Philippines",11.93033,121.95191,Globe,18825,3930,18.83,3.93,42,24,10,15
+"Tanza, Cavite, Philippines",14.34293,120.85032,Globe,18652,2773,18.65,2.77,18,23,10,12
+"Dumaguete City, Negros Oriental, Philippines",9.29841,123.29249,Smart,57756,17296,57.76,17.30,22,23,8,15
+"Muntinlupa, Metro Manila, Philippines",14.39453,121.04483,DITO,27118,7772,27.12,7.77,25,23,8,14
+"Mexico, Pampanga, Philippines",15.06457,120.72033,Globe,19710,5553,19.71,5.55,27,23,7,9
+"Sorsogon City, Sorsogon, Philippines",12.97888,123.98477,Smart,70121,11410,70.12,11.41,21,23,9,12
+"Labo, Camarines Norte, Philippines",14.13903,122.7633,Smart,369717,23276,369.72,23.28,22,23,2,3
+"Panabo City, Davao del Norte, Philippines",7.30822,125.68662,Smart,133922,12190,133.92,12.19,27,23,2,5
+"Carmona, Cavite, Philippines",14.3135,121.05712,Smart,59877,2149,59.88,2.15,25,23,9,14
+"Liloan, Cebu, Philippines",10.39926,124.00002,Smart,82254,11409,82.25,11.41,18,22,9,18
+"Marilao, Bulacan, Philippines",14.77237,120.96001,Globe,31759,7397,31.76,7.40,22,22,6,12
+"Pavia, Iloilo, Philippines",10.7748,122.54261,Smart,26304,4448,26.30,4.45,18,22,9,16
+"Guiguinto, Bulacan, Philippines",14.82832,120.88429,Smart,62923,8462,62.92,8.46,20,22,6,9
+"Lucena City, Quezon, Philippines",13.94139,121.62345,DITO,34714,3836,34.71,3.84,26,22,6,9
+"SJDM, Bulacan, Philippines",14.82867,121.04324,DITO,32031,15293,32.03,15.29,24,22,7,8
+"City of Santa Rosa, Laguna, Philippines",14.31471,121.11232,DITO,33565,9603,33.57,9.60,20,22,8,14
+"Bambang, Nueva Vizcaya, Philippines",16.40415,121.10229,Smart,44702,2948,44.70,2.95,22,21,4,6
+"Tanza, Cavite, Philippines",14.34293,120.85032,DITO,30230,4922,30.23,4.92,26,21,6,9
+"Polomolok, South Cotabato, Philippines",6.22451,125.06084,Globe,34468,13620,34.47,13.62,31,21,4,5
+"Tagbilaran City, Bohol, Philippines",9.6534,123.86703,Smart,26435,19784,26.44,19.78,25,21,9,15
+"Kalilangan, Bukidnon, Philippines",7.8149,124.70777,Smart,149922,33562,149.92,33.56,24,21,2,3
+"Tigaon, Camarines Sur, Philippines",13.61703,123.47198,DITO,11796,2812,11.80,2.81,36,21,2,2
+"Santiago, Isabela, Philippines",16.69679,121.55865,Globe,17529,5514,17.53,5.51,20,21,10,12
+"Danao, Cebu, Philippines",10.52013,124.02712,Smart,126079,6325,126.08,6.33,16,20,4,10
+"Naga City, Camarines Sur, Philippines",13.6475,123.27003,DITO,11708,239,11.71,0.24,79,20,3,6
+"Rosario, Cavite, Philippines",14.41672,120.85471,Globe,19780,10792,19.78,10.79,18,20,5,6
+"San Fernando City, La Union, Philippines",16.61592,120.32102,Globe,12407,2552,12.41,2.55,30,20,6,15
+"Pilar, Sorsogon, Philippines",12.97477,123.6847,Smart,15138,338,15.14,0.34,25,19,3,3
+"San Pablo City, Laguna, Philippines",14.06422,121.32326,Smart,22067,2553,22.07,2.55,18,19,10,12
+"Lucena City, Quezon, Philippines",13.94139,121.62345,Globe,42631,7965,42.63,7.97,21,19,8,14
+"Santa Maria, Bulacan, Philippines",14.82898,120.97616,Globe,31077,11636,31.08,11.64,22,19,10,16
+"Bayombong, Nueva Vizcaya, Philippines",16.48042,121.14813,Globe,14407,2430,14.41,2.43,23,19,6,8
+"San Felipe, Zambales, Philippines",15.07931,120.12429,Globe,86700,23103,86.70,23.10,21,19,2,2
+"Santo Tomas, Batangas, Philippines",14.08754,121.17764,Globe,49228,8916,49.23,8.92,18,19,8,13
+"Concepcion, Tarlac, Philippines",15.324,120.65596,Globe,74192,25097,74.19,25.10,14,19,3,3
+"Santo Tomas, Batangas, Philippines",14.08754,121.17764,Smart,32508,3928,32.51,3.93,25,19,9,12
+"Legazpi City, Albay, Philippines",13.11288,123.76295,Globe,33394,14093,33.39,14.09,30,18,8,11
+"Ormoc City, Leyte, Philippines",11.03843,124.61927,DITO,49428,2255,49.43,2.26,39,18,3,7
+"Imus, Cavite, Philippines",14.42764,120.93724,DITO,77684,8903,77.68,8.90,25,18,6,12
+"Calbayog, Samar, Philippines",12.0685,124.59081,Globe,35599,7898,35.60,7.90,46,18,2,4
+"Naic, Cavite, Philippines",14.29649,120.79246,Smart,89830,7320,89.83,7.32,20,18,4,5
+"Santa Lucia, Ilocos Sur, Philippines",17.12888,120.47033,Smart,30882,2031,30.88,2.03,15,18,1,3
+"Victorias, Negros Occidental, Philippines",10.901,123.07045,Smart,17628,2161,17.63,2.16,20,18,5,8
+"Toledo, Cebu, Philippines",10.38705,123.65017,Globe,168548,19816,168.55,19.82,34,18,4,8
+"Pateros, Metro Manila, Philippines",14.54838,121.07077,Globe,30287,7722,30.29,7.72,14,18,5,8
+"Isabela, Basilan, Philippines",6.70387,121.9799,Smart,34995,9151,35.00,9.15,28,18,2,4
+"Nabua, Camarines Sur, Philippines",13.4069,123.37324,Smart,45302,959,45.30,0.96,21,18,4,6
+"Iligan City, Lanao del Norte, Philippines",8.22707,124.46418,Globe,11924,696,11.92,0.70,42,17,3,9
+"Polangui, Albay, Philippines",13.29368,123.48542,Smart,15617,2927,15.62,2.93,25,17,4,4
+"General Trias, Cavite, Philippines",14.38159,120.87915,DITO,36504,12611,36.50,12.61,24,17,8,12
+"Kawit, Cavite, Philippines",14.44588,120.90871,Smart,153934,5153,153.93,5.15,23,17,8,11
+"Solano, Nueva Vizcaya, Philippines",16.51774,121.18012,Smart,31896,2101,31.90,2.10,24,17,5,6
+"Sarrat, Ilocos Norte, Philippines",18.11379,120.6545,Globe,35860,16606,35.86,16.61,21,17,1,1
+"Balanga City, Bataan, Philippines",14.67454,120.47033,Smart,37193,22699,37.19,22.70,17,17,6,10
+"Kapatagan, Lanao del Norte, Philippines",7.86776,123.72942,Globe,21702,22209,21.70,22.21,33,17,1,1
+"Koronadal, South Cotabato, Philippines",6.50044,124.84333,Smart,100967,12950,100.97,12.95,26,17,8,15
+"Legazpi City, Albay, Philippines",13.11288,123.76295,DITO,11999,9444,12.00,9.44,25,17,5,8
+"San Pablo City, Laguna, Philippines",14.06422,121.32326,Globe,31822,7152,31.82,7.15,20,17,6,10
+"Naval, Biliran, Philippines",11.56681,124.44201,Smart,105082,4746,105.08,4.75,23,17,1,1
+"Paracale, Camarines Norte, Philippines",14.23721,122.78588,Globe,11599,5066,11.60,5.07,30,16,4,5
+"Sablayan, Occidental Mindoro, Philippines",12.88349,120.98763,Globe,18453,11876,18.45,11.88,23,16,4,4
+"San Pedro, Laguna, Philippines",14.36443,121.06192,DITO,45867,5783,45.87,5.78,23,16,12,14
+"Libmanan, Camarines Sur, Philippines",13.69376,123.05982,Smart,16942,10495,16.94,10.50,20,16,3,6
+"Trece Martires City, Cavite, Philippines",14.28222,120.86837,Globe,24440,2641,24.44,2.64,17,16,4,7
+"Cabanatuan City, Nueva Ecija, Philippines",15.49943,121.01057,DITO,63189,19376,63.19,19.38,21,16,6,12
+"Laoang, Northern Samar, Philippines",12.50219,125.01679,Globe,10356,7335,10.36,7.34,60,16,4,4
+"Ormoc City, Leyte, Philippines",11.03843,124.61927,Smart,121573,20447,121.57,20.45,18,16,8,12
+"Puerto Princesa City, Palawan, Philippines",9.78563,118.62648,Smart,46076,5326,46.08,5.33,46,16,10,11
+"Bago, Negros Occidental, Philippines",10.53757,122.83609,Globe,11965,7728,11.97,7.73,46,16,8,9
+"Digos, Davao del Sur, Philippines",6.74347,125.35515,Smart,37471,1749,37.47,1.75,28,16,5,9
+"Pozorrubio, Pangasinan, Philippines",16.11642,120.54316,DITO,64065,6730,64.07,6.73,23,15,1,2
+"Pili, Camarines Sur, Philippines",13.55521,123.28126,Smart,43035,5606,43.04,5.61,24,15,3,6
+"Sorsogon City, Sorsogon, Philippines",12.97888,123.98477,DITO,36978,3930,36.98,3.93,33,15,3,6
+"Valladolid, Negros Occidental, Philippines",10.46898,122.8423,Smart,22015,1275,22.02,1.28,22,15,3,3
+"Malabon, Metro Manila, Philippines",14.65793,120.95118,DITO,163172,2793,163.17,2.79,14,15,4,7
+"Rodriguez, Rizal, Philippines",14.73202,121.14516,DITO,26918,2670,26.92,2.67,33,15,5,6
+"Dagupan City, Pangasinan, Philippines",16.03375,120.33202,Smart,105506,8497,105.51,8.50,15,15,12,15
+"Liloan, Cebu, Philippines",10.39926,124.00002,DITO,46017,7637,46.02,7.64,42,15,6,9
+"Pavia, Iloilo, Philippines",10.7748,122.54261,DITO,28555,1787,28.56,1.79,25,15,6,8
+"Calatrava, Negros Occidental, Philippines",10.62843,123.39349,DITO,5538,304,5.54,0.30,64,15,3,4
+"Tacloban City, Leyte, Philippines",11.22238,124.99221,Globe,32372,7516,32.37,7.52,38,15,10,12
+"Consolacion, Cebu, Philippines",10.37581,123.95694,Smart,17393,4796,17.39,4.80,16,15,7,8
+"Castillejos, Zambales, Philippines",14.94382,120.19357,Smart,81886,10935,81.89,10.94,14,15,1,1
+"Silang, Cavite, Philippines",14.22025,120.96469,Smart,57541,3752,57.54,3.75,22,15,9,14
+"Dulag, Leyte, Philippines",10.95915,125.00577,Globe,99720,40861,99.72,40.86,43,15,2,2
+"Malolos, Bulacan, Philippines",14.86049,120.80916,Smart,109932,15170,109.93,15.17,15,14,7,12
+"Paracale, Camarines Norte, Philippines",14.23721,122.78588,Smart,28868,2553,28.87,2.55,22,14,7,8
+"Norzagaray, Bulacan, Philippines",14.89659,121.14813,Globe,29474,7391,29.47,7.39,20,14,3,5
+"Balanga City, Bataan, Philippines",14.67454,120.47033,Globe,23001,14984,23.00,14.98,18,14,6,9
+"Dagupan City, Pangasinan, Philippines",16.03375,120.33202,Globe,14486,8492,14.49,8.49,29,14,10,11
+"Candon City, Ilocos Sur, Philippines",17.19612,120.44729,Globe,53309,2804,53.31,2.80,48,14,2,4
+"Pikit, Cotabato, Philippines",7.05314,124.61927,Globe,42152,21128,42.15,21.13,50,14,1,1
+"Palo, Leyte, Philippines",11.15847,124.99191,Smart,17554,12952,17.55,12.95,28,14,3,3
+"Tabaco City, Albay, Philippines",13.36138,123.72876,Smart,36234,2922,36.23,2.92,19,14,4,7
+"San Mateo, Rizal, Philippines",14.69539,121.11767,Globe,45652,22446,45.65,22.45,16,14,7,11
+"Urdaneta City, Pangasinan, Philippines",15.98194,120.59698,Smart,41394,1969,41.39,1.97,16,14,5,11
+"Tanza, Cavite, Philippines",14.34293,120.85032,Smart,16273,1828,16.27,1.83,21,14,5,5
+"San Manuel, Pangasinan, Philippines",16.10561,120.67751,Globe,48550,20779,48.55,20.78,31,14,1,2
+"General Mariano Alvarez, Cavite, Philippines",14.29525,121.0071,Globe,12664,1335,12.66,1.34,19,14,3,6
+"Lingayen, Pangasinan, Philippines",16.00973,120.22449,Smart,92750,9994,92.75,9.99,22,13,6,9
+"Olongapo City, Zambales, Philippines",14.88739,120.36661,Globe,34565,10541,34.57,10.54,18,13,8,11
+"Arayat, Pampanga, Philippines",15.15443,120.771,Smart,21493,28139,21.49,28.14,16,13,2,3
+"Meycauayan, Bulacan, Philippines",14.73772,120.96077,Globe,22657,5681,22.66,5.68,27,13,6,8
+"Cainta, Rizal, Philippines",14.58056,121.11565,DITO,122326,5733,122.33,5.73,23,13,7,8
+"Ilagan City, Isabela, Philippines",17.12845,122.12918,Globe,53940,8127,53.94,8.13,24,13,4,5
+"Pagadian City, Zamboanga del Sur, Philippines",7.86265,123.37106,Globe,12792,12805,12.79,12.81,30,13,4,6
+"San Carlos City, Negros Occidental, Philippines",10.48344,123.30371,Globe,10074,4767,10.07,4.77,47,13,4,6
+"Zamboanga City, Zamboanga del Sur, Philippines",6.90437,122.07612,DITO,40819,7583,40.82,7.58,26,13,5,9
+"Dumaguete City, Negros Oriental, Philippines",9.29841,123.29249,DITO,23785,4602,23.79,4.60,24,13,6,8
+"Kidapawan, Cotabato, Philippines",7.02127,125.09019,DITO,44660,7063,44.66,7.06,43,13,2,5
+"San Fernando City, La Union, Philippines",16.61592,120.32102,Smart,19289,1155,19.29,1.16,18,13,7,9
+"Malabon, Metro Manila, Philippines",14.65793,120.95118,Smart,18049,11508,18.05,11.51,13,13,3,7
+"Minglanilla, Cebu, Philippines",10.24543,123.79599,Smart,28127,10165,28.13,10.17,24,13,4,5
+"Concepcion, Tarlac, Philippines",15.324,120.65596,Smart,147210,18915,147.21,18.92,23,13,4,8
+"Bauang, La Union, Philippines",16.51433,120.35508,Globe,26070,12788,26.07,12.79,24,13,4,5
+"San Miguel, Catanduanes, Philippines",13.68541,124.26439,Smart,10805,2022,10.81,2.02,28,13,3,4
+"Ipil, Zamboanga Sibugay, Philippines",7.77318,122.57121,Smart,82225,13461,82.23,13.46,20,13,3,4
+"Bocaue, Bulacan, Philippines",14.7943,120.93073,Smart,24949,5276,24.95,5.28,14,12,3,7
+"Camalig, Albay, Philippines",13.14101,123.63996,Globe,43175,8808,43.18,8.81,37,12,4,7
+"Vigan City, Ilocos Sur, Philippines",17.56485,120.38781,Globe,12581,9727,12.58,9.73,19,12,5,5
+"Mabalacat City, Pampanga, Philippines",15.24525,120.56567,Globe,22800,15680,22.80,15.68,19,12,8,11
+"Digos, Davao del Sur, Philippines",6.74347,125.35515,Globe,108615,12093,108.62,12.09,27,12,3,7
+"Santa Fe, Cebu, Philippines",11.16913,123.79088,Globe,22337,3538,22.34,3.54,37,12,2,2
+"Capas, Tarlac, Philippines",15.34633,120.59344,DITO,33120,17590,33.12,17.59,31,12,1,2
+"Surigao, Surigao del Norte, Philippines",9.79022,125.49311,Smart,141753,7167,141.75,7.17,20,12,6,7
+"Sagnay, Camarines Sur, Philippines",13.56172,123.5056,Globe,5640,874,5.64,0.87,27,12,1,2
+"Tarlac City, Tarlac, Philippines",15.48808,120.58719,DITO,346929,8003,346.93,8.00,19,12,4,9
+"Marilao, Bulacan, Philippines",14.77237,120.96001,Smart,31265,7031,31.27,7.03,18,12,6,9
+"Daet, Camarines Norte, Philippines",14.10303,122.9325,DITO,31201,1823,31.20,1.82,30,12,5,8
+"Roxas City, Capiz, Philippines",11.55288,122.74072,Smart,51475,6619,51.48,6.62,19,12,5,8
+"San Mateo, Rizal, Philippines",14.69539,121.11767,Smart,180150,17956,180.15,17.96,12,12,6,9
+"Toledo, Cebu, Philippines",10.38705,123.65017,Smart,113069,3368,113.07,3.37,18,12,1,2
+"Silay, Negros Occidental, Philippines",10.79968,122.97605,Smart,96602,30274,96.60,30.27,45,12,4,9
+"Batangas City, Batangas, Philippines",13.75641,121.05833,DITO,139406,7334,139.41,7.33,24,12,5,7
+"Compostela, Cebu, Philippines",10.45408,124.013,Globe,10019,2707,10.02,2.71,35,12,5,8
+"Koronadal, South Cotabato, Philippines",6.50044,124.84333,DITO,13538,1367,13.54,1.37,37,11,3,6
+"Pateros, Metro Manila, Philippines",14.54838,121.07077,DITO,112250,1344,112.25,1.34,35,11,2,2
+"Santa Maria, Ilocos Sur, Philippines",17.37881,120.49336,DITO,306,741,0.31,0.74,73,11,1,2
+"Meycauayan, Bulacan, Philippines",14.73772,120.96077,Smart,33650,2304,33.65,2.30,26,11,6,8
+"Tagaytay City, Cavite, Philippines",14.11541,120.96202,Smart,35262,1620,35.26,1.62,22,11,5,9
+"Saguiaran, Lanao del Sur, Philippines",8.01689,124.23104,Smart,19409,796,19.41,0.80,36,11,1,1
+"Santa Cruz, Laguna, Philippines",14.26911,121.41133,Globe,61533,21110,61.53,21.11,20,11,2,7
+"Baler, Aurora, Philippines",15.73361,121.57125,Smart,83738,12302,83.74,12.30,34,11,3,6
+"Malita, Davao Occidental, Philippines",6.41184,125.61321,Globe,31404,12864,31.40,12.86,26,11,2,5
+"Puerto Galera, Oriental Mindoro, Philippines",13.44475,120.91878,Globe,36011,6856,36.01,6.86,33,11,1,3
+"La Trinidad, Benguet, Philippines",16.44844,120.59047,Smart,19953,1288,19.95,1.29,24,11,4,7
+"Oton, Iloilo, Philippines",10.69251,122.47868,Smart,23987,19527,23.99,19.53,17,11,4,5
+"Guinobatan, Albay, Philippines",13.15419,123.55041,Globe,15869,4502,15.87,4.50,35,11,1,1
+"Tacloban City, Leyte, Philippines",11.22238,124.99221,Smart,49039,15106,49.04,15.11,25,11,3,7
+"Compostela, Cebu, Philippines",10.45408,124.013,DITO,36943,20745,36.94,20.75,28,11,2,3
+"Bataraza, Palawan, Philippines",8.5878,117.43215,Globe,84770,4881,84.77,4.88,50,11,2,2
+"Escalante City, Negros Occidental, Philippines",10.84117,123.49908,Globe,11988,12534,11.99,12.53,54,11,1,2
+"Mariveles, Bataan, Philippines",14.4354,120.49003,Smart,73756,4393,73.76,4.39,26,11,2,7
+"Candaba, Pampanga, Philippines",15.09289,120.8277,Globe,56768,11423,56.77,11.42,18,11,2,3
+"Guiguinto, Bulacan, Philippines",14.82832,120.88429,Globe,18954,4889,18.95,4.89,25,11,7,10
+"Silang, Cavite, Philippines",14.22025,120.96469,DITO,21849,16527,21.85,16.53,21,11,3,8
+"Labo, Camarines Norte, Philippines",14.13903,122.7633,Globe,35159,3220,35.16,3.22,24,11,4,4
+"Looc, Romblon, Philippines",12.27549,122.00418,Smart,23194,1027,23.19,1.03,34,11,1,1
+"Echague, Isabela, Philippines",16.66606,121.78792,Smart,92096,5771,92.10,5.77,33,10,4,5
+"Magalang, Pampanga, Philippines",15.21394,120.66181,Smart,12541,2248,12.54,2.25,18,10,4,7
+"Mexico, Pampanga, Philippines",15.06457,120.72033,Smart,63213,13408,63.21,13.41,17,10,4,5
+"Malidegao, Philippines",7.12941,124.67431,Globe,37158,28965,37.16,28.97,59,10,1,1
+"Tagum, Davao del Norte, Philippines",7.44742,125.80246,DITO,70973,5602,70.97,5.60,37,10,6,8
+"San Francisco, Southern Leyte, Philippines",10.07904,125.15988,Smart,37598,16008,37.60,16.01,21,10,1,1
+"City of Tayabas, Quezon, Philippines",14.01135,121.55983,Globe,36326,14230,36.33,14.23,21,10,4,5
+"Valencia City, Bukidnon, Philippines",7.86319,125.17087,Globe,31821,25099,31.82,25.10,20,10,4,8
+"Valencia City, Bukidnon, Philippines",7.86319,125.17087,Smart,12219,2581,12.22,2.58,27,10,3,5
+"Calumpit, Bulacan, Philippines",14.91518,120.7662,Globe,40089,17094,40.09,17.09,27,10,2,5
+"Sibonga, Cebu, Philippines",10.01547,123.584,Globe,14031,4302,14.03,4.30,65,10,1,1
+"Roxas City, Capiz, Philippines",11.55288,122.74072,Globe,16528,7420,16.53,7.42,51,10,4,6
+"Surigao, Surigao del Norte, Philippines",9.79022,125.49311,Globe,25746,1094,25.75,1.09,35,10,4,7
+"Catubig, Northern Samar, Philippines",12.41734,125.06084,Globe,637,37526,0.64,37.53,48,10,1,1
+"Bamban, Tarlac, Philippines",15.2885,120.57044,Globe,46759,3702,46.76,3.70,34,10,1,2
+"City of Tandag, Surigao del Sur, Philippines",9.08041,126.0676,Smart,27636,6617,27.64,6.62,25,10,1,1
+"Claver, Surigao del Norte, Philippines",9.50458,125.78435,Smart,57050,7425,57.05,7.43,26,10,1,1
+"Tuguegarao City, Cagayan, Philippines",17.60306,121.75374,Smart,37176,2836,37.18,2.84,23,10,5,8
+"Amadeo, Cavite, Philippines",14.18985,120.92452,Smart,25544,2041,25.54,2.04,24,10,1,3
+"Compostela, Davao de Oro, Philippines",7.67742,126.15454,Smart,33935,3564,33.94,3.56,29,10,1,3
+"Teresa, Rizal, Philippines",14.5597,121.20593,Smart,9903,1340,9.90,1.34,19,10,3,4
+"Carcar, Cebu, Philippines",10.10478,123.64147,Globe,33154,7307,33.15,7.31,45,10,4,7
+"Laoag City, Ilocos Norte, Philippines",18.21075,120.58547,Smart,65121,3723,65.12,3.72,20,10,4,9
+"San Carlos City, Negros Occidental, Philippines",10.48344,123.30371,Smart,46637,4880,46.64,4.88,20,10,4,6
+"Los Baños, Laguna, Philippines",14.17731,121.22161,Smart,19975,1890,19.98,1.89,24,10,6,8
+"Asingan, Pangasinan, Philippines",16.00318,120.67063,Globe,57068,9248,57.07,9.25,21,10,3,3
+"Nasugbu, Batangas, Philippines",14.09404,120.68901,Globe,16298,10795,16.30,10.80,22,10,3,6
+"Subic Bay Freeport Zone, Philippines",14.80319,120.30033,Globe,83623,9749,83.62,9.75,18,10,6,6
+"Magalang, Pampanga, Philippines",15.21394,120.66181,Globe,34982,8519,34.98,8.52,24,10,5,7
+"Laoag City, Ilocos Norte, Philippines",18.21075,120.58547,Globe,16865,6358,16.87,6.36,26,10,7,9
+"Baler, Aurora, Philippines",15.73361,121.57125,Globe,16714,1491,16.71,1.49,25,9,4,5
+"Gapan City, Nueva Ecija, Philippines",15.29121,121.01057,DITO,13139,3749,13.14,3.75,34,9,5,5
+"Compostela, Cebu, Philippines",10.45408,124.013,Smart,30502,17741,30.50,17.74,19,9,3,8
+"Bago, Negros Occidental, Philippines",10.53757,122.83609,Smart,12757,8080,12.76,8.08,31,9,4,5
+"Roxas, Oriental Mindoro, Philippines",12.62617,121.47989,Globe,44700,5564,44.70,5.56,20,9,2,2
+"Tabuelan, Cebu, Philippines",10.85738,123.90809,Smart,116419,65545,116.42,65.55,20,9,2,2
+"Cadiz City, Negros Occidental, Philippines",10.86192,123.23632,Globe,9632,2064,9.63,2.06,35,9,3,3
+"Puerto Princesa City, Palawan, Philippines",9.78563,118.62648,DITO,62164,10973,62.16,10.97,36,9,5,7
+"Minglanilla, Cebu, Philippines",10.24543,123.79599,Globe,18491,2864,18.49,2.86,34,9,4,6
+"Kalibo, Aklan, Philippines",11.70734,122.36986,DITO,13554,367,13.55,0.37,78,9,2,3
+"Morong, Rizal, Philippines",14.51286,121.23855,Globe,30122,12824,30.12,12.82,16,9,5,5
+"City of Catbalogan, Samar, Philippines",11.85683,124.88449,Smart,77595,20363,77.60,20.36,25,9,4,4
+"San Juan City, Metro Manila, Philippines",14.60196,121.0355,DITO,56869,6268,56.87,6.27,17,9,4,7
+"La Castellana, Negros Occidental, Philippines",10.33198,123.10141,Smart,30034,1410,30.03,1.41,30,9,1,3
+"Balagtas, Bulacan, Philippines",14.81784,120.90646,Globe,29669,2064,29.67,2.06,24,9,3,4
+"Bayombong, Nueva Vizcaya, Philippines",16.48042,121.14813,Smart,55392,1632,55.39,1.63,21,9,4,6
+"Dumangas, Iloilo, Philippines",10.82109,122.71167,Smart,24522,3747,24.52,3.75,20,9,3,4
+"Bambang, Nueva Vizcaya, Philippines",16.40415,121.10229,Globe,28454,4110,28.45,4.11,27,9,4,6
+"Binalonan, Pangasinan, Philippines",16.05355,120.60848,Globe,42726,7742,42.73,7.74,17,9,1,2
+"Tanauan City, Batangas, Philippines",14.08354,121.14762,Globe,14410,13888,14.41,13.89,16,9,6,7
+"Rosario, Cavite, Philippines",14.41672,120.85471,Smart,6198,1734,6.20,1.73,19,9,3,6
+"Catanauan, Quezon, Philippines",13.65447,122.33343,Globe,15528,9957,15.53,9.96,23,9,3,4
+"Los Baños, Laguna, Philippines",14.17731,121.22161,Globe,38999,13713,39.00,13.71,18,9,5,7
+"Maddela, Quirino, Philippines",16.33255,121.78792,DITO,643,13262,0.64,13.26,61,9,1,2
+"Naic, Cavite, Philippines",14.29649,120.79246,DITO,30217,40,30.22,0.04,31,9,3,7
+"Candon City, Ilocos Sur, Philippines",17.19612,120.44729,Smart,49222,26781,49.22,26.78,14,9,4,6
+"San Juan, Batangas, Philippines",13.75044,121.37703,DITO,6885,1128,6.89,1.13,42,9,3,4
+"Aleosan, Cotabato, Philippines",7.18894,124.63034,Globe,21988,22555,21.99,22.56,35,9,1,1
+"Sibulan, Negros Oriental, Philippines",9.35972,123.28476,Globe,34982,9551,34.98,9.55,33,9,3,5
+"Matalam, Cotabato, Philippines",7.17236,124.92861,Globe,22878,15580,22.88,15.58,42,9,1,1
+"Catanauan, Quezon, Philippines",13.65447,122.33343,Smart,259681,14673,259.68,14.67,18,9,1,3
+"Naic, Cavite, Philippines",14.29649,120.79246,Globe,18260,5025,18.26,5.03,23,8,3,5
+"Angono, Rizal, Philippines",14.52592,121.15321,Smart,209843,9193,209.84,9.19,10,8,1,4
+"Talisay, Negros Occidental, Philippines",10.74828,122.98012,Smart,83611,10416,83.61,10.42,19,8,4,6
+"Santo Tomas, Batangas, Philippines",14.08754,121.17764,DITO,10687,2116,10.69,2.12,26,8,6,7
+"Kabankalan City, Negros Occidental, Philippines",9.91341,122.85358,Globe,37278,18499,37.28,18.50,25,8,1,4
+"El Nido, Palawan, Philippines",11.19892,119.42317,Smart,147580,24736,147.58,24.74,51,8,2,4
+"City of Mati, Davao Oriental, Philippines",6.95722,126.15454,Smart,98598,16668,98.60,16.67,28,8,2,4
+"Ormoc City, Leyte, Philippines",11.03843,124.61927,Globe,18898,11149,18.90,11.15,72,8,5,6
+"Busuanga, Palawan, Philippines",12.17628,119.95093,Globe,8200,2107,8.20,2.11,31,8,1,1
+"Talisay, Negros Occidental, Philippines",10.74828,122.98012,Globe,17073,3398,17.07,3.40,50,8,4,6
+"Binalbagan, Negros Occidental, Philippines",10.10918,123.01136,Globe,13159,401,13.16,0.40,62,8,2,2
+"Panabo City, Davao del Norte, Philippines",7.30822,125.68662,DITO,16653,3408,16.65,3.41,37,8,3,5
+"Calatrava, Negros Occidental, Philippines",10.62843,123.39349,Globe,8260,1798,8.26,1.80,22,8,2,3
+"Castillejos, Zambales, Philippines",14.94382,120.19357,Globe,5890,2189,5.89,2.19,22,8,1,1
+"Sibulan, Negros Oriental, Philippines",9.35972,123.28476,Smart,13409,5096,13.41,5.10,21,8,2,3
+"Ozamiz, Misamis Occidental, Philippines",8.15,123.85033,Globe,26300,19617,26.30,19.62,30,8,5,6
+"Trece Martires City, Cavite, Philippines",14.28222,120.86837,Smart,15098,4281,15.10,4.28,34,8,2,4
+"Lagonoy, Camarines Sur, Philippines",13.86688,123.48319,Smart,166606,7011,166.61,7.01,16,8,1,3
+"Sagay City, Negros Occidental, Philippines",10.84555,123.37106,Smart,38045,4238,38.05,4.24,22,8,1,4
+"La Trinidad, Benguet, Philippines",16.44844,120.59047,Globe,23292,8568,23.29,8.57,30,8,5,5
+"Mabalacat City, Pampanga, Philippines",15.24525,120.56567,DITO,47025,23851,47.03,23.85,35,8,4,4
+"Panglao, Bohol, Philippines",9.56947,123.78721,Globe,105907,19002,105.91,19.00,46,8,4,4
+"San Jose, Batangas, Philippines",13.87868,121.09942,Smart,38136,2771,38.14,2.77,27,8,2,3
+"Bugallon, Pangasinan, Philippines",15.92022,120.18202,Globe,29854,13734,29.85,13.73,18,8,2,2
+"Brooke's Point, Palawan, Philippines",8.78617,117.83817,Globe,12619,587,12.62,0.59,49,8,1,3
+"Candelaria, Quezon, Philippines",13.94899,121.42276,Globe,29998,16279,30.00,16.28,22,8,1,4
+"Subic Bay Freeport Zone, Philippines",14.80319,120.30033,DITO,73347,7393,73.35,7.39,22,8,3,5
+"Trece Martires City, Cavite, Philippines",14.28222,120.86837,DITO,31501,20756,31.50,20.76,24,8,4,6
+"Villaverde, Nueva Vizcaya, Philippines",16.60616,121.14813,Globe,38615,6536,38.62,6.54,29,8,1,1
+"Vinzons, Camarines Norte, Philippines",14.21145,122.88741,DITO,24825,8416,24.83,8.42,32,8,3,3
+"Lingayen, Pangasinan, Philippines",16.00973,120.22449,Globe,15219,3931,15.22,3.93,19,7,3,3
+"Bacacay, Albay, Philippines",13.29586,123.87462,Globe,12659,3874,12.66,3.87,37,7,1,2
+"Capas, Tarlac, Philippines",15.34633,120.59344,Globe,15455,18228,15.46,18.23,23,7,2,5
+"Manolo Fortich, Bukidnon, Philippines",8.39002,124.88449,Smart,3554,393,3.55,0.39,23,7,3,5
+"Pakil, Laguna, Philippines",14.3694,121.39418,Smart,26998,11854,27.00,11.85,20,7,2,3
+"San Jose de Buenavista, Antique, Philippines",10.74901,121.94128,Smart,72710,11387,72.71,11.39,18,7,4,6
+"Itogon, Benguet, Philippines",16.36116,120.6787,Smart,14125,3910,14.13,3.91,23,7,3,3
+"Pinamalayan, Oriental Mindoro, Philippines",13.01533,121.37703,Smart,9537,1773,9.54,1.77,36,7,2,2
+"Capas, Tarlac, Philippines",15.34633,120.59344,Smart,47232,6948,47.23,6.95,26,7,1,5
+"Mangatarem, Pangasinan, Philippines",15.73801,120.27435,Globe,16863,2448,16.86,2.45,39,7,1,1
+"San Mateo, Rizal, Philippines",14.69539,121.11767,DITO,188644,16021,188.64,16.02,18,7,2,6
+"Tagaytay City, Cavite, Philippines",14.11541,120.96202,DITO,29527,11313,29.53,11.31,24,7,4,5
+"Sagada, Mountain Province, Philippines",17.09814,120.9073,Globe,13442,1717,13.44,1.72,31,7,4,5
+"Camaligan, Camarines Sur, Philippines",13.62825,123.16327,Globe,70438,3359,70.44,3.36,24,7,2,2
+"Naawan, Misamis Oriental, Philippines",8.43488,124.34214,Globe,20290,8554,20.29,8.55,22,7,1,1
+"Sitangkai, Tawi-Tawi, Philippines",4.74376,119.40052,Smart,40582,11749,40.58,11.75,108,7,1,1
+"Calapan City, Oriental Mindoro, Philippines",13.36643,121.19395,Globe,22212,3819,22.21,3.82,23,7,3,4
+"Taytay, Rizal, Philippines",14.55288,121.12571,DITO,45973,24728,45.97,24.73,24,7,4,5
+"San Francisco, Cebu, Philippines",10.64719,124.35324,Smart,51579,9426,51.58,9.43,23,7,2,3
+"General Mariano Alvarez, Cavite, Philippines",14.29525,121.0071,DITO,49110,8540,49.11,8.54,26,7,2,3
+"Cabatuan, Iloilo, Philippines",10.87914,122.48206,Globe,40169,26308,40.17,26.31,33,7,2,2
+"City of Catbalogan, Samar, Philippines",11.85683,124.88449,Globe,81933,9419,81.93,9.42,44,7,2,4
+"Plaridel, Bulacan, Philippines",14.88591,120.85932,Smart,66356,24883,66.36,24.88,24,7,3,4
+"Pangil, Laguna, Philippines",14.41772,121.48561,Globe,26187,8396,26.19,8.40,16,7,1,2
+"Binangonan, Rizal, Philippines",14.48441,121.1869,Globe,27925,12989,27.93,12.99,13,7,5,6
+"Bauang, La Union, Philippines",16.51433,120.35508,Smart,18319,4443,18.32,4.44,14,7,2,5
+"San Francisco, Agusan del Sur, Philippines",8.44573,125.95878,Globe,14325,6455,14.33,6.46,28,7,2,3
+"Santiago, Isabela, Philippines",16.69679,121.55865,DITO,18602,6407,18.60,6.41,29,7,4,4
+"Balamban, Cebu, Philippines",10.48585,123.77412,Globe,8991,6257,8.99,6.26,99,7,2,3
+"Porac, Pampanga, Philippines",15.06974,120.55007,Smart,248250,73108,248.25,73.11,13,7,4,5
+"General Mariano Alvarez, Cavite, Philippines",14.29525,121.0071,Smart,11480,3300,11.48,3.30,25,7,4,5
+"Mariveles, Bataan, Philippines",14.4354,120.49003,Globe,37017,13125,37.02,13.13,24,7,2,6
+"Bacacay, Albay, Philippines",13.29586,123.87462,Smart,24095,3118,24.10,3.12,20,7,3,4
+"Dipolog City, Zamboanga del Norte, Philippines",8.58717,123.34035,Globe,10505,10882,10.51,10.88,43,7,3,5
+"Bogo City, Cebu, Philippines",11.04623,124.00287,Globe,64051,6419,64.05,6.42,27,7,2,4
+"Santa Cruz, Davao del Sur, Philippines",6.83551,125.41659,Globe,43581,7094,43.58,7.09,25,7,2,3
+"Tagudin, Ilocos Sur, Philippines",16.93875,120.47033,Globe,18613,5477,18.61,5.48,16,7,3,3
+"Rosales, Pangasinan, Philippines",15.86126,120.63149,Globe,31820,10397,31.82,10.40,20,7,5,6
+"Marikina, Metro Manila, Philippines",14.63493,121.10195,DITO,21139,22113,21.14,22.11,24,7,4,7
+"Abuyog, Leyte, Philippines",10.67348,125.06084,Globe,27372,15747,27.37,15.75,34,7,2,3
+"Sison, Pangasinan, Philippines",16.14981,120.59698,Smart,16994,14530,16.99,14.53,17,7,2,3
+"Bocaue, Bulacan, Philippines",14.7943,120.93073,Globe,33877,15823,33.88,15.82,23,7,4,7
+"Kalibo, Aklan, Philippines",11.70734,122.36986,Globe,11627,6165,11.63,6.17,39,7,3,6
+"Meycauayan, Bulacan, Philippines",14.73772,120.96077,DITO,44334,8915,44.33,8.92,22,7,3,3
+"Tacurong City, Sultan Kudarat, Philippines",6.6866,124.66353,Globe,45737,21930,45.74,21.93,23,7,1,4
+"Lemery, Batangas, Philippines",13.95318,120.88434,Globe,30731,11444,30.73,11.44,18,7,1,1
+"Santa Maria, Bulacan, Philippines",14.82898,120.97616,DITO,15268,4765,15.27,4.77,26,7,4,6
+"City of Lamitan, Basilan, Philippines",6.66152,122.10647,Globe,12669,2140,12.67,2.14,34,6,2,4
+"Malita, Davao Occidental, Philippines",6.41184,125.61321,DITO,40778,35120,40.78,35.12,37,6,2,2
+"Alaminos, Laguna, Philippines",14.0454,121.25119,Globe,13794,4185,13.79,4.19,20,6,3,5
+"Tubod, Surigao del Norte, Philippines",9.57841,125.55484,Smart,40532,2169,40.53,2.17,25,6,2,2
+"Tanauan City, Batangas, Philippines",14.08354,121.14762,Smart,65192,20614,65.19,20.61,20,6,2,5
+"Alabel, Sarangani, Philippines",6.10416,125.28792,Smart,15954,9520,15.95,9.52,26,6,3,4
+"Indang, Cavite, Philippines",14.19204,120.87286,Globe,117638,8481,117.64,8.48,20,6,2,3
+"Pontevedra, Negros Occidental, Philippines",10.35266,122.92123,Globe,14701,6964,14.70,6.96,44,6,3,5
+"Cataingan, Masbate, Philippines",11.98588,123.9527,Smart,2944,1184,2.94,1.18,46,6,1,1
+"Subic Bay Freeport Zone, Philippines",14.80319,120.30033,Smart,137114,2585,137.11,2.59,17,6,3,5
+"Gerona, Tarlac, Philippines",15.60489,120.59698,DITO,4674,2748,4.67,2.75,25,6,1,2
+"Santa Cruz, Laguna, Philippines",14.26911,121.41133,Smart,110476,3772,110.48,3.77,15,6,4,6
+"Consolacion, Cebu, Philippines",10.37581,123.95694,Globe,48626,19647,48.63,19.65,29,6,3,5
+"Marilao, Bulacan, Philippines",14.77237,120.96001,DITO,40210,19088,40.21,19.09,28,6,4,5
+"Maasin, Iloilo, Philippines",10.9199,122.42407,Smart,48505,2669,48.51,2.67,14,6,5,5
+"Naguilian, Isabela, Philippines",16.99684,121.86765,Globe,6802,1107,6.80,1.11,36,6,1,1
+"Masbate City, Masbate, Philippines",12.31777,123.55041,Smart,6261,780,6.26,0.78,58,6,1,3
+"Taal, Batangas, Philippines",13.87826,120.92508,Globe,35933,2245,35.93,2.25,36,6,3,4
+"Sanchez-Mira, Cagayan, Philippines",18.53628,121.19395,Globe,9620,3189,9.62,3.19,30,6,1,4
+"San Joaquin, Iloilo, Philippines",10.64155,122.10647,Globe,25002,13578,25.00,13.58,46,6,2,2
+"San Juan, Batangas, Philippines",13.75044,121.37703,Smart,2257,245,2.26,0.25,21,6,1,2
+"Canlaon City, Negros Oriental, Philippines",10.36048,123.19137,Smart,56795,22365,56.80,22.37,23,6,2,3
+"Bagabag, Nueva Vizcaya, Philippines",16.58337,121.28552,Smart,33169,3315,33.17,3.32,34,6,1,1
+"San Jose, Occidental Mindoro, Philippines",12.40119,121.10229,Globe,23708,8927,23.71,8.93,23,6,4,4
+"General Luna, Surigao del Norte, Philippines",9.78375,126.15657,Globe,14433,12943,14.43,12.94,34,6,3,4
+"San Ildefonso, Bulacan, Philippines",15.07717,120.94171,Smart,473302,50573,473.30,50.57,10,6,1,3
+"Pulilan, Bulacan, Philippines",14.90243,120.8459,Smart,43661,5098,43.66,5.10,17,6,4,4
+"Hilongos, Leyte, Philippines",10.39469,124.84034,Smart,88709,3441,88.71,3.44,23,6,1,2
+"Calapan City, Oriental Mindoro, Philippines",13.36643,121.19395,Smart,205089,14563,205.09,14.56,13,6,2,4
+"Bugallon, Pangasinan, Philippines",15.92022,120.18202,DITO,73344,29553,73.34,29.55,18,6,1,3
+"Llanera, Nueva Ecija, Philippines",15.66623,121.01057,Globe,145587,23285,145.59,23.29,24,6,1,2
+"Paniqui, Tarlac, Philippines",15.66603,120.53942,Smart,26398,865,26.40,0.87,26,6,1,5
+"Cantilan, Surigao del Sur, Philippines",9.27827,125.88251,Smart,78198,954,78.20,0.95,48,6,1,2
+"Catarman, Northern Samar, Philippines",12.44271,124.61927,Smart,44200,7001,44.20,7.00,32,6,4,5
+"Malay, Aklan, Philippines",11.93033,121.95191,DITO,525555,29582,525.56,29.58,32,6,2,3
+"Enrique B. Magalona, Negros Occidental, Philippines",10.87695,122.98281,Smart,30668,8223,30.67,8.22,45,6,2,2
+"Murcia, Negros Occidental, Philippines",10.60643,123.03944,DITO,30897,486,30.90,0.49,55,6,2,3
+"Biñan, Laguna, Philippines",14.31456,121.08316,DITO,101841,2329,101.84,2.33,23,6,3,5
+"Catarman, Northern Samar, Philippines",12.44271,124.61927,Globe,10230,10435,10.23,10.44,35,6,3,6
+"Mamburao, Occidental Mindoro, Philippines",13.27653,120.643,Smart,8435,994,8.44,0.99,48,6,1,4
+"Urdaneta City, Pangasinan, Philippines",15.98194,120.59698,DITO,77144,35128,77.14,35.13,25,6,4,5
+"San Jose, Batangas, Philippines",13.87868,121.09942,Globe,37616,5736,37.62,5.74,21,6,3,4
+"Daraga, Albay, Philippines",13.12278,123.69588,DITO,20572,3643,20.57,3.64,25,6,3,5
+"Lakewood, Zamboanga del Sur, Philippines",7.88264,123.1464,Smart,159779,3370,159.78,3.37,14,6,1,1
+"Butuan City, Agusan Del Norte, Philippines",8.94753,125.54063,Smart,6881,2561,6.88,2.56,21,6,1,4
+"Hinigaran, Negros Occidental, Philippines",10.27479,122.92123,Globe,10970,9460,10.97,9.46,26,6,2,3
+"Mangaldan, Pangasinan, Philippines",16.06513,120.40474,Globe,16075,2149,16.08,2.15,18,6,3,4
+"Cavite, Philippines",14.48151,120.90833,Globe,15218,1158,15.22,1.16,18,6,1,4
+"Danao, Cebu, Philippines",10.52013,124.02712,DITO,25241,3446,25.24,3.45,33,6,1,4
+"Bago, Negros Occidental, Philippines",10.53757,122.83609,DITO,6522,249,6.52,0.25,57,6,2,5
+"Isabela, Basilan, Philippines",6.70387,121.9799,Globe,51384,40642,51.38,40.64,39,6,2,3
+"Daraga, Albay, Philippines",13.12278,123.69588,Globe,49376,10134,49.38,10.13,49,6,2,5
+"Consolacion, Cebu, Philippines",10.37581,123.95694,DITO,19752,955,19.75,0.96,48,6,1,4
+"Ligao City, Albay, Philippines",13.17242,123.4944,DITO,92471,4593,92.47,4.59,56,6,2,4
+"Balayan, Batangas, Philippines",13.94995,120.72973,Globe,51679,17599,51.68,17.60,15,6,2,5
+"La Carlota City, Negros Occidental, Philippines",10.41437,122.97757,Smart,183963,55959,183.96,55.96,20,5,2,4
+"San Antonio, Zambales, Philippines",14.92751,120.08963,Globe,155659,8227,155.66,8.23,21,5,1,1
+"Janiuay, Iloilo, Philippines",10.99877,122.42407,Globe,53116,26087,53.12,26.09,43,5,2,3
+"Talisay, Cebu, Philippines",10.25859,123.82413,DITO,56279,5300,56.28,5.30,32,5,3,4
+"Bangar, La Union, Philippines",16.88295,120.42424,Globe,20494,2534,20.49,2.53,21,5,1,1
+"Pagbilao, Quezon, Philippines",13.99683,121.73095,Globe,61336,5687,61.34,5.69,27,5,2,2
+"Palo, Leyte, Philippines",11.15847,124.99191,DITO,65482,16719,65.48,16.72,44,5,2,3
+"Kabankalan City, Negros Occidental, Philippines",9.91341,122.85358,Smart,33654,2004,33.65,2.00,30,5,1,3
+"Sogod, Southern Leyte, Philippines",10.44929,125.01679,Smart,3063,160,3.06,0.16,28,5,1,3
+"San Francisco, Southern Leyte, Philippines",10.07904,125.15988,Globe,13823,3814,13.82,3.81,45,5,1,2
+"Tulunan, Cotabato, Philippines",6.83042,124.87469,DITO,17918,3229,17.92,3.23,36,5,1,1
+"Sagada, Mountain Province, Philippines",17.09814,120.9073,Smart,104649,37141,104.65,37.14,25,5,2,3
+"Digos, Davao del Sur, Philippines",6.74347,125.35515,DITO,19178,2000,19.18,2.00,42,5,4,4
+"San Nicolas, Pangasinan, Philippines",16.12066,120.78097,Globe,24079,4038,24.08,4.04,25,5,1,2
+"Mataas Na Kahoy, Batangas, Philippines",13.97995,121.09656,Globe,104631,17168,104.63,17.17,18,5,2,2
+"Magallanes, Sorsogon, Philippines",12.78308,123.90809,Globe,23028,13274,23.03,13.27,35,5,2,2
+"Cavite, Philippines",14.48151,120.90833,DITO,517446,12916,517.45,12.92,23,5,2,3
+"Asingan, Pangasinan, Philippines",16.00318,120.67063,DITO,7240,1994,7.24,1.99,46,5,1,1
+"Apalit, Pampanga, Philippines",14.95255,120.76688,Globe,12346,3937,12.35,3.94,28,5,1,4
+"Santa Barbara, Pangasinan, Philippines",15.9774,120.42424,DITO,14754,5205,14.75,5.21,16,5,1,2
+"Macarthur, Leyte, Philippines",10.82736,124.98373,Globe,13821,2057,13.82,2.06,72,5,1,1
+"Sagay City, Negros Occidental, Philippines",10.84555,123.37106,Globe,12325,3073,12.33,3.07,43,5,2,3
+"Panglao, Bohol, Philippines",9.56947,123.78721,DITO,30928,15900,30.93,15.90,38,5,2,3
+"Ligao City, Albay, Philippines",13.17242,123.4944,Globe,15932,4103,15.93,4.10,32,5,2,3
+"Camiling, Tarlac, Philippines",15.67495,120.41272,Smart,34232,3105,34.23,3.11,18,5,2,3
+"Santa Maria, Pangasinan, Philippines",15.95523,120.7005,Smart,447169,54855,447.17,54.86,9,5,4,4
+"Santa Maria, Ilocos Sur, Philippines",17.37881,120.49336,Smart,17786,3422,17.79,3.42,20,5,2,2
+"Urdaneta City, Pangasinan, Philippines",15.98194,120.59698,Globe,105522,8418,105.52,8.42,13,5,3,4
+"Santa Barbara, Iloilo, Philippines",10.82707,122.53265,Smart,123814,12914,123.81,12.91,40,5,2,3
+"Malolos, Bulacan, Philippines",14.86049,120.80916,DITO,90947,10395,90.95,10.40,26,5,3,4
+"Navotas, Metro Manila, Philippines",14.65819,120.94743,DITO,60537,1354,60.54,1.35,12,5,2,4
+"Aglipay, Quirino, Philippines",16.44643,121.60549,Globe,186180,20892,186.18,20.89,19,5,2,2
+"Floridablanca, Pampanga, Philippines",14.9619,120.49471,Smart,43104,4983,43.10,4.98,17,5,2,5
+"Olongapo City, Zambales, Philippines",14.88739,120.36661,DITO,319440,51878,319.44,51.88,34,5,2,3
+"City of Baybay, Leyte, Philippines",10.66858,124.80409,DITO,58159,2481,58.16,2.48,39,5,1,2
+"San Pablo City, Laguna, Philippines",14.06422,121.32326,DITO,27333,281,27.33,0.28,39,5,1,4
+"Calasiao, Pangasinan, Philippines",16.00949,120.35759,Smart,21606,13433,21.61,13.43,19,5,4,4
+"Polomolok, South Cotabato, Philippines",6.22451,125.06084,DITO,18925,7261,18.93,7.26,39,5,2,2
+"Oas, Albay, Philippines",13.14041,123.37106,Globe,122601,3727,122.60,3.73,33,5,2,4
+"Dalaguete, Cebu, Philippines",9.78366,123.5056,Globe,19436,7755,19.44,7.76,32,5,3,3
+"Baliwag, Bulacan, Philippines",14.96569,120.89431,Globe,35881,4106,35.88,4.11,23,5,2,3
+"Bayombong, Nueva Vizcaya, Philippines",16.48042,121.14813,DITO,17184,3093,17.18,3.09,24,5,3,4
+"Hinigaran, Negros Occidental, Philippines",10.27479,122.92123,Smart,200169,32721,200.17,32.72,13,5,1,3
+"Caluya, Antique, Philippines",12.01176,121.38847,Globe,18369,6274,18.37,6.27,66,5,1,1
+"Leganes, Iloilo, Philippines",10.78605,122.5888,DITO,31425,4598,31.43,4.60,34,5,2,2
+"Bacolor, Pampanga, Philippines",14.99692,120.65235,Smart,46762,3607,46.76,3.61,21,5,3,4
+"Lazi, Siquijor, Philippines",9.13207,123.60639,Smart,27140,4524,27.14,4.52,36,5,2,2
+"Tabaco City, Albay, Philippines",13.36138,123.72876,DITO,76607,19439,76.61,19.44,26,5,2,3
+"San Rafael, Bulacan, Philippines",15.00184,120.93141,DITO,23854,2290,23.85,2.29,31,5,2,3
+"Lagawe, Ifugao, Philippines",16.80825,121.19395,Smart,43318,1966,43.32,1.97,27,5,5,5
+"Bagabag, Nueva Vizcaya, Philippines",16.58337,121.28552,Globe,14501,3178,14.50,3.18,26,5,3,4
+"Jala-jala, Rizal, Philippines",14.36149,121.34273,Globe,37508,22039,37.51,22.04,18,5,1,1
+"Santa Rosa, Nueva Ecija, Philippines",15.42502,120.93838,Globe,32868,12001,32.87,12.00,23,5,4,5
+"Rosario, La Union, Philippines",16.23014,120.48702,Globe,23865,9315,23.87,9.32,20,5,3,5
+"San Pascual, Batangas, Philippines",13.81044,121.02204,Smart,2666,76,2.67,0.08,24,5,1,4
+"Bongabong, Oriental Mindoro, Philippines",12.71953,121.30841,Smart,24445,23330,24.45,23.33,20,5,1,1
+"Bogo City, Cebu, Philippines",11.04623,124.00287,Smart,16024,8976,16.02,8.98,16,5,5,5
+"Polomolok, South Cotabato, Philippines",6.22451,125.06084,Smart,44822,3388,44.82,3.39,28,5,2,2
+"Panglao, Bohol, Philippines",9.56947,123.78721,Smart,155157,21774,155.16,21.77,23,5,4,5
+"Marawi City, Lanao del Sur, Philippines",8.0292,124.29772,Globe,6848,1476,6.85,1.48,21,5,1,4
+"Buhi, Camarines Sur, Philippines",13.40951,123.51681,DITO,43649,10364,43.65,10.36,27,4,2,2
+"Maragondon, Cavite, Philippines",14.22356,120.7235,Globe,34876,18403,34.88,18.40,28,4,2,2
+"Dauis, Bohol, Philippines",9.60401,123.82996,Smart,15191,23182,15.19,23.18,22,4,1,3
+"Pili, Camarines Sur, Philippines",13.55521,123.28126,Globe,12402,62,12.40,0.06,110,4,2,4
+"Taal, Batangas, Philippines",13.87826,120.92508,Smart,8813,6905,8.81,6.91,22,4,2,2
+"Balanga City, Bataan, Philippines",14.67454,120.47033,DITO,10071,1865,10.07,1.87,34,4,1,2
+"Ozamiz, Misamis Occidental, Philippines",8.15,123.85033,Smart,123024,19378,123.02,19.38,15,4,2,3
+"Isulan, Sultan Kudarat, Philippines",6.6318,124.44201,Smart,34372,15373,34.37,15.37,28,4,3,3
+"Guimbal, Iloilo, Philippines",10.66341,122.32057,Globe,68600,5644,68.60,5.64,23,4,2,2
+"City of Baybay, Leyte, Philippines",10.66858,124.80409,Smart,39943,5613,39.94,5.61,23,4,3,4
+"San Carlos City, Pangasinan, Philippines",15.92589,120.34827,Smart,14853,781,14.85,0.78,20,4,3,3
+"Muñoz, Nueva Ecija, Philippines",15.70664,120.9029,Smart,33766,5401,33.77,5.40,29,4,3,3
+"Bustos, Bulacan, Philippines",14.95239,120.91735,Globe,19170,3974,19.17,3.97,19,4,1,3
+"Looc, Romblon, Philippines",12.27549,122.00418,Globe,30119,4093,30.12,4.09,43,4,2,2
+"Candon City, Ilocos Sur, Philippines",17.19612,120.44729,DITO,4546,2038,4.55,2.04,45,4,3,4
+"Pinamungahan, Cebu, Philippines",10.26958,123.63996,Globe,25911,3573,25.91,3.57,50,4,2,2
+"San Rafael, Bulacan, Philippines",15.00184,120.93141,Smart,17841,17089,17.84,17.09,16,4,3,4
+"Bacolor, Pampanga, Philippines",14.99692,120.65235,Globe,206059,34051,206.06,34.05,25,4,2,3
+"Calbayog, Samar, Philippines",12.0685,124.59081,DITO,18016,826,18.02,0.83,45,4,1,1
+"Sual, Pangasinan, Philippines",16.06783,120.04341,Smart,13527,2457,13.53,2.46,18,4,2,3
+"Maragondon, Cavite, Philippines",14.22356,120.7235,DITO,1371,1083,1.37,1.08,19,4,1,1
+"Balatan, Camarines Sur, Philippines",13.34908,123.24756,Smart,37847,514,37.85,0.51,25,4,1,1
+"Camalig, Albay, Philippines",13.14101,123.63996,Smart,104558,23638,104.56,23.64,18,4,1,2
+"Altavas, Aklan, Philippines",11.51893,122.45805,Smart,213201,22112,213.20,22.11,16,4,1,1
+"Mangatarem, Pangasinan, Philippines",15.73801,120.27435,Smart,469151,37201,469.15,37.20,16,4,2,3
+"San Juan, La Union, Philippines",16.6711,120.33844,Globe,39776,9041,39.78,9.04,22,4,4,4
+"Jabonga, Agusan Del Norte, Philippines",9.35888,125.58767,Smart,1037,767,1.04,0.77,29,4,1,1
+"Santo Tomas, La Union, Philippines",16.27532,120.40119,Smart,295847,44397,295.85,44.40,10,4,1,1
+"Ibaan, Batangas, Philippines",13.81895,121.13082,DITO,104050,29689,104.05,29.69,22,4,1,1
+"Socorro, Oriental Mindoro, Philippines",13.09119,121.34273,Smart,91675,25924,91.68,25.92,24,4,2,2
+"Tanauan, Leyte, Philippines",11.07765,124.98373,Globe,13955,13200,13.96,13.20,36,4,1,1
+"Taft, Eastern Samar, Philippines",11.87235,125.32468,Globe,11862,826,11.86,0.83,35,4,1,1
+"Morong, Rizal, Philippines",14.51286,121.23855,Smart,69676,19228,69.68,19.23,15,4,1,1
+"Kawit, Cavite, Philippines",14.44588,120.90871,DITO,28359,6364,28.36,6.36,25,4,3,4
+"Sipocot, Camarines Sur, Philippines",13.83785,123.01136,DITO,3465,45,3.47,0.05,24,4,1,3
+"Olongapo City, Zambales, Philippines",14.88739,120.36661,Smart,421155,30101,421.16,30.10,32,4,1,3
+"Daraga, Albay, Philippines",13.12278,123.69588,Smart,9397,1293,9.40,1.29,24,4,3,4
+"Moalboal, Cebu, Philippines",9.93681,123.42714,Smart,170505,9184,170.51,9.18,16,4,1,3
+"Magsaysay, Davao del Sur, Philippines",6.75271,125.15221,Globe,7049,7306,7.05,7.31,28,4,3,3
+"La Trinidad, Benguet, Philippines",16.44844,120.59047,DITO,16357,7094,16.36,7.09,21,4,4,4
+"Quezon, Nueva Vizcaya, Philippines",16.45779,121.28552,Globe,45095,13278,45.10,13.28,18,4,1,1
+"Mambajao, Camiguin, Philippines",9.22153,124.71882,Globe,14714,12370,14.71,12.37,33,4,2,3
+"Binmaley, Pangasinan, Philippines",16.02892,120.26882,DITO,16034,16704,16.03,16.70,25,4,3,3
+"Los Baños, Laguna, Philippines",14.17731,121.22161,DITO,68023,17194,68.02,17.19,26,4,2,4
+"Santa Cruz, Davao del Sur, Philippines",6.83551,125.41659,Smart,125980,14808,125.98,14.81,28,4,4,4
+"Cauayan City, Isabela, Philippines",16.91662,121.78792,DITO,2996,697,3.00,0.70,25,4,1,2
+"Talavera, Nueva Ecija, Philippines",15.58575,120.9197,Globe,149874,15302,149.87,15.30,18,4,2,3
+"Cateel, Davao Oriental, Philippines",7.76918,126.32814,DITO,38555,9237,38.56,9.24,42,4,1,1
+"Goa, Camarines Sur, Philippines",13.73619,123.41593,Globe,48715,12650,48.72,12.65,23,4,4,4
+"Cauayan, Negros Occidental, Philippines",9.92601,122.5599,Globe,14964,7723,14.96,7.72,69,4,1,2
+"Dinalupihan, Bataan, Philippines",14.88605,120.44729,Globe,48227,25692,48.23,25.69,25,4,2,3
+"Sabangan, Mountain Province, Philippines",16.94693,120.93026,Smart,36063,1804,36.06,1.80,25,4,1,1
+"San Remigio, Cebu, Philippines",10.9601,123.94155,Globe,8401,781,8.40,0.78,57,4,2,3
+"Inopacan, Leyte, Philippines",10.50962,124.84034,Smart,1453,1735,1.45,1.74,11,4,1,2
+"San Quintin, Pangasinan, Philippines",15.9754,120.83841,Globe,14538,6668,14.54,6.67,25,4,2,2
+"Umingan, Pangasinan, Philippines",15.90396,120.82692,Globe,63662,11194,63.66,11.19,19,4,1,2
+"Canlaon City, Negros Oriental, Philippines",10.36048,123.19137,DITO,15229,2054,15.23,2.05,56,4,2,2
+"Obando, Bulacan, Philippines",14.70986,120.93674,DITO,1192,17037,1.19,17.04,181,4,1,1
+"Santa Barbara, Iloilo, Philippines",10.82707,122.53265,Globe,17555,5532,17.56,5.53,68,4,3,4
+"Opol, Misamis Oriental, Philippines",8.52263,124.57239,DITO,30698,1545,30.70,1.55,53,4,1,1
+"San Miguel, Bulacan, Philippines",15.14158,120.9751,Globe,33354,11575,33.35,11.58,19,4,3,3
+"Norala, South Cotabato, Philippines",6.5061,124.66353,Smart,28567,17037,28.57,17.04,26,4,1,1
+"Boac, Marinduque, Philippines",13.39413,121.87903,Globe,58504,7425,58.50,7.43,22,4,2,2
+"Calatrava, Negros Occidental, Philippines",10.62843,123.39349,Smart,30217,3905,30.22,3.91,18,4,2,3
+"Passi City, Iloilo, Philippines",11.1688,122.65035,Globe,32483,12291,32.48,12.29,31,4,2,3
+"Lopez, Quezon, Philippines",13.80005,122.31075,Globe,40635,14580,40.64,14.58,21,4,1,2
+"San Andres, Catanduanes, Philippines",13.6332,124.08641,Globe,79287,20816,79.29,20.82,33,4,2,3
+"Puerto Galera, Oriental Mindoro, Philippines",13.44475,120.91878,Smart,22112,5592,22.11,5.59,29,4,1,2
+"Santa Barbara, Pangasinan, Philippines",15.9774,120.42424,Smart,636895,41214,636.90,41.21,18,4,2,4
+"Kawayan, Biliran, Philippines",11.68428,124.40318,Globe,9117,3983,9.12,3.98,90,4,2,2
+"Sultan Kudarat (Nuling), Maguindanao, Philippines",7.26221,124.30883,Smart,44680,2186,44.68,2.19,25,4,1,1
+"Roxas City, Capiz, Philippines",11.55288,122.74072,DITO,75792,7464,75.79,7.46,35,4,2,2
+"Kalayaan, Laguna, Philippines",14.32356,121.47757,Smart,140282,12980,140.28,12.98,19,4,2,2
+"Guimba, Nueva Ecija, Philippines",15.65641,120.76767,DITO,72111,15815,72.11,15.82,23,4,3,3
+"Lebak, Sultan Kudarat, Philippines",6.63314,124.06624,Smart,71736,24327,71.74,24.33,35,4,2,2
+"Mangaldan, Pangasinan, Philippines",16.06513,120.40474,DITO,26663,11051,26.66,11.05,25,4,1,3
+"San Jose City, Nueva Ecija, Philippines",15.79188,120.99008,Globe,41145,10213,41.15,10.21,16,4,3,3
+"Calaca, Batangas, Philippines",13.93129,120.80724,Globe,33430,18925,33.43,18.93,19,4,1,1
+"Alaminos City, Pangasinan, Philippines",16.15053,119.98562,Smart,120426,19585,120.43,19.59,21,4,2,3
+"Barbaza, Antique, Philippines",11.26873,122.1519,Smart,40301,6526,40.30,6.53,21,4,1,1
+"Pagadian City, Zamboanga del Sur, Philippines",7.86265,123.37106,Smart,122843,3488,122.84,3.49,21,4,2,2
+"Sariaya, Quezon, Philippines",13.96301,121.52388,Globe,10645,10951,10.65,10.95,25,4,1,2
+"Cavinti, Laguna, Philippines",14.24907,121.54842,Smart,51094,4134,51.09,4.13,28,4,1,1
+"La Carlota City, Negros Occidental, Philippines",10.41437,122.97757,Globe,18989,13989,18.99,13.99,36,4,3,3
+"Baggao, Cagayan, Philippines",17.91424,121.94731,Globe,14163,12886,14.16,12.89,26,4,1,2
+"Santiago, Isabela, Philippines",16.69679,121.55865,Smart,6345,3785,6.35,3.79,26,4,2,4
+"Dipolog City, Zamboanga del Norte, Philippines",8.58717,123.34035,Smart,112787,16958,112.79,16.96,22,4,2,3
+"Maria Aurora, Aurora, Philippines",15.75061,121.3999,Smart,53978,32743,53.98,32.74,28,4,2,3
+"Sorsogon City, Sorsogon, Philippines",12.97888,123.98477,Globe,96361,12023,96.36,12.02,38,4,3,3
+"Baao, Camarines Sur, Philippines",13.49319,123.35984,Globe,70738,981,70.74,0.98,21,4,1,3
+"Kawit, Cavite, Philippines",14.44588,120.90871,Globe,39844,9471,39.84,9.47,19,4,4,4
+"Santa Fe, Leyte, Philippines",11.17999,124.93964,Globe,3678,198,3.68,0.20,71,4,1,1
+"Calasiao, Pangasinan, Philippines",16.00949,120.35759,DITO,19488,8139,19.49,8.14,19,4,2,3
+"Labangan, Zamboanga del Sur, Philippines",7.85732,123.503,Smart,35403,4417,35.40,4.42,18,4,1,2
+"Maasin, Southern Leyte, Philippines",10.13272,124.84081,Globe,1980,5486,1.98,5.49,99,4,3,4
+"Binangonan, Rizal, Philippines",14.48441,121.1869,DITO,34083,25736,34.08,25.74,25,4,2,3
+"Dupax Del Norte, Nueva Vizcaya, Philippines",16.21435,121.23974,Smart,2481,819,2.48,0.82,24,4,1,1
+"Vinzons, Camarines Norte, Philippines",14.21145,122.88741,Smart,7868,6517,7.87,6.52,21,4,1,1
+"Tanay, Rizal, Philippines",14.61419,121.37703,Globe,55776,10447,55.78,10.45,45,4,2,3
+"Tangub City, Misamis Occidental, Philippines",8.09592,123.6847,Globe,13398,1166,13.40,1.17,25,3,1,2
+"Plaridel, Bulacan, Philippines",14.88591,120.85932,Globe,14309,165,14.31,0.17,34,3,1,2
+"Cordova, Cebu, Philippines",10.25278,123.9494,Globe,187198,15427,187.20,15.43,31,3,2,3
+"Camalig, Albay, Philippines",13.14101,123.63996,DITO,97059,27457,97.06,27.46,25,3,2,2
+"Mangaldan, Pangasinan, Philippines",16.06513,120.40474,Smart,133464,20703,133.46,20.70,25,3,2,2
+"Cuenca, Batangas, Philippines",13.9144,121.05071,Globe,7545,2283,7.55,2.28,29,3,2,3
+"Himamaylan, Negros Occidental, Philippines",10.10162,122.86995,Smart,255581,41452,255.58,41.45,22,3,1,2
+"Malasiqui, Pangasinan, Philippines",15.92028,120.41443,Smart,49305,2918,49.31,2.92,20,3,3,3
+"Cordon, Isabela, Philippines",16.67835,121.46847,Smart,140779,4780,140.78,4.78,25,3,2,2
+"Lubao, Pampanga, Philippines",14.92678,120.58795,Smart,39847,15080,39.85,15.08,26,3,2,3
+"Bagac, Bataan, Philippines",14.63082,120.41272,DITO,33449,3384,33.45,3.38,29,3,1,1
+"Tagbilaran City, Bohol, Philippines",9.6534,123.86703,DITO,292009,18861,292.01,18.86,18,3,3,3
+"Quezon, Bukidnon, Philippines",7.71645,125.17087,Smart,5360,390,5.36,0.39,29,3,2,3
+"Obando, Bulacan, Philippines",14.70986,120.93674,Smart,24572,20584,24.57,20.58,18,3,2,2
+"Maluso, Basilan, Philippines",6.53796,121.89041,Globe,1569,3060,1.57,3.06,51,3,1,1
+"Kalibo, Aklan, Philippines",11.70734,122.36986,Smart,342172,24880,342.17,24.88,63,3,2,2
+"Cavinti, Laguna, Philippines",14.24907,121.54842,Globe,27836,3288,27.84,3.29,23,3,1,1
+"Parang, Maguindanao, Philippines",7.34766,124.2755,Smart,13581,1208,13.58,1.21,32,3,1,1
+"Kabacan, Cotabato, Philippines",7.10719,124.84034,Globe,90644,8220,90.64,8.22,31,3,2,3
+"Moalboal, Cebu, Philippines",9.93681,123.42714,Globe,12043,442,12.04,0.44,31,3,1,3
+"Floridablanca, Pampanga, Philippines",14.9619,120.49471,Globe,11122,209,11.12,0.21,37,3,1,1
+"Vigan City, Ilocos Sur, Philippines",17.56485,120.38781,Smart,43396,3011,43.40,3.01,25,3,2,2
+"Dao, Capiz, Philippines",11.38895,122.70684,Globe,5554,407,5.55,0.41,71,3,1,1
+"Carmen, Cotabato, Philippines",7.38261,124.81826,Globe,30439,3004,30.44,3.00,30,3,1,1
+"Calbayog, Samar, Philippines",12.0685,124.59081,Smart,46734,14629,46.73,14.63,34,3,1,2
+"Botolan, Zambales, Philippines",15.26625,120.20511,Smart,466511,50748,466.51,50.75,14,3,2,2
+"San Remigio, Cebu, Philippines",10.9601,123.94155,Smart,27806,1722,27.81,1.72,16,3,3,3
+"Angono, Rizal, Philippines",14.52592,121.15321,Globe,176630,14357,176.63,14.36,11,3,1,3
+"Gingoog City, Misamis Oriental, Philippines",8.81446,125.10406,Globe,11478,7700,11.48,7.70,32,3,2,3
+"Naga, Cebu, Philippines",10.20764,123.75821,DITO,13978,4996,13.98,5.00,46,3,2,3
+"Escalante City, Negros Occidental, Philippines",10.84117,123.49908,Smart,47249,11966,47.25,11.97,31,3,1,2
+"Maramag, Bukidnon, Philippines",7.82687,124.97271,Smart,1461,2064,1.46,2.06,34,3,1,2
+"Manapla, Negros Occidental, Philippines",10.95795,123.12428,DITO,28122,3636,28.12,3.64,49,3,2,3
+"Porac, Pampanga, Philippines",15.06974,120.55007,Globe,8436,3498,8.44,3.50,32,3,3,3
+"Compostela, Davao de Oro, Philippines",7.67742,126.15454,Globe,48784,14688,48.78,14.69,46,3,2,3
+"San Narciso, Zambales, Philippines",15.01114,120.08963,Smart,530250,65249,530.25,65.25,13,3,2,3
+"Sogod, Southern Leyte, Philippines",10.44929,125.01679,Globe,381,259,0.38,0.26,78,3,3,3
+"Talitay, Maguindanao, Philippines",7.04528,124.38654,Smart,38505,16931,38.51,16.93,28,3,1,1
+"Carmen, Cebu, Philippines",10.58876,123.96385,Smart,214201,15933,214.20,15.93,14,3,2,2
+"Gainza, Camarines Sur, Philippines",13.61146,123.14078,Smart,14409,4071,14.41,4.07,31,3,2,3
+"Aritao, Nueva Vizcaya, Philippines",16.2515,121.01057,Globe,21682,1762,21.68,1.76,26,3,1,1
+"Ubay, Bohol, Philippines",10.05512,124.47421,Globe,15767,17986,15.77,17.99,40,3,2,3
+"Socorro, Surigao del Norte, Philippines",9.61761,125.937,Smart,3163,883,3.16,0.88,119,3,1,1
+"Odiongan, Romblon, Philippines",12.36445,122.01555,Smart,5405,694,5.41,0.69,32,3,1,2
+"Alicia, Isabela, Philippines",16.80691,121.69674,Globe,47306,1659,47.31,1.66,29,3,2,3
+"Carranglan, Nueva Ecija, Philippines",15.97584,121.03351,Globe,11151,5637,11.15,5.64,21,3,1,1
+"Carles, Iloilo, Philippines",11.55216,123.13515,Smart,30534,1739,30.53,1.74,30,3,2,3
+"Rosario, Batangas, Philippines",13.80433,121.28552,Smart,220621,22318,220.62,22.32,14,3,1,2
+"Tanay, Rizal, Philippines",14.61419,121.37703,Smart,12677,3392,12.68,3.39,18,3,3,3
+"Guimba, Nueva Ecija, Philippines",15.65641,120.76767,Globe,78214,10092,78.21,10.09,27,3,2,2
+"Angono, Rizal, Philippines",14.52592,121.15321,DITO,88079,5899,88.08,5.90,23,3,1,3
+"San Jose City, Nueva Ecija, Philippines",15.79188,120.99008,Smart,47427,6237,47.43,6.24,69,3,1,2
+"Aloguinsan, Cebu, Philippines",10.19171,123.56161,Globe,88361,34151,88.36,34.15,35,3,2,2
+"Midsayap, Cotabato, Philippines",7.19181,124.53474,Smart,43384,6589,43.38,6.59,30,3,2,2
+"Nabua, Camarines Sur, Philippines",13.4069,123.37324,Globe,22744,4386,22.74,4.39,25,3,2,2
+"Naga, Cebu, Philippines",10.20764,123.75821,Globe,23989,516,23.99,0.52,39,3,1,3
+"Alicia, Bohol, Philippines",9.90723,124.44201,Smart,10405,760,10.41,0.76,23,3,1,1
+"Tagoloan, Misamis Oriental, Philippines",8.51877,124.80722,Globe,2390,2624,2.39,2.62,37,3,1,1
+"Moalboal, Cebu, Philippines",9.93681,123.42714,DITO,49104,3170,49.10,3.17,35,3,1,1
+"Santa Cruz, Laguna, Philippines",14.26911,121.41133,DITO,41973,1155,41.97,1.16,41,3,2,2
+"Bulalacao (San Pedro), Oriental Mindoro, Philippines",12.39526,121.30841,Smart,28294,2147,28.29,2.15,35,3,1,2
+"Morong, Bataan, Philippines",14.6798,120.26759,Globe,25407,11179,25.41,11.18,15,3,1,2
+"Orani, Bataan, Philippines",14.80086,120.53616,Globe,16929,2012,16.93,2.01,39,3,3,3
+"Tadian, Mountain Province, Philippines",16.96608,120.81544,Globe,38027,5052,38.03,5.05,32,3,1,1
+"Hagonoy, Bulacan, Philippines",14.83564,120.73371,DITO,41720,15173,41.72,15.17,28,3,2,2
+"Jasaan, Misamis Oriental, Philippines",8.65161,124.78513,Smart,47377,22195,47.38,22.20,16,3,2,2
+"Cadiz City, Negros Occidental, Philippines",10.86192,123.23632,DITO,8762,24792,8.76,24.79,34,3,1,3
+"Hinunangan, Southern Leyte, Philippines",10.39458,125.14888,Smart,36164,10984,36.16,10.98,18,3,1,3
+"San Ildefonso, Bulacan, Philippines",15.07717,120.94171,DITO,13653,10366,13.65,10.37,24,3,1,3
+"Catarman, Camiguin, Philippines",9.16982,124.67459,Smart,27469,2083,27.47,2.08,16,3,1,1
+"Murcia, Negros Occidental, Philippines",10.60643,123.03944,Smart,66513,14941,66.51,14.94,18,3,3,3
+"Camaligan, Camarines Sur, Philippines",13.62825,123.16327,Smart,159634,5478,159.63,5.48,14,3,1,1
+"Bayawan City, Negros Oriental, Philippines",9.53644,122.7633,Smart,35691,27323,35.69,27.32,30,3,2,2
+"Santa Ana, Cagayan, Philippines",18.36702,122.22001,Smart,25924,4893,25.92,4.89,21,3,1,1
+"Dumanjug, Cebu, Philippines",10.02819,123.47198,Globe,2463,3089,2.46,3.09,27,3,1,2
+"San Jose de Buenavista, Antique, Philippines",10.74901,121.94128,Globe,23842,10373,23.84,10.37,29,3,1,3
+"Muñoz, Nueva Ecija, Philippines",15.70664,120.9029,DITO,47685,15891,47.69,15.89,28,3,1,2
+"Igbaras, Iloilo, Philippines",10.74408,122.2427,Smart,39205,1014,39.21,1.01,20,3,1,1
+"Cabatuan, Iloilo, Philippines",10.87914,122.48206,DITO,44390,4930,44.39,4.93,36,3,2,2
+"Cabatuan, Iloilo, Philippines",10.87914,122.48206,Smart,174589,8941,174.59,8.94,21,3,2,3
+"San Fernando, Masbate, Philippines",12.47959,123.7406,Smart,21609,1404,21.61,1.40,34,3,1,1
+"Saguday, Quirino, Philippines",16.54611,121.57125,Smart,96212,62,96.21,0.06,60,3,1,1
+"Carmen, Davao del Norte, Philippines",7.35492,125.704,DITO,37054,3589,37.05,3.59,39,3,3,3
+"Bolinao, Pangasinan, Philippines",16.30742,119.85838,Globe,13697,7106,13.70,7.11,17,3,3,3
+"Anda, Bohol, Philippines",9.76924,124.56391,Smart,42398,965,42.40,0.97,18,3,1,2
+"Bantay, Ilocos Sur, Philippines",17.59832,120.44729,DITO,52557,2082,52.56,2.08,27,3,1,1
+"Ilagan City, Isabela, Philippines",17.12845,122.12918,Smart,36985,5764,36.99,5.76,20,3,1,3
+"Candaba, Pampanga, Philippines",15.09289,120.8277,Smart,23152,220,23.15,0.22,41,3,1,2
+"Butuan City, Agusan Del Norte, Philippines",8.94753,125.54063,DITO,19608,2210,19.61,2.21,37,3,1,3
+"Glan, Sarangani, Philippines",5.82205,125.20413,Globe,135869,23993,135.87,23.99,27,3,2,3
+"Alfonso, Cavite, Philippines",14.1214,120.86138,Globe,35813,18983,35.81,18.98,23,3,2,2
+"Pontevedra, Negros Occidental, Philippines",10.35266,122.92123,DITO,16014,281,16.01,0.28,41,3,1,2
+"Teresa, Rizal, Philippines",14.5597,121.20593,Globe,27420,13576,27.42,13.58,17,3,1,2
+"Tantangan, South Cotabato, Philippines",6.57126,124.75198,Smart,236754,10614,236.75,10.61,18,3,1,2
+"Asturias, Cebu, Philippines",10.60209,123.77412,Globe,14282,770,14.28,0.77,29,3,1,1
+"Naga, Cebu, Philippines",10.20764,123.75821,Smart,41651,26289,41.65,26.29,19,3,2,3
+"Sariaya, Quezon, Philippines",13.96301,121.52388,Smart,330712,27028,330.71,27.03,8,3,1,3
+"Agoo, La Union, Philippines",16.3247,120.35508,Globe,51614,20903,51.61,20.90,24,3,1,2
+"Maasin, Iloilo, Philippines",10.9199,122.42407,Globe,32862,5573,32.86,5.57,41,3,1,1
+"Bay, Laguna, Philippines",14.14064,121.26836,Globe,18521,4737,18.52,4.74,32,3,1,3
+"Rosario, Batangas, Philippines",13.80433,121.28552,Globe,12058,97,12.06,0.10,39,3,2,2
+"President Roxas, Cotabato, Philippines",7.37928,125.06084,Globe,15081,5159,15.08,5.16,37,3,1,1
+"Baliwag, Bulacan, Philippines",14.96569,120.89431,DITO,21033,14060,21.03,14.06,26,3,3,3
+"Candelaria, Quezon, Philippines",13.94899,121.42276,Smart,17155,14841,17.16,14.84,20,3,2,2
+"Calauag, Quezon, Philippines",14.11572,122.2427,Globe,41043,17346,41.04,17.35,27,3,2,2
+"Alfonso Lista, Ifugao, Philippines",16.98852,121.49132,Smart,107277,2124,107.28,2.12,25,3,2,3
+"Aborlan, Palawan, Philippines",9.43994,118.54785,Smart,54987,16757,54.99,16.76,35,3,2,2
+"Salcedo, Ilocos Sur, Philippines",17.13472,120.56245,Smart,15063,653,15.06,0.65,23,3,2,2
+"Barili, Cebu, Philippines",10.1254,123.55041,Globe,10269,14539,10.27,14.54,64,3,1,2
+"Jaen, Nueva Ecija, Philippines",15.39558,120.87286,Globe,54003,5311,54.00,5.31,15,3,2,2
+"Malvar, Batangas, Philippines",14.04329,121.15875,Smart,20076,672,20.08,0.67,27,3,1,3
+"Talisay, Negros Occidental, Philippines",10.74828,122.98012,DITO,54104,15505,54.10,15.51,40,3,3,3
+"Guinobatan, Albay, Philippines",13.15419,123.55041,DITO,4550,3315,4.55,3.32,25,3,1,1
+"Laur, Nueva Ecija, Philippines",15.52477,121.18249,Smart,11691,1028,11.69,1.03,43,3,1,1
+"Alicia, Isabela, Philippines",16.80691,121.69674,Smart,82758,1025,82.76,1.03,24,3,3,3
+"Manaoag, Pangasinan, Philippines",16.04627,120.4876,Globe,28584,4301,28.58,4.30,23,3,1,3
+"Iriga City, Camarines Sur, Philippines",13.42095,123.41361,Globe,4620,5916,4.62,5.92,30,3,1,3
+"Bauko, Mountain Province, Philippines",16.98809,120.87286,Smart,6059,1592,6.06,1.59,70,3,1,1
+"Siocon, Zamboanga del Norte, Philippines",7.66356,122.19731,Globe,2108,43,2.11,0.04,36,3,1,1
+"Surallah, South Cotabato, Philippines",6.3195,124.75198,Globe,30068,6898,30.07,6.90,32,3,1,2
+"Subic, Zambales, Philippines",14.83066,120.18202,Globe,839,878,0.84,0.88,97,3,1,2
+"Cadiz City, Negros Occidental, Philippines",10.86192,123.23632,Smart,79713,29290,79.71,29.29,29,3,2,2
+"Mapandan, Pangasinan, Philippines",16.02726,120.45379,DITO,14439,3616,14.44,3.62,29,3,1,1
+"Rosales, Pangasinan, Philippines",15.86126,120.63149,DITO,86075,37784,86.08,37.78,18,3,2,2
+"Tulunan, Cotabato, Philippines",6.83042,124.87469,Globe,10023,6166,10.02,6.17,35,3,2,2
+"Miagao, Iloilo, Philippines",10.64201,122.23632,Smart,10248,25044,10.25,25.04,21,3,1,2
+"San Isidro, Nueva Ecija, Philippines",15.29656,120.9073,Smart,26685,15209,26.69,15.21,25,3,1,1
+"Cordova, Cebu, Philippines",10.25278,123.9494,Smart,230556,12779,230.56,12.78,10,3,1,2
+"Abucay, Bataan, Philippines",14.73361,120.49336,Smart,16761,2122,16.76,2.12,21,3,1,2
+"Lemery, Batangas, Philippines",13.95318,120.88434,Smart,14893,635,14.89,0.64,20,3,1,2
+"Padre Burgos, Southern Leyte, Philippines",10.07868,125.00577,Smart,108619,3091,108.62,3.09,23,3,1,1
+"Tukuran, Zamboanga del Sur, Philippines",7.91295,123.53921,Globe,50787,23903,50.79,23.90,29,3,2,3
+"Villaverde, Nueva Vizcaya, Philippines",16.60616,121.14813,Smart,26165,6787,26.17,6.79,23,3,3,3
+"Binmaley, Pangasinan, Philippines",16.02892,120.26882,Smart,246451,44905,246.45,44.91,25,3,2,3
+"Hinigaran, Negros Occidental, Philippines",10.27479,122.92123,DITO,27096,2488,27.10,2.49,37,3,2,2
+"San Fernando, Cebu, Philippines",10.16316,123.70738,DITO,15428,3814,15.43,3.81,34,3,1,3
+"Mayoyao, Ifugao, Philippines",16.95131,121.21685,Smart,6874,6369,6.87,6.37,54,3,1,1
+"City of Tabuk, Kalinga, Philippines",17.42402,121.3999,Globe,59409,8650,59.41,8.65,23,3,2,3
+"Toboso, Negros Occidental, Philippines",10.71769,123.46077,Smart,26965,7134,26.97,7.13,26,3,3,3
+"Ipil, Zamboanga Sibugay, Philippines",7.77318,122.57121,Globe,10599,1156,10.60,1.16,34,3,1,2
+"Cabarroguis, Quirino, Philippines",16.41991,121.51416,Globe,6734,3750,6.73,3.75,27,3,1,1
+"Cawayan, Masbate, Philippines",12.05579,123.72942,Smart,2611,861,2.61,0.86,37,3,1,1
+"Maasim, Sarangani, Philippines",5.92672,124.99475,Smart,14505,2487,14.51,2.49,37,3,2,3
+"Narvacan, Ilocos Sur, Philippines",17.44229,120.49336,Globe,16529,8584,16.53,8.58,35,3,1,3
+"Cardona, Rizal, Philippines",14.48493,121.232,Smart,62696,7999,62.70,8.00,18,3,2,2
+"Banisilan, Cotabato, Philippines",7.53701,124.72988,Smart,11780,3133,11.78,3.13,25,3,1,1
+"Hinunangan, Southern Leyte, Philippines",10.39458,125.14888,Globe,18613,6372,18.61,6.37,52,3,2,3
+"City of Tayabas, Quezon, Philippines",14.01135,121.55983,Smart,73056,46429,73.06,46.43,15,3,2,3
+"Nasugbu, Batangas, Philippines",14.09404,120.68901,Smart,100188,15438,100.19,15.44,25,2,1,2
+"Muñoz, Nueva Ecija, Philippines",15.70664,120.9029,Globe,8300,1016,8.30,1.02,16,2,1,1
+"Pontevedra, Negros Occidental, Philippines",10.35266,122.92123,Smart,3685,430,3.69,0.43,41,2,1,1
+"Monreal, Masbate, Philippines",12.62286,123.63996,Globe,63214,10292,63.21,10.29,47,2,2,2
+"Bulan, Sorsogon, Philippines",12.70367,123.90809,DITO,4150,723,4.15,0.72,24,2,1,1
+"Kibungan, Benguet, Philippines",16.68162,120.68901,Globe,26283,1958,26.28,1.96,39,2,1,1
+"Pozorrubio, Pangasinan, Philippines",16.11642,120.54316,Globe,23456,11310,23.46,11.31,24,2,2,2
+"Talisay, Camarines Norte, Philippines",14.1394,122.92686,Globe,78163,3929,78.16,3.93,23,2,2,2
+"Diadi, Nueva Vizcaya, Philippines",16.6595,121.33129,Globe,11460,9081,11.46,9.08,39,2,1,1
+"Malilipot, Albay, Philippines",13.29931,123.71824,Smart,1484,370,1.48,0.37,22,2,1,1
+"Santo Tomas, La Union, Philippines",16.27532,120.40119,DITO,14892,3134,14.89,3.13,28,2,2,2
+"Pandan, Antique, Philippines",11.75185,122.10647,Globe,10774,1636,10.77,1.64,52,2,1,2
+"Jaro, Leyte, Philippines",11.17583,124.75198,Globe,7129,6502,7.13,6.50,35,2,1,2
+"Siquijor, Philippines",9.19621,123.53921,Globe,5670,85,5.67,0.09,90,2,1,2
+"Arayat, Pampanga, Philippines",15.15443,120.771,Globe,49613,13822,49.61,13.82,19,2,2,2
+"Baao, Camarines Sur, Philippines",13.49319,123.35984,Smart,416110,28811,416.11,28.81,17,2,2,2
+"Aparri, Cagayan, Philippines",18.33423,121.60549,Globe,75260,47583,75.26,47.58,29,2,2,2
+"San Miguel, Bulacan, Philippines",15.14158,120.9751,Smart,42940,36098,42.94,36.10,23,2,2,2
+"Atok, Benguet, Philippines",16.59745,120.68901,Globe,36710,4186,36.71,4.19,26,2,2,2
+"Dinalupihan, Bataan, Philippines",14.88605,120.44729,Smart,291720,3873,291.72,3.87,22,2,1,2
+"Aleosan, Cotabato, Philippines",7.18894,124.63034,DITO,3795,1741,3.80,1.74,36,2,1,1
+"Cabiao, Nueva Ecija, Philippines",15.25221,120.85957,Globe,29249,9016,29.25,9.02,24,2,1,1
+"Masinloc, Zambales, Philippines",15.52089,120.04341,Globe,17891,15941,17.89,15.94,15,2,1,2
+"City of Guihulngan, Negros Oriental, Philippines",10.18323,123.21385,Globe,9784,6158,9.78,6.16,60,2,1,2
+"Talibon, Bohol, Philippines",10.11933,124.26439,Globe,16930,6709,16.93,6.71,48,2,2,2
+"Infanta, Pangasinan, Philippines",15.87303,120.00874,Smart,181049,20164,181.05,20.16,20,2,1,1
+"Calapan City, Oriental Mindoro, Philippines",13.36643,121.19395,DITO,42795,30205,42.80,30.21,25,2,2,2
+"Rizal, Nueva Ecija, Philippines",15.69357,121.10229,DITO,42671,2889,42.67,2.89,25,2,1,1
+"Molave, Zamboanga del Sur, Philippines",8.10419,123.4944,Globe,36099,8976,36.10,8.98,28,2,1,2
+"Lamut, Ifugao, Philippines",16.68241,121.19395,Globe,9825,350,9.83,0.35,25,2,1,1
+"Liliw, Laguna, Philippines",14.12617,121.4399,Smart,23606,8104,23.61,8.10,17,2,1,1
+"Tumauini, Isabela, Philippines",17.27708,121.87903,Globe,15948,23668,15.95,23.67,19,2,1,1
+"San Jose, Occidental Mindoro, Philippines",12.40119,121.10229,Smart,7463,632,7.46,0.63,22,2,1,2
+"Libjo (Albor), Dinagat Islands, Philippines",10.18771,125.58767,Smart,4833,666,4.83,0.67,55,2,1,2
+"Macrohon, Southern Leyte, Philippines",10.084,124.96169,DITO,49809,14309,49.81,14.31,35,2,1,2
+"Calbiga, Samar, Philippines",11.59294,125.10487,Smart,248785,18251,248.79,18.25,14,2,1,1
+"Tupi, South Cotabato, Philippines",6.33849,124.97271,Globe,42096,12263,42.10,12.26,18,2,1,2
+"Cauayan, Negros Occidental, Philippines",9.92601,122.5599,Smart,4636,6076,4.64,6.08,19,2,2,2
+"Cotabato City, Maguindanao, Philippines",7.20467,124.23104,Smart,18724,3804,18.72,3.80,27,2,1,1
+"Amadeo, Cavite, Philippines",14.18985,120.92452,Globe,16594,10386,16.59,10.39,20,2,1,2
+"Gamu, Isabela, Philippines",17.06905,121.85725,Globe,24252,7567,24.25,7.57,40,2,1,2
+"San Fernando, Cebu, Philippines",10.16316,123.70738,Smart,468525,41054,468.53,41.05,13,2,2,2
+"Impasug-ong, Bukidnon, Philippines",8.38854,125.08286,Globe,7737,5058,7.74,5.06,27,2,1,1
+"El Nido, Palawan, Philippines",11.19892,119.42317,DITO,24792,16551,24.79,16.55,29,2,1,1
+"Gandara, Samar, Philippines",12.06444,124.79617,Smart,176500,5666,176.50,5.67,48,2,2,2
+"San Carlos City, Pangasinan, Philippines",15.92589,120.34827,DITO,3072,961,3.07,0.96,46,2,1,2
+"Malalag, Davao del Sur, Philippines",6.54894,125.2588,Globe,12347,1116,12.35,1.12,22,2,1,1
+"Kidapawan, Cotabato, Philippines",7.02127,125.09019,Smart,1717,727,1.72,0.73,34,2,1,2
+"Tigaon, Camarines Sur, Philippines",13.61703,123.47198,Smart,169930,12004,169.93,12.00,18,2,1,1
+"Cuyo, Palawan, Philippines",10.80729,121.02778,Smart,2781,2036,2.78,2.04,81,2,1,1
+"Datu Odin Sinsuat (Dinaig), Maguindanao, Philippines",7.08286,124.26439,Globe,18909,14967,18.91,14.97,50,2,2,2
+"Opol, Misamis Oriental, Philippines",8.52263,124.57239,Globe,4352,9906,4.35,9.91,150,2,1,1
+"Nabunturan, Davao de Oro, Philippines",7.54501,126.02409,Smart,20260,3859,20.26,3.86,29,2,1,2
+"Echague, Isabela, Philippines",16.66606,121.78792,Globe,118787,10011,118.79,10.01,28,2,1,2
+"Esperanza, Sultan Kudarat, Philippines",6.70074,124.48636,Globe,40016,932,40.02,0.93,39,2,1,2
+"Sergio Osmena Sr., Zamboanga del Norte, Philippines",8.30009,123.5059,Globe,32927,387,32.93,0.39,36,2,1,1
+"San Ildefonso, Ilocos Sur, Philippines",17.623,120.39543,Smart,32026,9192,32.03,9.19,16,2,1,2
+"Lumban, Laguna, Philippines",14.29353,121.52558,Smart,56791,19896,56.79,19.90,25,2,2,2
+"Bacnotan, La Union, Philippines",16.73397,120.36661,Smart,33793,5662,33.79,5.66,17,2,2,2
+"Odiongan, Romblon, Philippines",12.36445,122.01555,Globe,13360,759,13.36,0.76,28,2,1,2
+"Gigaquit, Surigao del Norte, Philippines",9.48544,125.70792,Smart,100626,2408,100.63,2.41,91,2,1,1
+"Burgos, Ilocos Norte, Philippines",18.50848,120.643,Smart,48965,59869,48.97,59.87,25,2,1,1
+"Valencia, Negros Oriental, Philippines",9.28494,123.1464,Smart,36314,18309,36.31,18.31,18,2,1,1
+"Paoay, Ilocos Norte, Philippines",18.07424,120.51639,Globe,34966,13131,34.97,13.13,39,2,2,2
+"Alabel, Sarangani, Philippines",6.10416,125.28792,Globe,1973,10185,1.97,10.19,46,2,1,1
+"Jovellar, Albay, Philippines",13.05932,123.584,Smart,5483,1101,5.48,1.10,19,2,1,1
+"Delfin Albano, Isabela, Philippines",17.25925,121.74234,Smart,79503,23714,79.50,23.71,22,2,1,1
+"Gumaca, Quezon, Philippines",13.89105,122.10647,Globe,79084,13436,79.08,13.44,18,2,2,2
+"Pagsanjan, Laguna, Philippines",14.26244,121.45704,Globe,16535,3189,16.54,3.19,14,2,1,2
+"Romblon, Philippines",12.5294,122.28807,Smart,22303,1719,22.30,1.72,21,2,1,2
+"Dumalag, Capiz, Philippines",11.32106,122.61644,Smart,32204,10164,32.20,10.16,44,2,1,1
+"San Agustin, Isabela, Philippines",16.49153,121.83349,Globe,28869,4999,28.87,5.00,29,2,1,2
+"Tagudin, Ilocos Sur, Philippines",16.93875,120.47033,Smart,28539,726,28.54,0.73,19,2,1,2
+"Bongabong, Oriental Mindoro, Philippines",12.71953,121.30841,DITO,23650,453,23.65,0.45,25,2,1,1
+"Zaragoza, Nueva Ecija, Philippines",15.46003,120.79246,DITO,52628,4685,52.63,4.69,35,2,2,2
+"Iriga City, Camarines Sur, Philippines",13.42095,123.41361,Smart,336064,18364,336.06,18.36,15,2,2,2
+"Agoncillo, Batangas, Philippines",13.94675,120.93026,Smart,6939,677,6.94,0.68,52,2,1,1
+"Tupi, South Cotabato, Philippines",6.33849,124.97271,Smart,8420,943,8.42,0.94,32,2,1,2
+"Braulio E. Dujali, Davao del Norte, Philippines",7.45884,125.68607,DITO,26499,14724,26.50,14.72,41,2,1,1
+"General Tinio (Papaya), Nueva Ecija, Philippines",15.36345,121.21685,Smart,393159,51748,393.16,51.75,20,2,2,2
+"Cajidiocan, Romblon, Philippines",12.40062,122.65035,Smart,65555,27585,65.56,27.59,32,2,1,1
+"Naujan, Oriental Mindoro, Philippines",13.24381,121.19395,Globe,145896,23569,145.90,23.57,24,2,1,1
+"Taytay, Palawan, Philippines",10.66876,119.46436,Smart,480438,60208,480.44,60.21,65,2,1,1
+"Ocampo, Camarines Sur, Philippines",13.58198,123.37106,Globe,17723,12765,17.72,12.77,23,2,1,1
+"San Manuel, Isabela, Philippines",17.02596,121.63115,Smart,13160,796,13.16,0.80,33,2,1,1
+"New Corella, Davao del Norte, Philippines",7.59777,125.84981,Globe,20959,23293,20.96,23.29,47,2,1,1
+"Mariveles, Bataan, Philippines",14.4354,120.49003,DITO,11301,20545,11.30,20.55,31,2,2,2
+"Llanera, Nueva Ecija, Philippines",15.66623,121.01057,Smart,64886,461,64.89,0.46,22,2,1,2
+"San Narciso, Zambales, Philippines",15.01114,120.08963,Globe,71269,20355,71.27,20.36,17,2,2,2
+"Rosario, Batangas, Philippines",13.80433,121.28552,DITO,16709,2560,16.71,2.56,20,2,1,1
+"Sariaya, Quezon, Philippines",13.96301,121.52388,DITO,5113,2503,5.11,2.50,26,2,1,1
+"Bobon, Northern Samar, Philippines",12.41622,124.53068,Smart,25139,2268,25.14,2.27,35,2,2,2
+"Miagao, Iloilo, Philippines",10.64201,122.23632,Globe,544,139,0.54,0.14,72,2,1,1
+"Barotac Nuevo, Iloilo, Philippines",10.89705,122.69526,Globe,13316,4331,13.32,4.33,34,2,1,1
+"Lagonoy, Camarines Sur, Philippines",13.86688,123.48319,Globe,21965,2956,21.97,2.96,22,2,2,2
+"Baras, Rizal, Philippines",14.53656,121.27408,Globe,44475,2898,44.48,2.90,18,2,1,2
+"City of Borongan, Eastern Samar, Philippines",11.61739,125.34663,Globe,37582,5966,37.58,5.97,73,2,1,1
+"Mapandan, Pangasinan, Philippines",16.02726,120.45379,Globe,9870,4264,9.87,4.26,32,2,1,2
+"Rosario, Cavite, Philippines",14.41672,120.85471,DITO,27413,9577,27.41,9.58,29,2,2,2
+"Mandaon, Masbate, Philippines",12.26921,123.32617,Globe,17189,15930,17.19,15.93,45,2,1,1
+"Maddela, Quirino, Philippines",16.33255,121.78792,Smart,116884,24088,116.88,24.09,65,2,1,2
+"Quezon, Philippines",14.06282,122.11783,Smart,15499,1434,15.50,1.43,20,2,1,1
+"San Remigio, Cebu, Philippines",10.9601,123.94155,DITO,27905,2872,27.91,2.87,32,2,2,2
+"Sergio Osmena Sr., Zamboanga del Norte, Philippines",8.30009,123.5059,Smart,145103,10415,145.10,10.42,25,2,2,2
+"Cardona, Rizal, Philippines",14.48493,121.232,Globe,127106,10108,127.11,10.11,11,2,1,1
+"Padre Garcia, Batangas, Philippines",13.87668,121.24547,Globe,27986,13274,27.99,13.27,21,2,1,1
+"General Luna, Surigao del Norte, Philippines",9.78375,126.15657,Smart,24997,4129,25.00,4.13,30,2,2,2
+"Calumpit, Bulacan, Philippines",14.91518,120.7662,Smart,248889,3548,248.89,3.55,13,2,2,2
+"San Enrique, Iloilo, Philippines",11.10989,122.72943,DITO,14629,5336,14.63,5.34,41,2,1,1
+"Baclayon, Bohol, Philippines",9.63237,123.91925,Smart,5545,3377,5.55,3.38,45,2,1,1
+"Lopez Jaena, Misamis Occidental, Philippines",8.55109,123.76857,Smart,336053,31532,336.05,31.53,12,2,1,1
+"Salvador Benedicto, Negros Occidental, Philippines",10.5887,123.23632,Globe,10747,4188,10.75,4.19,67,2,1,1
+"Angat, Bulacan, Philippines",14.92586,121.02204,Globe,14071,1331,14.07,1.33,24,2,1,2
+"Pila, Laguna, Philippines",14.23461,121.3656,Globe,27358,9073,27.36,9.07,25,2,1,2
+"Mendez, Cavite, Philippines",14.12941,120.90511,Smart,73570,6895,73.57,6.90,20,2,1,1
+"Lopez, Quezon, Philippines",13.80005,122.31075,DITO,87366,4701,87.37,4.70,31,2,1,2
+"Victoria, Tarlac, Philippines",15.59077,120.68901,Smart,120565,19319,120.57,19.32,30,2,1,1
+"Carmen, Cebu, Philippines",10.58876,123.96385,DITO,12860,452,12.86,0.45,51,2,1,1
+"Dinas, Zamboanga del Sur, Philippines",7.64262,123.32617,Globe,11939,8203,11.94,8.20,31,2,1,1
+"Lubao, Pampanga, Philippines",14.92678,120.58795,DITO,31515,16956,31.52,16.96,24,2,2,2
+"Gumaca, Quezon, Philippines",13.89105,122.10647,Smart,234812,2408,234.81,2.41,16,2,1,1
+"Bacnotan, La Union, Philippines",16.73397,120.36661,Globe,31929,3647,31.93,3.65,21,2,1,2
+"Banga, Aklan, Philippines",11.57556,122.32209,DITO,32694,5552,32.69,5.55,36,2,1,1
+"Maasin, Southern Leyte, Philippines",10.13272,124.84081,Smart,15304,2318,15.30,2.32,17,2,2,2
+"Bayambang, Pangasinan, Philippines",15.80947,120.45714,Smart,88445,31108,88.45,31.11,13,2,1,2
+"Bontoc, Southern Leyte, Philippines",10.38378,124.92861,DITO,11078,1757,11.08,1.76,103,2,1,1
+"Cabiao, Nueva Ecija, Philippines",15.25221,120.85957,Smart,184088,32757,184.09,32.76,64,2,1,1
+"Virac, Catanduanes, Philippines",13.61939,124.17544,Globe,23294,13934,23.29,13.93,51,2,2,2
+"Santo Tomas, La Union, Philippines",16.27532,120.40119,Globe,15228,15476,15.23,15.48,32,2,1,2
+"Subic, Zambales, Philippines",14.83066,120.18202,Smart,9177,97,9.18,0.10,32,2,1,2
+"Indang, Cavite, Philippines",14.19204,120.87286,Smart,73474,3123,73.47,3.12,19,2,1,2
+"Nasipit, Agusan Del Norte, Philippines",8.93971,125.32468,Globe,20902,1036,20.90,1.04,34,2,1,1
+"Can-avid, Eastern Samar, Philippines",11.98886,125.32468,Globe,19186,1564,19.19,1.56,42,2,1,1
+"Pozorrubio, Pangasinan, Philippines",16.11642,120.54316,Smart,9423,3807,9.42,3.81,13,2,1,1
+"Orani, Bataan, Philippines",14.80086,120.53616,Smart,120954,30374,120.95,30.37,25,2,1,1
+"Ibaan, Batangas, Philippines",13.81895,121.13082,Globe,27017,10950,27.02,10.95,23,2,2,2
+"Paete, Laguna, Philippines",14.37243,121.54842,Globe,67946,11672,67.95,11.67,23,2,1,2
+"Sagbayan, Bohol, Philippines",9.91005,124.08641,Globe,52686,9941,52.69,9.94,41,2,1,1
+"Lambunao, Iloilo, Philippines",11.12265,122.37876,DITO,103003,12871,103.00,12.87,28,2,1,2
+"Sibunag, Guimaras, Philippines",10.54518,122.60514,Smart,72174,2702,72.17,2.70,21,2,1,1
+"Pililla, Rizal, Philippines",14.44393,121.34273,Smart,42352,8933,42.35,8.93,23,2,1,1
+"Bugallon, Pangasinan, Philippines",15.92022,120.18202,Smart,500448,26132,500.45,26.13,10,2,1,2
+"Sogod, Cebu, Philippines",10.77419,123.9527,Globe,18938,6617,18.94,6.62,70,2,2,2
+"Hagonoy, Bulacan, Philippines",14.83564,120.73371,Smart,41300,564,41.30,0.56,27,2,2,2
+"Macrohon, Southern Leyte, Philippines",10.084,124.96169,Globe,72769,25190,72.77,25.19,32,2,1,1
+"Trinidad, Bohol, Philippines",10.04574,124.31993,DITO,5807,653,5.81,0.65,39,2,1,1
+"Pototan, Iloilo, Philippines",10.94194,122.63874,Globe,12114,8004,12.11,8.00,32,2,1,2
+"Manaoag, Pangasinan, Philippines",16.04627,120.4876,DITO,97061,14866,97.06,14.87,29,2,2,2
+"Silay, Negros Occidental, Philippines",10.79968,122.97605,Globe,38514,10262,38.51,10.26,18,2,2,2
+"Badiangan, Iloilo, Philippines",10.98659,122.5367,DITO,5997,4,6.00,0.00,46,2,1,1
+"Calinog, Iloilo, Philippines",11.14579,122.51464,DITO,46691,28953,46.69,28.95,41,2,1,2
+"Sibalom, Antique, Philippines",10.76502,122.06102,Globe,12141,960,12.14,0.96,69,2,1,2
+"Jagna, Bohol, Philippines",9.6994,124.34214,Smart,13470,2204,13.47,2.20,34,2,1,2
+"Bayambang, Pangasinan, Philippines",15.80947,120.45714,Globe,9592,3811,9.59,3.81,25,2,2,2
+"Irosin, Sorsogon, Philippines",12.72398,124.04187,Smart,2386,118,2.39,0.12,33,2,1,2
+"City of Tayabas, Quezon, Philippines",14.01135,121.55983,DITO,3267,4,3.27,0.00,33,2,1,2
+"Hermosa, Bataan, Philippines",14.83566,120.47709,Globe,73361,21696,73.36,21.70,18,2,1,2
+"Medina, Misamis Oriental, Philippines",8.90294,124.97271,Globe,12542,2651,12.54,2.65,16,2,1,1
+"Dapitan City, Zamboanga del Norte, Philippines",8.58118,123.42714,Globe,17248,17252,17.25,17.25,32,2,2,2
+"San Vicente, Palawan, Philippines",10.36167,119.1158,Smart,6207,5568,6.21,5.57,83,2,1,2
+"Calauan, Laguna, Philippines",14.14551,121.3146,Smart,27883,7483,27.88,7.48,20,2,2,2
+"City of Catbalogan, Samar, Philippines",11.85683,124.88449,DITO,6348,124,6.35,0.12,110,2,1,2
+"Talavera, Nueva Ecija, Philippines",15.58575,120.9197,DITO,12932,2716,12.93,2.72,29,2,1,2
+"Baungon, Bukidnon, Philippines",8.21754,124.75198,Smart,46053,14430,46.05,14.43,17,2,1,1
+"Talitay, Maguindanao, Philippines",7.04528,124.38654,Globe,11987,5811,11.99,5.81,37,2,1,1
+"Toledo, Cebu, Philippines",10.38705,123.65017,DITO,2565,574,2.57,0.57,50,2,1,2
+"Alfonso, Cavite, Philippines",14.1214,120.86138,Smart,76670,26302,76.67,26.30,22,2,1,1
+"Banga, South Cotabato, Philippines",6.38791,124.79617,Smart,8374,3302,8.37,3.30,30,2,1,2
+"Cataingan, Masbate, Philippines",11.98588,123.9527,Globe,18140,4340,18.14,4.34,63,2,1,1
+"Pagadian City, Zamboanga del Sur, Philippines",7.86265,123.37106,DITO,13167,2944,13.17,2.94,34,2,1,2
+"Guagua, Pampanga, Philippines",14.96374,120.63244,Smart,108624,1203,108.62,1.20,22,2,1,2
+"San Guillermo, Isabela, Philippines",16.71831,121.97006,DITO,20775,25148,20.78,25.15,36,2,1,1
+"Bongabon, Nueva Ecija, Philippines",15.67193,121.23974,Smart,107760,16411,107.76,16.41,29,2,1,2
+"Sabtang, Batanes, Philippines",20.30084,121.86765,Smart,164992,11297,164.99,11.30,38,2,1,2
+"Libertad, Misamis Oriental, Philippines",8.5303,124.36989,Globe,10272,5699,10.27,5.70,34,2,1,1
+"Luuk, Sulu, Philippines",5.9662,121.31985,Globe,3156,3589,3.16,3.59,130,2,1,1
+"Cabucgayan, Biliran, Philippines",11.50169,124.56391,Smart,39647,3510,39.65,3.51,52,2,1,1
+"Mutia, Zamboanga del Norte, Philippines",8.38389,123.51681,Globe,40270,5484,40.27,5.48,33,2,1,1
+"Mobo, Masbate, Philippines",12.33588,123.65879,Smart,3658,360,3.66,0.36,44,2,1,1
+"Kabasalan, Zamboanga Sibugay, Philippines",7.83532,122.83102,Smart,39611,1600,39.61,1.60,21,2,1,2
+"San Vicente, Camarines Norte, Philippines",14.07278,122.86485,Smart,18256,1301,18.26,1.30,33,2,1,1
+"Pandi, Bulacan, Philippines",14.87572,120.95941,DITO,12393,2212,12.39,2.21,57,2,1,1
+"Santo Tomas, Davao del Norte, Philippines",7.50929,125.63142,DITO,61027,29675,61.03,29.68,30,2,1,2
+"Obando, Bulacan, Philippines",14.70986,120.93674,Globe,23376,2002,23.38,2.00,34,2,1,2
+"Bamban, Tarlac, Philippines",15.2885,120.57044,Smart,237333,37058,237.33,37.06,11,2,1,2
+"Santa Rita, Pampanga, Philippines",14.99762,120.61451,Smart,4822,839,4.82,0.84,20,2,1,2
+"Carcar, Cebu, Philippines",10.10478,123.64147,DITO,43487,13484,43.49,13.48,28,2,2,2
+"San Leonardo, Nueva Ecija, Philippines",15.37285,120.95321,DITO,42100,35895,42.10,35.90,33,2,2,2
+"San Antonio, Quezon, Philippines",13.89506,121.29697,Smart,1604,1068,1.60,1.07,11,2,1,1
+"Capalonga, Camarines Norte, Philippines",14.2787,122.51464,Globe,62725,5196,62.73,5.20,25,2,1,1
+"Carcar, Cebu, Philippines",10.10478,123.64147,Smart,18606,14263,18.61,14.26,19,2,1,1
+"Palayan City, Nueva Ecija, Philippines",15.53906,121.09083,Globe,36928,3718,36.93,3.72,18,2,2,2
+"Manito, Albay, Philippines",13.12578,123.86797,Smart,27059,2298,27.06,2.30,20,2,1,1
+"Santa Fe, Cebu, Philippines",11.16913,123.79088,Smart,36683,3540,36.68,3.54,19,2,1,1
+"San Luis, Aurora, Philippines",15.63572,121.46847,Smart,78470,1801,78.47,1.80,25,2,1,2
+"Kabacan, Cotabato, Philippines",7.10719,124.84034,Smart,228146,52003,228.15,52.00,21,2,2,2
+"Quezon, Bukidnon, Philippines",7.71645,125.17087,Globe,16324,14306,16.32,14.31,32,2,1,1
+"Liloy, Zamboanga del Norte, Philippines",8.07325,122.69555,Smart,76603,19426,76.60,19.43,54,2,1,1
+"Laguindingan, Misamis Oriental, Philippines",8.59435,124.43092,Globe,104166,5923,104.17,5.92,27,2,1,2
+"San Jose City, Nueva Ecija, Philippines",15.79188,120.99008,DITO,43031,28340,43.03,28.34,17,2,2,2
+"Hagonoy, Davao del Sur, Philippines",6.69701,125.3137,Globe,12910,3929,12.91,3.93,31,2,1,1
+"Roxas, Oriental Mindoro, Philippines",12.62617,121.47989,DITO,13602,2079,13.60,2.08,26,2,1,2
+"Hilongos, Leyte, Philippines",10.39469,124.84034,Globe,13913,4558,13.91,4.56,42,2,2,2
+"Kiamba, Sarangani, Philippines",6.00076,124.70777,Smart,52797,3058,52.80,3.06,32,2,1,1
+"Magpet, Cotabato, Philippines",7.1332,125.17087,DITO,9093,2084,9.09,2.08,58,2,1,1
+"Gerona, Tarlac, Philippines",15.60489,120.59698,Globe,128525,24204,128.53,24.20,29,2,1,2
+"Norzagaray, Bulacan, Philippines",14.89659,121.14813,Smart,63388,21387,63.39,21.39,15,2,1,2
+"Veruela, Agusan del Sur, Philippines",8.02635,125.937,Globe,9305,2347,9.31,2.35,33,2,1,2
+"Jagna, Bohol, Philippines",9.6994,124.34214,DITO,11659,1244,11.66,1.24,34,2,1,1
+"Silay, Negros Occidental, Philippines",10.79968,122.97605,DITO,6150,2905,6.15,2.91,39,2,1,2
+"Bayambang, Pangasinan, Philippines",15.80947,120.45714,DITO,15017,3604,15.02,3.60,36,2,1,1
+"Laoag City, Ilocos Norte, Philippines",18.21075,120.58547,DITO,46575,7465,46.58,7.47,24,2,2,2
+"San Francisco, Agusan del Sur, Philippines",8.44573,125.95878,DITO,22926,339,22.93,0.34,34,2,1,1
+"Tabaco City, Albay, Philippines",13.36138,123.72876,Globe,9680,815,9.68,0.82,43,2,1,1
+"Dagami, Leyte, Philippines",11.04826,124.84034,DITO,4662,472,4.66,0.47,95,2,1,1
+"Mendez, Cavite, Philippines",14.12941,120.90511,Globe,86358,64261,86.36,64.26,26,2,1,2
+"San Felipe, Zambales, Philippines",15.07931,120.12429,Smart,138321,3384,138.32,3.38,14,2,1,2
+"Bangui, Ilocos Norte, Philippines",18.49205,120.735,Smart,85469,3906,85.47,3.91,32,2,1,1
+"San Leonardo, Nueva Ecija, Philippines",15.37285,120.95321,Smart,468100,20071,468.10,20.07,22,2,2,2
+"Calatagan, Batangas, Philippines",13.88203,120.6545,DITO,10769,399,10.77,0.40,21,2,1,1
+"San Juan, Batangas, Philippines",13.75044,121.37703,Globe,83504,31732,83.50,31.73,24,2,2,2
+"Glan, Sarangani, Philippines",5.82205,125.20413,DITO,1969,1724,1.97,1.72,44,2,1,2
+"Pio Duran, Albay, Philippines",13.0473,123.46077,Smart,62244,2890,62.24,2.89,23,2,2,2
+"San Isidro, Davao Oriental, Philippines",6.78235,126.11108,Smart,30333,11137,30.33,11.14,34,2,1,1
+"Guagua, Pampanga, Philippines",14.96374,120.63244,Globe,49857,29718,49.86,29.72,22,2,2,2
+"Tiwi, Albay, Philippines",13.4612,123.63996,DITO,22517,1436,22.52,1.44,30,2,2,2
+"Dumalinao, Zamboanga del Sur, Philippines",7.78792,123.37106,Globe,60087,26947,60.09,26.95,24,2,1,1
+"Ozamiz, Misamis Occidental, Philippines",8.15,123.85033,DITO,35616,2885,35.62,2.89,22,2,2,2
+"San Jose, Tarlac, Philippines",15.42002,120.29742,Smart,2061,194,2.06,0.19,22,2,1,1
+"Tiaong, Quezon, Philippines",13.92962,121.34273,Smart,22518,6432,22.52,6.43,17,1,1,1
+"Dasol, Pangasinan, Philippines",15.96259,119.90466,Globe,23105,2226,23.11,2.23,25,1,1,1
+"Angat, Bulacan, Philippines",14.92586,121.02204,Smart,48978,11712,48.98,11.71,14,1,1,1
+"Alaminos, Laguna, Philippines",14.0454,121.25119,DITO,13501,2496,13.50,2.50,30,1,1,1
+"San Juan, Southern Leyte, Philippines",10.26385,125.20386,Globe,2795,79,2.80,0.08,108,1,1,1
+"La Castellana, Negros Occidental, Philippines",10.33198,123.10141,Globe,11688,1204,11.69,1.20,41,1,1,1
+"Jasaan, Misamis Oriental, Philippines",8.65161,124.78513,DITO,22728,7031,22.73,7.03,41,1,1,1
+"Dimasalang, Masbate, Philippines",12.15058,123.82996,Smart,5710,726,5.71,0.73,48,1,1,1
+"Magsingal, Ilocos Sur, Philippines",17.6831,120.44729,Globe,23778,6862,23.78,6.86,47,1,1,1
+"Gingoog City, Misamis Oriental, Philippines",8.81446,125.10406,Smart,57840,2894,57.84,2.89,21,1,1,1
+"Tabogon, Cebu, Philippines",10.92395,123.9973,Smart,6429,790,6.43,0.79,75,1,1,1
+"Mercedes, Camarines Norte, Philippines",13.90012,123.06765,Smart,3829,318,3.83,0.32,22,1,1,1
+"Sen. Ninoy Aquino, Sultan Kudarat, Philippines",6.38567,124.35324,Smart,5356,254,5.36,0.25,29,1,1,1
+"Mabini, Batangas, Philippines",13.72355,120.9073,Smart,13714,4611,13.71,4.61,29,1,1,1
+"Bagac, Bataan, Philippines",14.63082,120.41272,Smart,2423,4187,2.42,4.19,34,1,1,1
+"Burauen, Leyte, Philippines",10.97109,124.84034,Globe,21018,14276,21.02,14.28,40,1,1,1
+"Bayawan City, Negros Oriental, Philippines",9.53644,122.7633,Globe,12211,869,12.21,0.87,40,1,1,1
+"Dumalneg, Ilocos Norte, Philippines",18.5217,120.80983,Globe,9294,5269,9.29,5.27,35,1,1,1
+"Pagudpud, Ilocos Norte, Philippines",18.55216,120.87286,Globe,9762,8577,9.76,8.58,37,1,1,1
+"Malungon, Sarangani, Philippines",6.3343,125.2588,Smart,11359,2481,11.36,2.48,31,1,1,1
+"Santa Rosa, Nueva Ecija, Philippines",15.42502,120.93838,Smart,6912,9867,6.91,9.87,22,1,1,1
+"Maramag, Bukidnon, Philippines",7.82687,124.97271,DITO,34809,1723,34.81,1.72,44,1,1,1
+"Cateel, Davao Oriental, Philippines",7.76918,126.32814,Globe,24167,15516,24.17,15.52,32,1,1,1
+"Santol, La Union, Philippines",16.75375,120.50488,Globe,80432,5024,80.43,5.02,21,1,1,1
+"Siaton, Negros Oriental, Philippines",9.12425,123.03388,Smart,110618,18789,110.62,18.79,35,1,1,1
+"Tuba, Benguet, Philippines",16.39277,120.56034,DITO,202877,51845,202.88,51.85,20,1,1,1
+"Binalonan, Pangasinan, Philippines",16.05355,120.60848,Smart,50709,2949,50.71,2.95,19,1,1,1
+"Pasacao, Camarines Sur, Philippines",13.54666,123.0001,Smart,11117,243,11.12,0.24,57,1,1,1
+"Catmon, Cebu, Philippines",10.65242,123.9973,DITO,17124,1095,17.12,1.10,40,1,1,1
+"Talugtug, Nueva Ecija, Philippines",15.7698,120.81544,Smart,104173,4426,104.17,4.43,55,1,1,1
+"Jolo, Sulu, Philippines",6.04533,121.01631,Smart,25431,3765,25.43,3.77,26,1,1,1
+"Buenavista, Marinduque, Philippines",13.24778,121.98144,Globe,20028,27915,20.03,27.92,25,1,1,1
+"Medellin, Cebu, Philippines",11.1491,123.98615,Globe,12541,2274,12.54,2.27,39,1,1,1
+"Culion, Palawan, Philippines",11.85029,119.95093,Smart,13012,5168,13.01,5.17,45,1,1,1
+"Santa Cruz, Ilocos Sur, Philippines",17.06168,120.49336,Globe,15683,5434,15.68,5.43,20,1,1,1
+"Lagonglong, Misamis Oriental, Philippines",8.81524,124.8293,Smart,14953,4815,14.95,4.82,19,1,1,1
+"Tiwi, Albay, Philippines",13.4612,123.63996,Smart,417461,64078,417.46,64.08,15,1,1,1
+"Laurel, Batangas, Philippines",14.05302,120.9073,Smart,290883,2802,290.88,2.80,25,1,1,1
+"Bustos, Bulacan, Philippines",14.95239,120.91735,DITO,27472,8289,27.47,8.29,14,1,1,1
+"Tanjay City, Negros Oriental, Philippines",9.49579,122.9663,DITO,71744,4998,71.74,5.00,48,1,1,1
+"Salay, Misamis Oriental, Philippines",8.8714,124.8293,Smart,281343,10781,281.34,10.78,8,1,1,1
+"Dingras, Ilocos Norte, Philippines",18.0805,120.7235,DITO,25900,7079,25.90,7.08,25,1,1,1
+"Balagtas, Bulacan, Philippines",14.81784,120.90646,Smart,188318,12314,188.32,12.31,10,1,1,1
+"President Quirino, Sultan Kudarat, Philippines",6.72558,124.74093,DITO,2921,3006,2.92,3.01,50,1,1,1
+"Mobo, Masbate, Philippines",12.33588,123.65879,Globe,54298,5244,54.30,5.24,35,1,1,1
+"Mahinog, Camiguin, Philippines",9.17901,124.76303,Globe,5886,399,5.89,0.40,39,1,1,1
+"Bolinao, Pangasinan, Philippines",16.30742,119.85838,Smart,27429,325,27.43,0.33,23,1,1,1
+"Cotabato City, Maguindanao, Philippines",7.20467,124.23104,DITO,1907,723,1.91,0.72,45,1,1,1
+"Nueva Valencia, Guimaras, Philippines",10.46356,122.54859,Smart,4813,460,4.81,0.46,14,1,1,1
+"Santa Maria, Laguna, Philippines",14.48365,121.42276,Globe,9368,15175,9.37,15.18,15,1,1,1
+"Libmanan, Camarines Sur, Philippines",13.69376,123.05982,DITO,3307,2,3.31,0.00,32,1,1,1
+"Santa Maria, Pangasinan, Philippines",15.95523,120.7005,DITO,8611,2124,8.61,2.12,17,1,1,1
+"Limay, Bataan, Philippines",14.53661,120.56245,Smart,20199,533,20.20,0.53,29,1,1,1
+"Basco, Batanes, Philippines",20.46344,122.00418,Globe,780,26,0.78,0.03,243,1,1,1
+"San Miguel, Iloilo, Philippines",10.78017,122.46653,Globe,17726,16319,17.73,16.32,37,1,1,1
+"Siquijor, Philippines",9.19621,123.53921,Smart,3768,914,3.77,0.91,29,1,1,1
+"Goa, Camarines Sur, Philippines",13.73619,123.41593,DITO,11929,655,11.93,0.66,29,1,1,1
+"Matalom, Leyte, Philippines",10.27173,124.8293,Smart,2140,321,2.14,0.32,24,1,1,1
+"Rizal, Nueva Ecija, Philippines",15.69357,121.10229,Globe,203969,16418,203.97,16.42,26,1,1,1
+"Gonzaga, Cagayan, Philippines",18.24148,122.10647,Smart,21297,725,21.30,0.73,21,1,1,1
+"San Miguel, Leyte, Philippines",11.3078,124.85138,Smart,19013,20126,19.01,20.13,19,1,1,1
+"Tampakan, South Cotabato, Philippines",6.49121,125.08286,Smart,8290,143,8.29,0.14,30,1,1,1
+"Santo Domingo, Nueva Ecija, Philippines",15.61284,120.88434,DITO,21791,1740,21.79,1.74,20,1,1,1
+"Hermosa, Bataan, Philippines",14.83566,120.47709,DITO,4030,185,4.03,0.19,46,1,1,1
+"Mangatarem, Pangasinan, Philippines",15.73801,120.27435,DITO,4769,582,4.77,0.58,37,1,1,1
+"Libon, Albay, Philippines",13.26065,123.37106,Smart,65796,12318,65.80,12.32,17,1,1,1
+"Pambujan, Northern Samar, Philippines",12.46458,124.93964,Globe,10738,10230,10.74,10.23,36,1,1,1
+"Banga, Aklan, Philippines",11.57556,122.32209,Globe,63939,12536,63.94,12.54,34,1,1,1
+"Anda, Pangasinan, Philippines",16.29826,119.98562,Smart,100522,26810,100.52,26.81,24,1,1,1
+"Julita, Leyte, Philippines",10.98417,124.96169,DITO,113436,9902,113.44,9.90,37,1,1,1
+"Kawayan, Biliran, Philippines",11.68428,124.40318,Smart,295780,39814,295.78,39.81,17,1,1,1
+"Alcala, Pangasinan, Philippines",15.8546,120.53942,DITO,44450,32840,44.45,32.84,14,1,1,1
+"Samal, Davao del Norte, Philippines",7.08352,125.70578,Smart,54737,750,54.74,0.75,24,1,1,1
+"Katipunan, Zamboanga del Norte, Philippines",8.39688,123.28126,Globe,100165,5303,100.17,5.30,30,1,1,1
+"Tagkawayan, Quezon, Philippines",13.96843,122.53376,Smart,310462,30590,310.46,30.59,17,1,1,1
+"Dao, Capiz, Philippines",11.38895,122.70684,Smart,5522,92,5.52,0.09,42,1,1,1
+"Marawi City, Lanao del Sur, Philippines",8.0292,124.29772,DITO,64481,30495,64.48,30.50,34,1,1,1
+"Culaba, Biliran, Philippines",11.64707,124.49744,Smart,180101,23506,180.10,23.51,28,1,1,1
+"Dingalan, Aurora, Philippines",15.43523,121.42276,Smart,7881,88,7.88,0.09,32,1,1,1
+"Pilar, Surigao del Norte, Philippines",9.86429,126.0676,Globe,11420,55,11.42,0.06,33,1,1,1
+"Jones, Isabela, Philippines",16.58262,121.78792,Smart,61255,32038,61.26,32.04,31,1,1,1
+"Lagonglong, Misamis Oriental, Philippines",8.81524,124.8293,Globe,17442,9048,17.44,9.05,31,1,1,1
+"Morong, Rizal, Philippines",14.51286,121.23855,DITO,82008,14057,82.01,14.06,19,1,1,1
+"Balatan, Camarines Sur, Philippines",13.34908,123.24756,Globe,7610,3129,7.61,3.13,23,1,1,1
+"Kapalong, Davao del Norte, Philippines",7.82951,125.522,DITO,30428,17387,30.43,17.39,34,1,1,1
+"Infanta, Pangasinan, Philippines",15.87303,120.00874,Globe,6539,6663,6.54,6.66,27,1,1,1
+"Oton, Iloilo, Philippines",10.69251,122.47868,DITO,15309,14676,15.31,14.68,24,1,1,1
+"Diadi, Nueva Vizcaya, Philippines",16.6595,121.33129,Smart,24001,1730,24.00,1.73,20,1,1,1
+"Narvacan, Ilocos Sur, Philippines",17.44229,120.49336,DITO,144796,11595,144.80,11.60,44,1,1,1
+"Calape, Bohol, Philippines",9.88376,123.89693,Globe,10841,4620,10.84,4.62,40,1,1,1
+"Luna, La Union, Philippines",16.83085,120.35508,Smart,7910,522,7.91,0.52,51,1,1,1
+"Sison, Surigao del Norte, Philippines",9.6802,125.48915,Globe,10041,10205,10.04,10.21,19,1,1,1
+"Montevista, Davao de Oro, Philippines",7.69422,125.98055,DITO,22558,947,22.56,0.95,38,1,1,1
+"Loay, Bohol, Philippines",9.60753,124.01401,DITO,19978,2272,19.98,2.27,33,1,1,1
+"Claveria, Cagayan, Philippines",18.56565,121.09083,Globe,9621,2796,9.62,2.80,19,1,1,1
+"Tayug, Pangasinan, Philippines",16.01085,120.74649,DITO,33137,13424,33.14,13.42,34,1,1,1
+"Lobo, Batangas, Philippines",13.6877,121.23974,Smart,25325,4976,25.33,4.98,16,1,1,1
+"Oslob, Cebu, Philippines",9.56304,123.41593,Smart,334411,41798,334.41,41.80,17,1,1,1
+"Santo Nino, Cagayan, Philippines",17.91267,121.49132,Smart,54768,225,54.77,0.23,35,1,1,1
+"Unisan, Quezon, Philippines",13.86351,122.01555,Smart,188219,40,188.22,0.04,15,1,1,1
+"Calatagan, Batangas, Philippines",13.88203,120.6545,Smart,13649,3826,13.65,3.83,22,1,1,1
+"Guindulman, Bohol, Philippines",9.78199,124.4531,Globe,33035,2269,33.04,2.27,38,1,1,1
+"Pitogo, Quezon, Philippines",13.80951,122.10647,Globe,99546,2386,99.55,2.39,21,1,1,1
+"Talakag, Bukidnon, Philippines",8.05293,124.72988,Globe,21424,1989,21.42,1.99,21,1,1,1
+"Barotac Nuevo, Iloilo, Philippines",10.89705,122.69526,Smart,34383,3291,34.38,3.29,31,1,1,1
+"Bay, Laguna, Philippines",14.14064,121.26836,DITO,25475,4250,25.48,4.25,23,1,1,1
+"Diffun, Quirino, Philippines",16.55288,121.46847,Globe,6939,2416,6.94,2.42,20,1,1,1
+"Luna, Apayao, Philippines",18.29953,121.21685,Globe,8090,783,8.09,0.78,24,1,1,1
+"Lian, Batangas, Philippines",14.00589,120.6545,Globe,46020,1262,46.02,1.26,15,1,1,1
+"Hindang, Leyte, Philippines",10.44667,124.80722,DITO,4365,12386,4.37,12.39,133,1,1,1
+"Angadanan, Isabela, Philippines",16.7913,121.78792,DITO,1991,460,1.99,0.46,39,1,1,1
+"Roxas, Palawan, Philippines",10.42746,119.46436,Smart,8267,664,8.27,0.66,42,1,1,1
+"Malaybalay City, Bukidnon, Philippines",8.15775,125.17087,Globe,4845,3119,4.85,3.12,22,1,1,1
+"San Gabriel, La Union, Philippines",16.66943,120.50488,Smart,18940,3317,18.94,3.32,23,1,1,1
+"Cabarroguis, Quirino, Philippines",16.41991,121.51416,Smart,15305,569,15.31,0.57,31,1,1,1
+"Bacong, Negros Oriental, Philippines",9.24338,123.27003,Globe,2136,517,2.14,0.52,44,1,1,1
+"Matnog, Sorsogon, Philippines",12.60511,124.04187,Smart,272235,32612,272.24,32.61,33,1,1,1
+"Taytay, Palawan, Philippines",10.66876,119.46436,Globe,18919,14270,18.92,14.27,40,1,1,1
+"Malabang, Lanao del Sur, Philippines",7.60477,124.07528,Smart,34287,20933,34.29,20.93,28,1,1,1
+"Paracale, Camarines Norte, Philippines",14.23721,122.78588,DITO,18454,603,18.45,0.60,31,1,1,1
+"Paete, Laguna, Philippines",14.37243,121.54842,Smart,45154,7645,45.15,7.65,39,1,1,1
+"Allacapan, Cagayan, Philippines",18.21617,121.55983,Globe,117045,18597,117.05,18.60,24,1,1,1
+"San Miguel, Surigao del Sur, Philippines",8.88869,125.95878,Globe,46793,23610,46.79,23.61,26,1,1,1
+"Himamaylan, Negros Occidental, Philippines",10.10162,122.86995,DITO,59483,13338,59.48,13.34,20,1,1,1
+"Balingasag, Misamis Oriental, Philippines",8.72993,124.84034,Globe,11631,2537,11.63,2.54,20,1,1,1
+"San Mateo, Isabela, Philippines",16.87673,121.59408,Globe,165290,21908,165.29,21.91,29,1,1,1
+"Oroquieta City, Misamis Occidental, Philippines",8.48597,123.79825,Globe,16505,19197,16.51,19.20,33,1,1,1
+"Sibonga, Cebu, Philippines",10.01547,123.584,Smart,34110,4947,34.11,4.95,23,1,1,1
+"Bayabas, Surigao del Sur, Philippines",8.97615,126.25224,DITO,8704,178,8.70,0.18,39,1,1,1
+"San Juan, La Union, Philippines",16.6711,120.33844,Smart,324533,6107,324.53,6.11,13,1,1,1
+"Limay, Bataan, Philippines",14.53661,120.56245,DITO,52275,8444,52.28,8.44,36,1,1,1
+"San Fabian, Pangasinan, Philippines",16.14188,120.44729,Smart,2805,259,2.81,0.26,31,1,1,1
+"Taysan, Batangas, Philippines",13.76108,121.2283,Smart,680,1450,0.68,1.45,18,1,1,1
+"Mabini (Dona Alicia), Davao de Oro, Philippines",7.3001,125.937,Globe,3817,4398,3.82,4.40,30,1,1,1
+"Malinao, Albay, Philippines",13.38106,123.63996,Smart,1282,8144,1.28,8.14,23,1,1,1
+"Nabua, Camarines Sur, Philippines",13.4069,123.37324,DITO,63286,4705,63.29,4.71,26,1,1,1
+"Pila, Laguna, Philippines",14.23461,121.3656,DITO,55105,861,55.11,0.86,19,1,1,1
+"Castillejos, Zambales, Philippines",14.94382,120.19357,DITO,476,97,0.48,0.10,34,1,1,1
+"Santo Tomas, Pampanga, Philippines",14.99601,120.70407,Globe,95975,12298,95.98,12.30,29,1,1,1
+"Tagoloan, Misamis Oriental, Philippines",8.51877,124.80722,DITO,1717,42,1.72,0.04,93,1,1,1
+"Anini-y, Antique, Philippines",10.45152,121.95869,Smart,71754,13415,71.75,13.42,14,1,1,1
+"Tulunan, Cotabato, Philippines",6.83042,124.87469,Smart,39802,27830,39.80,27.83,30,1,1,1
+"Cabagan, Isabela, Philippines",17.36078,121.87903,Smart,25487,167,25.49,0.17,38,1,1,1
+"Margosatubig, Zamboanga del Sur, Philippines",7.57572,123.16599,Globe,12072,145,12.07,0.15,38,1,1,1
+"Tanauan City, Batangas, Philippines",14.08354,121.14762,DITO,16705,5400,16.71,5.40,49,1,1,1
+"Tublay, Benguet, Philippines",16.52924,120.62073,Smart,85930,1045,85.93,1.05,18,1,1,1
+"Lidlidda, Ilocos Sur, Philippines",17.26534,120.53942,Globe,21011,7423,21.01,7.42,35,1,1,1
+"Initao, Misamis Oriental, Philippines",8.49098,124.34214,DITO,96395,19390,96.40,19.39,23,1,1,1
+"San Joaquin, Iloilo, Philippines",10.64155,122.10647,DITO,136374,25344,136.37,25.34,27,1,1,1
+"Kabasalan, Zamboanga Sibugay, Philippines",7.83532,122.83102,Globe,19623,19030,19.62,19.03,26,1,1,1
+"Braulio E. Dujali, Davao del Norte, Philippines",7.45884,125.68607,Smart,1497,2269,1.50,2.27,24,1,1,1
+"Bangued, Abra, Philippines",17.58818,120.63149,Smart,66817,883,66.82,0.88,49,1,1,1
+"Pilar, Bataan, Philippines",14.60553,120.51639,Smart,45446,7874,45.45,7.87,25,1,1,1
+"Maasim, Sarangani, Philippines",5.92672,124.99475,Globe,53446,757,53.45,0.76,39,1,1,1
+"Bulusan, Sorsogon, Philippines",12.76544,124.09755,Smart,103466,11857,103.47,11.86,37,1,1,1
+"Rosario, La Union, Philippines",16.23014,120.48702,Smart,90471,33961,90.47,33.96,44,1,1,1
+"Asingan, Pangasinan, Philippines",16.00318,120.67063,Smart,56610,3303,56.61,3.30,17,1,1,1
+"San Miguel, Iloilo, Philippines",10.78017,122.46653,Smart,382882,17534,382.88,17.53,58,1,1,1
+"Roseller T. Lim, Zamboanga Sibugay, Philippines",7.71985,122.42407,Globe,40034,19688,40.03,19.69,37,1,1,1
+"Tayug, Pangasinan, Philippines",16.01085,120.74649,Smart,183554,54976,183.55,54.98,16,1,1,1
+"Currimao, Ilocos Norte, Philippines",18.00626,120.51064,Globe,19169,8638,19.17,8.64,18,1,1,1
+"Natividad, Pangasinan, Philippines",16.03821,120.83841,DITO,3774,8918,3.77,8.92,27,1,1,1
+"Mondragon, Northern Samar, Philippines",12.41696,124.79617,Globe,1485,737,1.49,0.74,77,1,1,1
+"Siaton, Negros Oriental, Philippines",9.12425,123.03388,DITO,36205,8,36.21,0.01,81,1,1,1
+"Balasan, Iloilo, Philippines",11.45927,123.09015,Smart,106895,4248,106.90,4.25,32,1,1,1
+"Bonifacio, Misamis Occidental, Philippines",8.10423,123.59519,Globe,38410,6711,38.41,6.71,38,1,1,1
+"Malilipot, Albay, Philippines",13.29931,123.71824,Globe,8095,82,8.10,0.08,44,1,1,1
+"Bauan, Batangas, Philippines",13.79627,120.97616,Smart,242290,25945,242.29,25.95,11,1,1,1
+"Cuartero, Capiz, Philippines",11.3156,122.74072,Smart,28717,8845,28.72,8.85,21,1,1,1
+"Padre Burgos, Southern Leyte, Philippines",10.07868,125.00577,Globe,12841,5013,12.84,5.01,24,1,1,1
+"City of Mati, Davao Oriental, Philippines",6.95722,126.15454,DITO,9563,27,9.56,0.03,39,1,1,1
+"Bataraza, Palawan, Philippines",8.5878,117.43215,DITO,13108,1793,13.11,1.79,44,1,1,1
+"Padre Garcia, Batangas, Philippines",13.87668,121.24547,Smart,130696,22209,130.70,22.21,17,1,1,1
+"Macalelon, Quezon, Philippines",13.7674,122.18596,Globe,24965,720,24.97,0.72,22,1,1,1
+"San Esteban, Ilocos Sur, Philippines",17.32737,120.45305,Smart,30673,1773,30.67,1.77,13,1,1,1
+"Guimbal, Iloilo, Philippines",10.66341,122.32057,Smart,1783,1601,1.78,1.60,70,1,1,1
+"Malabang, Lanao del Sur, Philippines",7.60477,124.07528,DITO,22478,16930,22.48,16.93,41,1,1,1
+"Pigkawayan, Cotabato, Philippines",7.27922,124.43092,Smart,23034,8,23.03,0.01,35,1,1,1
+"Sen. Ninoy Aquino, Sultan Kudarat, Philippines",6.38567,124.35324,Globe,69829,3575,69.83,3.58,25,1,1,1
+"City Of Bislig, Surigao del Sur, Philippines",8.21006,126.28478,Globe,18194,12528,18.19,12.53,31,1,1,1
+"Rizal, Palawan, Philippines",8.85568,117.57306,Globe,620,28,0.62,0.03,60,1,1,1
+"Saguday, Quirino, Philippines",16.54611,121.57125,Globe,16350,6378,16.35,6.38,19,1,1,1
+"Pandi, Bulacan, Philippines",14.87572,120.95941,Smart,133914,3754,133.91,3.75,13,1,1,1
+"City of Batac, Ilocos Norte, Philippines",18.04961,120.59698,Smart,327316,20310,327.32,20.31,14,1,1,1
+"Bula, Camarines Sur, Philippines",13.44119,123.23632,Globe,6395,2977,6.40,2.98,22,1,1,1
+"Culaba, Biliran, Philippines",11.64707,124.49744,Globe,6916,4474,6.92,4.47,62,1,1,1
+"Baras, Catanduanes, Philippines",13.69967,124.36434,Globe,27253,4288,27.25,4.29,41,1,1,1
+"San Jorge, Samar, Philippines",11.9902,124.90655,Globe,5989,7081,5.99,7.08,21,1,1,1
+"Milaor, Camarines Sur, Philippines",13.59634,123.17451,Smart,2513,390,2.51,0.39,31,1,1,1
+"Sara, Iloilo, Philippines",11.28199,123.01136,Globe,13440,6894,13.44,6.89,47,1,1,1
+"Don Carlos, Bukidnon, Philippines",7.67895,124.99652,Globe,75687,5192,75.69,5.19,53,1,1,1
+"La Paz, Agusan del Sur, Philippines",8.3348,125.60955,Smart,26168,31451,26.17,31.45,26,1,1,1
+"Santa Ana, Cagayan, Philippines",18.36702,122.22001,DITO,1991,536,1.99,0.54,45,1,1,1
+"Dilasag, Aurora, Philippines",16.46212,122.12918,Smart,4351,352,4.35,0.35,30,1,1,1
+"Alitagtag, Batangas, Philippines",13.87214,121.02204,Smart,63642,9056,63.64,9.06,18,1,1,1
+"Ligao City, Albay, Philippines",13.17242,123.4944,Smart,7687,409,7.69,0.41,50,1,1,1
+"Apalit, Pampanga, Philippines",14.95255,120.76688,Smart,15664,5435,15.66,5.44,18,1,1,1
+"Arakan, Cotabato, Philippines",7.35122,125.17087,Globe,16745,12705,16.75,12.71,19,1,1,1
+"Iba, Zambales, Philippines",15.39495,120.04341,Globe,1669,5944,1.67,5.94,38,1,1,1
+"San Enrique, Iloilo, Philippines",11.10989,122.72943,Smart,5553,794,5.55,0.79,17,1,1,1
+"Anilao, Iloilo, Philippines",11.00026,122.74072,Globe,11466,8239,11.47,8.24,34,1,1,1
+"Mogpog, Marinduque, Philippines",13.50444,121.89041,Globe,6427,9533,6.43,9.53,20,1,1,1
+"Limay, Bataan, Philippines",14.53661,120.56245,Globe,9687,2022,9.69,2.02,33,1,1,1
+"Hermosa, Bataan, Philippines",14.83566,120.47709,Smart,186035,16402,186.04,16.40,11,1,1,1
+"Mamburao, Occidental Mindoro, Philippines",13.27653,120.643,Globe,7654,4523,7.65,4.52,45,1,1,1
+"M'lang, Cotabato, Philippines",6.93822,124.90655,Globe,14568,11163,14.57,11.16,30,1,1,1
+"Libmanan, Camarines Sur, Philippines",13.69376,123.05982,Globe,40031,34065,40.03,34.07,21,1,1,1
+"Candoni, Negros Occidental, Philippines",9.76106,122.65035,Globe,10348,835,10.35,0.84,75,1,1,1
+"Tayug, Pangasinan, Philippines",16.01085,120.74649,Globe,15119,2180,15.12,2.18,19,1,1,1
+"San Vicente, Camarines Norte, Philippines",14.07278,122.86485,DITO,58509,851,58.51,0.85,33,1,1,1
+"Allen, Northern Samar, Philippines",12.49588,124.31993,Smart,44227,12926,44.23,12.93,32,1,1,1
+"Barotac Viejo, Iloilo, Philippines",11.10187,122.87613,Smart,223921,2045,223.92,2.05,11,1,1,1
+"Medellin, Cebu, Philippines",11.1491,123.98615,Smart,391713,40879,391.71,40.88,10,1,1,1
+"Candoni, Negros Occidental, Philippines",9.76106,122.65035,Smart,10156,2457,10.16,2.46,51,1,1,1
+"Numancia, Aklan, Philippines",11.71767,122.33909,Globe,11507,5557,11.51,5.56,63,1,1,1
+"Dolores, Abra, Philippines",17.64218,120.71775,Globe,60815,20873,60.82,20.87,26,1,1,1
+"Leon, Iloilo, Philippines",10.82086,122.34476,Globe,44087,6585,44.09,6.59,33,1,1,1
+"Bansalan, Davao del Sur, Philippines",6.84825,125.22584,Globe,27386,6383,27.39,6.38,40,1,1,1
+"Pulilan, Bulacan, Philippines",14.90243,120.8459,Globe,8403,14848,8.40,14.85,17,1,1,1
+"Lubang, Occidental Mindoro, Philippines",13.80959,120.12429,Smart,4914,1558,4.91,1.56,26,1,1,1
+"Tigbauan, Iloilo, Philippines",10.6746,122.37648,Globe,34334,25085,34.33,25.09,26,1,1,1
+"Ragay, Camarines Sur, Philippines",13.83123,122.78588,DITO,10304,2813,10.30,2.81,28,1,1,1
+"Zamboanguita, Negros Oriental, Philippines",9.13189,123.1464,Globe,18401,5726,18.40,5.73,34,1,1,1
+"San Nicolas, Ilocos Norte, Philippines",18.14708,120.58547,Smart,172751,21392,172.75,21.39,14,1,1,1
+"Casiguran, Aurora, Philippines",16.27707,122.12254,Smart,29429,40369,29.43,40.37,22,1,1,1
+"Libon, Albay, Philippines",13.26065,123.37106,DITO,25567,19660,25.57,19.66,30,1,1,1
+"Balagtas, Bulacan, Philippines",14.81784,120.90646,DITO,16119,3105,16.12,3.11,31,1,1,1
+"Daanbantayan, Cebu, Philippines",11.22134,124.03072,DITO,8890,92,8.89,0.09,44,1,1,1
+"Katipunan, Zamboanga del Norte, Philippines",8.39688,123.28126,Smart,3952,303,3.95,0.30,35,1,1,1
+"Ajuy, Iloilo, Philippines",11.13583,123.0001,DITO,37097,13894,37.10,13.89,37,1,1,1
+"Upi, Maguindanao, Philippines",6.997,124.19769,Smart,45052,12921,45.05,12.92,27,1,1,1
+"Alicia, Bohol, Philippines",9.90723,124.44201,DITO,26853,514,26.85,0.51,36,1,1,1
+"La Libertad, Negros Oriental, Philippines",10.08304,123.15764,DITO,26064,16435,26.06,16.44,23,1,1,1
+"Tubungan, Iloilo, Philippines",10.80645,122.29941,Globe,7490,3517,7.49,3.52,25,1,1,1
+"Laurel, Batangas, Philippines",14.05302,120.9073,Globe,26548,13687,26.55,13.69,24,1,1,1
+"Malaybalay City, Bukidnon, Philippines",8.15775,125.17087,DITO,46567,2655,46.57,2.66,35,1,1,1
+"Magpet, Cotabato, Philippines",7.1332,125.17087,Smart,24368,5183,24.37,5.18,29,1,1,1
+"San Mateo, Isabela, Philippines",16.87673,121.59408,DITO,57332,38875,57.33,38.88,22,1,1,1
+"Lasam, Cagayan, Philippines",18.04769,121.55983,Globe,12450,4443,12.45,4.44,26,1,1,1
+"Sebaste, Antique, Philippines",11.58098,122.11783,Smart,121484,20254,121.48,20.25,22,1,1,1
+"Talugtug, Nueva Ecija, Philippines",15.7698,120.81544,Globe,54388,28635,54.39,28.64,17,1,1,1
+"Carles, Iloilo, Philippines",11.55216,123.13515,DITO,7258,2412,7.26,2.41,66,1,1,1
+"Labrador, Pangasinan, Philippines",16.00274,120.12429,Globe,87439,7182,87.44,7.18,24,1,1,1
+"Mercedes, Camarines Norte, Philippines",13.90012,123.06765,DITO,6682,2191,6.68,2.19,29,1,1,1
+"San Jacinto, Pangasinan, Philippines",16.07883,120.44729,Globe,25142,1018,25.14,1.02,23,1,1,1
+"Calayan, Cagayan, Philippines",19.28922,121.46847,Smart,71050,8562,71.05,8.56,49,1,1,1
+"Gloria, Oriental Mindoro, Philippines",12.93397,121.37703,DITO,120607,4928,120.61,4.93,20,1,1,1
+"Bula, Camarines Sur, Philippines",13.44119,123.23632,Smart,267957,27819,267.96,27.82,13,1,1,1
+"Bongabong, Oriental Mindoro, Philippines",12.71953,121.30841,Globe,27290,839,27.29,0.84,34,1,1,1
+"Calaca, Batangas, Philippines",13.93129,120.80724,Smart,64470,1212,64.47,1.21,78,1,1,1
+"Mabinay, Negros Oriental, Philippines",9.67161,122.94377,Smart,56071,55000,56.07,55.00,38,1,1,1
+"Minalabac, Camarines Sur, Philippines",13.52836,123.19137,Smart,22372,5391,22.37,5.39,23,1,1,1
+"Esperanza, Sultan Kudarat, Philippines",6.70074,124.48636,Smart,49285,1037,49.29,1.04,24,1,1,1
+"Caluya, Antique, Philippines",12.01176,121.38847,Smart,55129,3386,55.13,3.39,44,1,1,1
+"Santa Cruz, Occidental Mindoro, Philippines",13.10577,120.84989,Globe,903,584,0.90,0.58,17,1,1,1
+"Talisay, Batangas, Philippines",14.11598,121.04498,DITO,26128,2376,26.13,2.38,51,1,1,1
+"Jagna, Bohol, Philippines",9.6994,124.34214,Globe,31649,18460,31.65,18.46,41,1,1,1
+"Floridablanca, Pampanga, Philippines",14.9619,120.49471,DITO,19418,1455,19.42,1.46,27,1,1,1
+"Aurora, Zamboanga del Sur, Philippines",7.95458,123.59519,DITO,22771,3017,22.77,3.02,32,1,1,1
+"Palauig, Zambales, Philippines",15.46513,120.13583,Smart,22454,6062,22.45,6.06,19,1,1,1
+"Pilar, Bohol, Philippines",9.84115,124.35324,DITO,25590,940,25.59,0.94,43,1,1,1
+"Impasug-ong, Bukidnon, Philippines",8.38854,125.08286,DITO,36866,2369,36.87,2.37,41,1,1,1
+"San Jose, Camarines Sur, Philippines",13.68724,123.53921,DITO,18254,1552,18.25,1.55,26,1,1,1
+"Palapag, Northern Samar, Philippines",12.52175,125.14888,Globe,367,1207,0.37,1.21,54,1,1,1
+"Cordon, Isabela, Philippines",16.67835,121.46847,Globe,33346,7041,33.35,7.04,22,1,1,1
+"Talibon, Bohol, Philippines",10.11933,124.26439,DITO,19106,3499,19.11,3.50,35,1,1,1
+"Kalayaan, Laguna, Philippines",14.32356,121.47757,DITO,74020,3593,74.02,3.59,23,1,1,1
+"Guimba, Nueva Ecija, Philippines",15.65641,120.76767,Smart,44853,706,44.85,0.71,46,1,1,1
+"Rosario, La Union, Philippines",16.23014,120.48702,DITO,10290,3496,10.29,3.50,21,1,1,1
+"Pilar, Sorsogon, Philippines",12.97477,123.6847,Globe,17830,11294,17.83,11.29,35,1,1,1
+"Badoc, Ilocos Norte, Philippines",17.92969,120.49336,Smart,50909,4369,50.91,4.37,20,1,1,1
+"Madridejos, Cebu, Philippines",11.25859,123.7406,Smart,435902,56166,435.90,56.17,11,1,1,1
+"Liloy, Zamboanga del Norte, Philippines",8.07325,122.69555,Globe,67160,8818,67.16,8.82,36,1,1,1
+"Kibungan, Benguet, Philippines",16.68162,120.68901,Smart,23317,494,23.32,0.49,20,1,1,1
+"Caba, La Union, Philippines",16.44743,120.37814,Smart,18408,16889,18.41,16.89,12,1,1,1
+"City of Batac, Ilocos Norte, Philippines",18.04961,120.59698,DITO,29897,19561,29.90,19.56,27,1,1,1
+"Currimao, Ilocos Norte, Philippines",18.00626,120.51064,Smart,33943,24541,33.94,24.54,15,1,1,1
+"Bayawan City, Negros Oriental, Philippines",9.53644,122.7633,DITO,43881,624,43.88,0.62,30,1,1,1
+"Villasis, Pangasinan, Philippines",15.90523,120.55094,Smart,436344,31822,436.34,31.82,11,1,1,1
+"Magallanes, Sorsogon, Philippines",12.78308,123.90809,Smart,34878,9901,34.88,9.90,20,1,1,1
+"Mayorga, Leyte, Philippines",10.88505,124.98373,Smart,6105,230,6.11,0.23,33,1,1,1
+"Argao, Cebu, Philippines",9.88114,123.60535,Globe,50742,24554,50.74,24.55,36,1,1,1
+"Oas, Albay, Philippines",13.14041,123.37106,Smart,117679,4805,117.68,4.81,23,1,1,1
+"Sumilao, Bukidnon, Philippines",8.2372,124.92861,Smart,44200,23297,44.20,23.30,14,1,1,1
+"Bocaue, Bulacan, Philippines",14.7943,120.93073,DITO,9387,11648,9.39,11.65,25,1,1,1
+"Bulakan, Bulacan, Philippines",14.79484,120.87889,Smart,34614,5630,34.61,5.63,18,1,1,1
+"Masbate City, Masbate, Philippines",12.31777,123.55041,Globe,16801,473,16.80,0.47,53,1,1,1
+"San Fernando, Romblon, Philippines",12.30382,122.6014,Globe,2092,215,2.09,0.22,49,1,1,1
+"San Rafael, Bulacan, Philippines",15.00184,120.93141,Globe,5024,1362,5.02,1.36,14,1,1,1
+"Majayjay, Laguna, Philippines",14.14491,121.46983,Smart,4209,1892,4.21,1.89,27,1,1,1
+"Las Navas, Northern Samar, Philippines",12.30641,125.01679,Smart,57995,492,58.00,0.49,108,1,1,1
+"Can-avid, Eastern Samar, Philippines",11.98886,125.32468,Smart,122644,3885,122.64,3.89,19,1,1,1
+"San Antonio, Zambales, Philippines",14.92751,120.08963,Smart,41523,2976,41.52,2.98,17,1,1,1
+"Paracelis, Mountain Province, Philippines",17.15622,121.49132,Globe,69559,9486,69.56,9.49,27,1,1,1
+"Passi City, Iloilo, Philippines",11.1688,122.65035,DITO,17406,638,17.41,0.64,44,1,1,1
+"Bangar, La Union, Philippines",16.88295,120.42424,DITO,36394,2272,36.39,2.27,29,1,1,1
+"Hinundayan, Southern Leyte, Philippines",10.33731,125.22584,Smart,76787,19737,76.79,19.74,19,1,1,1
+"Norzagaray, Bulacan, Philippines",14.89659,121.14813,DITO,45069,1224,45.07,1.22,24,1,1,1
+"San Luis, Pampanga, Philippines",15.03986,120.81544,Globe,81727,5497,81.73,5.50,19,1,1,1
+"Bongao, Tawi-Tawi, Philippines",5.09323,119.8468,Globe,23872,9247,23.87,9.25,73,1,1,1
+"Padre Burgos, Southern Leyte, Philippines",10.07868,125.00577,DITO,11065,649,11.07,0.65,38,1,1,1
+"Lambayong (Mariano Marcos), Sultan Kudarat, Philippines",6.79879,124.61927,Smart,15679,370,15.68,0.37,29,1,1,1
+"Lobo, Batangas, Philippines",13.6877,121.23974,DITO,59294,6181,59.29,6.18,17,1,1,1
+"Dingras, Ilocos Norte, Philippines",18.0805,120.7235,Smart,64454,16522,64.45,16.52,16,1,1,1
+"Lantapan, Bukidnon, Philippines",8.04797,124.97271,Globe,9775,12300,9.78,12.30,20,1,1,1
+"New Washington, Aklan, Philippines",11.6466,122.39009,Smart,32438,3491,32.44,3.49,23,1,1,1
+"City of Tabuk, Kalinga, Philippines",17.42402,121.3999,Smart,46439,4665,46.44,4.67,19,1,1,1
+"Claver, Surigao del Norte, Philippines",9.50458,125.78435,DITO,78711,14953,78.71,14.95,42,1,1,1
+"Hernani, Eastern Samar, Philippines",11.32206,125.59861,Globe,13974,21630,13.97,21.63,32,1,1,1
+"Santa, Ilocos Sur, Philippines",17.51358,120.44729,Smart,67528,10562,67.53,10.56,22,1,1,1
+"Santa Cruz, Marinduque, Philippines",13.45623,122.01555,Globe,72613,9075,72.61,9.08,17,1,1,1
+"Albuera, Leyte, Philippines",10.90539,124.75198,DITO,24171,5793,24.17,5.79,22,1,1,1
+"Catmon, Cebu, Philippines",10.65242,123.9973,Smart,38184,1135,38.18,1.14,26,1,1,1
+"Carmona, Cavite, Philippines",14.3135,121.05712,DITO,31178,5002,31.18,5.00,24,1,1,1
+"Atimonan, Quezon, Philippines",13.96507,121.87903,Smart,118861,8881,118.86,8.88,23,1,1,1
+"Manaoag, Pangasinan, Philippines",16.04627,120.4876,Smart,30806,1002,30.81,1.00,28,1,1,1
+"Anda, Pangasinan, Philippines",16.29826,119.98562,DITO,11470,1753,11.47,1.75,32,1,1,1
+"Tanjay City, Negros Oriental, Philippines",9.49579,122.9663,Smart,38320,21632,38.32,21.63,29,1,1,1
+"Roxas, Palawan, Philippines",10.42746,119.46436,Globe,7675,3697,7.68,3.70,26,1,1,1
+"Manabo, Abra, Philippines",17.39089,120.735,Smart,157902,22045,157.90,22.05,16,1,1,1
+"Caraga, Davao Oriental, Philippines",7.38392,126.39314,Globe,12730,721,12.73,0.72,37,1,1,1
+"Prosperidad, Agusan del Sur, Philippines",8.67623,125.87161,Globe,17611,3607,17.61,3.61,22,1,1,1
+"Siniloan, Laguna, Philippines",14.43831,121.48561,Globe,73605,16412,73.61,16.41,20,1,1,1
+"Santa Catalina, Ilocos Sur, Philippines",17.58644,120.36085,Globe,60965,15825,60.97,15.83,18,1,1,1
+"Victoria, Laguna, Philippines",14.19678,121.34273,Globe,15137,930,15.14,0.93,23,1,1,1
+"Murcia, Negros Occidental, Philippines",10.60643,123.03944,Globe,23038,3921,23.04,3.92,35,1,1,1
+"Bogo City, Cebu, Philippines",11.04623,124.00287,DITO,9215,16,9.22,0.02,42,1,1,1
+"Mamburao, Occidental Mindoro, Philippines",13.27653,120.643,DITO,20867,6086,20.87,6.09,24,1,1,1
+"Viga, Catanduanes, Philippines",13.85003,124.29772,Smart,63186,15965,63.19,15.97,32,1,1,1
+"Concepcion, Romblon, Philippines",12.92287,121.72525,Smart,71243,2994,71.24,2.99,22,1,1,1
+"Naguilian, La Union, Philippines",16.52435,120.42424,DITO,4864,2520,4.86,2.52,20,1,1,1
+"Samal, Davao del Norte, Philippines",7.08352,125.70578,Globe,40251,21128,40.25,21.13,32,1,1,1
+"Vigan City, Ilocos Sur, Philippines",17.56485,120.38781,DITO,502376,43419,502.38,43.42,23,1,1,1
+"Cuyapo, Nueva Ecija, Philippines",15.79995,120.68901,Smart,53582,36910,53.58,36.91,23,1,1,1
+"Cateel, Davao Oriental, Philippines",7.76918,126.32814,Smart,30675,2931,30.68,2.93,36,1,1,1
+"Cabangan, Zambales, Philippines",15.17178,120.13583,Globe,61465,14324,61.47,14.32,20,1,1,1
+"Labrador, Pangasinan, Philippines",16.00274,120.12429,Smart,51815,11653,51.82,11.65,16,1,1,1
+"Quirino, Ilocos Sur, Philippines",17.10309,120.68901,Smart,9688,1842,9.69,1.84,17,1,1,1
+"Baras, Catanduanes, Philippines",13.69967,124.36434,Smart,20787,14866,20.79,14.87,31,1,1,1
+"Pikit, Cotabato, Philippines",7.05314,124.61927,DITO,12730,13715,12.73,13.72,39,1,1,1
+"Victoria, Northern Samar, Philippines",12.43541,124.39764,Globe,7971,3857,7.97,3.86,41,1,1,1
+"San Guillermo, Isabela, Philippines",16.71831,121.97006,Globe,4082,11730,4.08,11.73,20,1,1,1
+"Pandag, Maguindanao, Philippines",6.75817,124.78513,DITO,2760,920,2.76,0.92,40,1,1,1
+"Concepcion, Romblon, Philippines",12.92287,121.72525,Globe,9209,2058,9.21,2.06,29,1,1,1
+"Mataas Na Kahoy, Batangas, Philippines",13.97995,121.09656,Smart,1368,47,1.37,0.05,72,1,1,1
+"President Roxas, Capiz, Philippines",11.40588,122.9663,Globe,14439,5816,14.44,5.82,20,1,1,1
+"Bunawan, Agusan del Sur, Philippines",8.21647,126.04584,Smart,47047,12074,47.05,12.07,25,1,1,1
+"Samal, Davao del Norte, Philippines",7.08352,125.70578,DITO,18623,3310,18.62,3.31,42,1,1,1
+"Buguey, Cagayan, Philippines",18.25855,121.78792,Globe,5739,1210,5.74,1.21,21,1,1,1
+"San Jacinto, Pangasinan, Philippines",16.07883,120.44729,Smart,29265,1877,29.27,1.88,19,1,1,1
+"La Paz, Abra, Philippines",17.64773,120.6545,Smart,9781,109,9.78,0.11,24,1,1,1
+"Maitum, Sarangani, Philippines",6.12408,124.48636,Smart,41979,316,41.98,0.32,29,1,1,1
+"Tagoloan, Misamis Oriental, Philippines",8.51877,124.80722,Smart,9868,5643,9.87,5.64,17,1,1,1
+"Badiangan, Iloilo, Philippines",10.98659,122.5367,Smart,104519,19015,104.52,19.02,48,1,1,1
+"Victorias, Negros Occidental, Philippines",10.901,123.07045,Globe,5222,9837,5.22,9.84,20,1,1,1
+"Indanan, Sulu, Philippines",5.99768,120.96469,Globe,5592,535,5.59,0.54,41,1,1,1
+"Burgos, Isabela, Philippines",17.09164,121.70272,DITO,52786,6537,52.79,6.54,34,1,1,1
+"Buguey, Cagayan, Philippines",18.25855,121.78792,Smart,25817,2233,25.82,2.23,22,1,1,1
+"Altavas, Aklan, Philippines",11.51893,122.45805,DITO,8336,291,8.34,0.29,47,1,1,1
+"Penablanca, Cagayan, Philippines",17.66268,121.94731,Smart,47340,7236,47.34,7.24,24,1,1,1
+"Bantay, Ilocos Sur, Philippines",17.59832,120.44729,Globe,33205,10380,33.21,10.38,37,1,1,1
+"Torrijos, Marinduque, Philippines",13.33435,122.01555,Smart,7524,6498,7.52,6.50,20,1,1,1
+"Morong, Bataan, Philippines",14.6798,120.26759,Smart,7038,960,7.04,0.96,15,1,1,1
