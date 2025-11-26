@@ -608,9 +608,22 @@ class MNOPerformanceApp {
                         legend: { position: 'top' }
                     },
                     scales: {
+                        x: {
+                            ticks: {
+                                font: {
+                                    size: 16
+                                }
+                            }
+                        },
                         y: {
                             beginAtZero: true,
-                            title: { display: true, text: 'Speed (Mbps)' }
+                            title: {
+                                display: true,
+                                text: 'Speed (Mbps)',
+                                font: {
+                                    size: 14
+                                }
+                            }
                         }
                     }
                 }
@@ -625,7 +638,7 @@ class MNOPerformanceApp {
                 options: {
                     indexAxis: 'y', // Horizontal bar chart
                     responsive: true,
-                    maintainAspectRatio: true,
+                    maintainAspectRatio: false,
                     plugins: {
                         legend: { display: false }
                     },
@@ -645,13 +658,23 @@ class MNOPerformanceApp {
         this.charts.providerRadar = new Chart(
             document.getElementById('provider-radar-chart'),
             {
-                type: 'radar',
+                type: 'bar',
                 data: { labels: [], datasets: [] },
                 options: {
+                    indexAxis: 'y', // Horizontal bar chart
                     responsive: true,
                     maintainAspectRatio: true,
                     plugins: {
-                        legend: { position: 'top' }
+                        legend: { display: false }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            title: { display: true, text: 'Download Speed (Mbps)' }
+                        },
+                        y: {
+                            title: { display: true, text: 'City' }
+                        }
                     }
                 }
             }
@@ -679,7 +702,7 @@ class MNOPerformanceApp {
                 data: { labels: [], datasets: [] },
                 options: {
                     responsive: true,
-                    maintainAspectRatio: true,
+                    maintainAspectRatio: false,
                     plugins: {
                         legend: { position: 'top' }
                     },
@@ -839,9 +862,9 @@ class MNOPerformanceApp {
         // Helper to get color for provider
         const getProviderColor = (provider) => {
             const colors = {
-                'Smart': '#2563eb', // Blue
-                'Globe': '#7c3aed', // Violet
-                'DITO': '#06b6d4',  // Cyan
+                'Smart': '#10b981', // Green
+                'Globe': '#3b82f6', // Blue
+                'DITO': '#ef4444',  // Red
                 'Sun Cellular (MVNO)': '#f97316' // Orange
             };
             return colors[provider] || '#9ca3af';
@@ -1005,26 +1028,94 @@ class MNOPerformanceApp {
             return stats.totalTests > 0 ? stats.weightedUpload / stats.totalTests : 0;
         });
 
+        // Provider-specific colors
+        const getProviderColors = (provider) => {
+            switch (provider) {
+                case 'DITO':
+                    return {
+                        download: { bg: 'rgba(239, 68, 68, 0.7)', border: 'rgb(239, 68, 68)' }, // Red
+                        upload: { bg: 'rgba(220, 38, 38, 0.7)', border: 'rgb(220, 38, 38)' }     // Darker red
+                    };
+                case 'Globe':
+                    return {
+                        download: { bg: 'rgba(59, 130, 246, 0.7)', border: 'rgb(59, 130, 246)' }, // Blue
+                        upload: { bg: 'rgba(37, 99, 235, 0.7)', border: 'rgb(37, 99, 235)' }      // Darker blue
+                    };
+                case 'Smart':
+                    return {
+                        download: { bg: 'rgba(16, 185, 129, 0.7)', border: 'rgb(16, 185, 129)' }, // Green
+                        upload: { bg: 'rgba(5, 150, 105, 0.7)', border: 'rgb(5, 150, 105)' }      // Darker green
+                    };
+                default:
+                    return {
+                        download: { bg: 'rgba(156, 163, 175, 0.7)', border: 'rgb(156, 163, 175)' }, // Gray
+                        upload: { bg: 'rgba(107, 114, 128, 0.7)', border: 'rgb(107, 114, 128)' }    // Darker gray
+                    };
+            }
+        };
+
+        // Create color arrays based on provider order
+        const downloadColors = providers.map(p => getProviderColors(p).download);
+        const uploadColors = providers.map(p => getProviderColors(p).upload);
+
         this.charts.providerComparison.data = {
             labels: providers,
             datasets: [
                 {
                     label: 'Avg Download',
                     data: avgDownloads,
-                    backgroundColor: 'rgba(59, 130, 246, 0.7)',
-                    borderColor: 'rgb(59, 130, 246)',
+                    backgroundColor: downloadColors.map(c => c.bg),
+                    borderColor: downloadColors.map(c => c.border),
                     borderWidth: 1
                 },
                 {
                     label: 'Avg Upload',
                     data: avgUploads,
-                    backgroundColor: 'rgba(16, 185, 129, 0.7)',
-                    borderColor: 'rgb(16, 185, 129)',
+                    backgroundColor: uploadColors.map(c => c.bg),
+                    borderColor: uploadColors.map(c => c.border),
                     borderWidth: 1
                 }
             ]
         };
         this.charts.providerComparison.update();
+
+        // Update provider download summary
+        this.updateProviderDownloadSummary(providers, avgDownloads);
+    }
+
+    updateProviderDownloadSummary(providers, avgDownloads) {
+        const summaryContainer = document.getElementById('provider-download-summary');
+        if (!summaryContainer) return;
+
+        // Create array of provider-speed pairs and sort by speed descending
+        const providerSpeeds = providers.map((provider, index) => ({
+            provider: provider,
+            speed: avgDownloads[index]
+        })).sort((a, b) => b.speed - a.speed);
+
+        // Get provider colors
+        const getProviderColor = (provider) => {
+            switch (provider) {
+                case 'DITO':
+                    return 'text-red-600';
+                case 'Globe':
+                    return 'text-blue-600';
+                case 'Smart':
+                    return 'text-green-600';
+                default:
+                    return 'text-gray-600';
+            }
+        };
+
+        // Generate HTML for summary
+        const summaryHTML = providerSpeeds.map(item => `
+            <div class="flex items-center gap-2">
+                <span class="text-lg font-semibold ${getProviderColor(item.provider)}">${item.provider}:</span>
+                <span class="text-lg text-gray-700 font-medium">${item.speed.toFixed(2)} Mbps</span>
+            </div>
+        `).join('');
+
+        summaryContainer.innerHTML = summaryHTML;
     }
 
     updateSpeedDistributionChart() {
@@ -1042,65 +1133,69 @@ class MNOPerformanceApp {
             return;
         }
 
-        // Group by city and calculate average download speed per city (across all providers)
+        // Group by city and calculate weighted average download speed per city
         const cityData = {};
 
         this.filteredCitiesData.forEach(row => {
             const locationKey = Object.keys(row).find(k => k.trim() === 'Location Name') || 'Location Name';
             const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
+            const testCountKey = Object.keys(row).find(k => k.trim() === 'Test Count') || 'Test Count';
 
             const location = row[locationKey];
             const download = parseFloat(row[downloadKey]);
+            const testCount = parseInt(row[testCountKey]) || 0;
 
-            if (!location || isNaN(download)) return;
+            if (!location || isNaN(download) || testCount === 0) return;
 
             // Extract city name (before first comma)
             const cityName = location.split(',')[0].trim();
 
             if (!cityData[cityName]) {
                 cityData[cityName] = {
-                    totalSpeed: 0,
-                    count: 0
+                    totalWeightedSpeed: 0,
+                    totalTests: 0
                 };
             }
 
-            cityData[cityName].totalSpeed += download;
-            cityData[cityName].count++;
+            cityData[cityName].totalWeightedSpeed += download * testCount;
+            cityData[cityName].totalTests += testCount;
         });
 
-        // Calculate averages
-        const cities = Object.keys(cityData).map(city => {
-            const avgSpeed = cityData[city].totalSpeed / cityData[city].count;
-            return {
-                name: city,
-                avgSpeed: avgSpeed
-            };
-        });
+        // Calculate weighted averages and filter cities with at least 20 tests
+        const cities = Object.keys(cityData)
+            .filter(city => cityData[city].totalTests >= 20) // Only include cities with 20+ tests
+            .map(city => {
+                const avgSpeed = cityData[city].totalWeightedSpeed / cityData[city].totalTests;
+                return {
+                    name: city,
+                    avgSpeed: avgSpeed,
+                    testCount: cityData[city].totalTests
+                };
+            });
 
         // Sort by average speed and take top 15
         cities.sort((a, b) => b.avgSpeed - a.avgSpeed);
         const topCities = cities.slice(0, 15);
 
-        console.log('Top cities:', topCities);
+        console.log('Top cities (20+ tests):', topCities);
+
+        if (topCities.length === 0) {
+            console.log('No cities with 20+ tests found');
+            this.charts.speedDistribution.data = {
+                labels: [],
+                datasets: []
+            };
+            this.charts.speedDistribution.update();
+            return;
+        }
 
         // Create gradient colors based on speed (green for high, yellow for medium, orange for low)
-        const maxSpeed = Math.max(...topCities.map(c => c.avgSpeed));
-        const minSpeed = Math.min(...topCities.map(c => c.avgSpeed));
+        // Use yellow color for all bars
+        const backgroundColor = 'rgba(245, 158, 11, 0.7)'; // Yellow
+        const borderColor = 'rgb(245, 158, 11)'; // Yellow border
 
-        const backgroundColors = topCities.map(city => {
-            const ratio = (city.avgSpeed - minSpeed) / (maxSpeed - minSpeed);
-
-            // Gradient from orange (low) to green (high)
-            if (ratio > 0.66) {
-                return 'rgba(16, 185, 129, 0.7)'; // Green - Excellent
-            } else if (ratio > 0.33) {
-                return 'rgba(59, 130, 246, 0.7)'; // Blue - Good
-            } else {
-                return 'rgba(245, 158, 11, 0.7)'; // Orange - Fair
-            }
-        });
-
-        const borderColors = backgroundColors.map(c => c.replace('0.7', '1'));
+        const backgroundColors = topCities.map(() => backgroundColor);
+        const borderColors = topCities.map(() => borderColor);
 
         this.charts.speedDistribution.data = {
             labels: topCities.map(c => c.name),
@@ -1129,7 +1224,8 @@ class MNOPerformanceApp {
             tooltip: {
                 callbacks: {
                     label: function (context) {
-                        return `Avg Speed: ${context.parsed.x.toFixed(2)} Mbps`;
+                        const city = topCities[context.dataIndex];
+                        return `Avg Speed: ${context.parsed.x.toFixed(2)} Mbps(${city.testCount} tests)`;
                     }
                 }
             }
@@ -1140,79 +1236,91 @@ class MNOPerformanceApp {
     }
 
     updateProviderRadarChart() {
-        // Use filteredCitiesData to respect filters
-        const data = this.filteredCitiesData || [];
+        console.log('updateProviderRadarChart called (now showing lowest cities), filteredCitiesData length:', this.filteredCitiesData ? this.filteredCitiesData.length : 0);
 
-        if (data.length === 0) {
+        // Use filtered cities data to respect filters
+        if (!this.filteredCitiesData || this.filteredCitiesData.length === 0) {
             this.charts.providerRadar.data = {
-                labels: ['Download Speed', 'Upload Speed', 'Latency'],
+                labels: [],
                 datasets: []
             };
             this.charts.providerRadar.update();
             return;
         }
 
-        // Group by provider and calculate weighted averages
-        const providerStats = {};
+        // Group by city and calculate weighted average download speed
+        const cityStats = {};
 
-        data.forEach(row => {
-            const provider = row.Provider;
-            const tests = parseInt(row['Test Count']) || 0;
-            const download = parseFloat(row['Download Speed Mbps']) || 0;
-            const upload = parseFloat(row['Upload Speed Mbps']) || 0;
-            const latency = parseFloat(row['Minimum Latency']) || 0;
+        this.filteredCitiesData.forEach(row => {
+            // Extract city from Location Name (format: "City, Province, Country")
+            const locationName = row['Location Name'] || '';
+            const city = locationName.split(',')[0].trim() || 'Unknown';
 
-            if (!providerStats[provider]) {
-                providerStats[provider] = {
+            const testCount = parseInt(row['Test Count']) || 0;
+            const downloadSpeed = parseFloat(row['Download Speed Mbps']) || 0;
+
+            if (!cityStats[city]) {
+                cityStats[city] = {
                     totalTests: 0,
-                    weightedDownload: 0,
-                    weightedUpload: 0,
-                    weightedLatency: 0
+                    weightedDownload: 0
                 };
             }
 
-            providerStats[provider].totalTests += tests;
-            providerStats[provider].weightedDownload += download * tests;
-            providerStats[provider].weightedUpload += upload * tests;
-            providerStats[provider].weightedLatency += latency * tests;
+            cityStats[city].totalTests += testCount;
+            cityStats[city].weightedDownload += downloadSpeed * testCount;
         });
 
-        const providers = Object.keys(providerStats).sort();
-
-        const datasets = providers.map((provider, index) => {
-            const stats = providerStats[provider];
-            const avgDownload = stats.totalTests > 0 ? stats.weightedDownload / stats.totalTests : 0;
-            const avgUpload = stats.totalTests > 0 ? stats.weightedUpload / stats.totalTests : 0;
-            const avgLatency = stats.totalTests > 0 ? stats.weightedLatency / stats.totalTests : 0;
-
-            const colors = [
-                'rgba(59, 130, 246, 0.5)',
-                'rgba(16, 185, 129, 0.5)',
-                'rgba(245, 158, 11, 0.5)',
-                'rgba(139, 92, 246, 0.5)',
-                'rgba(236, 72, 153, 0.5)'
-            ];
-
+        // Calculate average and filter cities with 20+ tests
+        const cities = Object.keys(cityStats).map(city => {
+            const stats = cityStats[city];
             return {
-                label: provider,
-                data: [
-                    avgDownload,
-                    avgUpload,
-                    Math.max(0, 100 - avgLatency) // Invert latency for radar (higher is better)
-                ],
-                backgroundColor: colors[index % colors.length],
-                borderColor: colors[index % colors.length].replace('0.5', '1'),
-                borderWidth: 2
+                name: city,
+                avgSpeed: stats.totalTests > 0 ? stats.weightedDownload / stats.totalTests : 0,
+                testCount: stats.totalTests
             };
-        });
+        }).filter(city => city.testCount >= 20);
+
+        // Sort by average speed ascending and take bottom 10
+        const lowestCities = cities
+            .sort((a, b) => a.avgSpeed - b.avgSpeed)
+            .slice(0, 10);
+
+        if (lowestCities.length === 0) {
+            this.charts.providerRadar.data = {
+                labels: [],
+                datasets: []
+            };
+            this.charts.providerRadar.update();
+            return;
+        }
+
+        // Use yellow color for all bars
+        const backgroundColor = 'rgba(245, 158, 11, 0.7)'; // Yellow
+        const borderColor = 'rgb(245, 158, 11)'; // Yellow border
 
         this.charts.providerRadar.data = {
-            labels: ['Download Speed', 'Upload Speed', 'Latency'],
-            datasets: datasets
+            labels: lowestCities.map(c => c.name),
+            datasets: [{
+                label: 'Avg Download Speed (Mbps)',
+                data: lowestCities.map(c => c.avgSpeed),
+                backgroundColor: backgroundColor,
+                borderColor: borderColor,
+                borderWidth: 1
+            }]
         };
+
+        // Update chart options to include tooltip with test count
+        this.charts.providerRadar.options.plugins.tooltip = {
+            callbacks: {
+                afterLabel: function (context) {
+                    const city = lowestCities[context.dataIndex];
+                    return `Tests: ${city.testCount}`;
+                }
+            }
+        };
+
         this.charts.providerRadar.update();
     }
-
     updateMarketShareChart() {
         // Use filteredCitiesData to respect filters
         const data = this.filteredCitiesData || [];
@@ -1241,15 +1349,21 @@ class MNOPerformanceApp {
         const providers = Object.keys(providerTestCounts).sort();
         const counts = providers.map(p => providerTestCounts[p]);
 
-        const colors = [
-            'rgba(59, 130, 246, 0.7)',
-            'rgba(16, 185, 129, 0.7)',
-            'rgba(245, 158, 11, 0.7)',
-            'rgba(139, 92, 246, 0.7)',
-            'rgba(236, 72, 153, 0.7)',
-            'rgba(239, 68, 68, 0.7)',
-            'rgba(20, 184, 166, 0.7)'
-        ];
+        // Provider-specific colors
+        const getProviderColor = (provider) => {
+            switch (provider) {
+                case 'DITO':
+                    return 'rgba(239, 68, 68, 0.7)'; // Red
+                case 'Globe':
+                    return 'rgba(59, 130, 246, 0.7)'; // Blue
+                case 'Smart':
+                    return 'rgba(16, 185, 129, 0.7)'; // Green
+                default:
+                    return 'rgba(156, 163, 175, 0.7)'; // Gray
+            }
+        };
+
+        const colors = providers.map(p => getProviderColor(p));
 
         this.charts.marketShare.data = {
             labels: providers,
@@ -1261,6 +1375,42 @@ class MNOPerformanceApp {
             }]
         };
         this.charts.marketShare.update();
+
+        // Update summary
+        this.updateMarketShareSummary(providerTestCounts);
+    }
+
+    updateMarketShareSummary(providerTestCounts) {
+        const container = document.getElementById('market-share-summary');
+        if (!container) return;
+
+        const totalTests = Object.values(providerTestCounts).reduce((a, b) => a + b, 0);
+        if (totalTests === 0) {
+            container.innerHTML = '<p class="text-gray-500 text-center">No data available</p>';
+            return;
+        }
+
+        const summaryData = Object.keys(providerTestCounts).map(provider => {
+            const count = providerTestCounts[provider];
+            const percentage = (count / totalTests) * 100;
+            return { provider, percentage };
+        }).sort((a, b) => b.percentage - a.percentage);
+
+        const getProviderTextColor = (provider) => {
+            switch (provider) {
+                case 'DITO': return 'text-red-500';
+                case 'Globe': return 'text-blue-500';
+                case 'Smart': return 'text-green-500';
+                default: return 'text-gray-700';
+            }
+        };
+
+        container.innerHTML = summaryData.map(item => `
+            <div class="flex items-center gap-2">
+                <span class="${getProviderTextColor(item.provider)} font-bold text-lg">${item.provider}:</span>
+                <span class="text-lg font-bold text-gray-900">${item.percentage.toFixed(2)}%</span>
+            </div>
+        `).join('');
     }
 
     updateTimeSeriesChart() {
@@ -1642,11 +1792,11 @@ class MNOPerformanceApp {
                 });
 
                 marker.bindPopup(`
-                    <h3>${provider}</h3>
+            < h3 > ${provider}</h3 >
                     <p><strong>Location:</strong> ${location}</p>
                     <p><strong>Download:</strong> ${download.toFixed(2)} Mbps</p>
                     <p><strong>Upload:</strong> ${upload.toFixed(2)} Mbps</p>
-                `);
+        `);
 
                 this.markerCluster.addLayer(marker);
             } else {
@@ -1680,20 +1830,20 @@ class MNOPerformanceApp {
                 });
 
                 marker.bindPopup(`
-                    <h3>${row.provider}</h3>
+            < h3 > ${row.provider}</h3 >
                     <p><strong>Location:</strong> ${row.city}, ${row.province}</p>
                     <p><strong>Download:</strong> ${row.download.toFixed(2)} Mbps</p>
                     <p><strong>Upload:</strong> ${row.upload.toFixed(2)} Mbps</p>
                     <p><strong>Latency:</strong> ${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}</p>
                     <p><strong>Date:</strong> ${row.date ? row.date.toLocaleDateString() : 'N/A'}</p>
-                `);
+        `);
 
                 this.markerCluster.addLayer(marker);
             }
         });
 
         if (this.DEBUG) {
-            console.log(`Map updated: ${markersAdded} markers added, ${markersSkipped} skipped (no coordinates)`);
+            console.log(`Map updated: ${markersAdded} markers added, ${markersSkipped} skipped(no coordinates)`);
         }
     }
 
@@ -1718,56 +1868,56 @@ class MNOPerformanceApp {
             const rowId = `row-${start + index}`;
 
             return `
-                <tr class="hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors" data-row-id="${rowId}">
-                    <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
-                        ${row.date ? row.date.toLocaleDateString() : 'N/A'}
-                    </td>
-                    <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-900 dark:text-gray-100">
-                        ${row.provider}
-                    </td>
-                    <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm ${speedClass} font-bold">
-                        ${row.download.toFixed(2)} Mbps
-                    </td>
-                    <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100 hidden md:table-cell">
-                        ${row.upload.toFixed(2)} Mbps
-                    </td>
-                    <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100 hidden md:table-cell">
-                        ${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}
-                    </td>
-                    <td class="px-3 sm:px-6 py-4 text-sm text-gray-900 dark:text-gray-100 hidden lg:table-cell">
-                        ${row.city ? row.city + ', ' + row.province : row.province || 'Unknown'}
-                    </td>
-                    <td class="px-3 py-4 text-center md:hidden">
-                        <button onclick="app.toggleRowDetails('${rowId}')" class="text-blue-600 hover:text-blue-800 font-semibold text-sm px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center mx-auto" aria-label="View details">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </button>
-                    </td>
-                </tr>
-                <tr id="${rowId}-details" class="hidden bg-blue-50 border-t-2 border-blue-200 md:hidden">
-                    <td colspan="4" class="px-4 py-4">
-                        <div class="space-y-2 text-sm">
-                            <div class="flex justify-between">
-                                <span class="font-semibold text-gray-700">Upload:</span>
-                                <span class="text-gray-900">${row.upload.toFixed(2)} Mbps</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="font-semibold text-gray-700">Latency:</span>
-                                <span class="text-gray-900">${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}</span>
-                            </div>
-                            <div class="flex justify-between">
-                                <span class="font-semibold text-gray-700">Location:</span>
-                                <span class="text-gray-900">${row.city ? row.city + ', ' + row.province : row.province || 'Unknown'}</span>
-                            </div>
+            <tr class="hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors" data-row-id="${rowId}">
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+                    ${row.date ? row.date.toLocaleDateString() : 'N/A'}
+                </td>
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-900 dark:text-gray-100">
+                    ${row.provider}
+                </td>
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm ${speedClass} font-bold">
+                    ${row.download.toFixed(2)} Mbps
+                </td>
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100 hidden md:table-cell">
+                    ${row.upload.toFixed(2)} Mbps
+                </td>
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100 hidden md:table-cell">
+                    ${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}
+                </td>
+                <td class="px-3 sm:px-6 py-4 text-sm text-gray-900 dark:text-gray-100 hidden lg:table-cell">
+                    ${row.city ? row.city + ', ' + row.province : row.province || 'Unknown'}
+                </td>
+                <td class="px-3 py-4 text-center md:hidden">
+                    <button onclick="app.toggleRowDetails('${rowId}')" class="text-blue-600 hover:text-blue-800 font-semibold text-sm px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center mx-auto" aria-label="View details">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </button>
+                </td>
+            </tr>
+            <tr id="${rowId}-details" class="hidden bg-blue-50 border-t-2 border-blue-200 md:hidden">
+                <td colspan="4" class="px-4 py-4">
+                    <div class="space-y-2 text-sm">
+                        <div class="flex justify-between">
+                            <span class="font-semibold text-gray-700">Upload:</span>
+                            <span class="text-gray-900">${row.upload.toFixed(2)} Mbps</span>
                         </div>
-                    </td>
-                </tr>
-            `;
+                        <div class="flex justify-between">
+                            <span class="font-semibold text-gray-700">Latency:</span>
+                            <span class="text-gray-900">${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold text-gray-700">Location:</span>
+                            <span class="text-gray-900">${row.city ? row.city + ', ' + row.province : row.province || 'Unknown'}</span>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        `;
         }).join('');
 
         document.getElementById('page-info').textContent =
-            `${start + 1}-${Math.min(end, this.rawData.length)} of ${this.rawData.length}`;
+            `${start + 1} -${Math.min(end, this.rawData.length)} of ${this.rawData.length} `;
 
         const totalPages = Math.ceil(this.rawData.length / this.rowsPerPage);
         document.getElementById('prev-page').disabled = this.currentPage === 1;
@@ -1775,7 +1925,7 @@ class MNOPerformanceApp {
     }
 
     toggleRowDetails(rowId) {
-        const detailsRow = document.getElementById(`${rowId}-details`);
+        const detailsRow = document.getElementById(`${rowId} -details`);
         if (detailsRow) {
             detailsRow.classList.toggle('hidden');
         }
@@ -1829,7 +1979,7 @@ class MNOPerformanceApp {
         document.querySelectorAll('#data-table th').forEach(th => {
             th.classList.remove('sort-asc', 'sort-desc');
         });
-        const th = document.querySelector(`#data-table th[data-sort="${column}"]`);
+        const th = document.querySelector(`#data - table th[data - sort= "${column}"]`);
         th.classList.add(this.sortDirection === 'asc' ? 'sort-asc' : 'sort-desc');
 
         this.renderTable();
