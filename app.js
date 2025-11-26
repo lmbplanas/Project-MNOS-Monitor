@@ -1097,21 +1097,21 @@ class MNOPerformanceApp {
         const getProviderColor = (provider) => {
             switch (provider) {
                 case 'DITO':
-                    return 'text-red-600';
+                    return 'text-red-500';
                 case 'Globe':
-                    return 'text-blue-600';
+                    return 'text-blue-500';
                 case 'Smart':
-                    return 'text-green-600';
+                    return 'text-green-500';
                 default:
-                    return 'text-gray-600';
+                    return 'text-gray-700';
             }
         };
 
         // Generate HTML for summary
         const summaryHTML = providerSpeeds.map(item => `
             <div class="flex items-center gap-2">
-                <span class="text-lg font-semibold ${getProviderColor(item.provider)}">${item.provider}:</span>
-                <span class="text-lg text-gray-700 font-medium">${item.speed.toFixed(2)} Mbps</span>
+                <span class="${getProviderColor(item.provider)} font-bold text-xl">${item.provider}:</span>
+                <span class="text-xl text-gray-700">${item.speed.toFixed(2)} Mbps</span>
             </div>
         `).join('');
 
@@ -1407,8 +1407,8 @@ class MNOPerformanceApp {
 
         container.innerHTML = summaryData.map(item => `
             <div class="flex items-center gap-2">
-                <span class="${getProviderTextColor(item.provider)} font-bold text-lg">${item.provider}:</span>
-                <span class="text-lg font-bold text-gray-900">${item.percentage.toFixed(2)}%</span>
+                <span class="${getProviderTextColor(item.provider)} font-bold text-xl">${item.provider}:</span>
+                <span class="text-xl text-gray-700">${item.percentage.toFixed(2)}%</span>
             </div>
         `).join('');
     }

@@ -17,13 +17,18 @@
 }
 
 /* Improve touch target sizes globally */
-button, input, select, textarea, a {
+button,
+input,
+select,
+textarea,
+a {
     min-height: 44px;
     min-width: 44px;
 }
 
 /* Exception for specific small elements */
-input[type="checkbox"], input[type="radio"] {
+input[type="checkbox"],
+input[type="radio"] {
     min-width: auto;
     min-height: auto;
 }
@@ -35,13 +40,18 @@ button {
 }
 
 /* Improve input behavior on mobile */
-input, select, textarea {
+input,
+select,
+textarea {
     /* Prevent zoom on iOS */
     font-size: 16px;
 }
 
 @media (min-width: 640px) {
-    input, select, textarea {
+
+    input,
+    select,
+    textarea {
         font-size: 14px;
     }
 }
@@ -57,13 +67,21 @@ body {
     -webkit-tap-highlight-color: rgba(0, 56, 168, 0.1);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-sans);
     font-weight: 700;
     letter-spacing: -0.02em;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
     font-family: var(--font-sans);
 }
 
@@ -107,9 +125,9 @@ button, input, select, textarea {
         scroll-behavior: smooth;
         -webkit-overflow-scrolling: touch;
     }
-    
+
     /* Ensure sidebar doesn't interfere with main content on mobile */
-    #sidebar.open ~ main {
+    #sidebar.open~main {
         pointer-events: none;
     }
 }
@@ -125,16 +143,17 @@ button, input, select, textarea {
         width: 85vw;
         max-width: 320px;
     }
-    
+
     #sidebar.open {
         transform: translateX(0);
     }
-    
+
     /* Mobile header optimizations */
     header {
-        height: 4rem !important; /* h-16 */
+        height: 4rem !important;
+        /* h-16 */
     }
-    
+
     header .h-20 {
         height: 4rem !important;
     }
@@ -144,7 +163,7 @@ button, input, select, textarea {
     #mobile-menu-btn {
         display: none !important;
     }
-    
+
     #mobile-overlay {
         display: none !important;
     }
@@ -163,17 +182,17 @@ button, input, select, textarea {
         height: 240px !important;
         min-height: 240px !important;
     }
-    
+
     /* Optimize map controls for mobile */
     #performance-map .leaflet-control-container {
         font-size: 14px;
     }
-    
+
     #performance-map .leaflet-control-zoom {
         border: 2px solid rgba(0, 0, 0, 0.2);
         border-radius: 4px;
     }
-    
+
     #performance-map .leaflet-control-zoom a {
         width: 30px;
         height: 30px;
@@ -202,17 +221,17 @@ button, input, select, textarea {
         font-size: 0.75rem;
         line-height: 1.3;
     }
-    
+
     .leaflet-popup-content h3 {
         font-size: 0.875rem;
         margin-bottom: 4px;
     }
-    
+
     /* Leaflet control optimizations for mobile */
     .leaflet-control-zoom {
         transform: scale(1.2);
     }
-    
+
     .leaflet-control-zoom a {
         width: 30px;
         height: 30px;
@@ -221,11 +240,15 @@ button, input, select, textarea {
     }
 }
 
-.marker-cluster-small, .marker-cluster-medium, .marker-cluster-large {
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
     background-color: rgba(0, 56, 168, 0.4);
 }
 
-.marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div {
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
     background: linear-gradient(135deg, var(--filipino-blue), var(--filipino-red));
     color: white;
     font-weight: 700;
@@ -233,11 +256,16 @@ button, input, select, textarea {
 
 /* Mobile cluster optimizations */
 @media (max-width: 640px) {
-    .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large {
+
+    .marker-cluster-small,
+    .marker-cluster-medium,
+    .marker-cluster-large {
         transform: scale(1.1);
     }
-    
-    .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div {
+
+    .marker-cluster-small div,
+    .marker-cluster-medium div,
+    .marker-cluster-large div {
         font-size: 14px;
         font-weight: 800;
     }
@@ -285,7 +313,7 @@ canvas {
         font-size: 0.875rem;
         line-height: 1.4;
     }
-    
+
     #data-table th,
     #data-table td {
         padding: 0.75rem 0.5rem;
@@ -313,6 +341,7 @@ canvas {
 
 /* Mobile sort indicators */
 @media (max-width: 640px) {
+
     .sort-asc::after,
     .sort-desc::after {
         font-size: 14px;
@@ -368,13 +397,41 @@ input[type="checkbox"] {
     }
 }
 
-.speed-excellent { color: #10b981; font-weight: 600; background-color: #d1fae5; padding: 2px 6px; border-radius: 4px; }
-.speed-good { color: var(--filipino-blue); font-weight: 600; background-color: #dbeafe; padding: 2px 6px; border-radius: 4px; }
-.speed-average { color: #92400e; font-weight: 600; background-color: #fef3c7; padding: 2px 6px; border-radius: 4px; }
-.speed-poor { color: var(--filipino-red); font-weight: 600; background-color: #fee2e2; padding: 2px 6px; border-radius: 4px; }
+.speed-excellent {
+    color: #10b981;
+    font-weight: 600;
+    background-color: #d1fae5;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.speed-good {
+    color: var(--filipino-blue);
+    font-weight: 600;
+    background-color: #dbeafe;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.speed-average {
+    color: #92400e;
+    font-weight: 600;
+    background-color: #fef3c7;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.speed-poor {
+    color: var(--filipino-red);
+    font-weight: 600;
+    background-color: #fee2e2;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
 
 /* Mobile text optimizations */
 @media (max-width: 640px) {
+
     .speed-excellent,
     .speed-good,
     .speed-average,
@@ -386,75 +443,77 @@ input[type="checkbox"] {
 
 /* Very small phones (320px and below) */
 @media (max-width: 480px) {
+
     /* Header further optimizations */
     header {
         padding: 0 0.5rem;
     }
-    
+
     header h1 {
         font-size: 1rem !important;
         line-height: 1.2;
     }
-    
+
     header p {
         display: none !important;
     }
-    
+
     /* Logo optimizations */
     .logo-gradient-dict,
     .logo-gradient-bp {
         padding: 0.25rem 0.5rem !important;
         font-size: 0.75rem !important;
     }
-    
+
     /* Summary cards ultra-compact */
     #summary-cards .bg-white {
         padding: 0.75rem !important;
     }
-    
+
     #summary-cards h3 {
         font-size: 0.625rem !important;
         margin-bottom: 0.25rem !important;
     }
-    
+
     #summary-cards p {
         font-size: 1.25rem !important;
     }
-    
+
     /* Chart containers smaller */
     .h-\[200px\] {
         height: 180px !important;
     }
-    
+
     /* Map smaller on very small screens */
     #performance-map {
         height: 200px !important;
         min-height: 200px !important;
     }
-    
+
     /* Sidebar ultra-compact */
     #sidebar {
         width: 95vw !important;
         max-width: 260px !important;
     }
-    
-    #sidebar > div {
+
+    #sidebar>div {
         padding: 0.75rem !important;
     }
-    
+
     /* Filter sections more compact */
-    .space-y-4 > * + * {
+    .space-y-4>*+* {
         margin-top: 0.5rem !important;
     }
-    
+
     /* Buttons more compact */
     button {
         padding: 0.5rem 0.75rem !important;
         font-size: 0.875rem !important;
     }
-    
+
     /* Input fields more compact */
-    input, select {
+    input,
+    select {
         padding: 0.5rem !important;
         font-size: 0.875rem !important;
     }
@@ -462,16 +521,17 @@ input[type="checkbox"] {
 
 /* Tablet optimizations */
 @media (min-width: 641px) and (max-width: 1024px) {
+
     /* Charts better size for tablets */
     canvas {
         max-height: 300px;
     }
-    
+
     /* Summary cards 2-column on tablet */
     #summary-cards {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     /* Performance map good height for tablets */
     #performance-map {
         height: 20rem !important;
@@ -480,55 +540,57 @@ input[type="checkbox"] {
 
 /* Touch device optimizations */
 @media (hover: none) and (pointer: coarse) {
+
     /* Remove hover effects on touch devices */
     .hover\:shadow-xl:hover {
         box-shadow: initial;
     }
-    
+
     .hover\:-translate-y-0\.5:hover {
         transform: initial;
     }
-    
+
     /* Larger touch targets */
-    button, 
+    button,
     input[type="checkbox"],
     select,
     input {
         min-height: 44px;
         min-width: 44px;
     }
-    
+
     /* Better spacing for touch */
-    .space-x-2 > * + * {
+    .space-x-2>*+* {
         margin-left: 0.75rem;
     }
-    
-    .space-y-2 > * + * {
+
+    .space-y-2>*+* {
         margin-top: 0.75rem;
     }
 }
 
 /* Landscape phone optimizations */
 @media (max-height: 500px) and (orientation: landscape) {
+
     /* Reduce header height in landscape */
     header {
         height: 3rem !important;
     }
-    
+
     /* Compact sidebar in landscape */
     #sidebar {
         max-width: 240px !important;
     }
-    
-    #sidebar > div {
+
+    #sidebar>div {
         padding: 0.5rem !important;
     }
-    
+
     /* Smaller charts in landscape */
     canvas {
         max-height: 150px !important;
     }
-    
+
     /* Smaller map in landscape */
     #performance-map {
         height: 180px !important;
@@ -536,75 +598,83 @@ input[type="checkbox"] {
 }
 
 @media print {
-    #sidebar { display: none; }
-    main { width: 100%; }
+    #sidebar {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+    }
 }
 
 /* Mobile optimizations for small screens */
 @media (max-width: 640px) {
+
     /* Chart containers */
-    .chart-container { 
-        height: 200px; 
+    .chart-container {
+        height: 200px;
     }
-    
+
     canvas {
         max-height: 200px !important;
     }
-    
+
     /* Summary cards */
-    #summary-cards { 
+    #summary-cards {
         grid-template-columns: 1fr;
         gap: 0.75rem;
     }
-    
+
     /* Performance map */
-    #performance-map { 
+    #performance-map {
         height: 240px !important;
         min-height: 240px !important;
     }
-    
+
     /* Main content padding */
-    main > div {
+    main>div {
         padding: 0.75rem !important;
         padding-top: 0.75rem !important;
     }
-    
+
     /* Sidebar improvements */
     #sidebar {
         width: 90vw !important;
         max-width: 280px !important;
     }
-    
+
     /* Table optimizations */
     #data-table {
         font-size: 0.75rem;
     }
-    
+
     #data-table th,
     #data-table td {
         padding: 0.5rem 0.25rem;
         min-width: auto;
     }
-    
+
     /* Hide location column on very small screens */
     #data-table th:last-child,
     #data-table td:last-child {
         display: none;
     }
-    
+
     /* Button optimizations */
     button {
         min-height: 44px;
         min-width: 44px;
         touch-action: manipulation;
     }
-    
+
     /* Input optimizations */
-    input, select {
+    input,
+    select {
         min-height: 44px;
-        font-size: 16px; /* Prevents zoom on iOS */
+        font-size: 16px;
+        /* Prevents zoom on iOS */
     }
-    
+
     /* Checkbox optimizations */
     input[type="checkbox"] {
         width: 20px;
@@ -620,56 +690,56 @@ input[type="checkbox"] {
     color: #64748b;
 }
 
-.empty-state-icon { 
-    font-size: 3rem; 
-    opacity: 0.5; 
+.empty-state-icon {
+    font-size: 3rem;
+    opacity: 0.5;
 }
 
-.empty-state-title { 
-    font-size: 1.25rem; 
-    font-weight: 700; 
-    color: #1e293b; 
+.empty-state-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1e293b;
 }
 
 @media (max-width: 640px) {
     .empty-state {
         padding: 1.5rem 0.5rem;
     }
-    
-    .empty-state-icon { 
-        font-size: 2rem; 
+
+    .empty-state-icon {
+        font-size: 2rem;
     }
-    
-    .empty-state-title { 
-        font-size: 1rem; 
+
+    .empty-state-title {
+        font-size: 1rem;
     }
 }
 
-::-webkit-scrollbar { 
-    width: 10px; 
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-::-webkit-scrollbar-track { 
-    background: #f1f5f9; 
-    border-radius: 10px; 
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb { 
-    background: linear-gradient(135deg, var(--filipino-blue), var(--filipino-red)); 
-    border-radius: 10px; 
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, var(--filipino-blue), var(--filipino-red));
+    border-radius: 10px;
 }
 
 /* Mobile scrollbar adjustments */
 @media (max-width: 640px) {
-    ::-webkit-scrollbar { 
-        width: 6px; 
+    ::-webkit-scrollbar {
+        width: 6px;
     }
-    
+
     /* Better touch scrolling */
     * {
         -webkit-overflow-scrolling: touch;
     }
-    
+
     body {
         overflow-x: hidden;
     }
