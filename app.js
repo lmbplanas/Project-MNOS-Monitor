@@ -155,10 +155,8 @@ class MNOPerformanceApp {
         const sidebar = document.getElementById('sidebar');
         const app = document.getElementById('app');
 
-        const savedState = localStorage.getItem('sidebar-collapsed') === 'true';
-        if (savedState && window.innerWidth >= 768) {
-            sidebar.classList.add('sidebar-collapsed');
-        }
+        // Sidebar is visible by default
+        sidebar.classList.remove('sidebar-collapsed');
 
         sidebarCollapseBtn.addEventListener('click', () => {
             const isCollapsed = sidebar.classList.toggle('sidebar-collapsed');

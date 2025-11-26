@@ -111,6 +111,37 @@
         .bg-premium {
             background: linear-gradient(135deg, #FFFFFF 0%, #F9FAFB 100%);
         }
+
+        /* Sidebar Collapse Styles */
+        #sidebar {
+            transition: width 0.3s ease, padding 0.3s ease;
+            position: relative;
+        }
+
+        #sidebar.sidebar-collapsed {
+            width: 0;
+            padding: 0;
+            overflow: visible;
+        }
+
+        #sidebar.sidebar-collapsed > div {
+            visibility: hidden;
+        }
+
+        #sidebar.sidebar-collapsed #sidebar-collapse {
+            visibility: visible;
+            display: flex;
+            position: absolute;
+            left: 1rem;
+            top: 1.5rem;
+            z-index: 50;
+            background: white;
+            border: 1px solid #e5e7eb;
+            width: 44px;
+            height: 44px;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 
