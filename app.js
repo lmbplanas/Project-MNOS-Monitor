@@ -9,7 +9,8 @@ class MNOPerformanceApp {
             city: '',
             dateFrom: '',
             dateTo: '',
-            speedRange: ''
+            speedRange: '',
+            search: ''
         };
         this.charts = {};
         this.map = null;
@@ -509,6 +510,25 @@ class MNOPerformanceApp {
                 if (row.date > toDate) return false;
             }
 
+            // Search Filter
+            if (this.filters.search) {
+                const query = this.filters.search.toLowerCase();
+                const searchableFields = [
+                    row.provider,
+                    row.city,
+                    row.province,
+                    row.barangay,
+                    row.download.toString(),
+                    row.upload.toString()
+                ];
+                
+                const matches = searchableFields.some(field => 
+                    field && String(field).toLowerCase().includes(query)
+                );
+                
+                if (!matches) return false;
+            }
+
             return true;
         });
 
@@ -566,7 +586,8 @@ class MNOPerformanceApp {
             city: '',
             dateFrom: '',
             dateTo: '',
-            speedRange: ''
+            speedRange: '',
+            search: ''
         };
 
         document.querySelectorAll('.provider-checkbox').forEach(cb => cb.checked = true);
@@ -2032,9 +2053,8 @@ class MNOPerformanceApp {
     }
 
     searchTable(query) {
-        // Table search is disabled - table always shows all data
-        // This method is kept for compatibility but does nothing
-        console.log('Table search is disabled');
+        this.filters.search = query;
+        this.applyFilters();
     }
 
     applyBasicFilters() {
