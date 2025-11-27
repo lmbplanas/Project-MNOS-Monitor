@@ -15,7 +15,7 @@ class MNOPerformanceApp {
         this.map = null;
         this.gridLayer = null;
         this.currentPage = 1;
-        this.rowsPerPage = 50;
+        this.rowsPerPage = 10;
         this.sortColumn = 'date';
         this.sortDirection = 'desc';
         this.sortColumn = 'date';
@@ -42,7 +42,7 @@ class MNOPerformanceApp {
             console.log('No cities data found.');
         }
 
-        const defaultCSV = 'data/speed_test_data.csv?v=' + Date.now();
+        const defaultCSV = 'data/new_speed_test_data.csv?v=' + Date.now();
         try {
             await this.loadCSV(defaultCSV);
         } catch (error) {
@@ -245,20 +245,46 @@ class MNOPerformanceApp {
     }
 
     processData(data) {
+        // Reverse data to display from bottom row upwards (Oldest -> Newest)
+        data.reverse();
+
         this.rawData = data.filter(row => {
-            if (!row['Service Provider'] || !(row['Download (Mbps)'] || row['Download'])) {
+            const provider = row['Provider'] || row['Service Provider'];
+            const download = row['Download'] || row['Download (Mbps)'] || row['Download'];
+
+            if (!provider || !download) {
                 return false;
             }
 
-            const provider = this.normalizeProvider(row['Service Provider']);
+            const normalizedProvider = this.normalizeProvider(provider);
             const validMNOs = ['Smart', 'Globe', 'DITO', 'TNT', 'TM', 'Sun', 'GOMO'];
-            return validMNOs.includes(provider);
+            return validMNOs.includes(normalizedProvider);
         }).map(row => {
-            const download = this.normalizeSpeed(row['Download (Mbps)'], row['Download']);
-            const upload = this.normalizeSpeed(row['Upload (Mbps)'], row['Upload']);
-            const latency = parseFloat(row['Latency ( ms )']) || parseFloat(row['Latency']) || null;
+            const downloadVal = row['Download'] || row['Download (Mbps)'];
+            const uploadVal = row['Upload'] || row['Upload (Mbps)'] || row['Upload'];
+            const latencyVal = row['Latency'] || row['Latency ( ms )'] || row['Latency'];
 
-            const locationParts = this.parseLocation(row['Location (Brgy, City)'] || '');
+            const download = this.normalizeSpeed(downloadVal, downloadVal);
+            const upload = this.normalizeSpeed(uploadVal, uploadVal);
+            
+            let latency = null;
+            if (latencyVal) {
+                const latencyStr = String(latencyVal).replace(' ms', '').trim();
+                latency = parseFloat(latencyStr);
+                if (isNaN(latency)) latency = null;
+            }
+
+            let barangay = '', city = '', province = '';
+            if (row['Barangay'] || row['City'] || row['Province']) {
+                barangay = row['Barangay'] || '';
+                city = row['City'] || '';
+                province = row['Province'] || '';
+            } else {
+                const locationParts = this.parseLocation(row['Location (Brgy, City)'] || '');
+                barangay = locationParts.barangay;
+                city = locationParts.city;
+                province = row['Capital'] || locationParts.province;
+            }
 
             return {
                 timestamp: row['Timestamp'] || '',
@@ -266,15 +292,15 @@ class MNOPerformanceApp {
                 name: row['Name'] || '',
                 email: row['Email'] || '',
                 personAssigned: row['Person Assigned'] || '',
-                provider: this.normalizeProvider(row['Service Provider']),
+                provider: this.normalizeProvider(row['Provider'] || row['Service Provider']),
                 download: download,
                 upload: upload,
                 latency: latency,
                 downloadRange: row['Range'] || this.getSpeedRange(download),
                 uploadRange: row['Range (Upload)'] || this.getSpeedRange(upload),
-                barangay: locationParts.barangay,
-                city: locationParts.city,
-                province: row['Capital'] || locationParts.province
+                barangay: barangay,
+                city: city,
+                province: province
             };
         });
 
@@ -454,6 +480,38 @@ class MNOPerformanceApp {
     applyFilters() {
         console.log('Applying filters:', JSON.stringify(this.filters));
 
+        // Filter rawData for the table
+        this.filteredData = this.rawData.filter(row => {
+            // Provider Filter
+            if (this.filters.providers && this.filters.providers.length > 0) {
+                if (!this.filters.providers.includes(row.provider)) {
+                    return false;
+                }
+            }
+
+            // Location Filter
+            if (this.filters.province && row.province !== this.filters.province) {
+                return false;
+            }
+            if (this.filters.city && row.city !== this.filters.city) {
+                return false;
+            }
+
+            // Date Filter
+            if (this.filters.dateFrom && row.date) {
+                const fromDate = new Date(this.filters.dateFrom);
+                fromDate.setHours(0, 0, 0, 0);
+                if (row.date < fromDate) return false;
+            }
+            if (this.filters.dateTo && row.date) {
+                const toDate = new Date(this.filters.dateTo);
+                toDate.setHours(23, 59, 59, 999);
+                if (row.date > toDate) return false;
+            }
+
+            return true;
+        });
+
         // Filter cities data for summary cards, charts, and map
         if (this.rawCitiesData) {
             this.filteredCitiesData = this.rawCitiesData.filter(row => {
@@ -490,6 +548,7 @@ class MNOPerformanceApp {
         this.updateSummaryCards();
         this.updateCharts();
         this.updateMap();
+        this.renderTable();
 
         // Update trend charts if data is loaded
         if (this.rawTrendData.length > 0) {
@@ -1829,8 +1888,7 @@ class MNOPerformanceApp {
         const tbody = document.getElementById('table-body');
         const start = (this.currentPage - 1) * this.rowsPerPage;
         const end = start + this.rowsPerPage;
-        const maxRows = 10;
-        const pageData = this.rawData.slice(start, Math.min(end, start + maxRows));
+        const pageData = this.filteredData.slice(start, end);
 
         if (pageData.length === 0) {
             this.showEmptyState();
@@ -1895,9 +1953,9 @@ class MNOPerformanceApp {
         }).join('');
 
         document.getElementById('page-info').textContent =
-            `${start + 1} -${Math.min(end, this.rawData.length)} of ${this.rawData.length} `;
+            `${start + 1} -${Math.min(end, this.filteredData.length)} of ${this.filteredData.length} `;
 
-        const totalPages = Math.ceil(this.rawData.length / this.rowsPerPage);
+        const totalPages = Math.ceil(this.filteredData.length / this.rowsPerPage);
         document.getElementById('prev-page').disabled = this.currentPage === 1;
         document.getElementById('next-page').disabled = this.currentPage === totalPages;
     }
