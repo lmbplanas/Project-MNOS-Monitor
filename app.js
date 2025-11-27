@@ -1914,23 +1914,23 @@ class MNOPerformanceApp {
             const rowId = `row-${start + index}`;
 
             return `
-            <tr class="hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors" data-row-id="${rowId}">
-                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+            <tr class="hover:bg-gray-50 transition-colors" data-row-id="${rowId}">
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                     ${row.date ? row.date.toLocaleDateString() : 'N/A'}
                 </td>
-                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-900 dark:text-gray-100">
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-900">
                     ${row.provider}
                 </td>
-                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                     ${row.download.toFixed(2)} Mbps
                 </td>
-                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100 hidden md:table-cell">
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 hidden md:table-cell">
                     ${row.upload.toFixed(2)} Mbps
                 </td>
-                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100 hidden md:table-cell">
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 hidden md:table-cell">
                     ${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}
                 </td>
-                <td class="px-3 sm:px-6 py-4 text-sm text-gray-900 dark:text-gray-100 hidden lg:table-cell">
+                <td class="px-3 sm:px-6 py-4 text-sm text-gray-900 hidden lg:table-cell">
                     ${row.city ? row.city + ', ' + row.province : row.province || 'Unknown'}
                 </td>
                 <td class="px-3 py-4 text-center md:hidden">
