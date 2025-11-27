@@ -70,10 +70,6 @@ class MNOPerformanceApp {
             this.resetFilters();
         });
 
-        document.getElementById('export-data').addEventListener('click', () => {
-            this.exportData();
-        });
-
         document.getElementById('province-filter').addEventListener('change', (e) => {
             this.filters.province = e.target.value;
             this.updateCityFilter();
