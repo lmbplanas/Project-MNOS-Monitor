@@ -601,7 +601,7 @@ class MNOPerformanceApp {
                 data: { labels: [], datasets: [] },
                 options: {
                     responsive: true,
-                    maintainAspectRatio: true,
+                    maintainAspectRatio: false,
                     plugins: {
                         legend: { position: 'top' }
                     },
