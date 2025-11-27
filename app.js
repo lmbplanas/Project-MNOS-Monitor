@@ -1108,8 +1108,8 @@ class MNOPerformanceApp {
         // Generate HTML for summary
         const summaryHTML = providerSpeeds.map(item => `
             <div class="flex items-center gap-2">
-                <span class="${getProviderColor(item.provider)} font-bold text-xl">${item.provider}:</span>
-                <span class="text-xl text-gray-700">${item.speed.toFixed(2)} Mbps</span>
+                <span class="${getProviderColor(item.provider)} font-bold text-xs sm:text-sm md:text-base">${item.provider}:</span>
+                <span class="text-xs sm:text-sm md:text-base text-gray-700">${item.speed.toFixed(2)} Mbps</span>
             </div>
         `).join('');
 
@@ -1405,8 +1405,8 @@ class MNOPerformanceApp {
 
         container.innerHTML = summaryData.map(item => `
             <div class="flex items-center gap-2">
-                <span class="${getProviderTextColor(item.provider)} font-bold text-xl">${item.provider}:</span>
-                <span class="text-xl text-gray-700">${item.percentage.toFixed(2)}%</span>
+                <span class="${getProviderTextColor(item.provider)} font-bold text-xs sm:text-sm md:text-base">${item.provider}:</span>
+                <span class="text-xs sm:text-sm md:text-base text-gray-700">${item.percentage.toFixed(2)}%</span>
             </div>
         `).join('');
     }
