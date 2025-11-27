@@ -740,9 +740,9 @@ class MNOPerformanceApp {
                 data: { labels: [], datasets: [] },
                 options: {
                     responsive: true,
-                    maintainAspectRatio: true,
+                    maintainAspectRatio: false,
                     plugins: {
-                        legend: { position: 'right' }
+                        legend: { display: false }
                     }
                 }
             }
@@ -1458,8 +1458,18 @@ class MNOPerformanceApp {
             }
         };
 
+        const getProviderBgColor = (provider) => {
+            switch (provider) {
+                case 'DITO': return 'bg-red-500';
+                case 'Globe': return 'bg-blue-500';
+                case 'Smart': return 'bg-green-500';
+                default: return 'bg-gray-500';
+            }
+        };
+
         container.innerHTML = summaryData.map(item => `
             <div class="flex items-center gap-2">
+                <div class="w-3 h-3 ${getProviderBgColor(item.provider)} rounded-sm"></div>
                 <span class="${getProviderTextColor(item.provider)} font-bold text-xs sm:text-sm md:text-base">${item.provider}:</span>
                 <span class="text-xs sm:text-sm md:text-base text-gray-700">${item.percentage.toFixed(2)}%</span>
             </div>
