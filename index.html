@@ -91,49 +91,6 @@
             background: linear-gradient(135deg, #0038A8, #002080);
             box-shadow: 0 4px 6px -1px rgba(0, 56, 168, 0.2), 0 2px 4px -1px rgba(0, 56, 168, 0.1);
             font-weight: 600;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .btn-premium:hover {
-            background: linear-gradient(135deg, #002080, #001060);
-            transform: translateY(-2px) scale(1.02);
-            box-shadow: 0 20px 25px -5px rgba(0, 56, 168, 0.3), 0 10px 10px -5px rgba(0, 56, 168, 0.1);
-        }
-
-        .logo-gradient-dict {
-            background: linear-gradient(135deg, #0038A8 0%, #CE1126 100%);
-        }
-
-        .logo-gradient-bp {
-            background: linear-gradient(135deg, #CE1126 0%, #FCD116 100%);
-        }
-
-        .bg-premium {
-            background: linear-gradient(135deg, #FFFFFF 0%, #F9FAFB 100%);
-        }
-
-        /* Sidebar Collapse Styles */
-        #sidebar {
-            transition: width 0.3s ease, padding 0.3s ease;
-            position: relative;
-        }
-
-        #sidebar.sidebar-collapsed {
-            width: 0;
-            padding: 0;
-            overflow: visible;
-        }
-
-        #sidebar.sidebar-collapsed>div {
-            visibility: hidden;
-        }
-
-        #sidebar.sidebar-collapsed #sidebar-collapse {
-            visibility: visible;
-            display: flex;
-            position: absolute;
-            left: 1rem;
-            top: 1.5rem;
             z-index: 50;
             background: white;
             border: 1px solid #e5e7eb;
@@ -188,7 +145,8 @@
 
     <div id="app" class="flex min-h-screen">
         <!-- Premium Sidebar -->
-        <aside id="sidebar" class="w-80 md:w-80 bg-white shadow-2xl overflow-y-auto border-r border-gray-100">
+        <aside id="sidebar"
+            class="fixed md:relative w-80 md:w-80 bg-white shadow-2xl overflow-y-auto border-r border-gray-100">
             <div class="p-4 sm:p-6 md:p-8">
                 <div class="flex items-center justify-between mb-4 sm:mb-6 md:mb-8">
                     <div class="flex items-center space-x-2 sm:space-x-3">
@@ -644,7 +602,7 @@
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
-    <script src="app.js?v=67"></script>
+    <script src="app.js?v=68"></script>
 </body>
 
 </html>
