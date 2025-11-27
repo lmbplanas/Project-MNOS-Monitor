@@ -13,7 +13,7 @@ class MNOPerformanceApp {
         };
         this.charts = {};
         this.map = null;
-        this.markerCluster = null;
+        this.gridLayer = null;
         this.currentPage = 1;
         this.rowsPerPage = 50;
         this.sortColumn = 'date';
@@ -1501,9 +1501,6 @@ class MNOPerformanceApp {
             attribution: '© OpenStreetMap contributors',
             maxZoom: 18
         }).addTo(this.map);
-
-        this.markerCluster = L.markerClusterGroup();
-        this.map.addLayer(this.markerCluster);
     }
 
     getLocationCoordinates(city, province) {
@@ -1733,9 +1730,19 @@ class MNOPerformanceApp {
     }
 
     updateMap() {
-        this.markerCluster.clearLayers();
-        let markersAdded = 0;
-        let markersSkipped = 0;
+        if (this.gridLayer) {
+            this.map.removeLayer(this.gridLayer);
+        }
+        // Remove heatLayer if it exists from previous version
+        if (this.heatLayer) {
+            this.map.removeLayer(this.heatLayer);
+            this.heatLayer = null;
+        }
+
+        this.gridLayer = L.layerGroup().addTo(this.map);
+
+        const grid = {};
+        const gridSize = 0.05; // Approx 5.5km squares
 
         // Use cities data if available, otherwise fall back to filteredData
         const dataSource = this.rawCitiesData && this.rawCitiesData.length > 0
@@ -1743,7 +1750,7 @@ class MNOPerformanceApp {
             : this.filteredData;
 
         dataSource.forEach(row => {
-            let lat, lng, download, provider, location;
+            let lat, lng, download;
 
             // Handle cities data format
             if (this.rawCitiesData && this.rawCitiesData.length > 0) {
@@ -1752,92 +1759,69 @@ class MNOPerformanceApp {
 
                 // Find keys robustly (handling potential whitespace)
                 const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
-                const uploadKey = Object.keys(row).find(k => k.trim() === 'Upload Speed Mbps') || 'Upload Speed Mbps';
-                const providerKey = Object.keys(row).find(k => k.trim() === 'Provider') || 'Provider';
-                const locationKey = Object.keys(row).find(k => k.trim() === 'Location Name') || 'Location Name';
-
                 download = parseFloat(row[downloadKey]);
-                const upload = parseFloat(row[uploadKey]);
-                provider = row[providerKey];
-                location = row[locationKey];
-
-                if (isNaN(lat) || isNaN(lng) || isNaN(download)) {
-                    markersSkipped++;
-                    return;
-                }
-
-                markersAdded++;
-
-                const speedClass = download >= 30 ? 'speed-excellent'
-                    : download >= 10 ? 'speed-good'
-                        : download >= 5 ? 'speed-average'
-                            : 'speed-poor';
-
-                const marker = L.circleMarker([lat, lng], {
-                    radius: 6,
-                    fillColor: speedClass.includes('excellent') ? '#10b981'
-                        : speedClass.includes('good') ? '#3b82f6'
-                            : speedClass.includes('average') ? '#f59e0b'
-                                : '#ef4444',
-                    color: '#fff',
-                    weight: 1,
-                    opacity: 1,
-                    fillOpacity: 0.7
-                });
-
-                marker.bindPopup(`
-            < h3 > ${provider}</h3 >
-                    <p><strong>Location:</strong> ${location}</p>
-                    <p><strong>Download:</strong> ${download.toFixed(2)} Mbps</p>
-                    <p><strong>Upload:</strong> ${upload.toFixed(2)} Mbps</p>
-        `);
-
-                this.markerCluster.addLayer(marker);
             } else {
                 // Fall back to old method with hardcoded coordinates
                 const coords = this.getLocationCoordinates(row.city, row.province);
-                if (!coords) {
-                    markersSkipped++;
-                    return;
+                if (coords) {
+                    [lat, lng] = coords;
+                    download = row.download;
                 }
+            }
 
-                markersAdded++;
+            if (!isNaN(lat) && !isNaN(lng) && !isNaN(download)) {
+                // Calculate grid cell indices
+                const latIdx = Math.floor(lat / gridSize);
+                const lngIdx = Math.floor(lng / gridSize);
+                const key = `${latIdx}:${lngIdx}`;
 
-                const [lat, lng] = coords;
-                const jitter = () => (Math.random() - 0.5) * 0.02;
-
-                const speedClass = row.download >= 30 ? 'speed-excellent'
-                    : row.download >= 10 ? 'speed-good'
-                        : row.download >= 5 ? 'speed-average'
-                            : 'speed-poor';
-
-                const marker = L.circleMarker([lat + jitter(), lng + jitter()], {
-                    radius: 6,
-                    fillColor: speedClass.includes('excellent') ? '#10b981'
-                        : speedClass.includes('good') ? '#3b82f6'
-                            : speedClass.includes('average') ? '#f59e0b'
-                                : '#ef4444',
-                    color: '#fff',
-                    weight: 1,
-                    opacity: 1,
-                    fillOpacity: 0.7
-                });
-
-                marker.bindPopup(`
-            < h3 > ${row.provider}</h3 >
-                    <p><strong>Location:</strong> ${row.city}, ${row.province}</p>
-                    <p><strong>Download:</strong> ${row.download.toFixed(2)} Mbps</p>
-                    <p><strong>Upload:</strong> ${row.upload.toFixed(2)} Mbps</p>
-                    <p><strong>Latency:</strong> ${row.latency ? row.latency.toFixed(0) + ' ms' : 'N/A'}</p>
-                    <p><strong>Date:</strong> ${row.date ? row.date.toLocaleDateString() : 'N/A'}</p>
-        `);
-
-                this.markerCluster.addLayer(marker);
+                if (!grid[key]) {
+                    grid[key] = {
+                        totalSpeed: 0,
+                        count: 0,
+                        latIdx: latIdx,
+                        lngIdx: lngIdx
+                    };
+                }
+                grid[key].totalSpeed += download;
+                grid[key].count++;
             }
         });
 
+        // Draw grid cells
+        Object.values(grid).forEach(cell => {
+            const avgSpeed = cell.totalSpeed / cell.count;
+
+            // Define bounds for the square
+            const bounds = [
+                [cell.latIdx * gridSize, cell.lngIdx * gridSize],
+                [(cell.latIdx + 1) * gridSize, (cell.lngIdx + 1) * gridSize]
+            ];
+
+            // Determine color based on speed (Yellow gradient)
+            let color;
+            if (avgSpeed >= 100) color = '#a16207';      // Darkest Yellow/Brown
+            else if (avgSpeed >= 50) color = '#ca8a04';  // Dark Yellow
+            else if (avgSpeed >= 30) color = '#eab308';  // Yellow 500
+            else if (avgSpeed >= 10) color = '#facc15';  // Yellow 400
+            else color = '#fef08a';                      // Light Yellow
+
+            L.rectangle(bounds, {
+                color: color,
+                weight: 1,
+                fillColor: color,
+                fillOpacity: 0.6
+            }).bindPopup(`
+                <div class="font-sans">
+                    <h3 class="font-bold text-gray-800">Grid Cell</h3>
+                    <p>Avg Speed: <strong>${avgSpeed.toFixed(2)} Mbps</strong></p>
+                    <p>Tests: ${cell.count}</p>
+                </div>
+            `).addTo(this.gridLayer);
+        });
+
         if (this.DEBUG) {
-            console.log(`Map updated: ${markersAdded} markers added, ${markersSkipped} skipped(no coordinates)`);
+            console.log(`Map updated with ${Object.keys(grid).length} grid cells`);
         }
     }
 
