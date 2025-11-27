@@ -1869,7 +1869,7 @@ class MNOPerformanceApp {
                 <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-900 dark:text-gray-100">
                     ${row.provider}
                 </td>
-                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm ${speedClass} font-bold">
+                <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
                     ${row.download.toFixed(2)} Mbps
                 </td>
                 <td class="px-3 sm:px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100 hidden md:table-cell">
