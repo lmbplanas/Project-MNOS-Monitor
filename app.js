@@ -1836,7 +1836,7 @@ class MNOPerformanceApp {
 
         // Use cities data if available, otherwise fall back to filteredData
         const dataSource = this.rawCitiesData && this.rawCitiesData.length > 0
-            ? this.rawCitiesData
+            ? (this.filteredCitiesData || [])
             : this.filteredData;
 
         dataSource.forEach(row => {
