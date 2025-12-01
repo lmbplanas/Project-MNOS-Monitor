@@ -267,7 +267,7 @@ class MNOPerformanceApp {
 
             const download = this.normalizeSpeed(downloadVal, downloadVal);
             const upload = this.normalizeSpeed(uploadVal, uploadVal);
-            
+
             let latency = null;
             if (latencyVal) {
                 const latencyStr = String(latencyVal).replace(' ms', '').trim();
@@ -521,11 +521,11 @@ class MNOPerformanceApp {
                     row.download.toString(),
                     row.upload.toString()
                 ];
-                
-                const matches = searchableFields.some(field => 
+
+                const matches = searchableFields.some(field =>
                     field && String(field).toLowerCase().includes(query)
                 );
-                
+
                 if (!matches) return false;
             }
 
@@ -1870,11 +1870,25 @@ class MNOPerformanceApp {
                         totalSpeed: 0,
                         count: 0,
                         latIdx: latIdx,
-                        lngIdx: lngIdx
+                        lngIdx: lngIdx,
+                        cities: new Set(),
+                        provinces: new Set()
                     };
                 }
                 grid[key].totalSpeed += download;
                 grid[key].count++;
+
+                // Capture city and province information
+                if (this.rawCitiesData && this.rawCitiesData.length > 0) {
+                    const locationKey = Object.keys(row).find(k => k.trim() === 'Location Name') || 'Location Name';
+                    const location = row[locationKey];
+                    if (location) {
+                        grid[key].cities.add(location);
+                    }
+                } else {
+                    if (row.city) grid[key].cities.add(row.city);
+                    if (row.province) grid[key].provinces.add(row.province);
+                }
             }
         });
 
@@ -1896,6 +1910,20 @@ class MNOPerformanceApp {
             else if (avgSpeed >= 10) color = '#facc15';  // Yellow 400
             else color = '#fef08a';                      // Light Yellow
 
+            // Format location information
+            const cities = Array.from(cell.cities);
+            const provinces = Array.from(cell.provinces);
+            let locationHTML = '';
+
+            if (cities.length > 0) {
+                locationHTML = `<p>City: <strong>${cities.join(', ')}</strong></p>`;
+                if (provinces.length > 0) {
+                    locationHTML += `<p>Province: <strong>${provinces.join(', ')}</strong></p>`;
+                }
+            } else if (provinces.length > 0) {
+                locationHTML = `<p>Province: <strong>${provinces.join(', ')}</strong></p>`;
+            }
+
             L.rectangle(bounds, {
                 color: color,
                 weight: 1,
@@ -1904,6 +1932,7 @@ class MNOPerformanceApp {
             }).bindPopup(`
                 <div class="font-sans">
                     <h3 class="font-bold text-gray-800">Grid Cell</h3>
+                    ${locationHTML}
                     <p>Avg Speed: <strong>${avgSpeed.toFixed(2)} Mbps</strong></p>
                     <p>Tests: ${cell.count}</p>
                 </div>
