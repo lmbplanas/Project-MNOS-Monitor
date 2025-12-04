@@ -1,0 +1,211 @@
+﻿Provider,Location,Device,Aggregate Date,Test Count,Sample Count,Platform,Technology Type,Metric Type,Minimum Latency,Multi-Server Latency,Multi-Server Jitter,Download Speed,Upload Speed,Download Speed Mbps,Upload Speed Mbps
+Converge,Philippines,,"Nov 4, 2025",92029,30443,all,N/A,median,6,12.4,3.6,111882,143636,111.88,143.64
+Globe,Philippines,,"Nov 4, 2025",40056,15509,all,N/A,median,6,18.4861,3.1688,123668,112598,123.67,112.60
+PLDT Home Fiber,Philippines,,"Nov 4, 2025",107069,38849,all,N/A,median,6,21.4992,4.375,123458,121683,123.46,121.68
+PLDT,Philippines,,"Nov 4, 2025",50724,18486,all,N/A,median,8,29.619,5.7917,89526,92152,89.53,92.15
+Smart,Philippines,,"Nov 4, 2025",14187,5257,N/A,cellular,median,18,51.9011,14.7046,58176,7156,58.18,7.16
+DITO,Philippines,,"Nov 4, 2025",5355,1736,N/A,cellular,median,28,52.7942,15.0169,26187,3640,26.19,3.64
+Globe,Philippines,,"Nov 4, 2025",14443,4421,N/A,cellular,median,26,60.4673,17.0297,24374,5372,24.37,5.37
+Converge,Philippines,,"Nov 5, 2025",76557,28052,all,N/A,median,5,11.7511,2.8112,144952,137063,144.95,137.06
+Globe,Philippines,,"Nov 5, 2025",40581,15439,all,N/A,median,6,20.6615,3.15,124094,110868,124.09,110.87
+PLDT Home Fiber,Philippines,,"Nov 5, 2025",101897,36448,all,N/A,median,6,20.8111,4.3625,116470,116109,116.47,116.11
+PLDT,Philippines,,"Nov 5, 2025",52465,18732,all,N/A,median,9,30.1333,5.8,88672,91680,88.67,91.68
+Smart,Philippines,,"Nov 5, 2025",12593,4088,N/A,cellular,median,20,57.304,16.7274,46774,5685,46.77,5.69
+DITO,Philippines,,"Nov 5, 2025",4991,1626,N/A,cellular,median,29,52.8073,15.3538,26652,4240,26.65,4.24
+Globe,Philippines,,"Nov 5, 2025",13419,3969,N/A,cellular,median,26,60.729,16.4023,24477,5907,24.48,5.91
+Converge,Philippines,,"Nov 6, 2025",81255,29190,all,N/A,median,5,10.8918,2.7715,147179,143827,147.18,143.83
+Globe,Philippines,,"Nov 6, 2025",44467,16583,all,N/A,median,6,27.4167,3.4019,120877,109733,120.88,109.73
+PLDT Home Fiber,Philippines,,"Nov 6, 2025",100601,35337,all,N/A,median,6,21.9301,4.7536,107977,114404,107.98,114.40
+PLDT,Philippines,,"Nov 6, 2025",51257,18594,all,N/A,median,9,30.4444,6.0083,88995,91909,89.00,91.91
+Smart,Philippines,,"Nov 6, 2025",11669,3834,N/A,cellular,median,20,58.1636,16.6142,43132,5779,43.13,5.78
+DITO,Philippines,,"Nov 6, 2025",4952,1597,N/A,cellular,median,29,52.3738,14.8581,26328,4292,26.33,4.29
+Globe,Philippines,,"Nov 6, 2025",15188,4073,N/A,cellular,median,25,55.9717,14.4844,26711,6269,26.71,6.27
+Converge,Philippines,,"Nov 7, 2025",94769,36685,all,N/A,median,4,8.6716,2.2046,191313,176043,191.31,176.04
+Globe,Philippines,,"Nov 7, 2025",38784,14856,all,N/A,median,6,20.6667,3.075,125219,111957,125.22,111.96
+PLDT Home Fiber,Philippines,,"Nov 7, 2025",96043,34244,all,N/A,median,6,20.6783,4.525,109112,113057,109.11,113.06
+PLDT,Philippines,,"Nov 7, 2025",49113,17204,all,N/A,median,8,28.4667,5.625,89405,92110,89.41,92.11
+Smart,Philippines,,"Nov 7, 2025",10547,3474,N/A,cellular,median,20,54.4719,15.1283,44125,6074,44.13,6.07
+DITO,Philippines,,"Nov 7, 2025",4323,1436,N/A,cellular,median,29,52.7057,14.3735,28196,4853,28.20,4.85
+Globe,Philippines,,"Nov 7, 2025",15788,3515,N/A,cellular,median,24,53.3895,14.0939,26248,6398,26.25,6.40
+Converge,Philippines,,"Nov 8, 2025",66707,23004,all,N/A,median,5,10.2413,2.4375,159811,147978,159.81,147.98
+Globe,Philippines,,"Nov 8, 2025",35110,12237,all,N/A,median,6,18.3419,2.8875,121134,109765,121.13,109.77
+PLDT Home Fiber,Philippines,,"Nov 8, 2025",105777,32585,all,N/A,median,7,22.8796,5.42,96555,111382,96.56,111.38
+PLDT,Philippines,,"Nov 8, 2025",39297,13157,all,N/A,median,8,29.0072,5.8225,83486,89138,83.49,89.14
+Smart,Philippines,,"Nov 8, 2025",10077,3359,N/A,cellular,median,20,53.6415,14.6792,43663,5553,43.66,5.55
+DITO,Philippines,,"Nov 8, 2025",4507,1500,N/A,cellular,median,28,51.2573,13.7898,29556,4923,29.56,4.92
+Globe,Philippines,,"Nov 8, 2025",11540,3276,N/A,cellular,median,24,52.1707,14.1811,25662,6542,25.66,6.54
+Converge,Philippines,,"Nov 9, 2025",75510,27538,all,N/A,median,5,9.5417,2.775,155242,151665,155.24,151.67
+Globe,Philippines,,"Nov 9, 2025",35611,13507,all,N/A,median,6,15.1253,2.8583,123368,112928,123.37,112.93
+PLDT Home Fiber,Philippines,,"Nov 9, 2025",119317,37458,all,N/A,median,8,24.2889,6.5778,95333,123974,95.33,123.97
+PLDT,Philippines,,"Nov 9, 2025",34790,12018,all,N/A,median,8,27.1888,5.5354,85358,91124,85.36,91.12
+Smart,Philippines,,"Nov 9, 2025",11723,3893,N/A,cellular,median,21,54.9498,18.777,33438,4067,33.44,4.07
+DITO,Philippines,,"Nov 9, 2025",4966,1573,N/A,cellular,median,30,54.7818,17.1934,21468,3442,21.47,3.44
+Globe,Philippines,,"Nov 9, 2025",11950,4007,N/A,cellular,median,24,54.3059,16.9827,20705,4565,20.71,4.57
+Converge,Philippines,,"Nov 10, 2025",113417,35294,all,N/A,median,5,12.1985,2.875,129234,138469,129.23,138.47
+Globe,Philippines,,"Nov 10, 2025",49466,18477,all,N/A,median,6,25.0058,3.6375,119680,107978,119.68,107.98
+PLDT Home Fiber,Philippines,,"Nov 10, 2025",142620,44159,all,N/A,median,8,24.2152,6.6329,96427,112183,96.43,112.18
+PLDT,Philippines,,"Nov 10, 2025",50360,17287,all,N/A,median,9,29.8291,6.475,85188,89469,85.19,89.47
+Smart,Philippines,,"Nov 10, 2025",15734,4968,N/A,cellular,median,22,57.5919,19.4181,36839,4018,36.84,4.02
+DITO,Philippines,,"Nov 10, 2025",5596,1651,N/A,cellular,median,29,52.4434,15.1576,24456,3853,24.46,3.85
+Globe,Philippines,,"Nov 10, 2025",17324,4874,N/A,cellular,median,25,57.313,18.3042,20548,4576,20.55,4.58
+Converge,Philippines,,"Nov 11, 2025",95592,33879,all,N/A,median,5,11.5993,2.8375,135471,130426,135.47,130.43
+Globe,Philippines,,"Nov 11, 2025",42862,16548,all,N/A,median,6,20.851,3.1025,123004,110362,123.00,110.36
+PLDT Home Fiber,Philippines,,"Nov 11, 2025",125523,40191,all,N/A,median,7,20.7692,5.2354,101555,114462,101.56,114.46
+PLDT,Philippines,,"Nov 11, 2025",52913,18413,all,N/A,median,8,29.2167,6.095,86346,91207,86.35,91.21
+Smart,Philippines,,"Nov 11, 2025",12984,4110,N/A,cellular,median,21,54.1876,16.3167,41589,5078,41.59,5.08
+DITO,Philippines,,"Nov 11, 2025",5138,1566,N/A,cellular,median,27,50.8513,14.9497,27123,4606,27.12,4.61
+Globe,Philippines,,"Nov 11, 2025",14463,4123,N/A,cellular,median,24,53.1337,15.0886,23991,5649,23.99,5.65
+Converge,Philippines,,"Nov 12, 2025",85293,29437,all,N/A,median,5,12.3792,3.3334,122462,136752,122.46,136.75
+Globe,Philippines,,"Nov 12, 2025",41866,16068,all,N/A,median,6,22.6333,3.2469,121615,109235,121.62,109.24
+PLDT Home Fiber,Philippines,,"Nov 12, 2025",101815,35179,all,N/A,median,6,19.9,4.5277,102012,108366,102.01,108.37
+PLDT,Philippines,,"Nov 12, 2025",51047,18217,all,N/A,median,8,28.3545,5.5583,87431,91894,87.43,91.89
+Smart,Philippines,,"Nov 12, 2025",12222,3929,N/A,cellular,median,19,56.3013,15.5008,41875,5548,41.88,5.55
+DITO,Philippines,,"Nov 12, 2025",4820,1550,N/A,cellular,median,27,50.6077,14.6755,29336,5077,29.34,5.08
+Globe,Philippines,,"Nov 12, 2025",15860,4482,N/A,cellular,median,23,48.5115,13.0168,27016,6954,27.02,6.95
+Converge,Philippines,,"Nov 13, 2025",84994,27784,all,N/A,median,5,12.5889,3.5268,114324,126321,114.32,126.32
+Globe,Philippines,,"Nov 13, 2025",40378,15463,all,N/A,median,6,23.0042,3.1032,121698,109270,121.70,109.27
+PLDT Home Fiber,Philippines,,"Nov 13, 2025",100857,34671,all,N/A,median,6,19.3766,4.2424,102902,110888,102.90,110.89
+PLDT,Philippines,,"Nov 13, 2025",52070,17977,all,N/A,median,8,27.5445,5.45,87699,91589,87.70,91.59
+Smart,Philippines,,"Nov 13, 2025",11139,3725,N/A,cellular,median,19,56.3563,14.3322,42649,5583,42.65,5.58
+DITO,Philippines,,"Nov 13, 2025",5128,1522,N/A,cellular,median,27,49.9038,13.6669,29291,5373,29.29,5.37
+Globe,Philippines,,"Nov 13, 2025",13408,3639,N/A,cellular,median,23,51.7084,14.8132,26721,6511,26.72,6.51
+Converge,Philippines,,"Nov 14, 2025",85385,28026,all,N/A,median,5,13.3472,3.7749,123563,131012,123.56,131.01
+Globe,Philippines,,"Nov 14, 2025",39044,14936,all,N/A,median,6,21.2572,3.125,122672,109687,122.67,109.69
+PLDT Home Fiber,Philippines,,"Nov 14, 2025",121991,38897,all,N/A,median,6,21.2111,5.5621,95433,110981,95.43,110.98
+PLDT,Philippines,,"Nov 14, 2025",48772,17204,all,N/A,median,8,27.5779,5.56,87694,92369,87.69,92.37
+Smart,Philippines,,"Nov 14, 2025",12283,4001,N/A,cellular,median,19,61.9482,16.702,43227,5696,43.23,5.70
+DITO,Philippines,,"Nov 14, 2025",4871,1547,N/A,cellular,median,27,51.4089,14.0252,29994,5462,29.99,5.46
+Globe,Philippines,,"Nov 14, 2025",13892,3747,N/A,cellular,median,22,51.1495,15.2539,27094,6645,27.09,6.65
+Converge,Philippines,,"Nov 15, 2025",80406,25141,all,N/A,median,5,15.1003,4.2842,124368,131015,124.37,131.02
+Globe,Philippines,,"Nov 15, 2025",34931,12276,all,N/A,median,6,20.2909,2.975,120272,110270,120.27,110.27
+PLDT Home Fiber,Philippines,,"Nov 15, 2025",87543,27865,all,N/A,median,6,19.1579,4.1,98676,106329,98.68,106.33
+PLDT,Philippines,,"Nov 15, 2025",36785,12087,all,N/A,median,8,26.4816,5.241,80700,86135,80.70,86.14
+Smart,Philippines,,"Nov 15, 2025",10900,3805,N/A,cellular,median,19,56.1103,14.5097,41896,5575,41.90,5.58
+DITO,Philippines,,"Nov 15, 2025",4590,1566,N/A,cellular,median,27,50.6768,13.3995,29224,4913,29.22,4.91
+Globe,Philippines,,"Nov 15, 2025",13858,3634,N/A,cellular,median,22,49.2972,14.3834,27219,6383,27.22,6.38
+Converge,Philippines,,"Nov 16, 2025",58106,18838,all,N/A,median,5,11.3094,2.7556,132148,123732,132.15,123.73
+Globe,Philippines,,"Nov 16, 2025",31841,11250,all,N/A,median,6,19.4416,2.9143,121549,108379,121.55,108.38
+PLDT Home Fiber,Philippines,,"Nov 16, 2025",83273,25801,all,N/A,median,6,19.4809,4.0417,98806,106906,98.81,106.91
+PLDT,Philippines,,"Nov 16, 2025",33520,11023,all,N/A,median,8,26.6873,5.125,79673,82742,79.67,82.74
+Smart,Philippines,,"Nov 16, 2025",10071,3362,N/A,cellular,median,19,54.7345,13.5339,42475,5839,42.48,5.84
+DITO,Philippines,,"Nov 16, 2025",4229,1414,N/A,cellular,median,26,50.9498,13.6532,29276,5517,29.28,5.52
+Globe,Philippines,,"Nov 16, 2025",8916,3089,N/A,cellular,median,21,47.3128,14.7068,28320,6436,28.32,6.44
+Converge,Philippines,,"Nov 17, 2025",72849,26591,all,N/A,median,5,11.5333,2.9626,143106,130652,143.11,130.65
+Globe,Philippines,,"Nov 17, 2025",40000,15554,all,N/A,median,6,20.8667,3.3043,123536,109969,123.54,109.97
+PLDT Home Fiber,Philippines,,"Nov 17, 2025",97557,33911,all,N/A,median,6,19.9444,4.5667,101018,111168,101.02,111.17
+PLDT,Philippines,,"Nov 17, 2025",49565,17678,all,N/A,median,8,27.5086,5.8112,87526,90783,87.53,90.78
+Smart,Philippines,,"Nov 17, 2025",10455,3390,N/A,cellular,median,19,56.2465,14.9764,41249,5890,41.25,5.89
+DITO,Philippines,,"Nov 17, 2025",4532,1464,N/A,cellular,median,27,50.1215,14.7679,28877,5013,28.88,5.01
+Globe,Philippines,,"Nov 17, 2025",10973,3394,N/A,cellular,median,22,47.8422,13.6153,28679,6933,28.68,6.93
+Converge,Philippines,,"Nov 18, 2025",80769,29995,all,N/A,median,5,10.9063,2.7,147839,135039,147.84,135.04
+Globe,Philippines,,"Nov 18, 2025",50095,18561,all,N/A,median,6,25.7667,3.4625,120415,113372,120.42,113.37
+PLDT Home Fiber,Philippines,,"Nov 18, 2025",107234,37525,all,N/A,median,6,19.5667,4.45,102472,114565,102.47,114.57
+PLDT,Philippines,,"Nov 18, 2025",52987,19135,all,N/A,median,8,26.7047,5.5363,88250,91097,88.25,91.10
+Smart,Philippines,,"Nov 18, 2025",11160,3524,N/A,cellular,median,19,55.6444,15.1083,43936,5840,43.94,5.84
+DITO,Philippines,,"Nov 18, 2025",5103,1536,N/A,cellular,median,27,50.1595,14.3715,27552,4822,27.55,4.82
+Globe,Philippines,,"Nov 18, 2025",12066,3308,N/A,cellular,median,22,47.6512,13.3921,28605,7289,28.61,7.29
+Converge,Philippines,,"Nov 19, 2025",73405,26176,all,N/A,median,5,12.475,3.1666,141576,130143,141.58,130.14
+Globe,Philippines,,"Nov 19, 2025",44321,16295,all,N/A,median,6,27.6,3.475,120476,112373,120.48,112.37
+PLDT Home Fiber,Philippines,,"Nov 19, 2025",108986,35305,all,N/A,median,7,20.4918,5.3607,96431,109015,96.43,109.02
+PLDT,Philippines,,"Nov 19, 2025",53503,18418,all,N/A,median,8,27.1667,5.642,88867,92421,88.87,92.42
+Smart,Philippines,,"Nov 19, 2025",10937,3518,N/A,cellular,median,19,55.7119,16.01,43746,6358,43.75,6.36
+DITO,Philippines,,"Nov 19, 2025",4707,1465,N/A,cellular,median,28,50.2922,14.0856,32783,5671,32.78,5.67
+Globe,Philippines,,"Nov 19, 2025",13134,3745,N/A,cellular,median,21,46.4837,13.8315,30504,7309,30.50,7.31
+Converge,Philippines,,"Nov 20, 2025",89614,29299,all,N/A,median,5,13.5236,3.9875,113206,133394,113.21,133.39
+Globe,Philippines,,"Nov 20, 2025",44968,16513,all,N/A,median,6,24.55,3.4083,121421,111511,121.42,111.51
+PLDT Home Fiber,Philippines,,"Nov 20, 2025",99634,34004,all,N/A,median,6,20.0778,4.5584,101482,111196,101.48,111.20
+PLDT,Philippines,,"Nov 20, 2025",51096,17699,all,N/A,median,8,27.7421,5.6821,86348,90534,86.35,90.53
+Smart,Philippines,,"Nov 20, 2025",10868,3528,N/A,cellular,median,19,56.5612,14.7449,42285,5651,42.29,5.65
+DITO,Philippines,,"Nov 20, 2025",4806,1458,N/A,cellular,median,27,50.4122,14.7361,29185,4649,29.19,4.65
+Globe,Philippines,,"Nov 20, 2025",13288,3413,N/A,cellular,median,21,46.1089,13.2396,29783,7183,29.78,7.18
+Converge,Philippines,,"Nov 21, 2025",93324,28645,all,N/A,median,5,14.4889,4.3,103398,136363,103.40,136.36
+Globe,Philippines,,"Nov 21, 2025",40911,15092,all,N/A,median,6,23.093,3.4023,121759,109807,121.76,109.81
+PLDT Home Fiber,Philippines,,"Nov 21, 2025",100310,34213,all,N/A,median,6,20.5222,4.25,100010,111815,100.01,111.82
+PLDT,Philippines,,"Nov 21, 2025",53471,18183,all,N/A,median,8,28.0375,5.7943,86409,92206,86.41,92.21
+Smart,Philippines,,"Nov 21, 2025",10682,3552,N/A,cellular,median,19,55.505,14.5052,43656,6109,43.66,6.11
+DITO,Philippines,,"Nov 21, 2025",5241,1503,N/A,cellular,median,27,51.0598,13.7476,27272,4795,27.27,4.80
+Globe,Philippines,,"Nov 21, 2025",12917,3338,N/A,cellular,median,21,45.7264,12.9721,30454,6898,30.45,6.90
+Converge,Philippines,,"Nov 22, 2025",82278,23385,all,N/A,median,5,14.7282,4.2021,110049,145516,110.05,145.52
+Globe,Philippines,,"Nov 22, 2025",36603,12401,all,N/A,median,6,25.0291,3.1467,120174,109293,120.17,109.29
+PLDT Home Fiber,Philippines,,"Nov 22, 2025",83563,26296,all,N/A,median,6,19.5102,4.0333,98078,103636,98.08,103.64
+PLDT,Philippines,,"Nov 22, 2025",39201,12420,all,N/A,median,8,26.5264,5.0625,81816,85323,81.82,85.32
+Smart,Philippines,,"Nov 22, 2025",10011,3530,N/A,cellular,median,19,56.2721,14.642,41276,5316,41.28,5.32
+DITO,Philippines,,"Nov 22, 2025",4571,1528,N/A,cellular,median,27,51.287,14.4396,28461,5159,28.46,5.16
+Globe,Philippines,,"Nov 22, 2025",14759,3932,N/A,cellular,median,21,43.7193,12.533,28119,7471,28.12,7.47
+Converge,Philippines,,"Nov 23, 2025",67266,20278,all,N/A,median,5,13.0291,3.2844,113668,137501,113.67,137.50
+Globe,Philippines,,"Nov 23, 2025",35881,12047,all,N/A,median,6,25.4697,3.3833,117129,109336,117.13,109.34
+PLDT Home Fiber,Philippines,,"Nov 23, 2025",83954,26329,all,N/A,median,6,20.1954,3.9322,97844,103948,97.84,103.95
+PLDT,Philippines,,"Nov 23, 2025",35095,11238,all,N/A,median,8,26.3567,5.3875,80083,83000,80.08,83.00
+Smart,Philippines,,"Nov 23, 2025",9103,3189,N/A,cellular,median,19,55.4393,13.6626,43929,6208,43.93,6.21
+DITO,Philippines,,"Nov 23, 2025",4268,1397,N/A,cellular,median,27,51.138,13.891,31978,5484,31.98,5.48
+Globe,Philippines,,"Nov 23, 2025",11209,3281,N/A,cellular,median,22,45.2648,12.3976,29644,7441,29.64,7.44
+Converge,Philippines,,"Nov 24, 2025",81722,28841,all,N/A,median,5,12.7789,3.015,136995,146273,137.00,146.27
+Globe,Philippines,,"Nov 24, 2025",46083,16963,all,N/A,median,6,27.7411,3.7152,118734,110130,118.73,110.13
+PLDT Home Fiber,Philippines,,"Nov 24, 2025",102783,35770,all,N/A,median,6,20.3111,4.6333,101966,109250,101.97,109.25
+PLDT,Philippines,,"Nov 24, 2025",53536,18752,all,N/A,median,8,28.0333,5.9375,87747,91868,87.75,91.87
+Smart,Philippines,,"Nov 24, 2025",10140,3338,N/A,cellular,median,19,57.7815,14.8635,42148,5420,42.15,5.42
+DITO,Philippines,,"Nov 24, 2025",4531,1463,N/A,cellular,median,27,51.4941,14.1689,29172,5227,29.17,5.23
+Globe,Philippines,,"Nov 24, 2025",13956,3850,N/A,cellular,median,21,43.349,11.8804,26959,7439,26.96,7.44
+Converge,Philippines,,"Nov 25, 2025",76650,27211,all,N/A,median,5,12.7778,3.183,133096,139103,133.10,139.10
+Globe,Philippines,,"Nov 25, 2025",44454,16644,all,N/A,median,6,25.9889,3.4069,121251,111783,121.25,111.78
+PLDT Home Fiber,Philippines,,"Nov 25, 2025",101839,35002,all,N/A,median,6,20.6128,4.6458,101196,109005,101.20,109.01
+PLDT,Philippines,,"Nov 25, 2025",51090,18001,all,N/A,median,8,28.1148,5.8125,89081,92034,89.08,92.03
+Smart,Philippines,,"Nov 25, 2025",10175,3303,N/A,cellular,median,19,57.6603,15.3027,40988,5784,40.99,5.78
+DITO,Philippines,,"Nov 25, 2025",4670,1360,N/A,cellular,median,28,52.4236,15.3086,25302,4911,25.30,4.91
+Globe,Philippines,,"Nov 25, 2025",14031,3257,N/A,cellular,median,22,46.3266,13.5797,27750,7215,27.75,7.22
+Converge,Philippines,,"Nov 26, 2025",72721,25831,all,N/A,median,5,12.1284,2.9557,140268,140119,140.27,140.12
+Globe,Philippines,,"Nov 26, 2025",41890,15758,all,N/A,median,6,24.9166,3.1711,126163,113194,126.16,113.19
+PLDT Home Fiber,Philippines,,"Nov 26, 2025",92568,32393,all,N/A,median,6,19.6618,4.3872,101775,107030,101.78,107.03
+PLDT,Philippines,,"Nov 26, 2025",50511,17303,all,N/A,median,8,27.2784,5.7125,88739,91761,88.74,91.76
+Smart,Philippines,,"Nov 26, 2025",9561,3265,N/A,cellular,median,19,56.5007,14.502,46225,6136,46.23,6.14
+DITO,Philippines,,"Nov 26, 2025",4577,1422,N/A,cellular,median,28,50.6172,14.064,29469,5171,29.47,5.17
+Globe,Philippines,,"Nov 26, 2025",13733,3308,N/A,cellular,median,21,43.5283,12.0318,29181,7785,29.18,7.79
+Converge,Philippines,,"Nov 27, 2025",68994,22972,all,N/A,median,5,12.4703,2.8713,131724,136882,131.72,136.88
+Globe,Philippines,,"Nov 27, 2025",37476,13522,all,N/A,median,6,25.7083,3.4,121572,110169,121.57,110.17
+PLDT Home Fiber,Philippines,,"Nov 27, 2025",89409,30280,all,N/A,median,6,20.6833,4.1917,101308,109288,101.31,109.29
+PLDT,Philippines,,"Nov 27, 2025",48299,16609,all,N/A,median,8,29.6267,5.625,87546,90385,87.55,90.39
+Smart,Philippines,,"Nov 27, 2025",9550,3287,N/A,cellular,median,19,56.1267,14.4999,43386,6047,43.39,6.05
+DITO,Philippines,,"Nov 27, 2025",4273,1341,N/A,cellular,median,27,48.6528,12.7876,30027,5315,30.03,5.32
+Globe,Philippines,,"Nov 27, 2025",15083,3173,N/A,cellular,median,21,45.4132,13.1326,30479,7804,30.48,7.80
+Converge,Philippines,,"Nov 28, 2025",69965,23381,all,N/A,median,5,12.9333,3.0203,130648,134188,130.65,134.19
+Globe,Philippines,,"Nov 28, 2025",36192,13377,all,N/A,median,6,23.1329,3.2625,121771,111188,121.77,111.19
+PLDT Home Fiber,Philippines,,"Nov 28, 2025",90329,31704,all,N/A,median,6,22.3,4.4568,100758,108524,100.76,108.52
+PLDT,Philippines,,"Nov 28, 2025",49258,17099,all,N/A,median,8,30.3333,5.4901,89270,92094,89.27,92.09
+Smart,Philippines,,"Nov 28, 2025",9865,3365,N/A,cellular,median,19,55.3645,14.7085,44491,6004,44.49,6.00
+DITO,Philippines,,"Nov 28, 2025",4374,1455,N/A,cellular,median,27,50.0275,13.4746,30910,5170,30.91,5.17
+Globe,Philippines,,"Nov 28, 2025",13480,3209,N/A,cellular,median,21,44.5796,13.0751,31282,7271,31.28,7.27
+Converge,Philippines,,"Nov 29, 2025",62651,19195,all,N/A,median,5,13.4472,3.0708,127714,129426,127.71,129.43
+Globe,Philippines,,"Nov 29, 2025",34986,12025,all,N/A,median,6,23.8833,3.1833,118350,110299,118.35,110.30
+PLDT Home Fiber,Philippines,,"Nov 29, 2025",77845,24789,all,N/A,median,6,20.3808,4.1002,98216,104053,98.22,104.05
+PLDT,Philippines,,"Nov 29, 2025",38043,12107,all,N/A,median,8,27.5242,5.125,81969,85699,81.97,85.70
+Smart,Philippines,,"Nov 29, 2025",9297,3243,N/A,cellular,median,19,57.4395,14.9896,39865,5628,39.87,5.63
+DITO,Philippines,,"Nov 29, 2025",4358,1431,N/A,cellular,median,27,50.5793,12.6144,28490,5254,28.49,5.25
+Globe,Philippines,,"Nov 29, 2025",11972,3228,N/A,cellular,median,22,46.0154,13.4455,29862,7168,29.86,7.17
+Converge,Philippines,,"Nov 30, 2025",57790,19106,all,N/A,median,5,11.7202,2.6885,134568,135829,134.57,135.83
+Globe,Philippines,,"Nov 30, 2025",34244,11491,all,N/A,median,6,24.2425,3.325,119842,108659,119.84,108.66
+PLDT Home Fiber,Philippines,,"Nov 30, 2025",76986,24558,all,N/A,median,6,20.356,4.1833,97751,104366,97.75,104.37
+PLDT,Philippines,,"Nov 30, 2025",34510,11144,all,N/A,median,8,28.0665,4.9362,81151,85995,81.15,86.00
+Smart,Philippines,,"Nov 30, 2025",8324,3016,N/A,cellular,median,19,55.4492,13.6501,43548,6047,43.55,6.05
+DITO,Philippines,,"Nov 30, 2025",3861,1342,N/A,cellular,median,27,48.9394,12.0697,32000,5713,32.00,5.71
+Globe,Philippines,,"Nov 30, 2025",9217,2794,N/A,cellular,median,21,44.5203,12.7892,30454,7274,30.45,7.27
+Converge,Philippines,,"Dec 1, 2025",70379,25403,all,N/A,median,5,12.0833,2.9365,143411,138737,143.41,138.74
+Globe,Philippines,,"Dec 1, 2025",41692,15277,all,N/A,median,6,25.9024,3.5814,120631,109507,120.63,109.51
+PLDT Home Fiber,Philippines,,"Dec 1, 2025",90295,31450,all,N/A,median,6,19.9639,4.3518,100654,106287,100.65,106.29
+PLDT,Philippines,,"Dec 1, 2025",48915,17176,all,N/A,median,8,26.9844,5.2345,88304,91979,88.30,91.98
+Smart,Philippines,,"Dec 1, 2025",8671,3071,N/A,cellular,median,18,54.2854,14.4634,46940,6002,46.94,6.00
+DITO,Philippines,,"Dec 1, 2025",3762,1306,N/A,cellular,median,28,49.808,13.161,32150,5442,32.15,5.44
+Globe,Philippines,,"Dec 1, 2025",11098,2943,N/A,cellular,median,21,44.3017,12.7555,28087,7530,28.09,7.53
+Converge,Philippines,,"Dec 2, 2025",75391,26351,all,N/A,median,5,11.4893,2.8274,148315,143832,148.32,143.83
+Globe,Philippines,,"Dec 2, 2025",42483,15453,all,N/A,median,6,26.8922,3.6375,121804,110802,121.80,110.80
+PLDT Home Fiber,Philippines,,"Dec 2, 2025",105214,34466,all,N/A,median,7,22.0118,5.0917,97966,108452,97.97,108.45
+PLDT,Philippines,,"Dec 2, 2025",50887,17662,all,N/A,median,8,27.3184,5.3374,90068,93020,90.07,93.02
+Smart,Philippines,,"Dec 2, 2025",9299,3107,N/A,cellular,median,19,55.7915,14.7188,45186,6291,45.19,6.29
+DITO,Philippines,,"Dec 2, 2025",4386,1345,N/A,cellular,median,28,49.7117,13.9893,30129,4984,30.13,4.98
+Globe,Philippines,,"Dec 2, 2025",11092,2883,N/A,cellular,median,20,42.5163,12.8365,29082,7460,29.08,7.46
+Converge,Philippines,,"Dec 3, 2025",74336,26629,all,N/A,median,5,12.1649,2.9886,147369,142915,147.37,142.92
+Globe,Philippines,,"Dec 3, 2025",42211,15666,all,N/A,median,6,26.5831,3.5833,120637,109076,120.64,109.08
+PLDT Home Fiber,Philippines,,"Dec 3, 2025",95450,32943,all,N/A,median,6,19.4903,4.6083,100721,107953,100.72,107.95
+PLDT,Philippines,,"Dec 3, 2025",49981,17603,all,N/A,median,8,27.5387,5.622,89378,92382,89.38,92.38
+Smart,Philippines,,"Dec 3, 2025",10142,3259,N/A,cellular,median,19,54.2535,15.3317,44531,6111,44.53,6.11
+DITO,Philippines,,"Dec 3, 2025",4455,1450,N/A,cellular,median,28,50.9583,15.1069,28550,4723,28.55,4.72
+Globe,Philippines,,"Dec 3, 2025",12248,3199,N/A,cellular,median,20,42.524,12.985,29647,7528,29.65,7.53
