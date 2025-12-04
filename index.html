@@ -203,84 +203,127 @@
 
     <div id="app" class="flex min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
         <!-- Premium Sidebar -->
-        <aside id="sidebar"
-            class="fixed md:relative w-80 md:w-80 overflow-y-auto z-30 md:p-4">
+        <aside id="sidebar" class="fixed md:relative w-80 md:w-80 overflow-y-auto z-30 md:p-4">
             <div class="bg-white h-full md:h-auto md:rounded-2xl shadow-2xl border-r md:border border-gray-100">
                 <div class="p-4 sm:p-6 md:p-8">
-                <div class="flex items-center justify-between mb-4 sm:mb-6 md:mb-8">
-                    <div class="flex items-center space-x-2 sm:space-x-3">
-                        <div class="accent-pill"></div>
-                        <h2 class="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">Controls</h2>
-                    </div>
-                    <button id="sidebar-collapse"
-                        class="p-2 sm:p-3 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-md hover:shadow-lg min-w-[44px] min-h-[44px] items-center justify-center hidden md:flex"
-                        title="Hide sidebar">
-                        <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
-                        </svg>
-                    </button>
-                </div>
-
-                <!-- Hidden input for backward compatibility -->
-                <input type="file" id="csv-upload" accept=".csv" style="display: none;">
-
-                <!-- Filters Section -->
-                <div class="space-y-4 sm:space-y-6 md:space-y-8">
-                    <!-- Mobile Service Provider Filter -->
-                    <div
-                        class="p-3 sm:p-4 md:p-6 bg-white rounded-xl sm:rounded-2xl card-elevated border border-gray-100">
-                        <div class="flex items-center space-x-2 sm:space-x-3 mb-3 sm:mb-4">
+                    <div class="flex items-center justify-between mb-4 sm:mb-6 md:mb-8">
+                        <div class="flex items-center space-x-2 sm:space-x-3">
                             <div class="accent-pill"></div>
-                            <h3 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-800">Mobile Service Provider
-                            </h3>
+                            <h2 class="text-lg sm:text-xl md:text-2xl font-bold text-gray-800">Controls</h2>
                         </div>
-                        <div id="provider-filters" class="space-y-2 sm:space-y-3"></div>
-                    </div>
-
-                    <!-- Location Filters -->
-                    <div
-                        class="p-3 sm:p-4 md:p-6 bg-white rounded-xl sm:rounded-2xl card-elevated border border-gray-100">
-                        <div class="flex items-center space-x-2 sm:space-x-3 mb-3 sm:mb-4">
-                            <div class="accent-pill"></div>
-                            <h3 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-800">Location</h3>
-                        </div>
-                        <div class="space-y-3 sm:space-y-4">
-                            <div>
-                                <label
-                                    class="block text-xs sm:text-sm font-semibold text-gray-700 mb-1 sm:mb-2">Province</label>
-                                <select id="province-filter"
-                                    class="w-full px-3 py-2 sm:px-4 sm:py-3 input-premium rounded-lg sm:rounded-xl text-sm sm:text-base text-gray-800 font-medium focus:outline-none min-h-[44px]">
-                                    <option value="">All Provinces</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label
-                                    class="block text-xs sm:text-sm font-semibold text-gray-700 mb-1 sm:mb-2">City</label>
-                                <select id="city-filter"
-                                    class="w-full px-3 py-2 sm:px-4 sm:py-3 input-premium rounded-lg sm:rounded-xl text-sm sm:text-base text-gray-800 font-medium focus:outline-none min-h-[44px]">
-                                    <option value="">All Cities</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <!-- Action Buttons -->
-                    <div class="space-y-3 sm:space-y-4">
-                        <button id="reset-filters"
-                            class="w-full py-3 sm:py-4 px-4 sm:px-6 bg-gradient-to-r from-gray-400 to-gray-500 hover:from-gray-500 hover:to-gray-600 text-white rounded-lg sm:rounded-xl font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 min-h-[44px] text-sm sm:text-base flex items-center justify-center gap-2">
-                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <button id="sidebar-collapse"
+                            class="p-2 sm:p-3 rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-md hover:shadow-lg min-w-[44px] min-h-[44px] items-center justify-center hidden md:flex"
+                            title="Hide sidebar">
+                            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                    d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
                             </svg>
-                            Reset Filters
                         </button>
                     </div>
+
+                    <!-- Hidden input for backward compatibility -->
+                    <input type="file" id="csv-upload" accept=".csv" style="display: none;">
+
+                    <!-- Filters Section -->
+                    <div class="space-y-4 sm:space-y-6 md:space-y-8">
+                        <!-- Mobile Service Provider Filter -->
+                        <div
+                            class="p-3 sm:p-4 md:p-6 bg-white rounded-xl sm:rounded-2xl card-elevated border border-gray-100">
+                            <div class="flex items-center space-x-2 sm:space-x-3 mb-3 sm:mb-4">
+                                <div class="accent-pill"></div>
+                                <h3 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-800">Mobile Service
+                                    Provider
+                                </h3>
+                            </div>
+                            <div id="provider-filters" class="space-y-2 sm:space-y-3"></div>
+                        </div>
+
+                        <!-- Fixed Service Provider Filter -->
+                        <div
+                            class="p-3 sm:p-4 md:p-6 bg-white rounded-xl sm:rounded-2xl card-elevated border border-gray-100">
+                            <div class="flex items-center space-x-2 sm:space-x-3 mb-3 sm:mb-4">
+                                <div class="accent-pill"></div>
+                                <h3 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-800">Fixed Service
+                                    Provider
+                                </h3>
+                            </div>
+                            <div id="fixed-provider-filters" class="space-y-2 sm:space-y-3">
+                                <!-- Fixed provider checkboxes will be populated here -->
+                                <label
+                                    class="flex items-center space-x-2 sm:space-x-3 cursor-pointer group min-h-[44px] px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors">
+                                    <input type="checkbox" value="Converge"
+                                        class="w-5 h-5 sm:w-6 sm:h-6 rounded border-2 border-gray-300 text-blue-600 transition-all cursor-pointer">
+                                    <span
+                                        class="text-xs sm:text-sm font-medium text-gray-700 group-hover:text-gray-900 transition-colors">Converge</span>
+                                </label>
+                                <label
+                                    class="flex items-center space-x-2 sm:space-x-3 cursor-pointer group min-h-[44px] px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors">
+                                    <input type="checkbox" value="Globe"
+                                        class="w-5 h-5 sm:w-6 sm:h-6 rounded border-2 border-gray-300 text-blue-600 transition-all cursor-pointer">
+                                    <span
+                                        class="text-xs sm:text-sm font-medium text-gray-700 group-hover:text-gray-900 transition-colors">Globe</span>
+                                </label>
+                                <label
+                                    class="flex items-center space-x-2 sm:space-x-3 cursor-pointer group min-h-[44px] px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors">
+                                    <input type="checkbox" value="PLDT Home Fiber"
+                                        class="w-5 h-5 sm:w-6 sm:h-6 rounded border-2 border-gray-300 text-blue-600 transition-all cursor-pointer">
+                                    <span
+                                        class="text-xs sm:text-sm font-medium text-gray-700 group-hover:text-gray-900 transition-colors">PLDT
+                                        Home Fiber</span>
+                                </label>
+                                <label
+                                    class="flex items-center space-x-2 sm:space-x-3 cursor-pointer group min-h-[44px] px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors">
+                                    <input type="checkbox" value="PLDT"
+                                        class="w-5 h-5 sm:w-6 sm:h-6 rounded border-2 border-gray-300 text-blue-600 transition-all cursor-pointer">
+                                    <span
+                                        class="text-xs sm:text-sm font-medium text-gray-700 group-hover:text-gray-900 transition-colors">PLDT</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Location Filters -->
+                        <div
+                            class="p-3 sm:p-4 md:p-6 bg-white rounded-xl sm:rounded-2xl card-elevated border border-gray-100">
+                            <div class="flex items-center space-x-2 sm:space-x-3 mb-3 sm:mb-4">
+                                <div class="accent-pill"></div>
+                                <h3 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-800">Location</h3>
+                            </div>
+                            <div class="space-y-3 sm:space-y-4">
+                                <div>
+                                    <label
+                                        class="block text-xs sm:text-sm font-semibold text-gray-700 mb-1 sm:mb-2">Province</label>
+                                    <select id="province-filter"
+                                        class="w-full px-3 py-2 sm:px-4 sm:py-3 input-premium rounded-lg sm:rounded-xl text-sm sm:text-base text-gray-800 font-medium focus:outline-none min-h-[44px]">
+                                        <option value="">All Provinces</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label
+                                        class="block text-xs sm:text-sm font-semibold text-gray-700 mb-1 sm:mb-2">City</label>
+                                    <select id="city-filter"
+                                        class="w-full px-3 py-2 sm:px-4 sm:py-3 input-premium rounded-lg sm:rounded-xl text-sm sm:text-base text-gray-800 font-medium focus:outline-none min-h-[44px]">
+                                        <option value="">All Cities</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Action Buttons -->
+                        <div class="space-y-3 sm:space-y-4">
+                            <button id="reset-filters"
+                                class="w-full py-3 sm:py-4 px-4 sm:px-6 bg-gradient-to-r from-gray-400 to-gray-500 hover:from-gray-500 hover:to-gray-600 text-white rounded-lg sm:rounded-xl font-bold transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 min-h-[44px] text-sm sm:text-base flex items-center justify-center gap-2">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                                </svg>
+                                Reset Filters
+                            </button>
+                        </div>
+                    </div>
                 </div>
-            </div>
             </div>
         </aside>
 
@@ -405,8 +448,7 @@
                                     aria-label="Pie chart illustrating market share percentage of each mobile network operator"></canvas>
                             </div>
                             <div class="w-1/2 flex flex-col justify-center">
-                                <div id="market-share-summary"
-                                    class="space-y-2 flex flex-col items-start">
+                                <div id="market-share-summary" class="space-y-2 flex flex-col items-start">
                                     <!-- Will be populated by JavaScript -->
                                 </div>
                             </div>
@@ -448,7 +490,9 @@
                     class="bg-white rounded-xl sm:rounded-2xl card-elevated p-4 sm:p-6 md:p-8 border border-gray-100 mb-6 sm:mb-8 md:mb-10">
                     <div class="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
                         <div class="accent-pill"></div>
-                        <h2 class="text-xl sm:text-2xl md:text-2xl font-extrabold text-gray-900">Performance Map <span class="text-sm sm:text-base font-medium text-gray-500 ml-2">(for the month of November)</span></h2>
+                        <h2 class="text-xl sm:text-2xl md:text-2xl font-extrabold text-gray-900">Performance Map <span
+                                class="text-sm sm:text-base font-medium text-gray-500 ml-2">(for the month of
+                                November)</span></h2>
                     </div>
                     <div class="mb-4 p-4 bg-blue-50 rounded-lg border border-blue-200">
                         <div class="flex items-center gap-2 mb-2">
@@ -493,7 +537,8 @@
                     class="bg-white rounded-xl sm:rounded-2xl card-elevated p-4 sm:p-6 md:p-8 border border-gray-100 mb-6 sm:mb-8 md:mb-10">
                     <div class="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
                         <div class="accent-pill"></div>
-                        <h2 class="text-xl sm:text-2xl md:text-2xl font-extrabold text-gray-900">Nationwide Daily Performance
+                        <h2 class="text-xl sm:text-2xl md:text-2xl font-extrabold text-gray-900">Nationwide Daily
+                            Performance
                         </h2>
                     </div>
                     <div class="h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px]">
@@ -507,7 +552,8 @@
                     class="bg-white rounded-xl sm:rounded-2xl card-elevated p-4 sm:p-6 md:p-8 border border-gray-100 mb-6 sm:mb-8 md:mb-10">
                     <div class="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
                         <div class="accent-pill"></div>
-                        <h2 class="text-xl sm:text-2xl md:text-2xl font-extrabold text-gray-900">Nationwide Performance Trends</h2>
+                        <h2 class="text-xl sm:text-2xl md:text-2xl font-extrabold text-gray-900">Nationwide Performance
+                            Trends</h2>
                     </div>
 
                     <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-6">
@@ -656,3 +702,5 @@
 </body>
 
 </html>
+
+
