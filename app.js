@@ -441,10 +441,19 @@ class MNOPerformanceApp {
             'TOUCH MOBILE': 'TM',
             'SUN': 'Sun',
             'SUN CELLULAR': 'Sun',
-            'GOMO': 'GOMO'
+            'GOMO': 'GOMO',
+            'CONVERGE': 'Converge',
+            'CONVERGE ICT': 'Converge',
+            'PLDT': 'PLDT',
+            'PLDT HOME': 'PLDT Home Fiber',
+            'PLDT HOME FIBER': 'PLDT Home Fiber'
         };
 
-        for (const [key, value] of Object.entries(mnoMap)) {
+        // Sort keys by length descending to ensure specific matches (e.g. "PLDT HOME FIBER") 
+        // are checked before general ones (e.g. "PLDT")
+        const entries = Object.entries(mnoMap).sort((a, b) => b[0].length - a[0].length);
+
+        for (const [key, value] of entries) {
             if (normalized.includes(key)) {
                 return value;
             }
@@ -1016,8 +1025,8 @@ class MNOPerformanceApp {
             console.log('First row sample:', validData[0]);
         }
 
-        // Group by Provider
-        const providers = [...new Set(validData.map(d => d.Provider))];
+        // Group by Normalized Provider
+        const providers = [...new Set(validData.map(d => this.normalizeProvider(d.Provider)))];
         const dates = [...new Set(validData.map(d => d['Aggregate Date']))];
 
         console.log('Providers:', providers);
@@ -1029,7 +1038,10 @@ class MNOPerformanceApp {
                 'Smart': '#10b981', // Green
                 'Globe': '#3b82f6', // Blue
                 'DITO': '#ef4444',  // Red
-                'Sun Cellular (MVNO)': '#f97316' // Orange
+                'Sun Cellular (MVNO)': '#f97316', // Orange
+                'Converge': '#8b5cf6', // Purple
+                'PLDT Home Fiber': '#f87171', // Light Red
+                'PLDT': '#7f1d1d' // Maroon
             };
             return colors[provider] || '#9ca3af';
         };
@@ -1038,7 +1050,9 @@ class MNOPerformanceApp {
         const createDatasets = (metricKey) => {
             console.log('Creating datasets for:', metricKey);
             return providers.map(provider => {
-                const providerData = validData.filter(d => d.Provider === provider);
+                // Filter using normalized provider name
+                const providerData = validData.filter(d => this.normalizeProvider(d.Provider) === provider);
+                
                 // Map dates to values, ensuring alignment
                 const dataPoints = dates.map(date => {
                     const entry = providerData.find(d => d['Aggregate Date'] === date);
@@ -1210,6 +1224,21 @@ class MNOPerformanceApp {
                         download: { bg: 'rgba(16, 185, 129, 0.7)', border: 'rgb(16, 185, 129)' }, // Green
                         upload: { bg: 'rgba(5, 150, 105, 0.7)', border: 'rgb(5, 150, 105)' }      // Darker green
                     };
+                case 'Converge':
+                    return {
+                        download: { bg: 'rgba(139, 92, 246, 0.7)', border: 'rgb(139, 92, 246)' }, // Purple
+                        upload: { bg: 'rgba(124, 58, 237, 0.7)', border: 'rgb(124, 58, 237)' }    // Darker purple
+                    };
+                case 'PLDT Home Fiber':
+                    return {
+                        download: { bg: 'rgba(248, 113, 113, 0.7)', border: 'rgb(248, 113, 113)' }, // Light Red
+                        upload: { bg: 'rgba(239, 68, 68, 0.7)', border: 'rgb(239, 68, 68)' }      // Darker light red
+                    };
+                case 'PLDT':
+                    return {
+                        download: { bg: 'rgba(127, 29, 29, 0.7)', border: 'rgb(127, 29, 29)' }, // Maroon
+                        upload: { bg: 'rgba(153, 27, 27, 0.7)', border: 'rgb(153, 27, 27)' }    // Lighter maroon
+                    };
                 default:
                     return {
                         download: { bg: 'rgba(156, 163, 175, 0.7)', border: 'rgb(156, 163, 175)' }, // Gray
@@ -1266,6 +1295,12 @@ class MNOPerformanceApp {
                     return 'text-blue-500';
                 case 'Smart':
                     return 'text-green-500';
+                case 'Converge':
+                    return 'text-purple-600';
+                case 'PLDT Home Fiber':
+                    return 'text-red-400';
+                case 'PLDT':
+                    return 'text-red-900';
                 default:
                     return 'text-gray-700';
             }
@@ -1522,6 +1557,12 @@ class MNOPerformanceApp {
                     return 'rgba(59, 130, 246, 0.7)'; // Blue
                 case 'Smart':
                     return 'rgba(16, 185, 129, 0.7)'; // Green
+                case 'Converge':
+                    return 'rgba(139, 92, 246, 0.7)'; // Purple
+                case 'PLDT Home Fiber':
+                    return 'rgba(248, 113, 113, 0.7)'; // Light Red
+                case 'PLDT':
+                    return 'rgba(127, 29, 29, 0.7)'; // Maroon
                 default:
                     return 'rgba(156, 163, 175, 0.7)'; // Gray
             }
@@ -1565,6 +1606,9 @@ class MNOPerformanceApp {
                 case 'DITO': return 'text-red-500';
                 case 'Globe': return 'text-blue-500';
                 case 'Smart': return 'text-green-500';
+                case 'Converge': return 'text-purple-600';
+                case 'PLDT Home Fiber': return 'text-red-400';
+                case 'PLDT': return 'text-red-900';
                 default: return 'text-gray-700';
             }
         };
@@ -1574,6 +1618,9 @@ class MNOPerformanceApp {
                 case 'DITO': return 'bg-red-500';
                 case 'Globe': return 'bg-blue-500';
                 case 'Smart': return 'bg-green-500';
+                case 'Converge': return 'bg-purple-600';
+                case 'PLDT Home Fiber': return 'bg-red-400';
+                case 'PLDT': return 'bg-red-900';
                 default: return 'bg-gray-500';
             }
         };
