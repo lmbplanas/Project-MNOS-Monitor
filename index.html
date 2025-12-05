@@ -227,60 +227,21 @@
 
                     <!-- Filters Section -->
                     <div class="space-y-4 sm:space-y-6 md:space-y-8">
-                        <!-- Mobile Service Provider Filter -->
+                        <!-- Service Provider Filter -->
                         <div
                             class="p-3 sm:p-4 md:p-6 bg-white rounded-xl sm:rounded-2xl card-elevated border border-gray-100">
-                            <div class="flex items-center space-x-2 sm:space-x-3 mb-3 sm:mb-4">
-                                <div class="accent-pill"></div>
-                                <h3 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-800">Mobile Service
-                                    Provider
-                                </h3>
+                            <div class="flex items-center justify-between mb-3 sm:mb-4">
+                                <div class="flex items-center space-x-2 sm:space-x-3">
+                                    <div class="accent-pill"></div>
+                                    <h3 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-800" id="provider-filter-title">Mobile Service
+                                        Provider
+                                    </h3>
+                                </div>
+                                <button id="provider-mode-toggle" type="button" class="px-3 py-1.5 text-xs sm:text-sm font-bold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors shadow-sm">
+                                    Switch to Fixed
+                                </button>
                             </div>
                             <div id="provider-filters" class="space-y-2 sm:space-y-3"></div>
-                        </div>
-
-                        <!-- Fixed Service Provider Filter -->
-                        <div
-                            class="p-3 sm:p-4 md:p-6 bg-white rounded-xl sm:rounded-2xl card-elevated border border-gray-100">
-                            <div class="flex items-center space-x-2 sm:space-x-3 mb-3 sm:mb-4">
-                                <div class="accent-pill"></div>
-                                <h3 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-800">Fixed Service
-                                    Provider
-                                </h3>
-                            </div>
-                            <div id="fixed-provider-filters" class="space-y-2 sm:space-y-3">
-                                <!-- Fixed provider checkboxes will be populated here -->
-                                <label
-                                    class="flex items-center space-x-2 sm:space-x-3 cursor-pointer group min-h-[44px] px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors">
-                                    <input type="checkbox" value="Converge"
-                                        class="w-5 h-5 sm:w-6 sm:h-6 rounded border-2 border-gray-300 text-blue-600 transition-all cursor-pointer">
-                                    <span
-                                        class="text-xs sm:text-sm font-medium text-gray-700 group-hover:text-gray-900 transition-colors">Converge</span>
-                                </label>
-                                <label
-                                    class="flex items-center space-x-2 sm:space-x-3 cursor-pointer group min-h-[44px] px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors">
-                                    <input type="checkbox" value="Globe"
-                                        class="w-5 h-5 sm:w-6 sm:h-6 rounded border-2 border-gray-300 text-blue-600 transition-all cursor-pointer">
-                                    <span
-                                        class="text-xs sm:text-sm font-medium text-gray-700 group-hover:text-gray-900 transition-colors">Globe
-                                        (Fixed)</span>
-                                </label>
-                                <label
-                                    class="flex items-center space-x-2 sm:space-x-3 cursor-pointer group min-h-[44px] px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors">
-                                    <input type="checkbox" value="PLDT Home Fiber"
-                                        class="w-5 h-5 sm:w-6 sm:h-6 rounded border-2 border-gray-300 text-blue-600 transition-all cursor-pointer">
-                                    <span
-                                        class="text-xs sm:text-sm font-medium text-gray-700 group-hover:text-gray-900 transition-colors">PLDT
-                                        Home Fiber</span>
-                                </label>
-                                <label
-                                    class="flex items-center space-x-2 sm:space-x-3 cursor-pointer group min-h-[44px] px-3 py-2 rounded-lg hover:bg-blue-50 transition-colors">
-                                    <input type="checkbox" value="PLDT"
-                                        class="w-5 h-5 sm:w-6 sm:h-6 rounded border-2 border-gray-300 text-blue-600 transition-all cursor-pointer">
-                                    <span
-                                        class="text-xs sm:text-sm font-medium text-gray-700 group-hover:text-gray-900 transition-colors">PLDT</span>
-                                </label>
-                            </div>
                         </div>
 
                         <!-- Location Filters -->

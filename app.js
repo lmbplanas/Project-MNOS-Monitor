@@ -22,6 +22,7 @@ class MNOPerformanceApp {
         this.sortColumn = 'date';
         this.sortDirection = 'desc';
         this.DEBUG = false;
+        this.providerMode = 'mobile'; // 'mobile' or 'fixed'
 
         this.rawTrendData = []; // Store raw trend data
         this.rawDailyTrendData = []; // Store raw daily trend data
@@ -69,6 +70,30 @@ class MNOPerformanceApp {
     setupEventListeners() {
         document.getElementById('reset-filters').addEventListener('click', () => {
             this.resetFilters();
+        });
+
+        document.getElementById('provider-mode-toggle').addEventListener('click', (e) => {
+            console.log('Toggle clicked');
+            const btn = e.currentTarget;
+            const title = document.getElementById('provider-filter-title');
+            
+            if (this.providerMode === 'mobile') {
+                this.providerMode = 'fixed';
+                btn.textContent = 'Switch to Mobile';
+                if (title) title.textContent = 'Fixed Service Provider';
+                btn.classList.remove('bg-blue-600', 'hover:bg-blue-700');
+                btn.classList.add('bg-green-600', 'hover:bg-green-700');
+            } else {
+                this.providerMode = 'mobile';
+                btn.textContent = 'Switch to Fixed';
+                if (title) title.textContent = 'Mobile Service Provider';
+                btn.classList.remove('bg-green-600', 'hover:bg-green-700');
+                btn.classList.add('bg-blue-600', 'hover:bg-blue-700');
+            }
+            
+            console.log('Mode switched to:', this.providerMode);
+            this.populateFilters();
+            this.applyFilters();
         });
 
         document.getElementById('province-filter').addEventListener('change', (e) => {
@@ -397,10 +422,25 @@ class MNOPerformanceApp {
     }
 
     populateFilters() {
-        const allowedProviders = ['DITO', 'Globe', 'Smart'];
+        let allowedProviders = [];
+        
+        if (this.providerMode === 'mobile') {
+            allowedProviders = ['DITO', 'Globe', 'Smart'];
+        } else {
+            // Fixed providers
+            allowedProviders = ['Converge', 'Globe', 'PLDT', 'PLDT Home Fiber'];
+        }
+
+        // For now, since we are ignoring backend data changes, we will just use the allowedProviders list directly
+        // In the future, this should filter based on available data in the loaded CSVs
+        const providers = allowedProviders;
+
+        /* 
+        // Original logic - commented out until backend data is ready
         const providers = [...new Set(this.rawData.map(d => d.provider))]
             .filter(p => allowedProviders.includes(p))
             .sort();
+        */
 
         // Extract provinces from rawCitiesData (Location Name: "City, Province, Philippines")
         let provinces = [];
