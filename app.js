@@ -28,6 +28,11 @@ class MNOPerformanceApp {
         this.rawDailyTrendData = []; // Store raw daily trend data
         this.rawCitiesData = []; // Store raw cities data for map
 
+        this.dataCache = {
+            mobile: { cities: [], monthly: [], daily: [] },
+            fixed: { cities: [], monthly: [], daily: [] }
+        };
+
         this.init();
     }
 
@@ -37,12 +42,8 @@ class MNOPerformanceApp {
         this.initializeCharts();
         this.setupThemeToggle();
 
-        // Load cities data for map (and filters)
-        try {
-            await this.loadCitiesData('data/other_data_cities.csv?v=' + Date.now());
-        } catch (error) {
-            console.log('No cities data found.');
-        }
+        // Load all data sources
+        await this.loadAllData();
 
         const defaultCSV = 'data/new_speed_test_data.csv?v=' + Date.now();
         try {
@@ -51,20 +52,67 @@ class MNOPerformanceApp {
             console.log('No default CSV found. Please upload a file.');
             this.showEmptyState();
         }
+    }
 
-        // Load trend data
-        try {
-            await this.loadTrendData('data/other_data.csv?v=' + Date.now());
-        } catch (error) {
-            console.log('No trend data found.');
-        }
+    async loadAllData() {
+        const v = '?v=' + Date.now();
+        const load = async (url) => {
+            return new Promise((resolve, reject) => {
+                Papa.parse(url, {
+                    download: true,
+                    header: true,
+                    complete: (results) => resolve(results.data),
+                    error: (err) => reject(err)
+                });
+            });
+        };
 
-        // Load daily trend data
         try {
-            await this.loadDailyTrendData('data/other_data_daily.csv?v=' + Date.now());
+            console.log('Loading all data sources...');
+            const [
+                mobileCities, mobileMonthly, mobileDaily,
+                fixedCities, fixedMonthly, fixedDaily
+            ] = await Promise.all([
+                load('data/mobile_cities.csv' + v),
+                load('data/mobile_monthly.csv' + v),
+                load('data/mobile_daily.csv' + v),
+                load('data/fixed_cities.csv' + v),
+                load('data/fixed_monthly.csv' + v),
+                load('data/fixed_daily.csv' + v)
+            ]);
+
+            this.dataCache = {
+                mobile: { cities: mobileCities, monthly: mobileMonthly, daily: mobileDaily },
+                fixed: { cities: fixedCities, monthly: fixedMonthly, daily: fixedDaily }
+            };
+
+            console.log('All data loaded successfully');
+            this.updateActiveData();
+
         } catch (error) {
-            console.log('No daily trend data found.');
+            console.error('Error loading data:', error);
         }
+    }
+
+    updateActiveData() {
+        const mode = this.providerMode;
+        console.log(`Updating active data for mode: ${mode}`);
+        
+        this.rawCitiesData = this.dataCache[mode].cities || [];
+        this.rawTrendData = this.dataCache[mode].monthly || [];
+        this.rawDailyTrendData = this.dataCache[mode].daily || [];
+
+        // Trigger updates
+        this.updateMap();
+        this.updateSpeedDistributionChart();
+        
+        // Process trend data if available
+        if (this.rawTrendData.length > 0) {
+            this.processTrendData(this.rawTrendData);
+        }
+        
+        // Update daily trend chart
+        this.updateTimeSeriesChart();
     }
 
     setupEventListeners() {
@@ -92,6 +140,8 @@ class MNOPerformanceApp {
             }
             
             console.log('Mode switched to:', this.providerMode);
+            
+            this.updateActiveData();
             this.populateFilters();
             this.applyFilters();
         });
