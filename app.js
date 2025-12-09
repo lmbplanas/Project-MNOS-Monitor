@@ -1308,7 +1308,7 @@ class MNOPerformanceApp {
 
         // Generate HTML for summary
         const summaryHTML = providerSpeeds.map(item => `
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 whitespace-nowrap">
                 <span class="${getProviderColor(item.provider)} font-bold text-xs sm:text-sm md:text-base">${item.provider}:</span>
                 <span class="text-xs sm:text-sm md:text-base text-gray-700">${item.speed.toFixed(2)} Mbps</span>
             </div>
@@ -1372,9 +1372,9 @@ class MNOPerformanceApp {
                 };
             });
 
-        // Sort by average speed and take top 15
+        // Sort by average speed and take top 10
         cities.sort((a, b) => b.avgSpeed - a.avgSpeed);
-        const topCities = cities.slice(0, 15);
+        const topCities = cities.slice(0, 10);
 
         console.log('Top cities (20+ tests):', topCities);
 
