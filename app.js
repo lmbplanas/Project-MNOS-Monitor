@@ -1346,8 +1346,9 @@ class MNOPerformanceApp {
 
             if (!location || isNaN(download) || testCount === 0) return;
 
-            // Extract city name (before first comma)
-            const cityName = location.split(',')[0].trim();
+            // Extract city and province
+            const parts = location.split(',');
+            const cityName = parts.length >= 2 ? `${parts[0].trim()}, ${parts[1].trim()}` : parts[0].trim();
 
             if (!cityData[cityName]) {
                 cityData[cityName] = {
@@ -1451,9 +1452,10 @@ class MNOPerformanceApp {
         const cityStats = {};
 
         this.filteredCitiesData.forEach(row => {
-            // Extract city from Location Name (format: "City, Province, Country")
+            // Extract city and province from Location Name (format: "City, Province, Country")
             const locationName = row['Location Name'] || '';
-            const city = locationName.split(',')[0].trim() || 'Unknown';
+            const parts = locationName.split(',');
+            const city = parts.length >= 2 ? `${parts[0].trim()}, ${parts[1].trim()}` : (parts[0] ? parts[0].trim() : 'Unknown');
 
             const testCount = parseInt(row['Test Count']) || 0;
             const downloadSpeed = parseFloat(row['Download Speed Mbps']) || 0;
