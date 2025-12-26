@@ -1980,6 +1980,7 @@ class MNOPerformanceApp {
 
         dataSource.forEach(row => {
             let lat, lng, download;
+            let testCount = 1;
 
             // Handle cities data format
             if (this.rawCitiesData && this.rawCitiesData.length > 0) {
@@ -1989,6 +1990,9 @@ class MNOPerformanceApp {
                 // Find keys robustly (handling potential whitespace)
                 const downloadKey = Object.keys(row).find(k => k.trim() === 'Download Speed Mbps') || 'Download Speed Mbps';
                 download = parseFloat(row[downloadKey]);
+
+                const testCountKey = Object.keys(row).find(k => k.trim() === 'Test Count') || 'Test Count';
+                testCount = parseInt(row[testCountKey]) || 1;
             } else {
                 // Fall back to old method with hardcoded coordinates
                 const coords = this.getLocationCoordinates(row.city, row.province);
@@ -2014,8 +2018,8 @@ class MNOPerformanceApp {
                         provinces: new Set()
                     };
                 }
-                grid[key].totalSpeed += download;
-                grid[key].count++;
+                grid[key].totalSpeed += download * testCount;
+                grid[key].count += testCount;
 
                 // Capture city and province information
                 if (this.rawCitiesData && this.rawCitiesData.length > 0) {
@@ -2070,7 +2074,6 @@ class MNOPerformanceApp {
                 fillOpacity: 0.6
             }).bindPopup(`
                 <div class="font-sans">
-                    <h3 class="font-bold text-gray-800">Grid Cell</h3>
                     ${locationHTML}
                     <p>Avg Speed: <strong>${avgSpeed.toFixed(2)} Mbps</strong></p>
                     <p>Tests: ${cell.count}</p>
