@@ -667,6 +667,7 @@ class MNOPerformanceApp {
         this.updateSummaryCards();
         this.updateCharts();
         this.updateMap();
+        this.updateAnalysis();
         this.renderTable();
 
         // Update trend charts if data is loaded
@@ -701,7 +702,127 @@ class MNOPerformanceApp {
         this.updateSummaryCards();
         this.updateCharts();
         this.updateMap();
+        this.updateAnalysis();
         this.renderTable();
+    }
+
+    updateAnalysis() {
+        const data = this.filteredCitiesData || [];
+        
+        // Define elements
+        const downloadTextEl = document.getElementById('analysis-download-text');
+        const latencyTextEl = document.getElementById('analysis-latency-text');
+        const verdictTextEl = document.getElementById('analysis-verdict-text');
+        const verdictBadgeEl = document.getElementById('analysis-verdict-badge');
+
+        if (data.length === 0) {
+            downloadTextEl.textContent = "No data available for the current selection.";
+            latencyTextEl.textContent = "No data available for the current selection.";
+            verdictTextEl.textContent = "Please adjust your filters to view performance insights.";
+            verdictBadgeEl.textContent = "No Data";
+            verdictBadgeEl.className = "px-3 py-1 bg-gray-100 text-gray-600 text-xs rounded-full uppercase tracking-wide font-bold";
+            return;
+        }
+
+        // Calculate weighted averages
+        let totalTests = 0;
+        let weightedDownload = 0;
+        let weightedLatency = 0;
+
+        data.forEach(row => {
+            const tests = parseInt(row['Test Count']) || 0;
+            const download = parseFloat(row['Download Speed Mbps']) || 0;
+            const latency = parseFloat(row['Minimum Latency']) || 0;
+
+            totalTests += tests;
+            weightedDownload += download * tests;
+            weightedLatency += latency * tests;
+        });
+
+        const avgDownload = totalTests > 0 ? weightedDownload / totalTests : 0;
+        const avgLatency = totalTests > 0 ? weightedLatency / totalTests : 0;
+
+        // --- Download Analysis ---
+        let downloadDesc = "";
+        let downloadUsage = "";
+        let downloadColor = "";
+
+        if (avgDownload > 100) {
+            downloadDesc = "Ultrafast";
+            downloadUsage = "You can download large files instantly, stream 8K video without buffering, and support a smart home with many connected devices.";
+            downloadColor = "text-green-700";
+        } else if (avgDownload > 50) {
+            downloadDesc = "Very Fast";
+            downloadUsage = "Great for streaming 4K video, seamless video calls, and gaming on multiple devices at once.";
+            downloadColor = "text-blue-700";
+        } else if (avgDownload > 25) {
+            downloadDesc = "Fast";
+            downloadUsage = "Good for HD streaming, social media browsing, and standard remote work tasks.";
+            downloadColor = "text-blue-600";
+        } else if (avgDownload > 10) {
+            downloadDesc = "Moderate";
+            downloadUsage = "Fine for web browsing, email, and standard video streaming, though big downloads may take some time.";
+            downloadColor = "text-yellow-600";
+        } else {
+            downloadDesc = "Basic";
+            downloadUsage = "Suitable for light web browsing and messaging. Streaming video may experience buffering.";
+            downloadColor = "text-orange-600";
+        }
+
+        downloadTextEl.innerHTML = `
+            The average download speed is <strong class="${downloadColor}">${avgDownload.toFixed(1)} Mbps</strong>.
+            This is considered <strong>${downloadDesc.toLowerCase()}</strong>. ${downloadUsage}
+        `;
+
+        // --- Latency Analysis ---
+        let latencyDesc = "";
+        let latencyUsage = "";
+        
+        if (avgLatency === 0) {
+             latencyDesc = "Unknown";
+             latencyUsage = "Latency data is not available.";
+        } else if (avgLatency < 20) {
+            latencyDesc = "Excellent";
+            latencyUsage = "Feels instant. Perfect for competitive online gaming and real-time interactions.";
+        } else if (avgLatency < 50) {
+            latencyDesc = "Good";
+            latencyUsage = "Responsive. Most online activities, including video calls, will feel smooth.";
+        } else if (avgLatency < 100) {
+            latencyDesc = "Fair";
+            latencyUsage = "You might notice a slight delay when clicking links or in fast-paced games.";
+        } else {
+            latencyDesc = "High";
+            latencyUsage = "Delays will be noticeable. Voice and video calls may be laggy.";
+        }
+
+        latencyTextEl.innerHTML = `
+            The network responsiveness (latency) is around <strong>${avgLatency.toFixed(0)} ms</strong>. 
+            This level is <strong>${latencyDesc.toLowerCase()}</strong>. ${latencyUsage}
+        `;
+
+        // --- Verdict ---
+        const mode = this.providerMode === 'mobile' ? 'Mobile Data' : 'Fixed Broadband';
+        let verdictBadge = "Reliable";
+        let verdictColor = "bg-blue-100 text-blue-700";
+
+        if (avgDownload > 80 && avgLatency < 40) {
+            verdictBadge = "Top Tier";
+            verdictColor = "bg-green-100 text-green-800";
+        } else if (avgDownload > 40 && avgLatency < 60) {
+            verdictBadge = "Great";
+            verdictColor = "bg-green-50 text-green-700";
+        } else if (avgDownload < 10 || avgLatency > 150) {
+            verdictBadge = "Needs Improvement";
+            verdictColor = "bg-orange-100 text-orange-800";
+        }
+
+        verdictBadgeEl.textContent = verdictBadge;
+        verdictBadgeEl.className = `px-3 py-1 text-xs rounded-full uppercase tracking-wide font-bold ${verdictColor}`;
+        
+        verdictTextEl.innerHTML = `
+            Overall, the ${mode} performance in the selected area provides a <strong>${downloadDesc.toLowerCase()}</strong> experience. 
+            Users can generally expect ${downloadDesc === 'Basic' ? 'basic connectivity for essential tasks' : 'smooth performance for most digital daily needs'}.
+        `;
     }
 
     updateSummaryCards() {
