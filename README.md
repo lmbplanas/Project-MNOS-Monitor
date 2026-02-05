@@ -1,44 +1,44 @@
 # Philippines MNO Performance Dashboard
 
-A comprehensive web application for visualizing mobile network operator (MNO) performance data from speed tests collected across the Philippines. This dashboard provides interactive visualizations showing network performance by provider, location, and time period.
+A comprehensive web application for visualizing mobile network operator (MNO) and fixed broadband performance data from speed tests collected across the Philippines. This dashboard provides interactive visualizations showing network performance by provider, location, and time period, sourced directly from Ookla Speedtest Intelligence data.
 
 ## Features
 
 ### 📊 Interactive Visualizations
-- **Provider Comparison**: Bar charts comparing average download and upload speeds across providers
-- **Speed Distribution**: Histogram showing distribution of speeds across different ranges
-- **Performance Radar**: Multi-metric comparison of providers (download, upload, latency)
-- **Market Share**: Pie chart showing test distribution by provider
-- **Time Series**: Line graphs showing performance trends over time
-- **Geographic Map**: Interactive map of the Philippines with speed test locations
+- **Performance Map**: Grid-based heatmap overlay on a Leaflet map showing speed concentration.
+- **Provider Comparison**: Analytics comparing top providers (Globe, Smart, DITO, Converge, PLDT).
+- **Speed Distribution**: Horizontal bar charts showing top and bottom performing cities.
+- **Performance Insights**: Automated analysis providing public-friendly "verdicts" on network quality (Ultra Fast, Basic, etc.) and experience (Gaming, Streaming).
+- **Time Series**: Line graphs showing performance trends over months.
+
+### 🔄 Dual Mode Support
+- **Mobile Mode**: Analyze mobile data performance (Globe, Smart, DITO).
+- **Fixed Mode**: Analyze fixed broadband performance (Converge, PLDT, Globe).
 
 ### 🔍 Advanced Filtering
-- Filter by service provider (Smart, Globe, DITO, etc.)
-- Filter by location (Province, City, Barangay)
-- Filter by date range
-- Filter by speed range categories
-- Search functionality for quick lookups
-- Save and reset filter combinations
+- Filter by service provider.
+- Filter by specific Province and City.
+- Date range filtering.
+- Smart caching for optimized data loading.
 
-### 📈 Summary Statistics
-- Total number of speed tests
-- Average download/upload speeds
-- Average latency
-- Number of unique locations tested
-- Comprehensive data tables with sorting
+### 🛠 Tech Stack
 
-### 💾 Data Management
-- Upload custom CSV files
-- Export filtered data to CSV
-- Support for different speed units (Mbps/Kbps)
-- Automatic data normalization and cleaning
+**Frontend**
+- **HTML5 & CSS3**: Core structure and design.
+- **Tailwind CSS**: Utility-first styling for a responsive, modern UI.
+- **JavaScript (Vanilla ES6+)**: Core application logic, state management, and DOM manipulation.
 
-### 🎨 User Interface
-- Dark/Light mode toggle
-- Responsive design (works on mobile, tablet, desktop)
-- Interactive charts and maps
-- Sortable data tables with pagination
-- Real-time filter updates
+**Visualization & Maps**
+- **Leaflet.js**: Interactive maps with marker clustering and heatmaps.
+- **Chart.js**: Responsive charts (Bar, Line, Doughnut).
+
+**Data Processing**
+- **Papa Parse**: High-performance CSV parsing in the browser.
+- **Python**: Automation scripts (`get-extracts.py`) to fetch latest data from Ookla Speedtest Intelligence API.
+
+**Deployment & CI/CD**
+- **GitHub Actions**: Automated workflows for data updates.
+- **Vercel**: Hosting and analytics.
 
 ## Getting Started
 
@@ -50,14 +50,17 @@ A comprehensive web application for visualizing mobile network operator (MNO) pe
 
 1. **Clone or download this repository**
    ```bash
-   git clone <repository-url>
-   cd project-opensignal
+   git clone https://github.com/lmbplanas/Project-MNOS-Monitor.git
+   cd Project-MNOS-Monitor
    ```
 
 2. **Prepare your data**
-   - Place your CSV file in the `data/` directory
-   - Name it `speed_test_data.csv` or upload via the UI
-   - Ensure it follows the required format (see Data Format section)
+   - The application expects CSV files in the `data/` directory.
+   - You can pull the latest data using the Python script (requires API keys):
+     ```bash
+     python data/get-extracts.py
+     ```
+   - *Note: You need to set `OOKLA_API_KEY` and `OOKLA_API_SECRET` in a `.env.local` file.*
 
 3. **Start a local server**
    
