@@ -1,7 +1,4 @@
 ﻿Provider,Location,Device,Aggregate Date,Test Count,Sample Count,Platform,Technology Type,Metric Type,Device Count,Minimum Latency,Multi-Server Latency,Multi-Server Jitter,Download Speed,Upload Speed,Download Speed Mbps,Upload Speed Mbps
-Smart,Philippines,all,Feb 2025,228459,47627,N/A,cellular,median,68474,20,46.0164,13.6888,50213,7515,50.21,7.52
-Globe,Philippines,all,Feb 2025,251106,46222,N/A,cellular,median,64482,22,45.7121,14.0385,33826,7708,33.83,7.71
-DITO,Philippines,all,Feb 2025,118196,19938,N/A,cellular,median,27776,28,53.2676,13.8564,27370,6708,27.37,6.71
 Smart,Philippines,all,Mar 2025,253909,50243,N/A,cellular,median,73004,20,45.1078,13.5924,50791,7658,50.79,7.66
 Globe,Philippines,all,Mar 2025,287124,50465,N/A,cellular,median,72426,21,45.7748,13.5099,34710,7798,34.71,7.80
 DITO,Philippines,all,Mar 2025,133387,21657,N/A,cellular,median,30094,28,50.7658,14.356,28562,6771,28.56,6.77
@@ -35,6 +32,9 @@ DITO,Philippines,all,Dec 2025,114362,21693,N/A,cellular,median,30736,28,50.011,1
 Smart,Philippines,all,Jan 2026,253327,51779,N/A,cellular,median,72594,19,55.599,18.2137,48641,6864,48.64,6.86
 Globe,Philippines,all,Jan 2026,305295,52410,N/A,cellular,median,74628,21,44.5713,15.2643,36474,7824,36.47,7.82
 DITO,Philippines,all,Jan 2026,111109,21076,N/A,cellular,median,29415,27,50.516,15.9726,34040,6194,34.04,6.19
-Smart,Philippines,all,Feb 2026 (to date),182914,39919,N/A,cellular,median,57837,19,54.8961,18.9348,48380,6818,48.38,6.82
-Globe,Philippines,all,Feb 2026 (to date),216176,41135,N/A,cellular,median,59880,21,44.0886,15.1935,34996,7630,35.00,7.63
-DITO,Philippines,all,Feb 2026 (to date),80395,16364,N/A,cellular,median,23549,27,50.3004,15.6428,34335,6037,34.34,6.04
+Smart,Philippines,all,Feb 2026,228264,46851,N/A,cellular,median,67741,19,54.8789,19.3301,48787,6898,48.79,6.90
+Globe,Philippines,all,Feb 2026,274793,48496,N/A,cellular,median,70188,21,44.2812,15.3325,35312,7641,35.31,7.64
+DITO,Philippines,all,Feb 2026,98864,19040,N/A,cellular,median,27304,27,50.3857,15.8424,34395,6090,34.40,6.09
+Smart,Philippines,all,Mar 2026 (to date),35845,10715,N/A,cellular,median,16643,19,55.7664,17.6541,47672,6745,47.67,6.75
+Globe,Philippines,all,Mar 2026 (to date),42253,10751,N/A,cellular,median,16677,21,49.3842,15.529,33530,7655,33.53,7.66
+DITO,Philippines,all,Mar 2026 (to date),14852,4302,N/A,cellular,median,6494,28,51.8407,14.4695,32763,5467,32.76,5.47
