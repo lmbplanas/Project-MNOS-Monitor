@@ -1,8 +1,4 @@
 ﻿Provider,Location,Device,Aggregate Date,Test Count,Sample Count,Platform,Technology Type,Metric Type,User Count,Minimum Latency,Multi-Server Latency,Multi-Server Jitter,Download Speed,Upload Speed,Download Speed Mbps,Upload Speed Mbps
-Converge,Philippines,N/A,Mar 2025,2080467,401185,all,N/A,median,662349,4,13.0889,4.2466,119801,119557,119.80,119.56
-Globe,Philippines,N/A,Mar 2025,1669276,307826,all,N/A,median,440249,7,23.1088,4.5443,93087,91472,93.09,91.47
-PLDT Home Fiber,Philippines,N/A,Mar 2025,3003848,504203,all,N/A,median,755156,6,20.0222,5.4667,106101,106272,106.10,106.27
-PLDT,Philippines,N/A,Mar 2025,1402636,260403,all,N/A,median,382926,9,28.9444,6.7498,79610,85731,79.61,85.73
 Converge,Philippines,N/A,Apr 2025,1899460,376089,all,N/A,median,604919,4,14.0833,4.7002,120547,117634,120.55,117.63
 Globe,Philippines,N/A,Apr 2025,1509978,282866,all,N/A,median,414094,7,27.3609,4.892,91730,89408,91.73,89.41
 PLDT Home Fiber,Philippines,N/A,Apr 2025,2819122,495406,all,N/A,median,736368,6,19.8123,5.9167,106502,107324,106.50,107.32
@@ -47,7 +43,11 @@ Converge,Philippines,N/A,Feb 2026,1864534,376714,all,N/A,median,589102,5,13.8864
 Globe,Philippines,N/A,Feb 2026,1063568,219470,all,N/A,median,319172,6,20.3667,5.125,123294,108419,123.29,108.42
 PLDT Home Fiber,Philippines,N/A,Feb 2026,2344415,441406,all,N/A,median,666312,6,21.622,7.725,117329,114185,117.33,114.19
 PLDT,Philippines,N/A,Feb 2026,1274164,258340,all,N/A,median,374567,8,28.9308,9.1125,89066,92768,89.07,92.77
-Converge,Philippines,N/A,Mar 2026 (to date),1028381,235712,all,N/A,median,376490,5,17.0232,5.7619,149599,143508,149.60,143.51
-Globe,Philippines,N/A,Mar 2026 (to date),679525,162741,all,N/A,median,245205,5,24.2542,5.2771,154405,121285,154.41,121.29
-PLDT Home Fiber,Philippines,N/A,Mar 2026 (to date),1233285,269193,all,N/A,median,402690,6,24.4833,7.9866,116774,112108,116.77,112.11
-PLDT,Philippines,N/A,Mar 2026 (to date),699804,160079,all,N/A,median,225557,8,31.5833,9.7125,89846,93199,89.85,93.20
+Converge,Philippines,N/A,Mar 2026,2124815,415949,all,N/A,median,679579,5,15.32,5.3167,143249,136149,143.25,136.15
+Globe,Philippines,N/A,Mar 2026,1266480,260692,all,N/A,median,395819,5,21.902,4.9939,145374,117275,145.37,117.28
+PLDT Home Fiber,Philippines,N/A,Mar 2026,2573234,476493,all,N/A,median,724996,6,23.3,7.6306,115390,111818,115.39,111.82
+PLDT,Philippines,N/A,Mar 2026,1461252,287193,all,N/A,median,428508,8,30,9.15,89599,93019,89.60,93.02
+Converge,Philippines,N/A,Apr 2026 (to date),153041,50730,all,N/A,median,82431,5,12.75,3.3271,178739,166130,178.74,166.13
+Globe,Philippines,N/A,Apr 2026 (to date),82664,28960,all,N/A,median,42449,5,15.8029,3.125,154141,125507,154.14,125.51
+PLDT Home Fiber,Philippines,N/A,Apr 2026 (to date),173660,54993,all,N/A,median,81226,6,21.3555,5.3347,109888,104911,109.89,104.91
+PLDT,Philippines,N/A,Apr 2026 (to date),87507,27004,all,N/A,median,40582,8,28.7235,6.3534,85223,88682,85.22,88.68
