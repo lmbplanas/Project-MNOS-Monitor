@@ -444,6 +444,8 @@ class MNOPerformanceApp {
             'GOMO': 'GOMO',
             'CONVERGE': 'Converge',
             'CONVERGE ICT': 'Converge',
+            'SPACEX STARLINK': 'SpaceX Starlink',
+            'STARLINK': 'SpaceX Starlink',
             'PLDT': 'PLDT',
             'PLDT HOME': 'PLDT Home Fiber',
             'PLDT HOME FIBER': 'PLDT Home Fiber'
@@ -487,7 +489,7 @@ class MNOPerformanceApp {
             allowedProviders = ['DITO', 'Globe', 'Smart'];
         } else {
             // Fixed providers
-            allowedProviders = ['Converge', 'Globe', 'PLDT', 'PLDT Home Fiber'];
+            allowedProviders = ['Globe', 'PLDT', 'PLDT Home Fiber', 'SpaceX Starlink'];
         }
 
         // For now, since we are ignoring backend data changes, we will just use the allowedProviders list directly
@@ -677,7 +679,9 @@ class MNOPerformanceApp {
     }
 
     resetFilters() {
-        const allowedProviders = ['DITO', 'Globe', 'Smart'];
+        const allowedProviders = this.providerMode === 'mobile'
+            ? ['DITO', 'Globe', 'Smart']
+            : ['Globe', 'PLDT', 'PLDT Home Fiber', 'SpaceX Starlink'];
         this.filters = {
             providers: [...new Set(this.rawData.map(d => d.provider))]
                 .filter(p => allowedProviders.includes(p))
@@ -1161,6 +1165,7 @@ class MNOPerformanceApp {
                 'DITO': '#ef4444',  // Red
                 'Sun Cellular (MVNO)': '#f97316', // Orange
                 'Converge': '#8b5cf6', // Purple
+                'SpaceX Starlink': '#000000', // Black
                 'PLDT Home Fiber': '#f87171', // Light Red
                 'PLDT': '#7f1d1d' // Maroon
             };
@@ -1350,6 +1355,11 @@ class MNOPerformanceApp {
                         download: { bg: 'rgba(139, 92, 246, 0.7)', border: 'rgb(139, 92, 246)' }, // Purple
                         upload: { bg: 'rgba(124, 58, 237, 0.7)', border: 'rgb(124, 58, 237)' }    // Darker purple
                     };
+                case 'SpaceX Starlink':
+                    return {
+                        download: { bg: 'rgba(0, 0, 0, 0.7)', border: 'rgb(0, 0, 0)' }, // Black
+                        upload: { bg: 'rgba(51, 51, 51, 0.7)', border: 'rgb(51, 51, 51)' }    // Dark gray
+                    };
                 case 'PLDT Home Fiber':
                     return {
                         download: { bg: 'rgba(248, 113, 113, 0.7)', border: 'rgb(248, 113, 113)' }, // Light Red
@@ -1418,6 +1428,8 @@ class MNOPerformanceApp {
                     return 'text-green-500';
                 case 'Converge':
                     return 'text-purple-600';
+                case 'SpaceX Starlink':
+                    return 'text-gray-900';
                 case 'PLDT Home Fiber':
                     return 'text-red-400';
                 case 'PLDT':
@@ -1682,6 +1694,8 @@ class MNOPerformanceApp {
                     return 'rgba(16, 185, 129, 0.7)'; // Green
                 case 'Converge':
                     return 'rgba(139, 92, 246, 0.7)'; // Purple
+                case 'SpaceX Starlink':
+                    return 'rgba(0, 0, 0, 0.7)'; // Black
                 case 'PLDT Home Fiber':
                     return 'rgba(248, 113, 113, 0.7)'; // Light Red
                 case 'PLDT':
@@ -1730,6 +1744,7 @@ class MNOPerformanceApp {
                 case 'Globe': return 'text-blue-500';
                 case 'Smart': return 'text-green-500';
                 case 'Converge': return 'text-purple-600';
+                case 'SpaceX Starlink': return 'text-gray-900';
                 case 'PLDT Home Fiber': return 'text-red-400';
                 case 'PLDT': return 'text-red-900';
                 default: return 'text-gray-700';
@@ -1742,6 +1757,7 @@ class MNOPerformanceApp {
                 case 'Globe': return 'bg-blue-500';
                 case 'Smart': return 'bg-green-500';
                 case 'Converge': return 'bg-purple-600';
+                case 'SpaceX Starlink': return 'bg-gray-900';
                 case 'PLDT Home Fiber': return 'bg-red-400';
                 case 'PLDT': return 'bg-red-900';
                 default: return 'bg-gray-500';
