@@ -489,7 +489,7 @@ class MNOPerformanceApp {
             allowedProviders = ['DITO', 'Globe', 'Smart'];
         } else {
             // Fixed providers
-            allowedProviders = ['Globe', 'PLDT', 'PLDT Home Fiber', 'SpaceX Starlink'];
+            allowedProviders = ['Converge', 'Globe', 'PLDT', 'PLDT Home Fiber', 'SpaceX Starlink'];
         }
 
         // For now, since we are ignoring backend data changes, we will just use the allowedProviders list directly
@@ -523,7 +523,7 @@ class MNOPerformanceApp {
             return `
             <label class="flex items-center space-x-2 provider-checkbox-label">
                 <input type="checkbox" value="${provider}" checked class="provider-checkbox">
-                <span class="text-sm text-gray-700 dark:text-gray-300">${provider}</span>
+                <span class="text-sm font-medium" style="color: #111827;">${provider}</span>
             </label>
             `;
         }).join('');
@@ -681,7 +681,7 @@ class MNOPerformanceApp {
     resetFilters() {
         const allowedProviders = this.providerMode === 'mobile'
             ? ['DITO', 'Globe', 'Smart']
-            : ['Globe', 'PLDT', 'PLDT Home Fiber', 'SpaceX Starlink'];
+            : ['Converge', 'Globe', 'PLDT', 'PLDT Home Fiber', 'SpaceX Starlink'];
         this.filters = {
             providers: [...new Set(this.rawData.map(d => d.provider))]
                 .filter(p => allowedProviders.includes(p))
